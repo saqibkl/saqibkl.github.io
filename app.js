@@ -13,9 +13,11 @@ const img = (im, alt, eager, vt) =>
 const swap = fn => (!reduce && document.startViewTransition) ? document.startViewTransition(fn) : fn();
 
 const shot = (p, i) => `
-  <a class="shot reveal" style="--i:${i % 3}" href="project.html#${p.slug}">
-    <figure>${img(p.thumb, p.title, i < 3, "shot-" + p.slug)}<span class="peek">${esc(name(p.title))}<span aria-hidden="true">→</span></span></figure>
-    <div class="meta"><h3>${esc(name(p.title))}<span class="sub">${esc(sub(p.title) || "Brand identity")}</span></h3><p>${kind(p)}</p></div>
+  <a class="shot reveal" style="--i:${i % 3}" href="project.html#${p.slug}" aria-label="${esc(p.title)}">
+    <figure>${img(p.thumb, p.title, i < 3, "shot-" + p.slug)}
+      <span class="peek"><span class="t">${esc(name(p.title))}<small>${esc(sub(p.title) || "Brand identity")}</small></span>
+        <span class="chips" aria-hidden="true"><span class="chip">${p.type === "web" ? "Website" : "Branding"}</span><span class="chip round">↗</span></span></span>
+    </figure>
   </a>`;
 
 function reveal(root) {
@@ -30,9 +32,9 @@ function reveal(root) {
 /* ---------- index ---------- */
 const grid = document.getElementById("grid");
 if (grid) {
-  const strip = document.getElementById("strip");
-  const pick = P.filter((_, i) => i % 2 === 0).slice(0, 10);
-  strip.innerHTML = [...pick, ...pick].map(p => img(p.thumb, "", true)).join(""); // doubled for a seamless loop
+  // Header collage: a small bento of real shots, like a Dribbble Pro profile.
+  const pick = [0, 13, 4, 15, 8].map(k => P[k]).filter(Boolean);
+  document.getElementById("collage").innerHTML = pick.map((p, k) => `<a class="c c${k}" href="project.html#${p.slug}" tabindex="-1">${img(p.thumb, "", true)}</a>`).join("");
 
   const tabs = [...document.querySelectorAll(".tab")];
   tabs.forEach(t => {
