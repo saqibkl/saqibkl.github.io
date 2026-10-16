@@ -118,11 +118,17 @@ if (caseEl) {
     }
     caseEl.innerHTML = `
       ${body}
-      <div class="tags">${p.tags.map(t => `<a href="./?q=${encodeURIComponent(t)}#work">${esc(t)}</a>`).join("")}</div>
-      <nav class="pager" aria-label="More projects">
-        <a class="btn" href="#${prev.slug}">← ${esc(name(prev.title))}</a>
-        <a class="btn" href="#${next.slug}">${esc(name(next.title))} →</a>
-      </nav>
+      <div class="case-foot">
+        <div class="tags"><span class="label">Tags</span>${p.tags.map(t => `<a href="./?q=${encodeURIComponent(t)}#work">${esc(t)}</a>`).join("")}</div>
+        <nav class="pager" aria-label="More projects">
+          ${[[prev, "Previous project", "prev"], [next, "Next project", "next"]].map(([q, label, cls]) => `
+          <a class="pg ${cls}" href="#${q.slug}">
+            <span class="pg-img">${img(q.thumb, "", false)}</span>
+            <span class="pg-text"><small>${label}</small><b>${esc(name(q.title))}</b></span>
+            <i class="ph ph-arrow-${cls === "prev" ? "left" : "right"}" aria-hidden="true"></i>
+          </a>`).join("")}
+        </nav>
+      </div>
       <section class="more"><h2>More work</h2><div class="grid">${more.map(shot).join("")}</div></section>`;
     reveal(caseEl);
   }
