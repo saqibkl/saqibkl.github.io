@@ -36,7 +36,7 @@ const grid = document.getElementById("grid");
 if (grid) {
   // Header bento: each tile is one brand's logo on its own solid colour (crops from build_hero.py), never a cropped mockup.
   const hero = [
-    ["nearside", "#0a0b33"], ["pro", "#3b2332"], ["qore", "#ffffff"], ["bound", "#23322f"], ["gear", "#151e25"],
+    ["nearside", "#0a0b33"], ["pro", "#3b2332"], ["qore", "#ffffff"], ["bound", "#23322f"], ["uphope", "#303030"],
   ];
   document.getElementById("collage").innerHTML = hero.map(([key, bg], k) => {
     const p = P.find(p => p.slug.startsWith(key + "-"));
