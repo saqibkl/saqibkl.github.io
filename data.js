@@ -60,51 +60,6 @@ window.PROJECTS = [
     "src": "img/terral-built-on-structure/09.jpg",
     "w": 1600,
     "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/10.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/11.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/12.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/13.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/14.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/terral-built-on-structure/15.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/16.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/17.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/terral-built-on-structure/18.jpg",
-    "w": 1600,
-    "h": 1142
    }
   ]
  },
@@ -166,51 +121,6 @@ window.PROJECTS = [
    },
    {
     "src": "img/qore-core-driven-strategy-brand-identity/09.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/10.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/11.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/12.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/13.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/14.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/15.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/16.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/17.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/18.jpg",
     "w": 1600,
     "h": 1142
    }
@@ -276,51 +186,6 @@ window.PROJECTS = [
     "src": "img/opendox-connected-knowledge-brand-identity/09.jpg",
     "w": 1600,
     "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/10.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/11.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/12.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/13.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/14.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/15.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/16.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/17.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/18.jpg",
-    "w": 1600,
-    "h": 686
    }
   ]
  },
@@ -391,56 +256,6 @@ window.PROJECTS = [
     "src": "img/taskera-ai-powered-productivity-platform/10.jpg",
     "w": 1600,
     "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/11.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/12.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/13.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/14.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/15.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/16.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/17.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/18.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/19.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/20.jpg",
-    "w": 1600,
-    "h": 1142
    }
   ]
  },
@@ -503,51 +318,6 @@ window.PROJECTS = [
    },
    {
     "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/09.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/10.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/11.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/12.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/13.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/14.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/15.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/16.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/17.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/18.jpg",
     "w": 1600,
     "h": 1142
    }
@@ -619,56 +389,6 @@ window.PROJECTS = [
     "src": "img/bound-nature-first-living-brand-identity/10.jpg",
     "w": 1600,
     "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/11.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/12.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/13.jpg",
-    "w": 1600,
-    "h": 1138
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/14.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/15.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/16.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/17.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/18.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/19.jpg",
-    "w": 1600,
-    "h": 2276
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/20.jpg",
-    "w": 1600,
-    "h": 1142
    }
   ]
  },
@@ -734,51 +454,6 @@ window.PROJECTS = [
    },
    {
     "src": "img/pro-premium-supplement-branding/09.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/pro-premium-supplement-branding/10.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/pro-premium-supplement-branding/11.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/pro-premium-supplement-branding/12.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/pro-premium-supplement-branding/13.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/pro-premium-supplement-branding/14.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/pro-premium-supplement-branding/15.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/pro-premium-supplement-branding/16.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/pro-premium-supplement-branding/17.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/pro-premium-supplement-branding/18.jpg",
     "w": 1600,
     "h": 1143
    }
@@ -864,59 +539,9 @@ window.PROJECTS = [
     "h": 1143
    },
    {
-    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/13.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
     "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/14.jpg",
     "w": 1600,
     "h": 1600
-   },
-   {
-    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/15.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/16.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/17.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/18.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/19.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/20.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/21.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/22.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/23.jpg",
-    "w": 1600,
-    "h": 1143
    }
   ]
  },
@@ -997,54 +622,9 @@ window.PROJECTS = [
     "h": 1143
    },
    {
-    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/12.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/13.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/14.jpg",
-    "w": 1600,
-    "h": 1135
-   },
-   {
     "src": "img/nearside-a-modern-brand-identity-for-digital-growth/15.jpg",
     "w": 1600,
     "h": 1143
-   },
-   {
-    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/16.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/17.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/18.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/19.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/20.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/21.jpg",
-    "w": 1600,
-    "h": 2286
    }
   ]
  },
@@ -1112,51 +692,6 @@ window.PROJECTS = [
    },
    {
     "src": "img/code-baustein-a-digital-first-brand-identity/09.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/code-baustein-a-digital-first-brand-identity/10.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/code-baustein-a-digital-first-brand-identity/11.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/code-baustein-a-digital-first-brand-identity/12.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/code-baustein-a-digital-first-brand-identity/13.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/code-baustein-a-digital-first-brand-identity/14.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/code-baustein-a-digital-first-brand-identity/15.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/code-baustein-a-digital-first-brand-identity/16.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/code-baustein-a-digital-first-brand-identity/17.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/code-baustein-a-digital-first-brand-identity/18.jpg",
     "w": 1600,
     "h": 1143
    }
@@ -1627,52 +1162,7 @@ window.PROJECTS = [
     "h": 1143
    },
    {
-    "src": "img/farsmstead-brand-identity-packaging-app-design/10.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/farsmstead-brand-identity-packaging-app-design/11.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
     "src": "img/farsmstead-brand-identity-packaging-app-design/12.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/farsmstead-brand-identity-packaging-app-design/13.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/farsmstead-brand-identity-packaging-app-design/14.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/farsmstead-brand-identity-packaging-app-design/15.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/farsmstead-brand-identity-packaging-app-design/16.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/farsmstead-brand-identity-packaging-app-design/17.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/farsmstead-brand-identity-packaging-app-design/18.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/farsmstead-brand-identity-packaging-app-design/19.jpg",
     "w": 1600,
     "h": 1143
    }

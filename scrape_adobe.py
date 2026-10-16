@@ -1,9 +1,9 @@
 """Copy every project from saqibkamal.myportfolio.com (Branding + UI/UX pages) into img/ and data.js.
 Run:  python -I scrape_adobe.py      (re-runs skip images that are already downloaded)"""
-import html, io, json, re, urllib.request
+import html, io, json, re, sys, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from PIL import Image
+from PIL import Image, ImageChops, ImageStat
 
 SITE = "https://saqibkamal.myportfolio.com"
 OUT = Path(__file__).resolve().parent
@@ -66,6 +66,17 @@ def tag(title: str, desc: str, kind: str) -> list:
     return base + [t for t in found if t not in base]
 
 
+def dedupe(images: list) -> list:
+    """Adobe pages often hold every module twice (gallery + stack) under different URLs; keep the first copy only."""
+    small = lambda im: Image.open(OUT / im["src"]).convert("RGB").resize((48, 36))
+    kept, seen = [], []
+    for im in images:
+        s = small(im)
+        if all(sum(ImageStat.Stat(ImageChops.difference(s, o)).mean) / 3 >= 3 for o in seen):  # < 3 of 255 = same picture
+            kept.append(im); seen.append(s)
+    return kept
+
+
 def text(fragment: str) -> str:
     return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", fragment))).strip()
 
@@ -88,10 +99,22 @@ def project(slug: str, kind: str, cover_url: str) -> dict:
         imgs = list(pool.map(lambda ib: save(seen[ib[1]], IMG / slug / f"{ib[0]:02d}.jpg", 1600), enumerate(images, 1)))
     return dict(slug=slug, type=kind, title=title, desc=desc,
                 cats="Branding, Brand Identity" if kind == "brand" else "UI/UX, Web Design",
-                tags=tag(title, desc, kind), thumb=save(cover_url, IMG / slug / "thumb.jpg", 1200), images=imgs)
+                tags=tag(title, desc, kind), thumb=save(cover_url, IMG / slug / "thumb.jpg", 1200), images=dedupe(imgs))
 
 
 if __name__ == "__main__":
+    if sys.argv[1:] == ["--dedupe"]:  # clean an existing data.js without re-downloading, delete the dropped files
+        js = (OUT / "data.js").read_text(encoding="utf-8")
+        projects = json.loads(js[js.index("["):js.rindex("]") + 1])
+        for p in projects:
+            keep = dedupe(p["images"])
+            for im in p["images"]:
+                if im not in keep:
+                    (OUT / im["src"]).unlink()
+            print(f"{p['slug'][:40]:40} {len(p['images'])} -> {len(keep)}")
+            p["images"] = keep
+        (OUT / "data.js").write_text("window.PROJECTS = " + json.dumps(projects, indent=1, ensure_ascii=False) + ";\n", encoding="utf-8")
+        sys.exit()
     projects = []
     for page, kind in SECTIONS:
         listing = get(f"{SITE}/{page}").decode("utf-8", "replace")

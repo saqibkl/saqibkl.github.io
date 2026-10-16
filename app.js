@@ -107,9 +107,9 @@ function caseHTML(i) {
         ${out(UPWORK, "Get in touch", "primary sm")}
       </div>
     </header>
-    <div class="sp-media">${img(p.thumb, p.title, true)}</div>
+    <div class="sp-media">${img(p.images[0], p.title, true)}</div>
     ${about ? `<div class="sp-text">${about}</div>` : ""}
-    <div class="sp-media">${p.images.map((im, k) => img(im, `${name(p.title)}, image ${k + 1}`, false)).join("")}</div>
+    <div class="sp-media">${p.images.slice(1).map((im, k) => img(im, `${name(p.title)}, image ${k + 2}`, false)).join("")}</div>
     <div class="case-foot">
       <div class="tags"><span class="label">Tags</span>${p.tags.map(t => `<a href="./?q=${encodeURIComponent(t)}#work">${esc(t)}</a>`).join("")}</div>
       <nav class="pager" aria-label="More projects">
