@@ -42,18 +42,22 @@ if (grid) {
     `<a class="fly-card" href="project.html#${p.slug}" tabindex="-1" aria-label="${esc(p.title)}" style="z-index:${3 - k}">${img(p.thumb, "", true)}</a>`).join("");
   document.body.append(fly);
   const cards = [...fly.children];
-  const ease = t => t < .5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2;
+  const ease = t => (1 - Math.cos(Math.PI * t)) / 2;  // sine in-out: even pace, no rush in the middle
   const box = el => { const r = el.getBoundingClientRect(); return { x: r.left + scrollX, y: r.top + scrollY, w: r.width, h: r.height }; };
   const clamp = v => Math.min(1, Math.max(0, v));
   function place() {
     const d = box(deckBox);
     const free = filter === "all" && !q.value.trim();  // only the unfiltered grid starts with these three
     const slots = free ? [...grid.querySelectorAll(".shot figure")].slice(0, 3).map(box) : [];
-    // done when the first row sits about a third down the screen
-    const t = reduce || !slots[0] ? 0 : clamp(scrollY / Math.max(1, slots[0].y - innerHeight * .3));
+    // done when the first row is near the top of the screen: a long scroll distance keeps the glide slow
+    const goal = reduce || !slots[0] ? 0 : clamp(scrollY / Math.max(1, slots[0].y - innerHeight * .12));
+    // cards trail the scroll position softly instead of jumping with each wheel step
+    shown = reduce ? goal : shown + (goal - shown) * .12;
+    if (Math.abs(goal - shown) < .0008) shown = goal; else tick();
+    const t = shown;
     cards.forEach((c, k) => {
       const s = 1 - k * .05, k0 = { x: d.x + d.w / 2 + k * 18, y: d.y + d.h / 2 - k * 18, w: d.w * s, h: d.h * s };
-      const tk = ease(clamp((t - k * .08) / .84));  // slight stagger: back cards leave a beat later
+      const tk = ease(clamp((t - k * .05) / .9));  // slight stagger: back cards leave a beat later
       const g = slots[k] ? { x: slots[k].x + slots[k].w / 2, y: slots[k].y + slots[k].h / 2, w: slots[k].w, h: slots[k].h } : k0;
       const m = key => k0[key] + (g[key] - k0[key]) * tk;
       Object.assign(c.style, { left: `${m("x") - m("w") / 2}px`, top: `${m("y") - m("h") / 2}px`, width: `${m("w")}px`, height: `${m("h")}px`,
@@ -62,7 +66,7 @@ if (grid) {
     fly.classList.toggle("landed", t >= 1);
     grid.classList.toggle("held", free && t < 1);
   }
-  let queued = false;
+  let queued = false, shown = 0;
   const tick = () => { if (!queued) { queued = true; requestAnimationFrame(() => { queued = false; place(); }); } };
   addEventListener("scroll", tick, { passive: true });
   addEventListener("resize", tick);
