@@ -67,7 +67,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-o
 .mq1 .mq-track { animation-direction: reverse; animation-delay: -25s; }
 /* the track holds the list twice: moving by half (plus half a gap) lands exactly on the copy */
 @keyframes mq-up { to { transform: translateY(calc(-50% - 7px)); } }
-.collage:hover .mq-track { animation-play-state: paused; }
 .mq a { display: block; border-radius: 12px; overflow: hidden; outline: 1px solid rgb(23 24 28 / .08); outline-offset: -1px; }
 .mq img { display: block; width: 100%; height: auto; transition: transform .6s var(--ease); }
 .mq a:hover img { transform: scale(1.04); }
@@ -204,23 +203,32 @@ footer { padding: 64px 0 40px; color: #9a9ca3; font-size: 14px; }
 .more-head a { font-size: 15px; font-weight: 500; }
 .more-head a:hover { text-decoration: underline; text-underline-offset: 4px; }
 
-/* pop-up sheet: dark backdrop fades in, white panel slides up from the bottom */
-.sheet { position: fixed; inset: 0; z-index: 100; overflow-y: auto; overscroll-behavior: contain; }
-.sheet-backdrop { position: fixed; inset: 0; background: rgb(12 13 17 / .78); opacity: 0; transition: opacity .4s var(--ease); }
-.sheet-panel { --page: var(--surface); position: relative; min-height: calc(100% - 40px); margin-top: 40px; background: var(--surface);
-  border-radius: 24px 24px 0 0; padding: 0 clamp(16px, 4vw, 56px); transform: translateY(100vh); transition: transform .55s var(--ease); }
+/* pop-up sheet: dark backdrop fades in, a fixed white panel slides up; only the panel's content scrolls */
+.sheet { position: fixed; inset: 0; z-index: 100; }
+.sheet-backdrop { position: absolute; inset: 0; background: rgb(12 13 17 / .78); opacity: 0; transition: opacity .4s var(--ease); }
+.sheet-panel { --page: var(--surface); position: absolute; top: 40px; left: 0; right: 0; bottom: 0; overflow: hidden; background: var(--surface);
+  border-radius: 24px 24px 0 0; box-shadow: 0 -20px 60px -20px rgb(0 0 0 / .4); transform: translateY(100%); transition: transform .6s var(--ease); }
+.sheet-scroll { height: 100%; overflow-y: auto; overscroll-behavior: contain; padding: 0 clamp(16px, 4vw, 56px); scrollbar-gutter: stable; }
 .sheet.on .sheet-backdrop { opacity: 1; }
 .sheet.on .sheet-panel { transform: none; }
-.sheet-close { position: fixed; top: 4px; right: 12px; z-index: 2; width: 32px; height: 32px; border: 0; border-radius: 50%; background: transparent;
-  color: #fff; font-size: 22px; display: grid; place-items: center; cursor: pointer; opacity: 0; transition: opacity .3s, background-color .2s; }
-.sheet.on .sheet-close { opacity: 1; }
-.sheet-close:hover { background: rgb(255 255 255 / .14); }
-.sheet-close:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.sheet-close { position: absolute; top: 16px; right: 20px; z-index: 2; width: 44px; height: 44px; border: 0; border-radius: 50%;
+  background: rgb(255 255 255 / .9); box-shadow: 0 0 0 1px var(--line), 0 6px 20px -8px rgb(23 24 28 / .3); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  color: var(--ink); font-size: 20px; display: grid; place-items: center; cursor: pointer; transition: background-color .2s, color .2s, transform .3s var(--ease); }
+.sheet-close:hover { background: var(--ink); color: #fff; transform: rotate(90deg); }
+.sheet-close:active { transform: rotate(90deg) scale(.92); }
+.sheet-close:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+/* entrance: header and lead image rise in just after the panel lands */
+@keyframes rise { from { opacity: 0; transform: translateY(24px); } }
+.sheet.on .sp-head { animation: rise .7s var(--ease) .18s both; }
+.sheet.on .sp-head + .sp-media { animation: rise .8s var(--ease) .28s both; }
+.sheet.on .sp-text { animation: rise .8s var(--ease) .38s both; }
 html.sheet-open { overflow: hidden; }
 @media (max-width: 640px) {
   .sp-by .btn { display: none; }
   .sp-text { font-size: 16px; margin: 40px auto; }
   .sp-text p:first-child { font-size: 18px; }
-  .sheet-panel { margin-top: 44px; border-radius: 18px 18px 0 0; }
+  .sheet-panel { top: 44px; border-radius: 18px 18px 0 0; }
+  .sheet-close { top: 12px; right: 12px; width: 40px; height: 40px; }
+  .sheet .shot-page { padding-top: 68px; }
 }
-@media (prefers-reduced-motion: reduce) { .sheet-panel, .sheet-backdrop { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .sheet-panel, .sheet-backdrop { transition: none; } .sheet.on .sp-head, .sheet.on .sp-media, .sheet.on .sp-text { animation: none; } }

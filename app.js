@@ -108,7 +108,7 @@ function caseHTML(i) {
     </header>
     <div class="sp-media">${img(p.images[0], p.title, true)}</div>
     ${about ? `<div class="sp-text">${about}</div>` : ""}
-    <div class="sp-media">${p.images.slice(1).map((im, k) => img(im, `${name(p.title)}, image ${k + 2}`, false)).join("")}</div>
+    <div class="sp-media">${p.images.slice(1).map((im, k) => img(im, `${name(p.title)}, image ${k + 2}`, false).replace("<img ", '<img class="reveal" ')).join("")}</div>
     <div class="case-foot">
       <div class="tags"><span class="label">Tags</span>${p.tags.map(t => `<a href="./?q=${encodeURIComponent(t)}#work">${esc(t)}</a>`).join("")}</div>
       <nav class="pager" aria-label="More projects">
@@ -140,7 +140,7 @@ const caseMeta = p => {
 /* pop-up sheet on the home page: slides up over the dimmed grid, X / Esc / backdrop / Back closes it, grid keeps its place */
 const sheet = document.getElementById("sheet");
 if (sheet) {
-  const body = sheet.querySelector(".sheet-body"), homeTitle = document.title;
+  const body = sheet.querySelector(".sheet-body"), scroller = sheet.querySelector(".sheet-scroll"), homeTitle = document.title;
   const open = slug => {
     const i = P.findIndex(p => p.slug === slug);
     if (i < 0) return close();
@@ -148,7 +148,7 @@ if (sheet) {
     body.innerHTML = caseHTML(i).replace(/ style="view-transition-name:[^"]*"/g, "");
     caseMeta(P[i]);
     reveal(body);
-    sheet.scrollTop = 0;
+    scroller.scrollTop = 0;
     if (sheet.hidden) {
       sheet.hidden = false;
       document.documentElement.classList.add("sheet-open");
