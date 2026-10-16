@@ -34,13 +34,39 @@ function reveal(root) {
 /* ---------- index ---------- */
 const grid = document.getElementById("grid");
 if (grid) {
-  // Header: two columns of real covers drifting in opposite directions (pauses on hover, static for reduced motion).
-  const cols = [[0, 3, 6, 36, 5, 46], [1, 8, 35, 2, 41, 9]];
-  document.getElementById("collage").innerHTML = cols.map((ks, c) => `
-    <div class="mq mq${c}"><div class="mq-track">${[...ks, ...ks].map((k, n) => {
-      const p = P[k];  // second copy of the list makes the loop seamless; hide it from screen readers
-      return `<a href="project.html#${p.slug}" tabindex="-1"${n >= ks.length ? ' aria-hidden="true"' : ""}>${img(p.thumb, n >= ks.length ? "" : p.title, n < 2)}</a>`;
-    }).join("")}</div></div>`).join("");
+  // Header: a still stack of the first three projects. Scrolling flies them into the grid's first row, where the same three sit.
+  const deckBox = document.getElementById("collage");
+  const fly = document.createElement("div");
+  fly.className = "fly";
+  fly.innerHTML = P.slice(0, 3).map((p, k) =>
+    `<a class="fly-card" href="project.html#${p.slug}" tabindex="-1" aria-label="${esc(p.title)}" style="z-index:${3 - k}">${img(p.thumb, "", true)}</a>`).join("");
+  document.body.append(fly);
+  const cards = [...fly.children];
+  const ease = t => t < .5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2;
+  const box = el => { const r = el.getBoundingClientRect(); return { x: r.left + scrollX, y: r.top + scrollY, w: r.width, h: r.height }; };
+  const clamp = v => Math.min(1, Math.max(0, v));
+  function place() {
+    const d = box(deckBox);
+    const free = filter === "all" && !q.value.trim();  // only the unfiltered grid starts with these three
+    const slots = free ? [...grid.querySelectorAll(".shot figure")].slice(0, 3).map(box) : [];
+    // done when the first row sits about a third down the screen
+    const t = reduce || !slots[0] ? 0 : clamp(scrollY / Math.max(1, slots[0].y - innerHeight * .3));
+    cards.forEach((c, k) => {
+      const s = 1 - k * .05, k0 = { x: d.x + d.w / 2 + k * 18, y: d.y + d.h / 2 - k * 18, w: d.w * s, h: d.h * s };
+      const tk = ease(clamp((t - k * .08) / .84));  // slight stagger: back cards leave a beat later
+      const g = slots[k] ? { x: slots[k].x + slots[k].w / 2, y: slots[k].y + slots[k].h / 2, w: slots[k].w, h: slots[k].h } : k0;
+      const m = key => k0[key] + (g[key] - k0[key]) * tk;
+      Object.assign(c.style, { left: `${m("x") - m("w") / 2}px`, top: `${m("y") - m("h") / 2}px`, width: `${m("w")}px`, height: `${m("h")}px`,
+        transform: `rotate(${k * 2 * (1 - tk)}deg)`, boxShadow: `0 30px 60px -30px rgb(23 24 28 / ${(.45 * (1 - tk)).toFixed(3)})` });
+    });
+    fly.classList.toggle("landed", t >= 1);
+    grid.classList.toggle("held", free && t < 1);
+  }
+  let queued = false;
+  const tick = () => { if (!queued) { queued = true; requestAnimationFrame(() => { queued = false; place(); }); } };
+  addEventListener("scroll", tick, { passive: true });
+  addEventListener("resize", tick);
+  addEventListener("load", tick);  // web font swap moves the hero
 
   const tabs = [...document.querySelectorAll(".tab")];
   tabs.forEach(t => {
@@ -69,6 +95,7 @@ if (grid) {
       tabs.forEach(t => t.setAttribute("aria-pressed", t.dataset.filter === filter));
       document.getElementById("clear")?.addEventListener("click", () => { q.value = ""; filter = "all"; sync(); show(true); });
       reveal(grid);
+      place();
     };
     animate ? swap(render) : render();
   }
@@ -86,7 +113,7 @@ if (grid) {
   addEventListener("hashchange", () => { if (hashFilter[location.hash]) { filter = hashFilter[location.hash]; show(true); } });
   // Remember tab, search and scroll spot so "Back" on a project page returns exactly here.
   document.addEventListener("click", e => {
-    if (e.target.closest("a.shot, .collage a")) try { sessionStorage.setItem("from", JSON.stringify({ url: location.pathname + location.search + location.hash, y: scrollY })); } catch {}
+    if (e.target.closest("a.shot, .fly-card")) try { sessionStorage.setItem("from", JSON.stringify({ url: location.pathname + location.search + location.hash, y: scrollY })); } catch {}
   });
   let backY = null;
   try { backY = sessionStorage.getItem("backY"); sessionStorage.removeItem("backY"); } catch {}
@@ -173,7 +200,7 @@ if (sheet) {
   // leave every project opened in this sheet in one go, back to the exact grid entry
   const dismiss = () => history.state?.depth ? history.go(-history.state.depth) : close();
   document.addEventListener("click", e => {
-    const a = e.target.closest("a.shot, .collage a, .sheet a.pg");
+    const a = e.target.closest("a.shot, .fly-card, .sheet a.pg");
     if (!a || e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;
     e.preventDefault();
     const slug = a.getAttribute("href").split("#")[1];
