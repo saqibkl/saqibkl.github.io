@@ -11,12 +11,18 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="nav">
   <div class="wrap">
     <a class="brand" href="./">Saqib Kamal</a>
+    <form class="nav-search" action="./" method="get" role="search">
+      <label class="sr" for="q">Search work</label>
+      <input id="q" name="q" type="search" placeholder="Search work: SaaS, logo, ecommerce" autocomplete="off" spellcheck="false">
+      <button class="go" type="submit" aria-label="Search"><i class="ph ph-magnifying-glass" aria-hidden="true"></i></button>
+    </form>
     <nav class="nav-links" aria-label="Main">
       <a href="#work">Work</a>
       <a class="hide-sm" href="#about">About</a>
@@ -39,10 +45,12 @@
     <div class="collage" id="collage" aria-hidden="true"></div>
   </section>
 
-  <div class="tabs" role="toolbar" aria-label="Filter work" id="work">
+  <div class="bar" id="work">
+  <div class="tabs" role="toolbar" aria-label="Filter work">
     <button class="tab" data-filter="all" aria-pressed="true">All work<span></span></button>
-    <button class="tab" data-filter="web" aria-pressed="false">Websites<span></span></button>
     <button class="tab" data-filter="brand" aria-pressed="false">Branding<span></span></button>
+    <button class="tab" data-filter="web" aria-pressed="false">UI/UX<span></span></button>
+  </div>
   </div>
 
   <section class="grid" id="grid" aria-live="polite"></section>
@@ -63,6 +71,7 @@
 <footer class="wrap">© 2026 Saqib Kamal</footer>
 
 <script src="data.js"></script>
+<script src="cases.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

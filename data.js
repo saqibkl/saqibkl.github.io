@@ -1,1299 +1,3674 @@
 window.PROJECTS = [
  {
-  "slug": "workstreams",
-  "type": "web",
-  "title": "WorkStreams: AI Data Assistant Product Website",
-  "desc": "WorkStreams is an AI data assistant that lets teams ask questions of their databases in plain English and get answers, charts and SQL back. Data tools usually speak to engineers, so the site had to make AI-assisted analysis feel useful to a whole team and turn early interest into a waitlist. One sitemap, a documented design system, three journeys, wireframes and a clickable prototype, in a deep violet and midnight palette with chat chips and code panels. UI/UX design, 5 pages plus waitlist flow.",
+  "slug": "terral-built-on-structure",
+  "type": "brand",
+  "title": "TERRAL — Built on Structure",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
   "tags": [
-   "ai",
-   "saas",
-   "data",
-   "product website",
-   "landing page",
-   "web design",
-   "ui design",
-   "ux design",
-   "startup",
-   "website"
-  ],
-  "cats": "UI/UX, Web Design",
-  "thumb": {
-   "src": "img/workstreams/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/workstreams/01_cover.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/workstreams/02_overview.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/workstreams/03_laptop.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/workstreams/04_design_system.jpg",
-    "w": 1600,
-    "h": 1250
-   },
-   {
-    "src": "img/workstreams/05_home_page.jpg",
-    "w": 1600,
-    "h": 1732
-   },
-   {
-    "src": "img/workstreams/06_product_ui.jpg",
-    "w": 1600,
-    "h": 1111
-   },
-   {
-    "src": "img/workstreams/07_pages.jpg",
-    "w": 1600,
-    "h": 1358
-   },
-   {
-    "src": "img/workstreams/08_waitlist_flow.jpg",
-    "w": 1600,
-    "h": 833
-   },
-   {
-    "src": "img/workstreams/09_thank_you.jpg",
-    "w": 1600,
-    "h": 900
-   }
-  ]
- },
- {
-  "slug": "noara-labs",
-  "type": "web",
-  "title": "Noara Labs: Tech Talent and Software Partner Website",
-  "desc": "A website for Noara Labs, a tech talent and software partner that connects startups with pre-vetted remote engineers, dedicated teams and full product builds. One site serves two audiences, founders and developers, with clear sitemap branches, bold headlines and orange and green blocks that colour-code each journey. 10 pages plus mobile, design system and prototype.",
-  "tags": [
-   "web design",
-   "ui design",
-   "ux design",
-   "website",
-   "saas",
-   "hiring",
-   "recruitment",
-   "tech",
+   "brand identity",
    "branding",
-   "b2b"
+   "construction"
   ],
-  "cats": "UI/UX, Web Design",
   "thumb": {
-   "src": "img/noara-labs/thumb.jpg",
+   "src": "img/terral-built-on-structure/thumb.jpg",
    "w": 1200,
-   "h": 900
+   "h": 938
   },
   "images": [
    {
-    "src": "img/noara-labs/01_cover.jpg",
+    "src": "img/terral-built-on-structure/01.jpg",
     "w": 1600,
-    "h": 1083
+    "h": 1142
    },
    {
-    "src": "img/noara-labs/02_overview.jpg",
+    "src": "img/terral-built-on-structure/02.jpg",
     "w": 1600,
-    "h": 1125
+    "h": 1142
    },
    {
-    "src": "img/noara-labs/03_two_audiences.jpg",
+    "src": "img/terral-built-on-structure/03.jpg",
     "w": 1600,
-    "h": 1250
+    "h": 1142
    },
    {
-    "src": "img/noara-labs/04_design_system.jpg",
+    "src": "img/terral-built-on-structure/04.jpg",
     "w": 1600,
-    "h": 1333
+    "h": 686
    },
    {
-    "src": "img/noara-labs/05_pages.jpg",
+    "src": "img/terral-built-on-structure/05.jpg",
     "w": 1600,
-    "h": 1917
+    "h": 1142
    },
    {
-    "src": "img/noara-labs/06_careers_mockup.jpg",
+    "src": "img/terral-built-on-structure/06.jpg",
     "w": 1600,
-    "h": 1042
+    "h": 1142
    },
    {
-    "src": "img/noara-labs/07_mobile.jpg",
+    "src": "img/terral-built-on-structure/07.jpg",
     "w": 1600,
-    "h": 1100
+    "h": 2286
    },
    {
-    "src": "img/noara-labs/08_thank_you.jpg",
+    "src": "img/terral-built-on-structure/08.jpg",
     "w": 1600,
-    "h": 900
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/09.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/10.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/11.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/12.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/13.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/14.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/terral-built-on-structure/15.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/16.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/17.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/terral-built-on-structure/18.jpg",
+    "w": 1600,
+    "h": 1142
    }
   ]
  },
  {
-  "slug": "siepay",
-  "type": "web",
-  "title": "Siepay: Crypto Recurring Payments Landing Page",
-  "desc": "Siepay is a cryptocurrency recurring payment system. The landing page explains recurring crypto billing at a glance, introduces invoices, MetaMask and subscriptions as friendly 3D cards, and leads visitors to a free trial.",
+  "slug": "qore-core-driven-strategy-brand-identity",
+  "type": "brand",
+  "title": "QORE — Core-Driven Strategy Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
   "tags": [
-   "web design",
-   "ui design"
+   "brand identity",
+   "branding"
   ],
-  "cats": "UI/UX, Web Design",
   "thumb": {
-   "src": "img/siepay/thumb.jpg",
+   "src": "img/qore-core-driven-strategy-brand-identity/thumb.jpg",
    "w": 1200,
-   "h": 900
+   "h": 938
   },
   "images": [
    {
-    "src": "img/siepay/01_cover.jpg",
+    "src": "img/qore-core-driven-strategy-brand-identity/01.jpg",
     "w": 1600,
-    "h": 1800
+    "h": 1142
    },
    {
-    "src": "img/siepay/02_problem_solution.jpg",
+    "src": "img/qore-core-driven-strategy-brand-identity/02.jpg",
     "w": 1600,
-    "h": 1050
+    "h": 1142
    },
    {
-    "src": "img/siepay/03_bento.jpg",
+    "src": "img/qore-core-driven-strategy-brand-identity/03.jpg",
     "w": 1600,
-    "h": 1183
+    "h": 1142
    },
    {
-    "src": "img/siepay/04_typography.jpg",
+    "src": "img/qore-core-driven-strategy-brand-identity/04.jpg",
     "w": 1600,
-    "h": 817
+    "h": 686
    },
    {
-    "src": "img/siepay/05_colours.jpg",
+    "src": "img/qore-core-driven-strategy-brand-identity/05.jpg",
     "w": 1600,
-    "h": 750
+    "h": 1142
    },
    {
-    "src": "img/siepay/06_website.jpg",
+    "src": "img/qore-core-driven-strategy-brand-identity/06.jpg",
     "w": 1600,
-    "h": 3084
+    "h": 1142
    },
    {
-    "src": "img/siepay/07_laptop.jpg",
+    "src": "img/qore-core-driven-strategy-brand-identity/07.jpg",
     "w": 1600,
-    "h": 893
+    "h": 2286
    },
    {
-    "src": "img/siepay/08_thank_you.jpg",
+    "src": "img/qore-core-driven-strategy-brand-identity/08.jpg",
     "w": 1600,
-    "h": 533
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/11.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/12.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/13.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/14.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/15.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/16.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/17.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/18.jpg",
+    "w": 1600,
+    "h": 1142
    }
   ]
  },
  {
-  "slug": "siepay-dashboard",
-  "type": "web",
-  "title": "Siepay: Crypto Payments Merchant Dashboard",
-  "desc": "The Siepay dashboard is where merchants run recurring crypto billing. A guided Get Started checklist leads into overview, payments, balances, invoices, customers, subscriptions, products and settings, all in one navy and green workspace. UI/UX design, web app, 34 screens.",
+  "slug": "opendox-connected-knowledge-brand-identity",
+  "type": "brand",
+  "title": "Opendox — Connected Knowledge Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
   "tags": [
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/opendox-connected-knowledge-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/11.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/12.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/13.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/14.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/15.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/16.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/17.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/18.jpg",
+    "w": 1600,
+    "h": 686
+   }
+  ]
+ },
+ {
+  "slug": "taskera-ai-powered-productivity-platform",
+  "type": "brand",
+  "title": "TASKERA — AI-Powered Productivity Platform",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "saas",
+   "ai"
+  ],
+  "thumb": {
+   "src": "img/taskera-ai-powered-productivity-platform/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/09.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/10.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/11.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/12.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/13.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/14.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/15.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/16.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/17.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/18.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/19.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/20.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "bambu-eco-friendly-daily-essentials-brand-identity",
+  "type": "brand",
+  "title": "BAMBU — Eco-Friendly Daily Essentials Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "sustainability"
+  ],
+  "thumb": {
+   "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/11.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/12.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/13.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/14.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/15.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/16.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/17.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/18.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "bound-nature-first-living-brand-identity",
+  "type": "brand",
+  "title": "BOUND - Nature First Living Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "sustainability"
+  ],
+  "thumb": {
+   "src": "img/bound-nature-first-living-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/bound-nature-first-living-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1138
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2276
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/11.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/12.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/13.jpg",
+    "w": 1600,
+    "h": 1138
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/14.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/15.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/16.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/17.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/18.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/19.jpg",
+    "w": 1600,
+    "h": 2276
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/20.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "pro-premium-supplement-branding",
+  "type": "brand",
+  "title": "PRO – Premium Supplement Branding",
+  "desc": "PRO is a high-energy health & wellness brand offering premium protein products. This branding project focuses on a bold, modern identity with strong typography, a sleek color palette, and adaptable visuals for packaging, digital, and advertising.",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "packaging",
+   "wellness",
+   "luxury",
+   "tech"
+  ],
+  "thumb": {
+   "src": "img/pro-premium-supplement-branding/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/pro-premium-supplement-branding/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/04.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/07.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/10.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/11.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/12.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/13.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/14.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/15.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/16.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/17.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/pro-premium-supplement-branding/18.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "gear-a-futuristic-brand-identity-for-tech-lifestyle",
+  "type": "brand",
+  "title": "Gear – A Futuristic Brand Identity for Tech & Lifestyle",
+  "desc": "Gear is a futuristic tech & lifestyle brand that combines innovation with identity. This project showcases a bold, sleek brand identity, with a modern logo, typography, and product applications to reflect cutting-edge technology and design.",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "mobile app",
+   "logo design",
+   "tech"
+  ],
+  "thumb": {
+   "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/04.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/06.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/07.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/10.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/11.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/12.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/13.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/14.jpg",
+    "w": 1600,
+    "h": 1600
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/15.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/16.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/17.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/18.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/19.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/20.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/21.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/22.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/gear-a-futuristic-brand-identity-for-tech-lifestyle/23.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "nearside-a-modern-brand-identity-for-digital-growth",
+  "type": "brand",
+  "title": "Nearside – A Modern Brand Identity for Digital Growth",
+  "desc": "Nearside is a tech-driven brand specializing in nearshore software and data development. This project highlights a bold, modern brand identity, with a dynamic logo, pitch deck design, and marketing applications to support digital growth.",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "saas",
+   "mobile app",
+   "logo design",
+   "marketing agency",
+   "tech"
+  ],
+  "thumb": {
+   "src": "img/nearside-a-modern-brand-identity-for-digital-growth/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/01.jpg",
+    "w": 1600,
+    "h": 1135
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/10.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/11.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/12.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/13.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/14.jpg",
+    "w": 1600,
+    "h": 1135
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/15.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/16.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/17.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/18.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/19.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/20.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/nearside-a-modern-brand-identity-for-digital-growth/21.jpg",
+    "w": 1600,
+    "h": 2286
+   }
+  ]
+ },
+ {
+  "slug": "code-baustein-a-digital-first-brand-identity",
+  "type": "brand",
+  "title": "Code Baustein – A Digital-First Brand Identity",
+  "desc": "Code Baustein is Germany's top Blockchain and SaaS development company, delivering custom software, scalable solutions, and secure blockchain technology. This project showcases a comprehensive brand identity, including logo design, website development, and marketing materials, reflecting the company's commitment to innovation and reliability.",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "saas",
    "crypto",
-   "fintech",
-   "dashboard",
-   "saas",
-   "web app",
-   "ui design",
-   "ux design",
-   "payments",
-   "product design",
-   "web3"
-  ],
-  "cats": "UI/UX, Web Design",
-  "thumb": {
-   "src": "img/siepay-dashboard/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/siepay-dashboard/01_cover.jpg",
-    "w": 1600,
-    "h": 1800
-   },
-   {
-    "src": "img/siepay-dashboard/02_problem_solution.jpg",
-    "w": 1600,
-    "h": 1050
-   },
-   {
-    "src": "img/siepay-dashboard/03_typography.jpg",
-    "w": 1600,
-    "h": 817
-   },
-   {
-    "src": "img/siepay-dashboard/04_colours.jpg",
-    "w": 1600,
-    "h": 750
-   },
-   {
-    "src": "img/siepay-dashboard/05_dashboard.jpg",
-    "w": 1600,
-    "h": 1415
-   },
-   {
-    "src": "img/siepay-dashboard/06_laptop.jpg",
-    "w": 1600,
-    "h": 893
-   },
-   {
-    "src": "img/siepay-dashboard/07_ui_details.jpg",
-    "w": 1600,
-    "h": 1170
-   },
-   {
-    "src": "img/siepay-dashboard/08_every_screen.jpg",
-    "w": 1600,
-    "h": 1296
-   },
-   {
-    "src": "img/siepay-dashboard/09_thank_you.jpg",
-    "w": 1600,
-    "h": 533
-   }
-  ]
- },
- {
-  "slug": "gear",
-  "type": "web",
-  "title": "Gear: Premium Tech and Audio eCommerce Website",
-  "desc": "Gear is an online store for premium tech and audio. Electronics stores often bury great products under busy layouts, banners and discount noise, so Gear needed a store that feels as premium as the products it sells and still makes buying simple. A monochrome design with large product photography, clear categories, product cards with price and rating, a live offer and an FAQ, so shoppers can browse, compare and add to cart without friction. UI/UX design, home page and product page.",
-  "tags": [
-   "ecommerce",
-   "online store",
-   "electronics",
-   "headphones",
-   "product page",
-   "web design",
-   "ui design",
-   "ux design",
-   "shopify",
-   "website"
-  ],
-  "cats": "UI/UX, Web Design",
-  "thumb": {
-   "src": "img/gear/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/gear/01_cover.jpg",
-    "w": 1600,
-    "h": 1783
-   },
-   {
-    "src": "img/gear/02_problem_solution.jpg",
-    "w": 1600,
-    "h": 958
-   },
-   {
-    "src": "img/gear/03_design_system.jpg",
-    "w": 1600,
-    "h": 1133
-   },
-   {
-    "src": "img/gear/04_home_page.jpg",
-    "w": 1600,
-    "h": 2268
-   },
-   {
-    "src": "img/gear/05_laptop.jpg",
-    "w": 1600,
-    "h": 900
-   },
-   {
-    "src": "img/gear/06_product_page.jpg",
-    "w": 1600,
-    "h": 2128
-   },
-   {
-    "src": "img/gear/07_ui_details.jpg",
-    "w": 1600,
-    "h": 1170
-   },
-   {
-    "src": "img/gear/08_thank_you.jpg",
-    "w": 1600,
-    "h": 533
-   }
-  ]
- },
- {
-  "slug": "whittemore",
-  "type": "web",
-  "title": "Whittemore: Gov Tech Web and Software Studio Website",
-  "desc": "Whittemore is a Wyoming technology studio that builds accessible websites, portals and custom software for government agencies and growing businesses. Public buyers care about trust, accessibility and clarity more than flashy visuals, so the site had to show WCAG-level care and make it easy to start a conversation. One sitemap, a documented design system, three user journeys, wireframes and a clickable prototype, with a confident navy palette and an arch-and-sun hero framing every page. UI/UX design, 8 pages, responsive mobile.",
-  "tags": [
-   "government",
-   "gov tech",
-   "software company",
-   "web design",
-   "ui design",
-   "ux design",
-   "accessibility",
-   "corporate website",
-   "responsive",
-   "website"
-  ],
-  "cats": "UI/UX, Web Design",
-  "thumb": {
-   "src": "img/whittemore/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/whittemore/01_cover.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/whittemore/02_overview.jpg",
-    "w": 1600,
-    "h": 817
-   },
-   {
-    "src": "img/whittemore/03_mood_mockup.jpg",
-    "w": 1600,
-    "h": 1067
-   },
-   {
-    "src": "img/whittemore/04_design_system.jpg",
-    "w": 1600,
-    "h": 1900
-   },
-   {
-    "src": "img/whittemore/05_home_page.jpg",
-    "w": 1600,
-    "h": 1396
-   },
-   {
-    "src": "img/whittemore/06_ui_details.jpg",
-    "w": 1600,
-    "h": 1170
-   },
-   {
-    "src": "img/whittemore/07_pages.jpg",
-    "w": 1600,
-    "h": 2017
-   },
-   {
-    "src": "img/whittemore/08_mobile_thank_you.jpg",
-    "w": 1600,
-    "h": 1376
-   }
-  ]
- },
- {
-  "slug": "inntwin-studio",
-  "type": "web",
-  "title": "Inn Twin: Digital Twin Studio Website",
-  "desc": "A dark, immersive studio website for Inn Twin, a company that captures true-to-scale digital twins of spaces, materials and products. Cinematic renders, a warm gold accent and calm type sell the visual truth to architects and brands. 8 studio pages plus an access flow, design system and prototype.",
-  "tags": [
-   "3d",
-   "digital twin",
-   "architecture",
-   "web design",
-   "ui design",
-   "ux design",
-   "dark ui",
    "website",
-   "vr",
-   "proptech"
+   "logo design",
+   "marketing agency",
+   "tech"
   ],
-  "cats": "UI/UX, Web Design",
   "thumb": {
-   "src": "img/inntwin-studio/thumb.jpg",
+   "src": "img/code-baustein-a-digital-first-brand-identity/thumb.jpg",
    "w": 1200,
-   "h": 900
+   "h": 938
   },
   "images": [
    {
-    "src": "img/inntwin-studio/01_cover.jpg",
+    "src": "img/code-baustein-a-digital-first-brand-identity/01.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 1143
    },
    {
-    "src": "img/inntwin-studio/02_overview.jpg",
+    "src": "img/code-baustein-a-digital-first-brand-identity/02.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 1143
    },
    {
-    "src": "img/inntwin-studio/03_design_system.jpg",
+    "src": "img/code-baustein-a-digital-first-brand-identity/03.jpg",
     "w": 1600,
-    "h": 1767
+    "h": 686
    },
    {
-    "src": "img/inntwin-studio/04_renderings.jpg",
+    "src": "img/code-baustein-a-digital-first-brand-identity/04.jpg",
     "w": 1600,
-    "h": 1067
+    "h": 1143
    },
    {
-    "src": "img/inntwin-studio/05_studio_pages.jpg",
+    "src": "img/code-baustein-a-digital-first-brand-identity/05.jpg",
     "w": 1600,
-    "h": 1800
+    "h": 1143
    },
    {
-    "src": "img/inntwin-studio/06_material_library.jpg",
+    "src": "img/code-baustein-a-digital-first-brand-identity/06.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 1200
    },
    {
-    "src": "img/inntwin-studio/07_home_page.jpg",
+    "src": "img/code-baustein-a-digital-first-brand-identity/07.jpg",
     "w": 1600,
-    "h": 963
+    "h": 1143
    },
    {
-    "src": "img/inntwin-studio/08_vr_showroom.jpg",
+    "src": "img/code-baustein-a-digital-first-brand-identity/08.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 2286
    },
    {
-    "src": "img/inntwin-studio/09_thank_you.jpg",
+    "src": "img/code-baustein-a-digital-first-brand-identity/09.jpg",
     "w": 1600,
-    "h": 900
+    "h": 1143
+   },
+   {
+    "src": "img/code-baustein-a-digital-first-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/code-baustein-a-digital-first-brand-identity/11.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/code-baustein-a-digital-first-brand-identity/12.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/code-baustein-a-digital-first-brand-identity/13.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/code-baustein-a-digital-first-brand-identity/14.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/code-baustein-a-digital-first-brand-identity/15.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/code-baustein-a-digital-first-brand-identity/16.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/code-baustein-a-digital-first-brand-identity/17.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/code-baustein-a-digital-first-brand-identity/18.jpg",
+    "w": 1600,
+    "h": 1143
    }
   ]
  },
  {
-  "slug": "inntwin-data",
-  "type": "web",
-  "title": "Inn Twin: Spatial Data Platform Dashboard",
-  "desc": "A light-mode data platform for Inn Twin, where engineers and AI teams browse, inspect, validate and export spatial twins, textures, meshes and training data. Login, a dashboard and fourteen more screens, from point clouds and segmentation masks to PBR texture maps. Platform UX, UI and design system.",
+  "slug": "fractional-hr-hr-brand-identity",
+  "type": "brand",
+  "title": "Fractional HR - HR Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
   "tags": [
-   "dashboard",
-   "saas",
-   "data platform",
-   "ai",
-   "3d",
-   "digital twin",
-   "ui design",
-   "ux design",
-   "web app",
-   "product design"
+   "brand identity",
+   "branding",
+   "consulting"
   ],
-  "cats": "UI/UX, Web Design",
   "thumb": {
-   "src": "img/inntwin-data/thumb.jpg",
+   "src": "img/fractional-hr-hr-brand-identity/thumb.jpg",
    "w": 1200,
-   "h": 900
+   "h": 938
   },
   "images": [
    {
-    "src": "img/inntwin-data/01_cover.jpg",
+    "src": "img/fractional-hr-hr-brand-identity/01.jpg",
     "w": 1600,
-    "h": 1067
+    "h": 1143
    },
    {
-    "src": "img/inntwin-data/02_overview.jpg",
+    "src": "img/fractional-hr-hr-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/fractional-hr-hr-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/fractional-hr-hr-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/fractional-hr-hr-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/fractional-hr-hr-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/fractional-hr-hr-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/fractional-hr-hr-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/fractional-hr-hr-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/fractional-hr-hr-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "crowned-fork-a-luxurious-yet-welcoming-brand-identity",
+  "type": "brand",
+  "title": "Crowned Fork – A Luxurious Yet Welcoming Brand Identity",
+  "desc": "Crowned Fork redefines fine dining by blending luxury with warmth, offering an experience where everyone is invited to dine like royalty. With a modern approach to elegance, the brand delivers high-quality cuisine in a refined yet inclusive atmosphere. We crafted its brand identity to strike the perfect balance between sophistication and approachability—featuring a bold, distinguished logo, a rich and inviting color palette, and thoughtfully designed typography and menus. Every element works together to create a seamless, memorable dining experience that feels both exclusive and welcoming.",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "mobile app",
+   "logo design",
+   "luxury",
+   "food and drink"
+  ],
+  "thumb": {
+   "src": "img/crowned-fork-a-luxurious-yet-welcoming-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/crowned-fork-a-luxurious-yet-welcoming-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/crowned-fork-a-luxurious-yet-welcoming-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/crowned-fork-a-luxurious-yet-welcoming-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/crowned-fork-a-luxurious-yet-welcoming-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/crowned-fork-a-luxurious-yet-welcoming-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/crowned-fork-a-luxurious-yet-welcoming-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/crowned-fork-a-luxurious-yet-welcoming-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/crowned-fork-a-luxurious-yet-welcoming-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/crowned-fork-a-luxurious-yet-welcoming-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/crowned-fork-a-luxurious-yet-welcoming-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "brand-identity-estateone-media-real-estate-media",
+  "type": "brand",
+  "title": "Brand Identity - EstateOne Media - Real Estate Media",
+  "desc": "Estate One Media (estateonemedia.com.au) is a real estate media company providing high-quality visual content and marketing solutions for property businesses. We developed their complete brand identity, including a distinctive logo and cohesive marketing materials, ensuring a professional and consistent visual presence across all platforms.",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "saas",
+   "logo design",
+   "real estate",
+   "marketing agency"
+  ],
+  "thumb": {
+   "src": "img/brand-identity-estateone-media-real-estate-media/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/brand-identity-estateone-media-real-estate-media/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/brand-identity-estateone-media-real-estate-media/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/brand-identity-estateone-media-real-estate-media/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/brand-identity-estateone-media-real-estate-media/04.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/brand-identity-estateone-media-real-estate-media/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/brand-identity-estateone-media-real-estate-media/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/brand-identity-estateone-media-real-estate-media/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/brand-identity-estateone-media-real-estate-media/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/brand-identity-estateone-media-real-estate-media/09.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "alvi-consulting-digital-marketing-brand-identity",
+  "type": "brand",
+  "title": "Alvi Consulting - Digital Marketing - Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "marketing agency",
+   "tech",
+   "consulting"
+  ],
+  "thumb": {
+   "src": "img/alvi-consulting-digital-marketing-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/alvi-consulting-digital-marketing-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/alvi-consulting-digital-marketing-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/alvi-consulting-digital-marketing-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/alvi-consulting-digital-marketing-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/alvi-consulting-digital-marketing-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/alvi-consulting-digital-marketing-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/alvi-consulting-digital-marketing-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/alvi-consulting-digital-marketing-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/alvi-consulting-digital-marketing-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "uphope-luxury-brand-identity",
+  "type": "brand",
+  "title": "Uphope - Luxury Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "luxury"
+  ],
+  "thumb": {
+   "src": "img/uphope-luxury-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/uphope-luxury-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/uphope-luxury-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/uphope-luxury-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/uphope-luxury-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/uphope-luxury-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/uphope-luxury-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/uphope-luxury-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/uphope-luxury-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/uphope-luxury-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "regal-gents-barber-shop-branding",
+  "type": "brand",
+  "title": "Regal Gents - Barber shop Branding",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "ecommerce",
+   "fashion"
+  ],
+  "thumb": {
+   "src": "img/regal-gents-barber-shop-branding/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/regal-gents-barber-shop-branding/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/regal-gents-barber-shop-branding/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/regal-gents-barber-shop-branding/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/regal-gents-barber-shop-branding/04.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/regal-gents-barber-shop-branding/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/regal-gents-barber-shop-branding/06.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/regal-gents-barber-shop-branding/07.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/regal-gents-barber-shop-branding/08.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "farsmstead-brand-identity-packaging-app-design",
+  "type": "brand",
+  "title": "Farsmstead - Brand identity - Packaging - App design",
+  "desc": "We collaborated closely with Farmstead, a brand dedicated to \"Quality from Seed to Table\" and bringing natural bounty carefully cultivated to consumers. Together, we developed a brand identity that reflects their commitment to community, sustainability, and quality. We crafted an engaging visual identity that embodies the freshness and eco-friendliness of their products. Our packaging design emphasized sustainability, while our app development services provided a seamless digital experience for customers to explore Farmstead's offerings. We ensured that Farmstead's visual identity and digital presence truly captured the essence of their mission.",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "mobile app",
+   "packaging",
+   "wellness",
+   "tech",
+   "sustainability"
+  ],
+  "thumb": {
+   "src": "img/farsmstead-brand-identity-packaging-app-design/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/03.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/04.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/07.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/08.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/10.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/11.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/12.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/13.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/14.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/15.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/16.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/17.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/18.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/farsmstead-brand-identity-packaging-app-design/19.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "zryize-construction-branding",
+  "type": "brand",
+  "title": "Zryize - Construction Branding",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "construction"
+  ],
+  "thumb": {
+   "src": "img/zryize-construction-branding/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/zryize-construction-branding/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/zryize-construction-branding/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/zryize-construction-branding/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/zryize-construction-branding/04.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/zryize-construction-branding/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/zryize-construction-branding/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/zryize-construction-branding/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/zryize-construction-branding/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/zryize-construction-branding/09.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "harmonia-wellness-brand-identity-product-design",
+  "type": "brand",
+  "title": "Harmonia - Wellness Brand identity - Product design",
+  "desc": "For \"Harmonia,\" we crafted a brand and product design that embodies tranquility and balance, fostering a sense of inner calm and mindfulness. The serene, minimalist aesthetic supports Harmonia’s mission to inspire harmony and well-being. As a wellness brand dedicated to nurturing inner peace, balance, and mindfulness, Harmonia encourages a tranquil, harmonious lifestyle that promotes meditation and calmness.",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "wellness"
+  ],
+  "thumb": {
+   "src": "img/harmonia-wellness-brand-identity-product-design/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/harmonia-wellness-brand-identity-product-design/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/harmonia-wellness-brand-identity-product-design/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/harmonia-wellness-brand-identity-product-design/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/harmonia-wellness-brand-identity-product-design/04.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/harmonia-wellness-brand-identity-product-design/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/harmonia-wellness-brand-identity-product-design/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/harmonia-wellness-brand-identity-product-design/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/harmonia-wellness-brand-identity-product-design/08.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "putts-golf-branding-brand-identity",
+  "type": "brand",
+  "title": "Putts - Golf branding - Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "golf and sport"
+  ],
+  "thumb": {
+   "src": "img/putts-golf-branding-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/putts-golf-branding-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/putts-golf-branding-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/putts-golf-branding-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/putts-golf-branding-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/putts-golf-branding-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/putts-golf-branding-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1144
+   },
+   {
+    "src": "img/putts-golf-branding-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2276
+   },
+   {
+    "src": "img/putts-golf-branding-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/putts-golf-branding-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/putts-golf-branding-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "halo-brand-identity",
+  "type": "brand",
+  "title": "HALO - Brand Identity",
+  "desc": "Artix Creative collaborated with Halo to elevate their brand identity through comprehensive branding and packaging services. We began by conducting an in-depth analysis of Halo's ethos, weaving the essence of ethical craftsmanship and sustainability into the brand's narrative. Our design philosophy, rooted in elegance and environmental consciousness, was reflected in the development of a distinctive logo, color palette, and typography that encapsulated Halo's values. The result is a visually compelling and environmentally responsible brand image that resonates with Halo's target audience.",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "logo design",
+   "packaging",
+   "sustainability",
+   "consulting"
+  ],
+  "thumb": {
+   "src": "img/halo-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/halo-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/halo-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/halo-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/halo-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/halo-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/halo-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/halo-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/halo-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/halo-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/halo-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "passion-brand-identity",
+  "type": "brand",
+  "title": "Passion - Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/passion-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/passion-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/passion-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/passion-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/passion-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/passion-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/passion-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/passion-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/passion-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/passion-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/passion-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "lion-hearted-brand-identity",
+  "type": "brand",
+  "title": "Lion Hearted - Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/lion-hearted-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/lion-hearted-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/lion-hearted-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/lion-hearted-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/lion-hearted-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/lion-hearted-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/lion-hearted-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/lion-hearted-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/lion-hearted-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/lion-hearted-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/lion-hearted-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "luxae-brand-identity",
+  "type": "brand",
+  "title": "Luxae - Brand identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/luxae-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/luxae-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/luxae-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/luxae-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/luxae-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/luxae-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/luxae-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/luxae-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/luxae-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/luxae-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/luxae-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "ecoglow-brand-identity",
+  "type": "brand",
+  "title": "Ecoglow - Brand identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "sustainability"
+  ],
+  "thumb": {
+   "src": "img/ecoglow-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/ecoglow-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/ecoglow-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/ecoglow-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/ecoglow-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/ecoglow-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/ecoglow-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/ecoglow-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/ecoglow-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/ecoglow-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/ecoglow-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "norva-vr-brand-identity",
+  "type": "brand",
+  "title": "Norva - VR Brand identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/norva-vr-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/norva-vr-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/norva-vr-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/norva-vr-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/norva-vr-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/norva-vr-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/norva-vr-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/norva-vr-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/norva-vr-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/norva-vr-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/norva-vr-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "magek-brand-identity",
+  "type": "brand",
+  "title": "Magek - Brand identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/magek-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/magek-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/magek-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/magek-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/magek-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/magek-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/magek-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/magek-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/magek-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/magek-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/magek-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "rev-branding-website-application",
+  "type": "brand",
+  "title": "Rev - Branding - Website - Application",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "mobile app",
+   "website"
+  ],
+  "thumb": {
+   "src": "img/rev-branding-website-application/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/rev-branding-website-application/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/rev-branding-website-application/02.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/rev-branding-website-application/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/rev-branding-website-application/04.jpg",
+    "w": 1600,
+    "h": 1201
+   },
+   {
+    "src": "img/rev-branding-website-application/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/rev-branding-website-application/06.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/rev-branding-website-application/07.jpg",
+    "w": 1600,
+    "h": 1201
+   },
+   {
+    "src": "img/rev-branding-website-application/08.jpg",
+    "w": 1600,
+    "h": 1201
+   },
+   {
+    "src": "img/rev-branding-website-application/09.jpg",
+    "w": 1600,
+    "h": 1201
+   },
+   {
+    "src": "img/rev-branding-website-application/10.jpg",
+    "w": 1600,
+    "h": 1201
+   },
+   {
+    "src": "img/rev-branding-website-application/11.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/rev-branding-website-application/12.jpg",
+    "w": 1600,
+    "h": 1201
+   }
+  ]
+ },
+ {
+  "slug": "brand-identity-digital-marketing-agency",
+  "type": "brand",
+  "title": "Brand Identity - Digital Marketing Agency",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "marketing agency",
+   "tech"
+  ],
+  "thumb": {
+   "src": "img/brand-identity-digital-marketing-agency/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/brand-identity-digital-marketing-agency/01.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/02.jpg",
+    "w": 1600,
+    "h": 327
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/03.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/05.jpg",
+    "w": 1600,
+    "h": 450
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/06.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/07.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/08.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/09.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/10.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/11.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/12.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/13.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/14.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/15.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-digital-marketing-agency/16.jpg",
+    "w": 1600,
+    "h": 561
+   }
+  ]
+ },
+ {
+  "slug": "epos-b2b-consultation",
+  "type": "brand",
+  "title": "EPOS - B2B Consultation",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "consulting"
+  ],
+  "thumb": {
+   "src": "img/epos-b2b-consultation/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/epos-b2b-consultation/01.jpg",
     "w": 1600,
     "h": 1029
    },
    {
-    "src": "img/inntwin-data/03_dashboard.jpg",
+    "src": "img/epos-b2b-consultation/02.jpg",
     "w": 1600,
-    "h": 1208
+    "h": 449
    },
    {
-    "src": "img/inntwin-data/04_design_system.jpg",
+    "src": "img/epos-b2b-consultation/03.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 1029
    },
    {
-    "src": "img/inntwin-data/05_point_cloud.jpg",
+    "src": "img/epos-b2b-consultation/04.jpg",
     "w": 1600,
-    "h": 1067
+    "h": 752
    },
    {
-    "src": "img/inntwin-data/06_sixteen_screens.jpg",
+    "src": "img/epos-b2b-consultation/05.jpg",
     "w": 1600,
-    "h": 3006
+    "h": 1029
    },
    {
-    "src": "img/inntwin-data/07_data_types.jpg",
+    "src": "img/epos-b2b-consultation/06.jpg",
     "w": 1600,
-    "h": 1292
+    "h": 1029
    },
    {
-    "src": "img/inntwin-data/08_texture_library.jpg",
+    "src": "img/epos-b2b-consultation/07.jpg",
     "w": 1600,
-    "h": 1067
+    "h": 1029
    },
    {
-    "src": "img/inntwin-data/09_thank_you.jpg",
+    "src": "img/epos-b2b-consultation/08.jpg",
     "w": 1600,
-    "h": 900
+    "h": 1029
+   },
+   {
+    "src": "img/epos-b2b-consultation/09.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/epos-b2b-consultation/10.jpg",
+    "w": 1600,
+    "h": 449
+   },
+   {
+    "src": "img/epos-b2b-consultation/11.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/epos-b2b-consultation/12.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/epos-b2b-consultation/13.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/epos-b2b-consultation/14.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/epos-b2b-consultation/15.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/epos-b2b-consultation/16.jpg",
+    "w": 1600,
+    "h": 1029
    }
   ]
  },
  {
-  "slug": "searchlight",
-  "type": "web",
-  "title": "Searchlight Digital: SEO and Marketing Agency Website",
-  "desc": "Searchlight Digital is a client-first SEO and digital marketing agency helping Los Angeles businesses rank on Google, show up in AI search and win qualified leads. Every SEO agency promises page one, so Searchlight needed a site that feels premium from the first scroll and turns local business owners into audit requests. A spotlight idea throughout: dark sections lit by warm gold, a scrolling services ticker, image-led service cards and a clear four-step AI-driven growth framework. UI/UX design, 5 pages: Home, About, Services, Resource Center, Contact.",
+  "slug": "brand-identity-organics",
+  "type": "brand",
+  "title": "Brand Identity - organics",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
   "tags": [
-   "seo agency",
-   "digital marketing",
-   "agency website",
-   "marketing",
-   "web design",
-   "ui design",
-   "ux design",
-   "dark ui",
-   "los angeles",
-   "website"
-  ],
-  "cats": "UI/UX, Web Design",
-  "thumb": {
-   "src": "img/searchlight/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/searchlight/01_cover.jpg",
-    "w": 1600,
-    "h": 1042
-   },
-   {
-    "src": "img/searchlight/02_overview.jpg",
-    "w": 1600,
-    "h": 958
-   },
-   {
-    "src": "img/searchlight/03_hero_mockup.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/searchlight/04_design_system.jpg",
-    "w": 1600,
-    "h": 2067
-   },
-   {
-    "src": "img/searchlight/05_pages.jpg",
-    "w": 1600,
-    "h": 1708
-   },
-   {
-    "src": "img/searchlight/06_services_mockup.jpg",
-    "w": 1600,
-    "h": 1067
-   },
-   {
-    "src": "img/searchlight/07_home_sections.jpg",
-    "w": 1600,
-    "h": 1687
-   },
-   {
-    "src": "img/searchlight/08_about_mockup.jpg",
-    "w": 1600,
-    "h": 1067
-   },
-   {
-    "src": "img/searchlight/09_about_services.jpg",
-    "w": 1600,
-    "h": 2378
-   },
-   {
-    "src": "img/searchlight/10_resources_mockup.jpg",
-    "w": 1600,
-    "h": 1067
-   },
-   {
-    "src": "img/searchlight/11_contact.jpg",
-    "w": 1600,
-    "h": 1408
-   },
-   {
-    "src": "img/searchlight/12_thank_you.jpg",
-    "w": 1600,
-    "h": 696
-   }
-  ]
- },
- {
-  "slug": "spiceweb",
-  "type": "web",
-  "title": "SpiceWeb Media: Digital Agency Website",
-  "desc": "A website for SpiceWeb Media, a full-service digital agency for branding, websites, SEO and ads. Bold monochrome with one spice red, device mockups and a portfolio-led layout across 9 pages, including a client case study and a booking confirmation page.",
-  "tags": [
-   "web design",
-   "agency",
-   "ui design"
-  ],
-  "cats": "UI/UX, Web Design",
-  "thumb": {
-   "src": "img/spiceweb/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/spiceweb/01_cover.jpg",
-    "w": 1600,
-    "h": 1195
-   },
-   {
-    "src": "img/spiceweb/02_overview.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/spiceweb/03_laptop.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/spiceweb/04_design_system.jpg",
-    "w": 1600,
-    "h": 1250
-   },
-   {
-    "src": "img/spiceweb/05_home_page.jpg",
-    "w": 1600,
-    "h": 3516
-   },
-   {
-    "src": "img/spiceweb/06_ui_details.jpg",
-    "w": 1600,
-    "h": 1203
-   },
-   {
-    "src": "img/spiceweb/07_nine_pages.jpg",
-    "w": 1600,
-    "h": 1950
-   },
-   {
-    "src": "img/spiceweb/08_thank_you.jpg",
-    "w": 1600,
-    "h": 900
-   }
-  ]
- },
- {
-  "slug": "winder-stilhaus",
-  "type": "web",
-  "title": "Winder & Stilhaus: Kitchens and Interiors Studio Website",
-  "desc": "Winder & Stilhaus brings British joinery and German precision to kitchens, bathrooms and interiors. WS sells high-value rooms, so the site had to feel calm and crafted, explain a structured process and give homeowners a confident first step. Editorial serif headlines, a charcoal and stone palette lit by one ember accent, big interior photography and guide pricing shown openly. A nine-page studio site with mobile layouts, branded emails, a quote template and an A4 specification guide.",
-  "tags": [
-   "interior design",
-   "kitchens",
-   "home renovation",
-   "luxury",
-   "joinery",
-   "web design",
-   "ui design",
-   "ux design",
+   "brand identity",
    "branding",
-   "website"
+   "food and drink"
   ],
-  "cats": "UI/UX, Web Design",
   "thumb": {
-   "src": "img/winder-stilhaus/thumb.jpg",
+   "src": "img/brand-identity-organics/thumb.jpg",
    "w": 1200,
-   "h": 900
+   "h": 938
   },
   "images": [
    {
-    "src": "img/winder-stilhaus/01_cover.jpg",
+    "src": "img/brand-identity-organics/01.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1029
    },
    {
-    "src": "img/winder-stilhaus/02_overview.jpg",
+    "src": "img/brand-identity-organics/02.jpg",
     "w": 1600,
-    "h": 1042
+    "h": 1029
    },
    {
-    "src": "img/winder-stilhaus/03_kitchens_mockup.jpg",
+    "src": "img/brand-identity-organics/03.jpg",
     "w": 1600,
-    "h": 1067
+    "h": 1029
    },
    {
-    "src": "img/winder-stilhaus/04_design_system.jpg",
+    "src": "img/brand-identity-organics/04.jpg",
     "w": 1600,
-    "h": 1333
+    "h": 1029
    },
    {
-    "src": "img/winder-stilhaus/05_home_page.jpg",
+    "src": "img/brand-identity-organics/05.jpg",
     "w": 1600,
-    "h": 2452
+    "h": 1029
    },
    {
-    "src": "img/winder-stilhaus/06_nine_pages.jpg",
+    "src": "img/brand-identity-organics/06.jpg",
     "w": 1600,
-    "h": 2292
+    "h": 1029
    },
    {
-    "src": "img/winder-stilhaus/07_mobile.jpg",
+    "src": "img/brand-identity-organics/07.jpg",
     "w": 1600,
-    "h": 1093
+    "h": 1029
    },
    {
-    "src": "img/winder-stilhaus/08_brand_toolkit.jpg",
+    "src": "img/brand-identity-organics/08.jpg",
     "w": 1600,
-    "h": 1675
+    "h": 1029
    },
    {
-    "src": "img/winder-stilhaus/09_thank_you.jpg",
+    "src": "img/brand-identity-organics/09.jpg",
     "w": 1600,
-    "h": 900
+    "h": 1029
+   },
+   {
+    "src": "img/brand-identity-organics/10.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/brand-identity-organics/11.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/brand-identity-organics/12.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/brand-identity-organics/13.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/brand-identity-organics/14.jpg",
+    "w": 1600,
+    "h": 446
    }
   ]
  },
  {
-  "slug": "passion",
-  "type": "web",
-  "title": "Passion: Fine Jewellery eCommerce Website",
-  "desc": "Passion is a fine jewellery store built as a lookbook you can shop. Fine jewellery sells on feeling, but most stores flatten it into a plain product grid, so Passion needed a site that feels like a fashion editorial without hiding the products or the path to buy. Arched portraits, generous space and Marcellus headlines set the mood, while clear categories, product pages with metal and length options and a simple bag turn that mood into a purchase. UI/UX design: home, collections, product, bag and about pages.",
+  "slug": "brand-identity-branding-brand-guidelines",
+  "type": "brand",
+  "title": "Brand identity, branding, brand guidelines",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
   "tags": [
-   "jewellery",
-   "jewelry",
-   "ecommerce",
-   "online store",
-   "luxury",
-   "fashion",
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/brand-identity-branding-brand-guidelines/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/01.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/02.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/03.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/04.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/05.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/06.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/07.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/08.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/09.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/10.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/11.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/12.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/13.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-branding-brand-guidelines/14.jpg",
+    "w": 1600,
+    "h": 637
+   }
+  ]
+ },
+ {
+  "slug": "brand-identity-on-top",
+  "type": "brand",
+  "title": "Brand identity - ON TOP",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/brand-identity-on-top/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/brand-identity-on-top/01.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/02.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/03.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/04.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/05.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/06.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/07.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/08.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/09.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/10.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/11.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/12.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/13.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/14.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/15.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/brand-identity-on-top/16.jpg",
+    "w": 1600,
+    "h": 1055
+   }
+  ]
+ },
+ {
+  "slug": "pious-logo",
+  "type": "brand",
+  "title": "Pious Logo",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "logo design"
+  ],
+  "thumb": {
+   "src": "img/pious-logo/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/pious-logo/01.jpg",
+    "w": 1600,
+    "h": 3331
+   }
+  ]
+ },
+ {
+  "slug": "code-baustein-software-house-website",
+  "type": "web",
+  "title": "Code Baustein - Software House Website",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
    "web design",
-   "ui design",
-   "ux design",
-   "website"
-  ],
-  "cats": "UI/UX, Web Design",
-  "thumb": {
-   "src": "img/passion/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/passion/01_cover.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/passion/02_problem_solution.jpg",
-    "w": 1600,
-    "h": 958
-   },
-   {
-    "src": "img/passion/03_fonts_colours.jpg",
-    "w": 1600,
-    "h": 1075
-   },
-   {
-    "src": "img/passion/04_homepage.jpg",
-    "w": 1600,
-    "h": 2305
-   },
-   {
-    "src": "img/passion/05_two_moods.jpg",
-    "w": 1600,
-    "h": 991
-   },
-   {
-    "src": "img/passion/06_collections_mockup.jpg",
-    "w": 1600,
-    "h": 900
-   },
-   {
-    "src": "img/passion/07_key_pages.jpg",
-    "w": 1600,
-    "h": 2574
-   },
-   {
-    "src": "img/passion/08_thank_you.jpg",
-    "w": 1600,
-    "h": 583
-   }
-  ]
- },
- {
-  "slug": "greenstead",
-  "type": "web",
-  "title": "Greenstead: Smart Farming IoT Landing Page",
-  "desc": "Greenstead brings soil sensors, smart irrigation and crop monitoring together in one simple platform, so farmers can make better decisions and grow sustainably. Farm technology often feels cold and complicated, so the landing page leads with real fields, a clear promise and one next step: start a free trial. Deep green, a fresh lime accent and plain language keep it trustworthy and easy to follow. UI/UX design: landing page.",
-  "tags": [
-   "agriculture",
-   "agritech",
-   "iot",
-   "smart farming",
-   "landing page",
    "saas",
+   "website",
+   "tech"
+  ],
+  "thumb": {
+   "src": "img/code-baustein-software-house-website/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/code-baustein-software-house-website/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/code-baustein-software-house-website/02.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/code-baustein-software-house-website/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/code-baustein-software-house-website/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/code-baustein-software-house-website/05.jpg",
+    "w": 1600,
+    "h": 8494
+   }
+  ]
+ },
+ {
+  "slug": "gear-a-futuristic-tech-e-commerce-experience",
+  "type": "web",
+  "title": "Gear – A Futuristic Tech E-commerce Experience",
+  "desc": "A futuristic UI/UX design for the Gear Website, an e-commerce platform for innovative tech gadgets. The sleek, modern interface and intuitive shopping experience create a seamless and engaging digital store.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
    "web design",
-   "ui design",
-   "ux design",
+   "saas",
+   "ecommerce",
+   "website",
+   "tech"
+  ],
+  "thumb": {
+   "src": "img/gear-a-futuristic-tech-e-commerce-experience/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/gear-a-futuristic-tech-e-commerce-experience/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/gear-a-futuristic-tech-e-commerce-experience/02.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/gear-a-futuristic-tech-e-commerce-experience/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/gear-a-futuristic-tech-e-commerce-experience/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/gear-a-futuristic-tech-e-commerce-experience/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/gear-a-futuristic-tech-e-commerce-experience/06.jpg",
+    "w": 1440,
+    "h": 7307
+   }
+  ]
+ },
+ {
+  "slug": "siepay-crypto-payment-website",
+  "type": "web",
+  "title": "Siepay - Crypto Payment Website",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "crypto",
+   "fintech",
    "website"
   ],
+  "thumb": {
+   "src": "img/siepay-crypto-payment-website/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/siepay-crypto-payment-website/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/siepay-crypto-payment-website/02.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/siepay-crypto-payment-website/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/siepay-crypto-payment-website/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/siepay-crypto-payment-website/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/siepay-crypto-payment-website/06.jpg",
+    "w": 1440,
+    "h": 10631
+   }
+  ]
+ },
+ {
+  "slug": "cloud-care-mobile-app-design",
+  "type": "web",
+  "title": "Cloud Care - Mobile App design",
+  "desc": "",
   "cats": "UI/UX, Web Design",
-  "thumb": {
-   "src": "img/greenstead/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/greenstead/01_intro.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/greenstead/02_landing_page.jpg",
-    "w": 1600,
-    "h": 2153
-   },
-   {
-    "src": "img/greenstead/03_ui_details.jpg",
-    "w": 1600,
-    "h": 1167
-   },
-   {
-    "src": "img/greenstead/04_typography_colour.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/greenstead/05_laptop.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/greenstead/06_thank_you.jpg",
-    "w": 1600,
-    "h": 750
-   }
-  ]
- },
- {
-  "slug": "stratanova",
-  "type": "brand",
-  "title": "Stratanova Brand Identity",
-  "cats": "Branding, Brand Identity",
-  "desc": "",
   "tags": [
-   "brand identity",
-   "logo design",
-   "branding"
+   "ui/ux",
+   "web design",
+   "mobile app",
+   "wellness"
   ],
   "thumb": {
-   "src": "img/stratanova/thumb.jpg",
+   "src": "img/cloud-care-mobile-app-design/thumb.jpg",
    "w": 1200,
-   "h": 900
+   "h": 938
   },
   "images": [
    {
-    "src": "img/stratanova/v5_hero.jpg",
-    "w": 930,
-    "h": 1534
-   },
-   {
-    "src": "img/stratanova/v4_card.jpg",
-    "w": 1000,
-    "h": 1000
-   },
-   {
-    "src": "img/stratanova/v4_cup.jpg",
-    "w": 1080,
-    "h": 1080
-   },
-   {
-    "src": "img/stratanova/v4_deck.jpg",
+    "src": "img/cloud-care-mobile-app-design/01.jpg",
     "w": 1600,
-    "h": 900
-   },
-   {
-    "src": "img/stratanova/v4_tee.jpg",
-    "w": 1600,
-    "h": 1280
-   },
-   {
-    "src": "img/stratanova/v4_car.jpg",
-    "w": 1408,
-    "h": 794
-   }
-  ]
- },
- {
-  "slug": "cnmi-central",
-  "type": "brand",
-  "title": "CNMI Central Brand Identity",
-  "cats": "Branding, Brand Identity",
-  "desc": "",
-  "tags": [
-   "brand identity",
-   "logo design",
-   "branding"
-  ],
-  "thumb": {
-   "src": "img/cnmi-central/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/cnmi-central/A.jpg",
-    "w": 583,
-    "h": 1080
-   },
-   {
-    "src": "img/cnmi-central/B.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/cnmi-central/C.jpg",
-    "w": 665,
-    "h": 1080
-   },
-   {
-    "src": "img/cnmi-central/D.jpg",
-    "w": 1300,
-    "h": 640
-   },
-   {
-    "src": "img/cnmi-central/E.jpg",
-    "w": 1600,
-    "h": 788
-   }
-  ]
- },
- {
-  "slug": "universal-hr",
-  "type": "brand",
-  "title": "Universal HR Brand Identity",
-  "cats": "Branding, Brand Identity",
-  "desc": "",
-  "tags": [
-   "brand identity",
-   "logo design",
-   "branding"
-  ],
-  "thumb": {
-   "src": "img/universal-hr/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/universal-hr/A.jpg",
-    "w": 437,
-    "h": 972
-   },
-   {
-    "src": "img/universal-hr/B.jpg",
-    "w": 949,
-    "h": 593
-   },
-   {
-    "src": "img/universal-hr/C.jpg",
-    "w": 595,
-    "h": 842
-   },
-   {
-    "src": "img/universal-hr/D.jpg",
-    "w": 1330,
-    "h": 419
-   },
-   {
-    "src": "img/universal-hr/E.jpg",
-    "w": 698,
-    "h": 380
-   }
-  ]
- },
- {
-  "slug": "heavens-chefs",
-  "type": "brand",
-  "title": "Heaven's Chefs Brand Identity",
-  "cats": "Branding, Brand Identity",
-  "desc": "",
-  "tags": [
-   "brand identity",
-   "logo design",
-   "branding"
-  ],
-  "thumb": {
-   "src": "img/heavens-chefs/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/heavens-chefs/A.jpg",
-    "w": 800,
-    "h": 1000
-   },
-   {
-    "src": "img/heavens-chefs/B.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/heavens-chefs/C.jpg",
-    "w": 665,
-    "h": 1080
-   },
-   {
-    "src": "img/heavens-chefs/D.jpg",
-    "w": 1600,
-    "h": 514
-   },
-   {
-    "src": "img/heavens-chefs/E.jpg",
-    "w": 493,
-    "h": 479
-   }
-  ]
- },
- {
-  "slug": "noara-brand",
-  "type": "brand",
-  "title": "Noara Labs Brand Identity",
-  "cats": "Branding, Brand Identity",
-  "desc": "",
-  "tags": [
-   "brand identity",
-   "logo design",
-   "branding"
-  ],
-  "thumb": {
-   "src": "img/noara-brand/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/noara-brand/A.jpg",
-    "w": 648,
     "h": 1200
    },
    {
-    "src": "img/noara-brand/B.jpg",
+    "src": "img/cloud-care-mobile-app-design/02.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 1200
    },
    {
-    "src": "img/noara-brand/C.jpg",
-    "w": 744,
+    "src": "img/cloud-care-mobile-app-design/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/cloud-care-mobile-app-design/04.jpg",
+    "w": 1600,
     "h": 1200
    }
   ]
  },
  {
-  "slug": "winder-brand",
-  "type": "brand",
-  "title": "Winder & Stilhaus Brand Toolkit",
-  "cats": "Branding, Brand Identity",
-  "desc": "",
+  "slug": "gear-app-a-futuristic-shopping-experience",
+  "type": "web",
+  "title": "Gear App – A Futuristic Shopping Experience",
+  "desc": "A sleek and futuristic UI/UX design for Gear, an e-commerce mobile app tailored for premium audio products. The interface is dark-themed, highly interactive, and user-friendly, ensuring an immersive shopping experience.",
+  "cats": "UI/UX, Web Design",
   "tags": [
-   "brand identity",
-   "logo design",
-   "branding"
+   "ui/ux",
+   "web design",
+   "ecommerce",
+   "mobile app",
+   "luxury"
   ],
   "thumb": {
-   "src": "img/winder-brand/thumb.jpg",
+   "src": "img/gear-app-a-futuristic-shopping-experience/thumb.jpg",
    "w": 1200,
-   "h": 900
+   "h": 938
   },
   "images": [
    {
-    "src": "img/winder-brand/A.jpg",
-    "w": 691,
-    "h": 1280
-   },
-   {
-    "src": "img/winder-brand/B.jpg",
+    "src": "img/gear-app-a-futuristic-shopping-experience/01.jpg",
     "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/winder-brand/C.jpg",
-    "w": 550,
-    "h": 890
-   },
-   {
-    "src": "img/winder-brand/D.jpg",
-    "w": 1600,
-    "h": 787
-   },
-   {
-    "src": "img/winder-brand/E.jpg",
-    "w": 170,
-    "h": 170
-   }
-  ]
- },
- {
-  "slug": "spiceweb-brand",
-  "type": "brand",
-  "title": "SpiceWeb Media Brand Identity",
-  "cats": "Branding, Brand Identity",
-  "desc": "",
-  "tags": [
-   "brand identity",
-   "logo design",
-   "branding"
-  ],
-  "thumb": {
-   "src": "img/spiceweb-brand/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/spiceweb-brand/A.jpg",
-    "w": 670,
-    "h": 1230
-   },
-   {
-    "src": "img/spiceweb-brand/B.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/spiceweb-brand/C.jpg",
-    "w": 744,
     "h": 1200
    },
    {
-    "src": "img/spiceweb-brand/D.jpg",
+    "src": "img/gear-app-a-futuristic-shopping-experience/02.jpg",
     "w": 1600,
-    "h": 788
+    "h": 1200
    },
    {
-    "src": "img/spiceweb-brand/E.jpg",
-    "w": 300,
-    "h": 115
+    "src": "img/gear-app-a-futuristic-shopping-experience/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/gear-app-a-futuristic-shopping-experience/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/gear-app-a-futuristic-shopping-experience/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/gear-app-a-futuristic-shopping-experience/06.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/gear-app-a-futuristic-shopping-experience/07.jpg",
+    "w": 1600,
+    "h": 1200
    }
   ]
  },
  {
-  "slug": "cruise-command",
-  "type": "brand",
-  "title": "Cruise Command Brand Identity",
-  "cats": "Branding, Brand Identity",
-  "desc": "",
+  "slug": "luxae-a-seamless-home-decor-shopping",
+  "type": "web",
+  "title": "Luxae – A Seamless Home Décor Shopping",
+  "desc": "An elegantly designed mobile app for Luxae, a refined home décor brand. This UI/UX project focuses on a seamless shopping experience, intuitive navigation, and a visually immersive product discovery journey.",
+  "cats": "UI/UX, Web Design",
   "tags": [
-   "brand identity",
-   "logo design",
-   "branding"
+   "ui/ux",
+   "web design",
+   "ecommerce",
+   "mobile app",
+   "home decor"
   ],
   "thumb": {
-   "src": "img/cruise-command/thumb.jpg",
+   "src": "img/luxae-a-seamless-home-decor-shopping/thumb.jpg",
    "w": 1200,
-   "h": 900
+   "h": 938
   },
   "images": [
    {
-    "src": "img/cruise-command/A.jpg",
-    "w": 630,
-    "h": 1080
-   },
-   {
-    "src": "img/cruise-command/B.jpg",
+    "src": "img/luxae-a-seamless-home-decor-shopping/01.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 1200
    },
    {
-    "src": "img/cruise-command/C.jpg",
-    "w": 670,
-    "h": 1080
+    "src": "img/luxae-a-seamless-home-decor-shopping/02.jpg",
+    "w": 1600,
+    "h": 1200
    },
    {
-    "src": "img/cruise-command/D.jpg",
-    "w": 1100,
-    "h": 542
+    "src": "img/luxae-a-seamless-home-decor-shopping/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/luxae-a-seamless-home-decor-shopping/04.jpg",
+    "w": 1600,
+    "h": 1200
    }
   ]
  },
  {
-  "slug": "juna",
-  "type": "brand",
-  "title": "Juna Brand Identity",
-  "cats": "Branding, Brand Identity",
+  "slug": "luxae-home-decor-website",
+  "type": "web",
+  "title": "Luxae - Home Decor Website",
   "desc": "",
+  "cats": "UI/UX, Web Design",
   "tags": [
-   "brand identity",
-   "logo design",
-   "branding"
+   "ui/ux",
+   "web design",
+   "website",
+   "sustainability",
+   "home decor"
   ],
   "thumb": {
-   "src": "img/juna/thumb.jpg",
+   "src": "img/luxae-home-decor-website/thumb.jpg",
    "w": 1200,
-   "h": 900
+   "h": 939
   },
   "images": [
    {
-    "src": "img/juna/T.jpg",
+    "src": "img/luxae-home-decor-website/01.jpg",
     "w": 1600,
-    "h": 717
+    "h": 1200
    },
    {
-    "src": "img/juna/b1.jpg",
-    "w": 1296,
-    "h": 1080
+    "src": "img/luxae-home-decor-website/02.jpg",
+    "w": 1600,
+    "h": 1200
    },
    {
-    "src": "img/juna/b2.jpg",
-    "w": 1296,
-    "h": 1080
+    "src": "img/luxae-home-decor-website/03.jpg",
+    "w": 1600,
+    "h": 1200
    },
    {
-    "src": "img/juna/b3.jpg",
-    "w": 1296,
-    "h": 1080
+    "src": "img/luxae-home-decor-website/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/luxae-home-decor-website/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/luxae-home-decor-website/06.jpg",
+    "w": 1440,
+    "h": 3999
    }
   ]
  },
  {
-  "slug": "autonomy",
-  "type": "brand",
-  "title": "Autonomy Brand Identity",
-  "cats": "Branding, Brand Identity",
+  "slug": "passion-jewellery-brand-website",
+  "type": "web",
+  "title": "Passion - Jewellery Brand website",
   "desc": "",
+  "cats": "UI/UX, Web Design",
   "tags": [
-   "brand identity",
-   "logo design",
-   "branding"
+   "ui/ux",
+   "web design",
+   "website",
+   "luxury"
   ],
   "thumb": {
-   "src": "img/autonomy/thumb.jpg",
+   "src": "img/passion-jewellery-brand-website/thumb.jpg",
    "w": 1200,
-   "h": 900
+   "h": 938
   },
   "images": [
    {
-    "src": "img/autonomy/T.jpg",
+    "src": "img/passion-jewellery-brand-website/01.jpg",
     "w": 1600,
-    "h": 586
+    "h": 1200
    },
    {
-    "src": "img/autonomy/b1.jpg",
-    "w": 1160,
-    "h": 983
+    "src": "img/passion-jewellery-brand-website/02.jpg",
+    "w": 1600,
+    "h": 1200
    },
    {
-    "src": "img/autonomy/b2.jpg",
-    "w": 800,
-    "h": 680
+    "src": "img/passion-jewellery-brand-website/03.jpg",
+    "w": 1600,
+    "h": 1200
    },
    {
-    "src": "img/autonomy/b3.jpg",
-    "w": 900,
-    "h": 760
+    "src": "img/passion-jewellery-brand-website/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/passion-jewellery-brand-website/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/passion-jewellery-brand-website/06.jpg",
+    "w": 1440,
+    "h": 7466
+   }
+  ]
+ },
+ {
+  "slug": "genuine-connection-landing-page",
+  "type": "web",
+  "title": "Genuine Connection Landing Page",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/genuine-connection-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/genuine-connection-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/genuine-connection-landing-page/02.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/genuine-connection-landing-page/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/genuine-connection-landing-page/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/genuine-connection-landing-page/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/genuine-connection-landing-page/06.jpg",
+    "w": 1440,
+    "h": 5470
+   }
+  ]
+ },
+ {
+  "slug": "future-bit-crypto-trading-website",
+  "type": "web",
+  "title": "Future Bit - Crypto Trading website",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "crypto",
+   "website"
+  ],
+  "thumb": {
+   "src": "img/future-bit-crypto-trading-website/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/future-bit-crypto-trading-website/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/future-bit-crypto-trading-website/02.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/future-bit-crypto-trading-website/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/future-bit-crypto-trading-website/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/future-bit-crypto-trading-website/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/future-bit-crypto-trading-website/06.jpg",
+    "w": 1440,
+    "h": 7729
+   }
+  ]
+ },
+ {
+  "slug": "wealth-coach-crypto-learning-website",
+  "type": "web",
+  "title": "Wealth Coach - Crypto Learning Website",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "crypto",
+   "fintech",
+   "website"
+  ],
+  "thumb": {
+   "src": "img/wealth-coach-crypto-learning-website/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/wealth-coach-crypto-learning-website/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-website/02.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-website/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-website/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-website/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-website/06.jpg",
+    "w": 1440,
+    "h": 6810
+   }
+  ]
+ },
+ {
+  "slug": "solstech-software-house-website",
+  "type": "web",
+  "title": "Solstech - Software house website",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "saas",
+   "website",
+   "tech"
+  ],
+  "thumb": {
+   "src": "img/solstech-software-house-website/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/solstech-software-house-website/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/solstech-software-house-website/02.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/solstech-software-house-website/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/solstech-software-house-website/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/solstech-software-house-website/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/solstech-software-house-website/06.jpg",
+    "w": 1440,
+    "h": 7289
+   }
+  ]
+ },
+ {
+  "slug": "workstream-saas-website-design",
+  "type": "web",
+  "title": "Workstream - Saas Website design",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "saas",
+   "website"
+  ],
+  "thumb": {
+   "src": "img/workstream-saas-website-design/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/workstream-saas-website-design/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/workstream-saas-website-design/02.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/workstream-saas-website-design/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/workstream-saas-website-design/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/workstream-saas-website-design/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/workstream-saas-website-design/06.jpg",
+    "w": 1440,
+    "h": 5051
+   }
+  ]
+ },
+ {
+  "slug": "website-design-cryptocurrency-web3-crypto-nft",
+  "type": "web",
+  "title": "Website Design - Cryptocurrency, Web3, Crypto, NFT",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "crypto",
+   "website"
+  ],
+  "thumb": {
+   "src": "img/website-design-cryptocurrency-web3-crypto-nft/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/website-design-cryptocurrency-web3-crypto-nft/01.jpg",
+    "w": 1600,
+    "h": 1069
+   },
+   {
+    "src": "img/website-design-cryptocurrency-web3-crypto-nft/02.jpg",
+    "w": 1600,
+    "h": 15136
+   }
+  ]
+ },
+ {
+  "slug": "lavender-organizes-website-design",
+  "type": "web",
+  "title": "Lavender Organizes Website Design",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website"
+  ],
+  "thumb": {
+   "src": "img/lavender-organizes-website-design/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/lavender-organizes-website-design/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/lavender-organizes-website-design/02.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/lavender-organizes-website-design/03.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/lavender-organizes-website-design/04.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/lavender-organizes-website-design/05.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/lavender-organizes-website-design/06.jpg",
+    "w": 1016,
+    "h": 10281
+   }
+  ]
+ },
+ {
+  "slug": "dappomatics-website-ui-ux-landing-page",
+  "type": "web",
+  "title": "Dappomatics Website, UI-UX, Landing page",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "mobile app",
+   "landing page",
+   "website"
+  ],
+  "thumb": {
+   "src": "img/dappomatics-website-ui-ux-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/dappomatics-website-ui-ux-landing-page/01.jpg",
+    "w": 1600,
+    "h": 11931
    }
   ]
  }

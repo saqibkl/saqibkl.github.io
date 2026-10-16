@@ -9,12 +9,18 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="nav">
   <div class="wrap">
     <a class="back" href="./#work">← All work</a>
+    <form class="nav-search" action="./" method="get" role="search">
+      <label class="sr" for="q">Search work</label>
+      <input id="q" name="q" type="search" placeholder="Search work: SaaS, logo, ecommerce" autocomplete="off" spellcheck="false">
+      <button class="go" type="submit" aria-label="Search"><i class="ph ph-magnifying-glass" aria-hidden="true"></i></button>
+    </form>
     <nav class="nav-links" aria-label="Main">
       <a class="btn primary sm" href="https://www.upwork.com/freelancers/saqibkl" target="_blank" rel="noopener">Get in touch</a>
     </nav>
@@ -26,6 +32,7 @@
 <footer class="wrap">© 2026 Saqib Kamal</footer>
 
 <script src="data.js"></script>
+<script src="cases.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

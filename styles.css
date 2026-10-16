@@ -27,7 +27,18 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 /* Nav */
 .nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: rgb(250 250 250 / .86);
   backdrop-filter: saturate(160%) blur(14px); -webkit-backdrop-filter: saturate(160%) blur(14px); }
-.nav .wrap { height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.nav .wrap { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+/* Dribbble-style search: wide grey pill in the middle of the bar, round button on the right */
+.nav-search { flex: 1 1 auto; max-width: 560px; position: relative; display: flex; align-items: center; }
+.nav-search input { width: 100%; height: 48px; padding: 0 60px 0 22px; border-radius: 999px; border: 1px solid transparent; background: #f0f1f3;
+  font: 400 15px/1 var(--sans); color: var(--ink); transition: background-color .2s, border-color .2s, box-shadow .2s; }
+.nav-search input::placeholder { color: #80838b; }
+.nav-search input:focus { outline: none; background: var(--surface); border-color: #d6d8dc; box-shadow: 0 0 0 4px rgb(23 24 28 / .06); }
+.nav-search input::-webkit-search-cancel-button { cursor: pointer; }
+.nav-search .go { position: absolute; right: 5px; width: 38px; height: 38px; border-radius: 50%; border: 0; background: var(--ink); color: #fff;
+  display: grid; place-items: center; font-size: 18px; cursor: pointer; transition: transform .2s var(--ease), background-color .2s; }
+.nav-search .go:hover { background: #2a2c32; }
+.nav-search .go:active { transform: scale(.94); }
 .brand { font-weight: 600; letter-spacing: -.01em; font-size: 17px; }
 .nav-links { display: flex; gap: 6px; align-items: center; }
 .nav-links a { padding: 8px 14px; border-radius: 999px; color: var(--muted); font-size: 15px; transition: color .2s, background-color .2s; }
@@ -58,7 +69,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .btn.sm { height: 38px; padding: 0 16px; font-size: 14px; }
 
 /* Text tabs over a hairline, like a profile page */
-.tabs { display: flex; gap: 28px; margin: 56px 0 28px; border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 56px 0 28px; border-bottom: 1px solid var(--line); }
+.tabs { display: flex; gap: 28px; overflow-x: auto; scrollbar-width: none; min-width: 0; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .tab { position: relative; height: 48px; padding: 0; border: 0; background: none; color: var(--muted); font: 500 15px/1 var(--sans); cursor: pointer; white-space: nowrap; transition: color .2s; }
 .tab:hover { color: var(--ink); }
 .tab[aria-pressed="true"] { color: var(--ink); }
@@ -105,19 +118,45 @@ footer { padding: 64px 0 40px; color: #9a9ca3; font-size: 14px; }
 .case-head h1 { margin: 0; font-size: clamp(30px, 4.2vw, 52px); line-height: 1.06; letter-spacing: -.03em; font-weight: 600; text-wrap: balance; }
 .case-head .sub { margin: 12px 0 0; font-size: clamp(17px, 1.6vw, 20px); color: var(--muted); text-wrap: balance; }
 .case-head .desc { margin: 24px 0 0; max-width: 65ch; }
-.stack { max-width: 1200px; margin: 0 auto; display: grid; gap: 16px; }
+.stack { max-width: 1200px; margin: 0 auto; display: grid; gap: 16px; min-width: 0; }
+.stack .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.study { display: grid; gap: 24px; margin-top: 28px; max-width: 65ch; }
+.study h2 { margin: 0 0 6px; font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--ink); }
+.study p { margin: 0; color: #3d4048; }
+.study ul { margin: 0; padding-left: 18px; color: #3d4048; display: grid; gap: 2px; }
+/* side: case study pinned left while images scroll */
+.case.side { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 56px; align-items: start; margin-top: 40px; }
+.case.side .case-head { position: sticky; top: 96px; margin: 0; }
+.case.side .case-head h1 { font-size: clamp(28px, 2.8vw, 40px); }
+/* editorial: cover first, then three columns of text */
+.case.editorial { margin-top: 32px; display: grid; gap: 40px; }
+.case-head.wide { margin: 0 auto; width: 100%; max-width: 1200px; }
+.study.cols { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 1200px; margin: 0 auto; width: 100%; gap: 40px; padding-top: 28px; border-top: 1px solid var(--line); }
+@media (max-width: 900px) {
+  .case.side { grid-template-columns: 1fr; gap: 28px; }
+  .case.side .case-head { position: static; }
+  .study.cols { grid-template-columns: 1fr; gap: 24px; }
+  .stack .pair { grid-template-columns: 1fr; }
+}
 .stack img { width: 100%; border-radius: var(--radius); background: #e9ebee; }
 .tags { max-width: 1000px; margin: 40px auto 0; display: flex; flex-wrap: wrap; gap: 8px; }
-.tags span { padding: 6px 12px; border-radius: 999px; background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); font-size: 13px; color: var(--muted); }
+.tags a { padding: 6px 12px; border-radius: 999px; background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); font-size: 13px; color: var(--muted); transition: color .2s, box-shadow .2s; }
+.tags a:hover { color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
 .pager { max-width: 1200px; margin: 64px auto 0; display: flex; justify-content: space-between; gap: 16px; }
 .more { margin-top: 96px; }
 .more h2 { font-size: 22px; letter-spacing: -.02em; margin: 0 0 24px; font-weight: 600; }
-.empty { color: var(--muted); padding: 80px 0; text-align: center; }
+.empty { color: var(--muted); padding: 80px 0; text-align: center; grid-column: 1 / -1; display: grid; justify-items: center; gap: 16px; }
+.empty p { margin: 0; }
 
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; gap: 32px; padding-top: 24px; }
 }
 @media (max-width: 767px) {
+  .nav .wrap { flex-wrap: wrap; row-gap: 10px; padding-block: 10px; }
+  .nav-search { order: 3; flex: 1 1 100%; max-width: none; }
+  .nav-search input { height: 44px; }
+  .bar { flex-wrap: wrap; border-bottom: 0; }
+  .tabs { width: 100%; border-bottom: 1px solid var(--line); }
   .about { grid-template-columns: 1fr; margin-top: 80px; }
   .nav-links a.hide-sm { display: none; }
   .grid { gap: 32px; }
