@@ -185,14 +185,14 @@ footer { padding: 64px 0 40px; color: #9a9ca3; font-size: 14px; }
 .sp-text p { margin: 0 0 1em; }
 .sp-text p:first-child { font-size: 21px; line-height: 1.5; color: var(--ink); font-weight: 500; letter-spacing: -.01em; }
 .sp-text p:last-child { margin: 0; }
-.cta { margin-top: 88px; padding: clamp(28px, 4vw, 52px); border-radius: 20px; background: var(--accent); color: #fff;
+.cta { margin-top: 88px; padding: clamp(28px, 4vw, 52px); border-radius: 20px; background: var(--ink); color: #fff;
   display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
 .cta .kicker { margin: 0 0 14px; font-size: 13px; color: rgb(255 255 255 / .8); display: flex; align-items: center; gap: 8px; }
 .cta .kicker::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #7cf0a8; box-shadow: 0 0 0 4px rgb(124 240 168 / .25); }
 .cta h2 { margin: 0; font-size: clamp(26px, 3vw, 40px); line-height: 1.1; letter-spacing: -.03em; font-weight: 600; max-width: 16ch; }
 .cta h2 span { color: rgb(255 255 255 / .6); }
 .btn.light { background: #fff; color: var(--ink); border-color: #fff; }
-.btn.light:hover { background: #eef0ff; }
+.btn.light:hover { background: #e9eaee; }
 .sp-profile { margin-top: 96px; border-top: 1px solid var(--line); text-align: center; }
 .sp-profile img { display: block; width: 80px; height: 80px; margin: -40px auto 14px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 6px var(--page, var(--bg)); }
 .sp-profile h2 { margin: 0; font-size: 20px; font-weight: 600; letter-spacing: -.01em; }
