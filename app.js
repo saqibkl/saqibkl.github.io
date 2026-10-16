@@ -50,13 +50,19 @@ if (grid) {
   const hashFilter = { "#ui-ux": "web", "#branding": "brand" };
 
   const q = document.getElementById("q");
-  // Everything a client might type: title, description, Behance tags, categories and the project type.
-  const hay = p => [p.title, p.desc, p.cats, p.tags.join(" "), p.type === "web" ? "website web design" : "branding brand identity logo"].join(" ").toLowerCase();
+  // Search looks at titles and tags only (descriptions are full of words like "approach" / "applications"),
+  // matching whole words, plurals and a few synonyms, so "app" finds apps and nothing else.
+  const words = p => [p.title, p.tags.join(" "), p.type === "web" ? "ui/ux ui ux" : "branding brand identity logo"].join(" ")
+    .toLowerCase().replace(/e-commerce/g, "ecommerce").split(/[^a-z0-9/]+/).flatMap(w => w.includes("/") ? [w, ...w.split("/")] : [w]).filter(Boolean);
+  const SYN = { website: ["web", "landing"], websites: ["web", "landing"], site: ["web", "landing", "website"], ecommerce: ["shopping", "store"],
+    shop: ["ecommerce", "store"], store: ["ecommerce", "shop"], brand: ["branding"], logos: ["logo", "wordmark"], application: ["app"], applications: ["app"] };
+  const hit = (term, ws) => [term, ...(SYN[term] || [])].some(t => ws.some(w => w === t || w === t + "s" || t === w + "s" || (t.length >= 4 && w.startsWith(t))));
+  const W = new Map(P.map(p => [p, words(p)]));
   let filter = hashFilter[location.hash] || "all";
 
   function show(animate) {
-    const terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
-    const list = P.filter(p => (filter === "all" || p.type === filter) && terms.every(t => hay(p).includes(t)));
+    const terms = q.value.toLowerCase().replace(/e-commerce/g, "ecommerce").split(/\s+/).filter(Boolean);
+    const list = P.filter(p => (filter === "all" || p.type === filter) && terms.every(t => hit(t, W.get(p))));
     const render = () => {
       grid.innerHTML = list.length ? list.map(shot).join("")
         : `<div class="empty"><p>No projects match "${esc(q.value)}".</p><button class="btn" type="button" id="clear">Show all work</button></div>`;

@@ -51,7 +51,7 @@ window.CASES = {
    "ai",
    "productivity",
    "logo design",
-   "app branding"
+   "ui direction"
   ],
   "about": [
    "Taskera is an AI productivity platform that helps people and teams hand off repetitive work and focus on what matters.",
@@ -192,7 +192,7 @@ window.CASES = {
    "marketing agency",
    "consulting",
    "logo design",
-   "app icon"
+   "icon design"
   ],
   "about": [
    "Alvi Consulting is a digital marketing agency.",
@@ -304,7 +304,7 @@ window.CASES = {
    "jewellery",
    "luxury",
    "logo design",
-   "ecommerce"
+   "campaigns"
   ],
   "about": [
    "Passion is a fine jewellery brand.",
@@ -330,7 +330,7 @@ window.CASES = {
   "tags": [
    "brand identity",
    "home decor",
-   "ecommerce",
+   "stationery",
    "logo design",
    "packaging"
   ],
@@ -360,7 +360,7 @@ window.CASES = {
    "vr",
    "tech",
    "logo design",
-   "app icon"
+   "icon design"
   ],
   "about": [
    "Norva is a VR and AR company.",
@@ -496,7 +496,8 @@ window.CASES = {
    "web design",
    "ecommerce",
    "tech",
-   "online store"
+   "online store",
+   "website"
   ],
   "about": [
    "We designed an online store for Gear, a brand selling futuristic tech gadgets. Sleek and modern, it makes browsing and buying easy."
@@ -509,7 +510,8 @@ window.CASES = {
    "web design",
    "crypto",
    "fintech",
-   "landing page"
+   "landing page",
+   "website"
   ],
   "about": [
    "We designed a website for Siepay, a crypto payment platform for recurring payments. It makes a complex product feel simple and trustworthy."
@@ -577,7 +579,8 @@ window.CASES = {
    "web design",
    "ecommerce",
    "jewellery",
-   "luxury"
+   "luxury",
+   "website"
   ],
   "about": [
    "We designed an elegant website for Passion, a fine jewellery brand, to show off its collections."
@@ -590,7 +593,8 @@ window.CASES = {
    "landing page",
    "dating",
    "web design",
-   "conversion"
+   "conversion",
+   "website"
   ],
   "about": [
    "We designed a landing page for Genuine Connection, a matchmaking service built on real connections and referrals."
@@ -603,7 +607,8 @@ window.CASES = {
    "web design",
    "crypto",
    "trading",
-   "fintech"
+   "fintech",
+   "website"
   ],
   "about": [
    "We designed a website for Future Bit, a crypto trading challenge with rewards and a live leaderboard."
@@ -616,7 +621,8 @@ window.CASES = {
    "web design",
    "crypto",
    "education",
-   "fintech"
+   "fintech",
+   "website"
   ],
   "about": [
    "We designed a website for Wealth Coach, which teaches people about crypto and building wealth online."
@@ -628,7 +634,7 @@ window.CASES = {
    "ui/ux",
    "web design",
    "software house",
-   "mobile apps",
+   "website",
    "tech"
   ],
   "about": [
@@ -642,7 +648,8 @@ window.CASES = {
    "web design",
    "saas",
    "ai",
-   "data"
+   "data",
+   "website"
   ],
   "about": [
    "We designed a SaaS website for WorkStreams, an AI data assistant that turns plain questions into answers and charts."
@@ -655,7 +662,8 @@ window.CASES = {
    "landing page",
    "web3",
    "crypto",
-   "nft"
+   "nft",
+   "website"
   ],
   "about": [
    "We designed a landing page for TenUp, a platform for Web3 apps."
@@ -681,7 +689,8 @@ window.CASES = {
    "landing page",
    "nft",
    "web3",
-   "web design"
+   "web design",
+   "website"
   ],
   "about": [
    "We designed a landing page for Dappomatics, an NFT marketplace."

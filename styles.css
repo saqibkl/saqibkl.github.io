@@ -84,7 +84,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-o
 .tab span { color: #9a9ca3; margin-left: 6px; font-variant-numeric: tabular-nums; }
 
 /* Shot grid: big 4:3 tiles, tight gutters, title only on hover */
-.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 1.6vw, 28px); }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(20px, 2.5vw, 48px);  /* Dribbble: 48px at 1920 */ }
 @media (max-width: 1100px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
 .shot { display: block; min-width: 0; border-radius: 12px; }
@@ -209,6 +209,11 @@ footer { padding: 64px 0 40px; color: #9a9ca3; font-size: 14px; }
 .sheet-panel { --page: var(--surface); position: absolute; top: 40px; left: 0; right: 0; bottom: 0; overflow: hidden; background: var(--surface);
   border-radius: 24px 24px 0 0; box-shadow: 0 -20px 60px -20px rgb(0 0 0 / .4); transform: translateY(100%); transition: transform .6s var(--ease); }
 .sheet-scroll { height: 100%; overflow-y: auto; overscroll-behavior: contain; padding: 0 clamp(16px, 4vw, 56px); scrollbar-gutter: stable; }
+/* slim scrollbar that starts below the rounded corner, clear of the close button */
+.sheet-scroll::-webkit-scrollbar { width: 12px; }
+.sheet-scroll::-webkit-scrollbar-track { background: transparent; margin-top: 72px; }
+.sheet-scroll::-webkit-scrollbar-thumb { background: rgb(23 24 28 / .22); border-radius: 99px; border: 4px solid transparent; background-clip: padding-box; }
+.sheet-scroll::-webkit-scrollbar-thumb:hover { background-color: rgb(23 24 28 / .4); }
 .sheet.on .sheet-backdrop { opacity: 1; }
 .sheet.on .sheet-panel { transform: none; }
 .sheet-close { position: absolute; top: 16px; right: 20px; z-index: 2; width: 44px; height: 44px; border: 0; border-radius: 50%;
