@@ -34,9 +34,14 @@ function reveal(root) {
 /* ---------- index ---------- */
 const grid = document.getElementById("grid");
 if (grid) {
-  // Header collage: a small bento of real shots, like a Dribbble Pro profile.
-  const pick = [0, 13, 4, 15, 8].map(k => P[k]).filter(Boolean);
-  document.getElementById("collage").innerHTML = pick.map((p, k) => `<a class="c c${k}" href="project.html#${p.slug}" tabindex="-1">${img(p.thumb, "", true)}</a>`).join("");
+  // Header bento: each tile is one brand's logo on its own solid colour (crops from build_hero.py), never a cropped mockup.
+  const hero = [
+    ["nearside", "#0a0b33"], ["pro", "#3b2332"], ["qore", "#ffffff"], ["bound", "#23322f"], ["gear", "#151e25"],
+  ];
+  document.getElementById("collage").innerHTML = hero.map(([key, bg], k) => {
+    const p = P.find(p => p.slug.startsWith(key + "-"));
+    return `<a class="c c${k}" href="project.html#${p.slug}" tabindex="-1" style="--bg:${bg}" aria-label="${esc(p.title)}"><img src="img/hero/${key}.jpg" alt="" decoding="async"></a>`;
+  }).join("");
 
   const tabs = [...document.querySelectorAll(".tab")];
   tabs.forEach(t => {
@@ -73,70 +78,129 @@ if (grid) {
   q.form.addEventListener("submit", e => { e.preventDefault(); sync(); show(true); document.getElementById("work").scrollIntoView({ behavior: reduce ? "auto" : "smooth" }); });
   q.value = new URLSearchParams(location.search).get("q") || "";
   show(false);
-  if (q.value) document.getElementById("work").scrollIntoView();
+  addEventListener("hashchange", () => { if (hashFilter[location.hash]) { filter = hashFilter[location.hash]; show(true); } });
+  // Remember tab, search and scroll spot so "Back" on a project page returns exactly here.
+  document.addEventListener("click", e => {
+    if (e.target.closest("a.shot, .collage a")) try { sessionStorage.setItem("from", JSON.stringify({ url: location.pathname + location.search + location.hash, y: scrollY })); } catch {}
+  });
+  let backY = null;
+  try { backY = sessionStorage.getItem("backY"); sessionStorage.removeItem("backY"); } catch {}
+  if (backY !== null) scrollTo({ top: +backY, behavior: "instant" });  // instant: CSS smooth scroll would get cut short on load
+  else if (q.value) document.getElementById("work").scrollIntoView();
 }
 
-/* ---------- project page ---------- */
+/* ---------- case study (shared by the pop-up sheet on index.html and the standalone project.html) ---------- */
+const UPWORK = "https://www.upwork.com/freelancers/saqibkl", BEHANCE = "https://www.behance.net/saqibkamal2";
+const out = (href, label, cls) => `<a class="btn ${cls}" href="${href}" target="_blank" rel="noopener">${label}</a>`;
+function caseHTML(i) {
+  const p = P[i], c = (window.CASES || {})[p.slug] || {};
+  const prev = P[(i - 1 + P.length) % P.length], next = P[(i + 1) % P.length];
+  const more = [1, 2, 3].map(k => P[(i + k) % P.length]);
+  const about = (c.about || [p.desc].filter(Boolean)).map(t => `<p>${esc(t)}</p>`).join("");
+  return `
+  <article class="shot-page">
+    <header class="sp-head">
+      <h1>${esc(name(p.title))}${sub(p.title) ? ` <span>${esc(sub(p.title))}</span>` : ""}</h1>
+      <div class="sp-by">
+        <img src="img/avatar.jpg" width="48" height="48" alt="">
+        <div><b>Saqib Kamal</b><small>${kind(p)} · ${esc(p.tags.slice(1, 3).join(", "))}</small></div>
+        ${out(UPWORK, "Get in touch", "primary sm")}
+      </div>
+    </header>
+    <div class="sp-media">${img(p.thumb, p.title, true)}</div>
+    ${about ? `<div class="sp-text">${about}</div>` : ""}
+    <div class="sp-media">${p.images.map((im, k) => img(im, `${name(p.title)}, image ${k + 1}`, false)).join("")}</div>
+    <div class="case-foot">
+      <div class="tags"><span class="label">Tags</span>${p.tags.map(t => `<a href="./?q=${encodeURIComponent(t)}#work">${esc(t)}</a>`).join("")}</div>
+      <nav class="pager" aria-label="More projects">
+        ${[[prev, "Previous project", "prev"], [next, "Next project", "next"]].map(([q, label, cls]) => `
+        <a class="pg ${cls}" href="project.html#${q.slug}">
+          <span class="pg-img">${img(q.thumb, "", false)}</span>
+          <span class="pg-text"><small>${label}</small><b>${esc(name(q.title))}</b></span>
+          <i class="ph ph-arrow-${cls === "prev" ? "left" : "right"}" aria-hidden="true"></i>
+        </a>`).join("")}
+      </nav>
+    </div>
+    <section class="cta">
+      <div><p class="kicker">Available for new projects</p><h2>Have a project in mind? <span>Let's make it together.</span></h2></div>
+      ${out(UPWORK, "Get in touch", "light")}
+    </section>
+    <section class="sp-profile">
+      <img src="img/avatar.jpg" width="80" height="80" alt="">
+      <h2>Saqib Kamal</h2><p>Brand identity and website designer</p>
+      <div class="actions">${out(UPWORK, "Get in touch", "primary")}${out(BEHANCE, "Behance", "")}</div>
+    </section>
+    <section class="more"><div class="more-head"><h2>More by Saqib Kamal</h2><a href="./#work">View all work →</a></div><div class="grid">${more.map(shot).join("")}</div></section>
+  </article>`;
+}
+const caseMeta = p => {
+  document.title = `${name(p.title)} | Saqib Kamal`;
+  document.querySelector('meta[name="description"]').content = (window.CASES?.[p.slug]?.about || [])[0] || p.desc || p.title;
+};
+
+/* pop-up sheet on the home page: slides up over the dimmed grid, X / Esc / backdrop / Back closes it, grid keeps its place */
+const sheet = document.getElementById("sheet");
+if (sheet) {
+  const body = sheet.querySelector(".sheet-body"), homeTitle = document.title;
+  const open = slug => {
+    const i = P.findIndex(p => p.slug === slug);
+    if (i < 0) return close();
+    // same document as the grid: drop morph names so they never clash with the grid's
+    body.innerHTML = caseHTML(i).replace(/ style="view-transition-name:[^"]*"/g, "");
+    caseMeta(P[i]);
+    reveal(body);
+    sheet.scrollTop = 0;
+    if (sheet.hidden) {
+      sheet.hidden = false;
+      document.documentElement.classList.add("sheet-open");
+      sheet.offsetHeight;  // commit the hidden state so the slide-up runs
+      sheet.classList.add("on");
+      sheet.querySelector(".sheet-close").focus({ preventScroll: true });
+    }
+  };
+  const close = () => {
+    if (sheet.hidden) return;
+    sheet.classList.remove("on");
+    document.documentElement.classList.remove("sheet-open");
+    document.title = homeTitle;
+    setTimeout(() => { sheet.hidden = true; body.innerHTML = ""; }, reduce ? 0 : 450);
+  };
+  // leave every project opened in this sheet in one go, back to the exact grid entry
+  const dismiss = () => history.state?.depth ? history.go(-history.state.depth) : close();
+  document.addEventListener("click", e => {
+    const a = e.target.closest("a.shot, .collage a, .sheet a.pg");
+    if (!a || e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;
+    e.preventDefault();
+    const slug = a.getAttribute("href").split("#")[1];
+    history.pushState({ sheet: slug, depth: (history.state?.depth || 0) + 1 }, "", "project.html#" + slug);
+    open(slug);
+  });
+  addEventListener("popstate", e => e.state?.sheet ? open(e.state.sheet) : close());
+  sheet.querySelector(".sheet-close").addEventListener("click", dismiss);
+  sheet.addEventListener("click", e => { if (e.target === sheet || e.target.classList.contains("sheet-backdrop")) dismiss(); });
+  addEventListener("keydown", e => { if (e.key === "Escape" && !sheet.hidden) dismiss(); });
+}
+
+/* standalone project page (direct links, new tabs, reloads) */
 const caseEl = document.getElementById("case");
 if (caseEl) {
-  function render() {
-    const i = Math.max(0, P.findIndex(p => p.slug === location.hash.slice(1)));
-    const p = P[i];
-    const prev = P[(i - 1 + P.length) % P.length], next = P[(i + 1) % P.length];
-    const more = [1, 2, 3].map(k => P[(i + k) % P.length]);
-    document.title = `${name(p.title)} | Saqib Kamal`;
-    document.querySelector('meta[name="description"]').content = (window.CASES?.[p.slug]?.brief) || p.desc || p.title;
-    const c = (window.CASES || {})[p.slug];
-    const study = c ? `
-        <div class="study">
-          <div><h2>The brief</h2><p>${esc(c.brief)}</p></div>
-          <div><h2>The approach</h2><p>${esc(c.approach)}</p></div>
-          <div><h2>What I delivered</h2><ul>${c.deliver.map(d => `<li>${esc(d)}</li>`).join("")}</ul></div>
-        </div>` : (p.desc ? `<p class="desc">${esc(p.desc)}</p>` : "");
-    const head = `
-        <p class="cats">${esc(p.cats)}</p>
-        <h1>${esc(name(p.title))}</h1>
-        ${sub(p.title) ? `<p class="sub">${esc(sub(p.title))}</p>` : ""}`;
-    const cover = img(p.thumb, p.title, true, "shot-" + p.slug);
-    const pics = p.images.map((im, k) => img(im, `${name(p.title)}, image ${k + 1}`, k < 1));
-    // Three layouts, rotated so neighbouring projects never look the same.
-    const layout = ["stacked", "side", "editorial"][i % 3];
-    let body;
-    if (layout === "side") {
-      body = `<div class="case side"><aside class="case-head">${head}${study}</aside><div class="stack">${cover}${pics.join("")}</div></div>`;
-    } else if (layout === "editorial") {
-      // pair up landscape-ish images two by two, keep tall ones full width
-      const rows = []; let pair = [];
-      p.images.forEach((im, k) => {
-        if (im.h / im.w < 0.9) { pair.push(pics[k]); if (pair.length === 2) { rows.push(`<div class="pair">${pair.join("")}</div>`); pair = []; } }
-        else { if (pair.length) { rows.push(pair.join("")); pair = []; } rows.push(pics[k]); }
-      });
-      if (pair.length) rows.push(pair.join(""));
-      body = `<div class="case editorial"><div class="stack">${cover}</div><header class="case-head wide">${head}</header>${study.replace('class="study"', 'class="study cols"')}<div class="stack">${rows.join("")}</div></div>`;
-    } else {
-      body = `<div class="case stacked"><header class="case-head">${head}${study}</header><div class="stack">${cover}${pics.join("")}</div></div>`;
+  // "Back" returns to the tab/search/scroll the visitor came from, and says where it goes.
+  try {
+    const from = JSON.parse(sessionStorage.getItem("from"));
+    if (from) {
+      const back = document.querySelector(".back"), u = new URL(from.url, location.href), term = u.searchParams.get("q");
+      back.href = from.url;
+      back.textContent = "← " + (term ? `Results for "${term}"` : u.hash === "#ui-ux" ? "UI/UX work" : u.hash === "#branding" ? "Branding work" : "All work");
+      back.addEventListener("click", () => { try { sessionStorage.setItem("backY", from.y); } catch {} });
     }
-    caseEl.innerHTML = `
-      ${body}
-      <div class="case-foot">
-        <div class="tags"><span class="label">Tags</span>${p.tags.map(t => `<a href="./?q=${encodeURIComponent(t)}#work">${esc(t)}</a>`).join("")}</div>
-        <nav class="pager" aria-label="More projects">
-          ${[[prev, "Previous project", "prev"], [next, "Next project", "next"]].map(([q, label, cls]) => `
-          <a class="pg ${cls}" href="#${q.slug}">
-            <span class="pg-img">${img(q.thumb, "", false)}</span>
-            <span class="pg-text"><small>${label}</small><b>${esc(name(q.title))}</b></span>
-            <i class="ph ph-arrow-${cls === "prev" ? "left" : "right"}" aria-hidden="true"></i>
-          </a>`).join("")}
-        </nav>
-      </div>
-      <section class="more"><h2>More work</h2><div class="grid">${more.map(shot).join("")}</div></section>`;
-    reveal(caseEl);
-  }
+  } catch {}
+  const index = () => Math.max(0, P.findIndex(p => p.slug === location.hash.slice(1)));
+  const render = () => { const i = index(); caseEl.innerHTML = caseHTML(i); caseMeta(P[i]); reveal(caseEl); };
   render();
-  window.addEventListener("hashchange", () => { swap(render); scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" }); });
+  addEventListener("hashchange", () => { swap(render); scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" }); });
   addEventListener("keydown", e => {
     if (e.target.closest("input, textarea") || e.metaKey || e.ctrlKey || e.altKey) return;
-    const i = Math.max(0, P.findIndex(p => p.slug === location.hash.slice(1)));
+    const i = index();
     if (e.key === "ArrowRight") location.hash = P[(i + 1) % P.length].slug;
     if (e.key === "ArrowLeft") location.hash = P[(i - 1 + P.length) % P.length].slug;
   });

@@ -61,10 +61,14 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .hero h1 { margin: 0; font-size: clamp(34px, 4.4vw, 60px); line-height: 1.04; letter-spacing: -.035em; font-weight: 600; max-width: 13ch; text-wrap: balance; }
 .actions { display: flex; gap: 10px; margin-top: 28px; flex-wrap: wrap; }
 .collage { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, minmax(0, 1fr)); gap: 10px; aspect-ratio: 16 / 10; }
-.collage .c { position: relative; border-radius: 10px; overflow: hidden; background: #e9ebee; transition: transform .5s var(--ease); }
-.collage .c img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.collage .c { position: relative; border-radius: 10px; overflow: hidden; background: var(--bg, #e9ebee); display: grid; place-items: center;
+  box-shadow: inset 0 0 0 1px rgb(23 24 28 / .06); transition: transform .5s var(--ease); }
+/* logo crop sits on the same colour as its slide, so only the logo reads */
+.collage .c img { width: 62%; max-height: 52%; object-fit: contain; transition: transform .6s var(--ease); }
+.collage .c0 img { width: 78%; }
+.collage .c4 img { width: 80%; max-height: 60%; }
+.collage .c:hover img { transform: scale(1.05); }
 .collage .c0 { grid-row: span 2; }
-.collage .c1 { grid-column: span 2; }
 .collage .c:hover { transform: translateY(-3px); }
 .btn.sm { height: 38px; padding: 0 16px; font-size: 14px; }
 
@@ -113,32 +117,6 @@ footer { padding: 64px 0 40px; color: #9a9ca3; font-size: 14px; }
 /* Project page */
 .back { color: var(--muted); font-size: 15px; display: inline-flex; gap: 6px; align-items: center; }
 .back:hover { color: var(--ink); }
-.case-head { max-width: 1000px; margin: 40px auto 32px; }
-.case-head .cats { color: var(--accent); font-weight: 500; font-size: 14px; margin: 0 0 10px; }
-.case-head h1 { margin: 0; font-size: clamp(30px, 4.2vw, 52px); line-height: 1.06; letter-spacing: -.03em; font-weight: 600; text-wrap: balance; }
-.case-head .sub { margin: 12px 0 0; font-size: clamp(17px, 1.6vw, 20px); color: var(--muted); text-wrap: balance; }
-.case-head .desc { margin: 24px 0 0; max-width: 65ch; }
-.stack { max-width: 1200px; margin: 0 auto; display: grid; gap: 16px; min-width: 0; }
-.stack .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.study { display: grid; gap: 24px; margin-top: 28px; max-width: 65ch; }
-.study h2 { margin: 0 0 6px; font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--ink); }
-.study p { margin: 0; color: #3d4048; }
-.study ul { margin: 0; padding-left: 18px; color: #3d4048; display: grid; gap: 2px; }
-/* side: case study pinned left while images scroll */
-.case.side { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 56px; align-items: start; margin-top: 40px; }
-.case.side .case-head { position: sticky; top: 96px; margin: 0; }
-.case.side .case-head h1 { font-size: clamp(28px, 2.8vw, 40px); }
-/* editorial: cover first, then three columns of text */
-.case.editorial { margin-top: 32px; display: grid; gap: 40px; }
-.case-head.wide { margin: 0 auto; width: 100%; max-width: 1200px; }
-.study.cols { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 1200px; margin: 0 auto; width: 100%; gap: 40px; padding-top: 28px; border-top: 1px solid var(--line); }
-@media (max-width: 900px) {
-  .case.side { grid-template-columns: 1fr; gap: 28px; }
-  .case.side .case-head { position: static; }
-  .study.cols { grid-template-columns: 1fr; gap: 24px; }
-  .stack .pair { grid-template-columns: 1fr; }
-}
-.stack img { width: 100%; border-radius: var(--radius); background: #e9ebee; }
 /* project footer: tags + prev/next cards, aligned to the image column */
 .case-foot { max-width: 1200px; margin: 56px auto 0; padding-top: 32px; border-top: 1px solid var(--line); display: grid; gap: 32px; }
 .tags { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
@@ -190,3 +168,57 @@ footer { padding: 64px 0 40px; color: #9a9ca3; font-size: 14px; }
   .shot figure img, .shot .peek, .shot figure::after { transition: none; }
   @view-transition { navigation: none; }
 }
+
+/* ---------- case study page (shared by the pop-up sheet and project.html), Dribbble shot style ---------- */
+.shot-page { max-width: 1080px; margin: 0 auto; padding: 48px 0 72px; }
+.sp-head h1 { margin: 0 0 20px; font-size: clamp(24px, 2.4vw, 32px); font-weight: 600; letter-spacing: -.02em; line-height: 1.2; }
+.sp-head h1 span { color: var(--muted); font-weight: 500; }
+.sp-by { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+.sp-by img { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; }
+.sp-by div { display: grid; gap: 2px; min-width: 0; }
+.sp-by b { font-size: 15px; font-weight: 600; }
+.sp-by small { font-size: 13px; color: var(--muted); }
+.sp-by .btn { margin-left: auto; flex: none; }
+.sp-media { display: grid; gap: 16px; }
+.sp-media img { display: block; width: 100%; height: auto; border-radius: 12px; }
+.sp-text { max-width: 700px; margin: 56px auto; font-size: 18px; line-height: 1.7; color: #33363d; }
+.sp-text p { margin: 0 0 1em; }
+.sp-text p:first-child { font-size: 21px; line-height: 1.5; color: var(--ink); font-weight: 500; letter-spacing: -.01em; }
+.sp-text p:last-child { margin: 0; }
+.cta { margin-top: 88px; padding: clamp(28px, 4vw, 52px); border-radius: 20px; background: var(--accent); color: #fff;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.cta .kicker { margin: 0 0 14px; font-size: 13px; color: rgb(255 255 255 / .8); display: flex; align-items: center; gap: 8px; }
+.cta .kicker::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #7cf0a8; box-shadow: 0 0 0 4px rgb(124 240 168 / .25); }
+.cta h2 { margin: 0; font-size: clamp(26px, 3vw, 40px); line-height: 1.1; letter-spacing: -.03em; font-weight: 600; max-width: 16ch; }
+.cta h2 span { color: rgb(255 255 255 / .6); }
+.btn.light { background: #fff; color: var(--ink); border-color: #fff; }
+.btn.light:hover { background: #eef0ff; }
+.sp-profile { margin-top: 96px; border-top: 1px solid var(--line); text-align: center; }
+.sp-profile img { display: block; width: 80px; height: 80px; margin: -40px auto 14px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 6px var(--page, var(--bg)); }
+.sp-profile h2 { margin: 0; font-size: 20px; font-weight: 600; letter-spacing: -.01em; }
+.sp-profile p { margin: 6px 0 20px; color: var(--muted); }
+.sp-profile .actions { display: flex; justify-content: center; gap: 10px; }
+.more-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+.more-head a { font-size: 15px; font-weight: 500; }
+.more-head a:hover { color: var(--accent); }
+
+/* pop-up sheet: dark backdrop fades in, white panel slides up from the bottom */
+.sheet { position: fixed; inset: 0; z-index: 100; overflow-y: auto; overscroll-behavior: contain; }
+.sheet-backdrop { position: fixed; inset: 0; background: rgb(12 13 17 / .78); opacity: 0; transition: opacity .4s var(--ease); }
+.sheet-panel { --page: var(--surface); position: relative; min-height: calc(100% - 40px); margin-top: 40px; background: var(--surface);
+  border-radius: 24px 24px 0 0; padding: 0 clamp(16px, 4vw, 56px); transform: translateY(100vh); transition: transform .55s var(--ease); }
+.sheet.on .sheet-backdrop { opacity: 1; }
+.sheet.on .sheet-panel { transform: none; }
+.sheet-close { position: fixed; top: 4px; right: 12px; z-index: 2; width: 32px; height: 32px; border: 0; border-radius: 50%; background: transparent;
+  color: #fff; font-size: 22px; display: grid; place-items: center; cursor: pointer; opacity: 0; transition: opacity .3s, background-color .2s; }
+.sheet.on .sheet-close { opacity: 1; }
+.sheet-close:hover { background: rgb(255 255 255 / .14); }
+.sheet-close:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+html.sheet-open { overflow: hidden; }
+@media (max-width: 640px) {
+  .sp-by .btn { display: none; }
+  .sp-text { font-size: 16px; margin: 40px auto; }
+  .sp-text p:first-child { font-size: 18px; }
+  .sheet-panel { margin-top: 44px; border-radius: 18px 18px 0 0; }
+}
+@media (prefers-reduced-motion: reduce) { .sheet-panel, .sheet-backdrop { transition: none; } }
