@@ -2,9 +2,69 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Saqib Kamal</title>
-<style>body{margin:0;min-height:100dvh;display:grid;place-items:center;background:#fafafa;color:#17181c;font:500 18px/1.5 system-ui,sans-serif}</style>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Saqib Kamal | Brand Identity and Website Design</title>
+<meta name="description" content="Portfolio of Saqib Kamal: brand identities, websites, landing pages and SaaS product design.">
+<meta property="og:title" content="Saqib Kamal | Portfolio">
+<meta property="og:description" content="Brand identities, websites, landing pages and SaaS product design.">
+<meta name="theme-color" content="#fafafa">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
 </head>
-<body><p>Saqib Kamal portfolio. Site is live, full version coming soon.</p></body>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="./">Saqib Kamal</a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#work">Work</a>
+      <a class="hide-sm" href="#about">About</a>
+      <a class="btn primary" href="https://www.upwork.com/freelancers/saqibkl" target="_blank" rel="noopener">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="cover" aria-hidden="true"><div class="strip" id="strip"></div></div>
+
+  <section class="profile" aria-label="Profile">
+    <div class="who">
+      <div class="avatar">SK</div>
+      <div>
+        <h1>Saqib Kamal</h1>
+        <p>Brand identity and website designer</p>
+      </div>
+    </div>
+    <div class="actions">
+      <a class="btn" href="https://www.behance.net/saqibkamal" target="_blank" rel="noopener">Behance</a>
+    </div>
+  </section>
+
+  <div class="tabs" role="toolbar" aria-label="Filter work" id="work">
+    <button class="tab" data-filter="all" aria-pressed="true">All work<span></span></button>
+    <button class="tab" data-filter="web" aria-pressed="false">Websites<span></span></button>
+    <button class="tab" data-filter="brand" aria-pressed="false">Branding<span></span></button>
+  </div>
+
+  <section class="grid" id="grid" aria-live="polite"></section>
+  <noscript><p class="empty">Turn on JavaScript to see the work.</p></noscript>
+
+  <section class="about" id="about">
+    <h2>Brand identities and the websites that carry them.</h2>
+    <div>
+      <p>I design logos, brand systems, websites and SaaS interfaces for startups and growing businesses, mostly in Figma.</p>
+      <div class="links">
+        <a class="btn" href="https://www.upwork.com/freelancers/saqibkl" target="_blank" rel="noopener">Upwork</a>
+        <a class="btn" href="https://www.behance.net/saqibkamal" target="_blank" rel="noopener">Behance</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">© 2026 Saqib Kamal</footer>
+
+<script src="data-demo.js"></script>
+<script src="app.js"></script>
+</body>
 </html>
