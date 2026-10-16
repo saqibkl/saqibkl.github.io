@@ -34,14 +34,13 @@ function reveal(root) {
 /* ---------- index ---------- */
 const grid = document.getElementById("grid");
 if (grid) {
-  // Header bento: each tile is one brand's logo on its own solid colour (crops from build_hero.py), never a cropped mockup.
-  const hero = [
-    ["nearside", "#0a0b33"], ["pro", "#3b2332"], ["qore", "#ffffff"], ["bound", "#23322f"], ["uphope", "#303030"],
-  ];
-  document.getElementById("collage").innerHTML = hero.map(([key, bg], k) => {
-    const p = P.find(p => p.slug.startsWith(key + "-"));
-    return `<a class="c c${k}" href="project.html#${p.slug}" tabindex="-1" style="--bg:${bg}" aria-label="${esc(p.title)}"><img src="img/hero/${key}.jpg" alt="" decoding="async"></a>`;
-  }).join("");
+  // Header: two columns of real covers drifting in opposite directions (pauses on hover, static for reduced motion).
+  const cols = [[0, 3, 6, 36, 5, 46], [1, 8, 35, 2, 41, 9]];
+  document.getElementById("collage").innerHTML = cols.map((ks, c) => `
+    <div class="mq mq${c}"><div class="mq-track">${[...ks, ...ks].map((k, n) => {
+      const p = P[k];  // second copy of the list makes the loop seamless; hide it from screen readers
+      return `<a href="project.html#${p.slug}" tabindex="-1"${n >= ks.length ? ' aria-hidden="true"' : ""}>${img(p.thumb, n >= ks.length ? "" : p.title, n < 2)}</a>`;
+    }).join("")}</div></div>`).join("");
 
   const tabs = [...document.querySelectorAll(".tab")];
   tabs.forEach(t => {
