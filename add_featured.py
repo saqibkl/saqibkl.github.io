@@ -82,6 +82,23 @@ PROJECTS = [
      "UI/UX design, 8 studio pages plus an access flow, design system and prototype."),
 ]
 
+# Dashboards go in the "Apps & Dashboards" tab (type "app") right after the websites
+DASHBOARDS = [
+    ("siepay-merchant-dashboard", "02 Siepay Dashboard", UPLOADS / "02 Siepay Dashboard" / "00_thumbnail.jpg", "Siepay: Crypto Payments Merchant Dashboard",
+     ["ui/ux", "dashboard", "web app", "saas", "crypto", "fintech", "payments"],
+     "The Siepay dashboard is where merchants run recurring crypto billing.",
+     "Crypto billing has a lot of moving parts: payments, balances, invoices, customers and subscriptions. Merchants needed one calm place to see what is paid and what is due, without it feeling like a trading terminal.",
+     "We designed a navy and green workspace that starts with a short Get Started checklist, then leads into volume, balances and clear tables for invoices, subscriptions and payments with status tabs.",
+     "UI/UX design, web app, 34 desktop screens."),
+    ("inn-twin-data-platform-dashboard", "04 In Twinn Data Platform", UPLOADS / "04 In Twinn Data Platform" / "00_thumbnail_A_mist.jpg", "Inn Twin: Spatial Data Platform Dashboard",
+     ["ui/ux", "dashboard", "web app", "saas", "data platform", "ai", "3d"],
+     "Inn Twin's data platform is where engineers and AI teams work with spatial twins, textures, meshes and training data.",
+     "The data is complex: point clouds, segmentation masks, PBR texture maps and CAD files. The platform had to make all of it easy to find, inspect, validate and export.",
+     "We designed a light, calm platform: a dashboard, a scan library, point cloud and mask viewers, a texture library filtered by PBR channel and simple export to BIM or CAD.",
+     "Platform UX, UI and design system, 16 screens including login."),
+]
+APPS = {"cloud-care-mobile-app-design", "gear-app-a-futuristic-shopping-experience", "luxae-a-seamless-home-decor-shopping"}
+
 
 def modules(folder: Path) -> list:
     """Behance modules in order, minus thumbnails, laptop scenes (except the two kept) and plain thank-you cards."""
@@ -113,18 +130,18 @@ def load(name: str, start: str, end: str):
 if __name__ == "__main__":
     js, data = load("data.js", "[", "]")
     cs, cases = load("cases.js", "{", "}")
-    new_slugs = [p[0] for p in PROJECTS]
+    new_slugs = [p[0] for p in PROJECTS + DASHBOARDS]
     drop = set(REPLACES) | set(new_slugs)
     for slug in REPLACES:
         shutil.rmtree(OUT / "img" / slug, ignore_errors=True)
         cases.pop(slug, None)
     data = [p for p in data if p["slug"] not in drop]
     fresh = []
-    for slug, folder, thumb, title, tags, intro, challenge, did, scope in PROJECTS:
+    for kind, (slug, folder, thumb, title, tags, intro, challenge, did, scope) in [("web", p) for p in PROJECTS] + [("app", p) for p in DASHBOARDS]:
         shutil.rmtree(OUT / "img" / slug, ignore_errors=True)
         mods = modules(UPLOADS / folder)
         assert mods, f"no modules in {folder}"
-        fresh.append(dict(slug=slug, type="web", title=title, desc=intro, cats="UI/UX, Web Design", tags=tags,
+        fresh.append(dict(slug=slug, type=kind, title=title, desc=intro, cats="UI/UX, Web Design", tags=tags,
                           thumb=save(THUMBS / thumb, OUT / "img" / slug / "thumb.jpg", 1200),
                           images=[save(m, OUT / "img" / slug / f"{k:02d}.jpg", 1600) for k, m in enumerate(mods, 1)]))
         cases[slug] = dict(title=title, tags=tags, about=[intro],
@@ -132,6 +149,9 @@ if __name__ == "__main__":
         print(f"{slug:42} {len(mods):2} modules: {', '.join(m.stem for m in mods)}")
     pinned = [next(p for p in data if p["slug"] == s) for s in PINNED]
     data = pinned + fresh + [p for p in data if p["slug"] not in PINNED]
+    for p in data:
+        if p["slug"] in APPS:
+            p["type"] = "app"
     assert len({p['slug'] for p in data}) == len(data), "duplicate slug"
     (OUT / "data.js").write_text(js[:js.index("[")] + json.dumps(data, indent=1, ensure_ascii=False) + ";\n", encoding="utf-8")
     (OUT / "cases.js").write_text(cs[:cs.index("{")] + json.dumps(cases, indent=1, ensure_ascii=False) + ";\n", encoding="utf-8")

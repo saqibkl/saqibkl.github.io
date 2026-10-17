@@ -8,7 +8,7 @@ document.documentElement.classList.add("js");
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const name = t => t.split(":")[0].trim();
 const sub = t => t.includes(":") ? t.slice(t.indexOf(":") + 1).trim() : "";
-const kind = p => p.type === "web" ? "UI/UX" : "Branding";
+const kind = p => p.tags.includes("dashboard") ? "Dashboard" : { web: "Website", app: "App", brand: "Branding" }[p.type];
 const img = (im, alt, eager, vt) =>
   `<img src="${im.src}" width="${im.w}" height="${im.h}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async"${vt ? ` style="view-transition-name:${vt}"` : ""}>`;
 // Skip the morph when the user prefers less motion or the browser lacks the API.
@@ -18,7 +18,7 @@ const shot = (p, i) => `
   <a class="shot reveal" style="--i:${i % 3}" href="project.html#${p.slug}" aria-label="${esc(p.title)}">
     <figure>${img(p.thumb, p.title, i < 3, "shot-" + p.slug)}
       <span class="peek"><span class="t">${esc(name(p.title))}<small>${esc(sub(p.title) || "Brand identity")}</small></span>
-        <span class="chips" aria-hidden="true"><span class="chip">${p.type === "web" ? "UI/UX" : "Branding"}</span><span class="chip round">↗</span></span></span>
+        <span class="chips" aria-hidden="true"><span class="chip">${kind(p)}</span><span class="chip round">↗</span></span></span>
     </figure>
   </a>`;
 
@@ -77,12 +77,12 @@ if (grid) {
     const f = t.dataset.filter;
     t.querySelector("span").textContent = f === "all" ? P.length : P.filter(p => p.type === f).length;
   });
-  const hashFilter = { "#ui-ux": "web", "#branding": "brand" };
+  const hashFilter = { "#websites": "web", "#apps": "app", "#branding": "brand", "#ui-ux": "web" };  // #ui-ux: old links
 
   const q = document.getElementById("q");
   // Search looks at titles and tags only (descriptions are full of words like "approach" / "applications"),
   // matching whole words, plurals and a few synonyms, so "app" finds apps and nothing else.
-  const words = p => [p.title, p.tags.join(" "), p.type === "web" ? "ui/ux ui ux" : "branding brand identity logo"].join(" ")
+  const words = p => [p.title, p.tags.join(" "), { web: "ui/ux ui ux", app: "ui/ux ui ux app product", brand: "branding brand identity logo" }[p.type]].join(" ")
     .toLowerCase().replace(/e-commerce/g, "ecommerce").split(/[^a-z0-9/]+/).flatMap(w => w.includes("/") ? [w, ...w.split("/")] : [w]).filter(Boolean);
   const SYN = { website: ["web", "landing"], websites: ["web", "landing"], site: ["web", "landing", "website"], ecommerce: ["shopping", "store"],
     shop: ["ecommerce", "store"], store: ["ecommerce", "shop"], brand: ["branding"], logos: ["logo", "wordmark"], application: ["app"], applications: ["app"] };
@@ -106,7 +106,7 @@ if (grid) {
   function sync() {
     const url = new URL(location.href);
     q.value.trim() ? url.searchParams.set("q", q.value.trim()) : url.searchParams.delete("q");
-    url.hash = filter === "all" ? "work" : filter === "web" ? "ui-ux" : "branding";
+    url.hash = { all: "work", web: "websites", app: "apps", brand: "branding" }[filter];
     history.replaceState(null, "", url);
   }
   tabs.forEach(t => t.addEventListener("click", () => { filter = t.dataset.filter; sync(); show(true); }));
@@ -140,7 +140,7 @@ function caseHTML(i) {
       <h1>${esc(name(p.title))}${sub(p.title) ? ` <span>${esc(sub(p.title))}</span>` : ""}</h1>
       <div class="sp-by">
         <img src="img/avatar.jpg" width="48" height="48" alt="">
-        <div><b>Saqib Kamal</b><small>${kind(p)} · ${esc(p.tags.slice(1, 3).join(", "))}</small></div>
+        <div><b>Saqib Kamal</b><small>${kind(p)} · ${esc(p.tags.filter(t => !/^(ui\/ux|web design|website|branding|brand identity)$/.test(t)).slice(0, 2).join(", "))}</small></div>
         ${out(UPWORK, "Get in touch", "primary sm")}
       </div>
     </header>
@@ -227,7 +227,7 @@ if (caseEl) {
     if (from) {
       const back = document.querySelector(".back"), u = new URL(from.url, location.href), term = u.searchParams.get("q");
       back.href = from.url;
-      back.textContent = "← " + (term ? `Results for "${term}"` : u.hash === "#ui-ux" ? "UI/UX work" : u.hash === "#branding" ? "Branding work" : "All work");
+      back.textContent = "← " + (term ? `Results for "${term}"` : ({ "#websites": "Websites", "#ui-ux": "Websites", "#apps": "Apps & dashboards", "#branding": "Branding work" })[u.hash] || "All work");
       back.addEventListener("click", () => { try { sessionStorage.setItem("backY", from.y); } catch {} });
     }
   } catch {}

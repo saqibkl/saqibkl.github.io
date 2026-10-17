@@ -934,5 +934,63 @@ window.CASES = {
     "UI/UX design, 8 studio pages plus an access flow, design system and prototype."
    ]
   ]
+ },
+ "siepay-merchant-dashboard": {
+  "title": "Siepay: Crypto Payments Merchant Dashboard",
+  "tags": [
+   "ui/ux",
+   "dashboard",
+   "web app",
+   "saas",
+   "crypto",
+   "fintech",
+   "payments"
+  ],
+  "about": [
+   "The Siepay dashboard is where merchants run recurring crypto billing."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Crypto billing has a lot of moving parts: payments, balances, invoices, customers and subscriptions. Merchants needed one calm place to see what is paid and what is due, without it feeling like a trading terminal."
+   ],
+   [
+    "What we did",
+    "We designed a navy and green workspace that starts with a short Get Started checklist, then leads into volume, balances and clear tables for invoices, subscriptions and payments with status tabs."
+   ],
+   [
+    "Scope",
+    "UI/UX design, web app, 34 desktop screens."
+   ]
+  ]
+ },
+ "inn-twin-data-platform-dashboard": {
+  "title": "Inn Twin: Spatial Data Platform Dashboard",
+  "tags": [
+   "ui/ux",
+   "dashboard",
+   "web app",
+   "saas",
+   "data platform",
+   "ai",
+   "3d"
+  ],
+  "about": [
+   "Inn Twin's data platform is where engineers and AI teams work with spatial twins, textures, meshes and training data."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "The data is complex: point clouds, segmentation masks, PBR texture maps and CAD files. The platform had to make all of it easy to find, inspect, validate and export."
+   ],
+   [
+    "What we did",
+    "We designed a light, calm platform: a dashboard, a scan library, point cloud and mask viewers, a texture library filtered by PBR channel and simple export to BIM or CAD."
+   ],
+   [
+    "Scope",
+    "Platform UX, UI and design system, 16 screens including login."
+   ]
+  ]
  }
 };

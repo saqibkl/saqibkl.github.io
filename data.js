@@ -963,6 +963,127 @@ window.PROJECTS = [
   ]
  },
  {
+  "slug": "siepay-merchant-dashboard",
+  "type": "app",
+  "title": "Siepay: Crypto Payments Merchant Dashboard",
+  "desc": "The Siepay dashboard is where merchants run recurring crypto billing.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "dashboard",
+   "web app",
+   "saas",
+   "crypto",
+   "fintech",
+   "payments"
+  ],
+  "thumb": {
+   "src": "img/siepay-merchant-dashboard/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/siepay-merchant-dashboard/01.jpg",
+    "w": 1600,
+    "h": 1800
+   },
+   {
+    "src": "img/siepay-merchant-dashboard/02.jpg",
+    "w": 1600,
+    "h": 1050
+   },
+   {
+    "src": "img/siepay-merchant-dashboard/03.jpg",
+    "w": 1600,
+    "h": 817
+   },
+   {
+    "src": "img/siepay-merchant-dashboard/04.jpg",
+    "w": 1600,
+    "h": 750
+   },
+   {
+    "src": "img/siepay-merchant-dashboard/05.jpg",
+    "w": 1600,
+    "h": 1415
+   },
+   {
+    "src": "img/siepay-merchant-dashboard/06.jpg",
+    "w": 1600,
+    "h": 1170
+   },
+   {
+    "src": "img/siepay-merchant-dashboard/07.jpg",
+    "w": 1600,
+    "h": 1296
+   }
+  ]
+ },
+ {
+  "slug": "inn-twin-data-platform-dashboard",
+  "type": "app",
+  "title": "Inn Twin: Spatial Data Platform Dashboard",
+  "desc": "Inn Twin's data platform is where engineers and AI teams work with spatial twins, textures, meshes and training data.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "dashboard",
+   "web app",
+   "saas",
+   "data platform",
+   "ai",
+   "3d"
+  ],
+  "thumb": {
+   "src": "img/inn-twin-data-platform-dashboard/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/inn-twin-data-platform-dashboard/01.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/02.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/03.jpg",
+    "w": 1600,
+    "h": 1208
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/04.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/05.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/06.jpg",
+    "w": 1600,
+    "h": 3006
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/07.jpg",
+    "w": 1600,
+    "h": 1292
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/08.jpg",
+    "w": 1600,
+    "h": 1067
+   }
+  ]
+ },
+ {
   "slug": "pro-premium-supplement-branding",
   "type": "brand",
   "title": "PRO – Premium Supplement Branding",
@@ -3037,7 +3158,7 @@ window.PROJECTS = [
  },
  {
   "slug": "cloud-care-mobile-app-design",
-  "type": "web",
+  "type": "app",
   "title": "Cloud Care - Mobile App design",
   "desc": "",
   "cats": "UI/UX, Web Design",
@@ -3077,7 +3198,7 @@ window.PROJECTS = [
  },
  {
   "slug": "gear-app-a-futuristic-shopping-experience",
-  "type": "web",
+  "type": "app",
   "title": "Gear App – A Futuristic Shopping Experience",
   "desc": "A sleek and futuristic UI/UX design for Gear, an e-commerce mobile app tailored for premium audio products. The interface is dark-themed, highly interactive, and user-friendly, ensuring an immersive shopping experience.",
   "cats": "UI/UX, Web Design",
@@ -3133,7 +3254,7 @@ window.PROJECTS = [
  },
  {
   "slug": "luxae-a-seamless-home-decor-shopping",
-  "type": "web",
+  "type": "app",
   "title": "Luxae – A Seamless Home Décor Shopping",
   "desc": "An elegantly designed mobile app for Luxae, a refined home décor brand. This UI/UX project focuses on a seamless shopping experience, intuitive navigation, and a visually immersive product discovery journey.",
   "cats": "UI/UX, Web Design",
