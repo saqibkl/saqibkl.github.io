@@ -1582,111 +1582,6 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "syddigital-creative-agency-website",
-  "type": "web",
-  "title": "SydDigital: Creative Agency Website",
-  "desc": "SydDigital is a Sydney agency for advertising, branding and websites.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "agency",
-   "branding",
-   "marketing agency",
-   "dark ui"
-  ],
-  "thumb": {
-   "src": "img/syddigital-creative-agency-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/syddigital-creative-agency-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/syddigital-creative-agency-website/02.jpg",
-    "w": 1600,
-    "h": 1431
-   },
-   {
-    "src": "img/syddigital-creative-agency-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/syddigital-creative-agency-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/syddigital-creative-agency-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/syddigital-creative-agency-website/06.jpg",
-    "w": 1600,
-    "h": 1817
-   }
-  ]
- },
- {
-  "slug": "unity-online-school-landing-page",
-  "type": "web",
-  "title": "Unity Online: Online School Landing Page",
-  "desc": "Unity Online is an online school for Year 7 and 8 students.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "education",
-   "e-learning",
-   "landing page"
-  ],
-  "thumb": {
-   "src": "img/unity-online-school-landing-page/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/unity-online-school-landing-page/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/unity-online-school-landing-page/02.jpg",
-    "w": 1600,
-    "h": 2149
-   },
-   {
-    "src": "img/unity-online-school-landing-page/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/unity-online-school-landing-page/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/unity-online-school-landing-page/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/unity-online-school-landing-page/06.jpg",
-    "w": 1600,
-    "h": 1402
-   }
-  ]
- },
- {
   "slug": "workcover-hub-workers-compensation-website",
   "type": "web",
   "title": "WorkCover Hub: Workers Compensation Guide Website",
@@ -1780,105 +1675,6 @@ window.PROJECTS = [
    },
    {
     "src": "img/devox-cladding-landing-page/05.jpg",
-    "w": 1600,
-    "h": 1000
-   }
-  ]
- },
- {
-  "slug": "bright-engineered-balustrades-website",
-  "type": "web",
-  "title": "Bright Engineered: Balustrades Website",
-  "desc": "Bright Engineered designs and installs glass and steel balustrades.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "trades"
-  ],
-  "thumb": {
-   "src": "img/bright-engineered-balustrades-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/bright-engineered-balustrades-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/bright-engineered-balustrades-website/02.jpg",
-    "w": 1600,
-    "h": 2482
-   },
-   {
-    "src": "img/bright-engineered-balustrades-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/bright-engineered-balustrades-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/bright-engineered-balustrades-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/bright-engineered-balustrades-website/06.jpg",
-    "w": 1600,
-    "h": 1817
-   }
-  ]
- },
- {
-  "slug": "a-link-plumbing-landing-page",
-  "type": "web",
-  "title": "A-Link Plumbing: Plumbing Services Landing Page",
-  "desc": "A-Link Plumbing provides emergency and general plumbing services.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "trades",
-   "plumbing",
-   "local business",
-   "landing page"
-  ],
-  "thumb": {
-   "src": "img/a-link-plumbing-landing-page/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/a-link-plumbing-landing-page/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/a-link-plumbing-landing-page/02.jpg",
-    "w": 1600,
-    "h": 1660
-   },
-   {
-    "src": "img/a-link-plumbing-landing-page/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/a-link-plumbing-landing-page/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/a-link-plumbing-landing-page/05.jpg",
     "w": 1600,
     "h": 1000
    }
@@ -2036,58 +1832,6 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "amana-renovations-website",
-  "type": "web",
-  "title": "Amana Renovations: Home Renovation Website",
-  "desc": "Amana Renovations delivers home renovations and shopfitting.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "home renovation",
-   "construction",
-   "trades"
-  ],
-  "thumb": {
-   "src": "img/amana-renovations-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/amana-renovations-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/amana-renovations-website/02.jpg",
-    "w": 1600,
-    "h": 2159
-   },
-   {
-    "src": "img/amana-renovations-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/amana-renovations-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/amana-renovations-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/amana-renovations-website/06.jpg",
-    "w": 1600,
-    "h": 1402
-   }
-  ]
- },
- {
   "slug": "aussie-link-visa-services-website",
   "type": "web",
   "title": "Aussie-Link: Visa and Migration Services Website",
@@ -2188,57 +1932,6 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "bright-balustrading-website",
-  "type": "web",
-  "title": "Bright Balustrading: Balustrade Website",
-  "desc": "Bright Balustrading designs and installs balustrades and fencing.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "trades"
-  ],
-  "thumb": {
-   "src": "img/bright-balustrading-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/bright-balustrading-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/bright-balustrading-website/02.jpg",
-    "w": 1600,
-    "h": 2254
-   },
-   {
-    "src": "img/bright-balustrading-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/bright-balustrading-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/bright-balustrading-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/bright-balustrading-website/06.jpg",
-    "w": 1600,
-    "h": 1817
-   }
-  ]
- },
- {
   "slug": "complete-marble-care-website",
   "type": "web",
   "title": "Complete Marble Care: Stone Restoration Website",
@@ -2287,58 +1980,6 @@ window.PROJECTS = [
     "src": "img/complete-marble-care-website/06.jpg",
     "w": 1600,
     "h": 1033
-   }
-  ]
- },
- {
-  "slug": "healthplex-allied-health-website",
-  "type": "web",
-  "title": "HealthPlex: Allied Health Network Website",
-  "desc": "HealthPlex is a national allied health network of physiotherapy and related clinics.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "healthcare",
-   "allied health",
-   "franchise"
-  ],
-  "thumb": {
-   "src": "img/healthplex-allied-health-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/healthplex-allied-health-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/healthplex-allied-health-website/02.jpg",
-    "w": 1600,
-    "h": 2088
-   },
-   {
-    "src": "img/healthplex-allied-health-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/healthplex-allied-health-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/healthplex-allied-health-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/healthplex-allied-health-website/06.jpg",
-    "w": 1600,
-    "h": 1817
    }
   ]
  },
@@ -5246,36 +4887,6 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "website-design-cryptocurrency-web3-crypto-nft",
-  "type": "web",
-  "title": "Website Design - Cryptocurrency, Web3, Crypto, NFT",
-  "desc": "",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "crypto",
-   "website"
-  ],
-  "thumb": {
-   "src": "img/website-design-cryptocurrency-web3-crypto-nft/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/website-design-cryptocurrency-web3-crypto-nft/01.jpg",
-    "w": 1600,
-    "h": 1069
-   },
-   {
-    "src": "img/website-design-cryptocurrency-web3-crypto-nft/02.jpg",
-    "w": 1600,
-    "h": 15136
-   }
-  ]
- },
- {
   "slug": "lavender-organizes-website-design",
   "type": "web",
   "title": "Lavender Organizes Website Design",
@@ -5321,32 +4932,6 @@ window.PROJECTS = [
     "src": "img/lavender-organizes-website-design/06.jpg",
     "w": 1016,
     "h": 10281
-   }
-  ]
- },
- {
-  "slug": "dappomatics-website-ui-ux-landing-page",
-  "type": "web",
-  "title": "Dappomatics Website, UI-UX, Landing page",
-  "desc": "",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "mobile app",
-   "landing page",
-   "website"
-  ],
-  "thumb": {
-   "src": "img/dappomatics-website-ui-ux-landing-page/thumb.jpg",
-   "w": 1200,
-   "h": 939
-  },
-  "images": [
-   {
-    "src": "img/dappomatics-website-ui-ux-landing-page/01.jpg",
-    "w": 1600,
-    "h": 11931
    }
   ]
  }

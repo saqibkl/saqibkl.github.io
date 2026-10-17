@@ -557,20 +557,6 @@ window.CASES = {
    "We designed a website for SolsTech, a software house that builds mobile apps."
   ]
  },
- "website-design-cryptocurrency-web3-crypto-nft": {
-  "title": "TenUp: Web3 dApps Landing Page",
-  "tags": [
-   "ui/ux",
-   "landing page",
-   "web3",
-   "crypto",
-   "nft",
-   "website"
-  ],
-  "about": [
-   "We designed a landing page for TenUp, a platform for Web3 apps."
-  ]
- },
  "lavender-organizes-website-design": {
   "title": "Lavender Organizes: Website Design",
   "tags": [
@@ -582,20 +568,6 @@ window.CASES = {
   ],
   "about": [
    "We designed a website for Lavender Organizes, a professional home organizing service."
-  ]
- },
- "dappomatics-website-ui-ux-landing-page": {
-  "title": "Dappomatics: NFT Marketplace Website",
-  "tags": [
-   "ui/ux",
-   "landing page",
-   "nft",
-   "web3",
-   "web design",
-   "website"
-  ],
-  "about": [
-   "We designed a landing page for Dappomatics, an NFT marketplace."
   ]
  },
  "noara-labs-website": {
@@ -1409,55 +1381,6 @@ window.CASES = {
    ]
   ]
  },
- "syddigital-creative-agency-website": {
-  "title": "SydDigital: Creative Agency Website",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "agency",
-   "branding",
-   "marketing agency",
-   "dark ui"
-  ],
-  "about": [
-   "SydDigital is a Sydney agency for advertising, branding and websites."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A bold black and red agency site that shows strategy, services and results, and turns visitors into strategy sessions."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
- "unity-online-school-landing-page": {
-  "title": "Unity Online: Online School Landing Page",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "education",
-   "e-learning",
-   "landing page"
-  ],
-  "about": [
-   "Unity Online is an online school for Year 7 and 8 students."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A friendly landing page that explains how online learning works, what students get and how parents can enrol."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
  "workcover-hub-workers-compensation-website": {
   "title": "WorkCover Hub: Workers Compensation Guide Website",
   "tags": [
@@ -1499,54 +1422,6 @@ window.CASES = {
    [
     "What we did",
     "A sleek black and gold landing page with project photos, cladding options and a quote request front and centre."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
- "bright-engineered-balustrades-website": {
-  "title": "Bright Engineered: Balustrades Website",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "trades"
-  ],
-  "about": [
-   "Bright Engineered designs and installs glass and steel balustrades."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A clean multi-page site with product ranges, project galleries and a clear quote flow."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
- "a-link-plumbing-landing-page": {
-  "title": "A-Link Plumbing: Plumbing Services Landing Page",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "trades",
-   "plumbing",
-   "local business",
-   "landing page"
-  ],
-  "about": [
-   "A-Link Plumbing provides emergency and general plumbing services."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A bright, direct landing page with call and quote buttons, clear services and reviews that build trust fast."
    ],
    [
     "Scope",
@@ -1626,30 +1501,6 @@ window.CASES = {
    ]
   ]
  },
- "amana-renovations-website": {
-  "title": "Amana Renovations: Home Renovation Website",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "home renovation",
-   "construction",
-   "trades"
-  ],
-  "about": [
-   "Amana Renovations delivers home renovations and shopfitting."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A warm website with project galleries, a clear renovation process and quote requests throughout."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
  "aussie-link-visa-services-website": {
   "title": "Aussie-Link: Visa and Migration Services Website",
   "tags": [
@@ -1699,29 +1550,6 @@ window.CASES = {
    ]
   ]
  },
- "bright-balustrading-website": {
-  "title": "Bright Balustrading: Balustrade Website",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "trades"
-  ],
-  "about": [
-   "Bright Balustrading designs and installs balustrades and fencing."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A bold multi-page website with product types, completed projects and a simple quote flow."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
  "complete-marble-care-website": {
   "title": "Complete Marble Care: Stone Restoration Website",
   "tags": [
@@ -1739,30 +1567,6 @@ window.CASES = {
    [
     "What we did",
     "An elegant website with before and after results, service details and an easy quote request."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
- "healthplex-allied-health-website": {
-  "title": "HealthPlex: Allied Health Network Website",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "healthcare",
-   "allied health",
-   "franchise"
-  ],
-  "about": [
-   "HealthPlex is a national allied health network of physiotherapy and related clinics."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A bright, modern website that explains services, finds the nearest clinic and invites practitioners to join the network."
    ],
    [
     "Scope",

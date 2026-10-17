@@ -6,7 +6,10 @@ from add_featured import OUT, SAQIB, W, save, load
 import json, shutil
 
 SRC = SAQIB / "Behance Uploads" / "Alvi"
-AFTER = "inn-twin-data-platform-dashboard"  # last Upwork item; Alvi sites go below it
+AFTER = "inn-twin-data-platform-dashboard"
+# user took these off the site (need rework first); share their Figma Behance page on request
+SKIP = {"syddigital-creative-agency-website", "unity-online-school-landing-page", "bright-engineered-balustrades-website",
+        "a-link-plumbing-landing-page", "amana-renovations-website", "bright-balustrading-website", "healthplex-allied-health-website"}  # last Upwork item; Alvi sites go below it
 
 # slug, title, extra tags, intro, what we did, scope
 P = [
@@ -99,6 +102,8 @@ if __name__ == "__main__":
     data = [p for p in data if p["slug"] not in slugs]
     fresh = []
     for slug, title, tags, intro, did in P:
+        if slug in SKIP:
+            continue
         folder = SRC / slug
         ms = mods(folder)
         assert ms and (folder / "00_thumbnail.jpg").exists(), f"missing export for {slug}"
