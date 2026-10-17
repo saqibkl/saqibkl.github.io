@@ -64,6 +64,7 @@ if (grid) {
         transform: `rotate(${k * 2 * (1 - tk)}deg)`, boxShadow: `0 30px 60px -30px rgb(23 24 28 / ${(.45 * (1 - tk)).toFixed(3)})` });
     });
     fly.classList.toggle("landed", t >= 1);
+    document.getElementById("work").classList.toggle("flying", t > 0 && t < 1);
     grid.classList.toggle("held", free && t < 1);
   }
   let queued = false, shown = 0;
