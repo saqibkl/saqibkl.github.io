@@ -191,7 +191,6 @@ if (sheet) {
     body.innerHTML = caseHTML(i).replace(/ style="view-transition-name:[^"]*"/g, "");
     caseMeta(P[i]);
     reveal(body);
-    scroller.scrollTop = 0;
     if (sheet.hidden) {
       sheet.hidden = false;
       document.documentElement.classList.add("sheet-open");
@@ -199,6 +198,8 @@ if (sheet) {
       sheet.classList.add("on");
       sheet.querySelector(".sheet-close").focus({ preventScroll: true });
     }
+    // after unhiding (a hidden scroller ignores scrollTop) and instant, so CSS smooth scroll can't leave it mid-page
+    scroller.scrollTo({ top: 0, behavior: "instant" });
   };
   const close = () => {
     if (sheet.hidden) return;
