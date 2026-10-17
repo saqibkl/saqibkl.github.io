@@ -1307,30 +1307,6 @@ window.CASES = {
    ]
   ]
  },
- "spec-building-products-marketing-website": {
-  "title": "Spec: Building Products Marketing Website",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "marketing agency",
-   "b2b"
-  ],
-  "about": [
-   "Spec helps building product manufacturers get specified by architects and builders."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A dark, focused website that explains the specification problem, the Spec approach and the results, with a clear path to a strategy call."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
  "supplyspec-construction-platform-website": {
   "title": "SupplySpec: B2B Construction Platform Website",
   "tags": [

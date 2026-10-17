@@ -1434,53 +1434,6 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "spec-building-products-marketing-website",
-  "type": "web",
-  "title": "Spec: Building Products Marketing Website",
-  "desc": "Spec helps building product manufacturers get specified by architects and builders.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "marketing agency",
-   "b2b"
-  ],
-  "thumb": {
-   "src": "img/spec-building-products-marketing-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/spec-building-products-marketing-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/spec-building-products-marketing-website/02.jpg",
-    "w": 1600,
-    "h": 1393
-   },
-   {
-    "src": "img/spec-building-products-marketing-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/spec-building-products-marketing-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/spec-building-products-marketing-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   }
-  ]
- },
- {
   "slug": "supplyspec-construction-platform-website",
   "type": "web",
   "title": "SupplySpec: B2B Construction Platform Website",
