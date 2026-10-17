@@ -19,7 +19,7 @@ PINNED = ["terral-built-on-structure", "qore-core-driven-strategy-brand-identity
 
 # slug, Behance folder, Upwork thumbnail, title, tags, intro, challenge, what we did, scope
 PROJECTS = [
-    ("noara-labs-website", "05 Noara Labs", UPLOADS / "05 Noara Labs" / "00_thumbnail_D_pinwheel_laptop.jpg",  # user: the pinwheel laptop as cover
+    ("noara-labs-website", "05 Noara Labs", UPLOADS / "05 Noara Labs" / "00_thumbnail_behance.jpg",  # user: the Behance cover (Figma Hb9xlS7hNu3SpfmcPKAQX2 node 4018:1537)
      "Noara Labs: Tech Talent Partner Website",
      W + ["staffing", "software house", "b2b", "careers"],
      "Noara Labs connects growing companies with vetted remote engineers, dedicated teams and full product builds.",
