@@ -182,6 +182,7 @@ footer { padding: 64px 0 40px; color: #9a9ca3; font-size: 14px; }
 .sp-text p { margin: 0 0 1em; }
 .sp-text p:first-child { font-size: 21px; line-height: 1.5; color: var(--ink); font-weight: 500; letter-spacing: -.01em; }
 .sp-text p:last-child { margin: 0; }
+.sp-text h2 { margin: 1.8em 0 .4em; font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .cta { margin-top: 88px; padding: clamp(28px, 4vw, 52px); border-radius: 20px; background: var(--ink); color: #fff;
   display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
 .cta .kicker { margin: 0 0 14px; font-size: 13px; color: rgb(255 255 255 / .8); display: flex; align-items: center; gap: 8px; }

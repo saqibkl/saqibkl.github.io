@@ -1,5 +1,575 @@
 window.PROJECTS = [
  {
+  "slug": "noara-labs-website",
+  "type": "web",
+  "title": "Noara Labs: Tech Talent Partner Website",
+  "desc": "Noara Labs connects growing companies with vetted remote engineers, dedicated teams and full product builds.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "staffing",
+   "software house",
+   "b2b",
+   "careers"
+  ],
+  "thumb": {
+   "src": "img/noara-labs-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/noara-labs-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/noara-labs-website/02.jpg",
+    "w": 1600,
+    "h": 1125
+   },
+   {
+    "src": "img/noara-labs-website/03.jpg",
+    "w": 1600,
+    "h": 1250
+   },
+   {
+    "src": "img/noara-labs-website/04.jpg",
+    "w": 1600,
+    "h": 1333
+   },
+   {
+    "src": "img/noara-labs-website/05.jpg",
+    "w": 1600,
+    "h": 1917
+   },
+   {
+    "src": "img/noara-labs-website/06.jpg",
+    "w": 1600,
+    "h": 1042
+   },
+   {
+    "src": "img/noara-labs-website/07.jpg",
+    "w": 1600,
+    "h": 1100
+   }
+  ]
+ },
+ {
+  "slug": "passion-jewellery-ecommerce-website",
+  "type": "web",
+  "title": "Passion: Fine Jewellery eCommerce Website",
+  "desc": "Passion is a fine jewellery store built as a lookbook you can shop.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "ecommerce",
+   "jewellery",
+   "luxury",
+   "fashion",
+   "online store"
+  ],
+  "thumb": {
+   "src": "img/passion-jewellery-ecommerce-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/passion-jewellery-ecommerce-website/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/passion-jewellery-ecommerce-website/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/passion-jewellery-ecommerce-website/03.jpg",
+    "w": 1600,
+    "h": 1075
+   },
+   {
+    "src": "img/passion-jewellery-ecommerce-website/04.jpg",
+    "w": 1600,
+    "h": 2305
+   },
+   {
+    "src": "img/passion-jewellery-ecommerce-website/05.jpg",
+    "w": 1600,
+    "h": 991
+   },
+   {
+    "src": "img/passion-jewellery-ecommerce-website/06.jpg",
+    "w": 1600,
+    "h": 2574
+   }
+  ]
+ },
+ {
+  "slug": "workstreams-ai-data-assistant-website",
+  "type": "web",
+  "title": "WorkStreams: AI Data Assistant Product Website",
+  "desc": "WorkStreams is an AI data assistant. Teams ask their databases questions in plain English and get answers, charts and SQL back.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "saas",
+   "ai",
+   "data",
+   "startup"
+  ],
+  "thumb": {
+   "src": "img/workstreams-ai-data-assistant-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/workstreams-ai-data-assistant-website/01.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/workstreams-ai-data-assistant-website/02.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/workstreams-ai-data-assistant-website/03.jpg",
+    "w": 1600,
+    "h": 1250
+   },
+   {
+    "src": "img/workstreams-ai-data-assistant-website/04.jpg",
+    "w": 1600,
+    "h": 1732
+   },
+   {
+    "src": "img/workstreams-ai-data-assistant-website/05.jpg",
+    "w": 1600,
+    "h": 1111
+   },
+   {
+    "src": "img/workstreams-ai-data-assistant-website/06.jpg",
+    "w": 1600,
+    "h": 1358
+   },
+   {
+    "src": "img/workstreams-ai-data-assistant-website/07.jpg",
+    "w": 1600,
+    "h": 833
+   }
+  ]
+ },
+ {
+  "slug": "siepay-crypto-payments-landing-page",
+  "type": "web",
+  "title": "Siepay: Crypto Recurring Payments Landing Page",
+  "desc": "Siepay is a cryptocurrency recurring payment system for businesses.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "landing page",
+   "crypto",
+   "fintech",
+   "payments",
+   "saas",
+   "web3"
+  ],
+  "thumb": {
+   "src": "img/siepay-crypto-payments-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/siepay-crypto-payments-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1800
+   },
+   {
+    "src": "img/siepay-crypto-payments-landing-page/02.jpg",
+    "w": 1600,
+    "h": 1050
+   },
+   {
+    "src": "img/siepay-crypto-payments-landing-page/03.jpg",
+    "w": 1600,
+    "h": 1183
+   },
+   {
+    "src": "img/siepay-crypto-payments-landing-page/04.jpg",
+    "w": 1600,
+    "h": 817
+   },
+   {
+    "src": "img/siepay-crypto-payments-landing-page/05.jpg",
+    "w": 1600,
+    "h": 750
+   },
+   {
+    "src": "img/siepay-crypto-payments-landing-page/06.jpg",
+    "w": 1600,
+    "h": 3084
+   }
+  ]
+ },
+ {
+  "slug": "searchlight-digital-agency-website",
+  "type": "web",
+  "title": "Searchlight Digital: SEO and Marketing Agency Website",
+  "desc": "Searchlight Digital is an SEO and digital marketing agency helping Los Angeles businesses rank on Google, show up in AI search and win qualified leads.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "seo agency",
+   "marketing agency",
+   "agency",
+   "dark ui"
+  ],
+  "thumb": {
+   "src": "img/searchlight-digital-agency-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/searchlight-digital-agency-website/01.jpg",
+    "w": 1600,
+    "h": 1042
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/03.jpg",
+    "w": 1600,
+    "h": 2067
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/04.jpg",
+    "w": 1600,
+    "h": 1708
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/05.jpg",
+    "w": 1600,
+    "h": 1687
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/06.jpg",
+    "w": 1600,
+    "h": 2378
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/07.jpg",
+    "w": 1600,
+    "h": 1408
+   }
+  ]
+ },
+ {
+  "slug": "winder-stilhaus-interiors-website",
+  "type": "web",
+  "title": "Winder & Stilhaus: Kitchens and Interiors Studio Website",
+  "desc": "Winder & Stilhaus brings British joinery and German precision to kitchens, bathrooms and interiors.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "interior design",
+   "kitchens",
+   "luxury",
+   "home renovation",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/winder-stilhaus-interiors-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/winder-stilhaus-interiors-website/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/winder-stilhaus-interiors-website/02.jpg",
+    "w": 1600,
+    "h": 1042
+   },
+   {
+    "src": "img/winder-stilhaus-interiors-website/03.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "img/winder-stilhaus-interiors-website/04.jpg",
+    "w": 1600,
+    "h": 1333
+   },
+   {
+    "src": "img/winder-stilhaus-interiors-website/05.jpg",
+    "w": 1600,
+    "h": 2452
+   },
+   {
+    "src": "img/winder-stilhaus-interiors-website/06.jpg",
+    "w": 1600,
+    "h": 2292
+   },
+   {
+    "src": "img/winder-stilhaus-interiors-website/07.jpg",
+    "w": 1600,
+    "h": 1093
+   },
+   {
+    "src": "img/winder-stilhaus-interiors-website/08.jpg",
+    "w": 1600,
+    "h": 1675
+   }
+  ]
+ },
+ {
+  "slug": "whittemore-gov-tech-website",
+  "type": "web",
+  "title": "Whittemore: Gov Tech Web and Software Studio Website",
+  "desc": "Whittemore is a Wyoming technology studio that builds accessible websites, portals and custom software for government agencies and growing businesses.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "gov tech",
+   "software house",
+   "accessibility",
+   "corporate"
+  ],
+  "thumb": {
+   "src": "img/whittemore-gov-tech-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/whittemore-gov-tech-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/whittemore-gov-tech-website/02.jpg",
+    "w": 1600,
+    "h": 817
+   },
+   {
+    "src": "img/whittemore-gov-tech-website/03.jpg",
+    "w": 1600,
+    "h": 1900
+   },
+   {
+    "src": "img/whittemore-gov-tech-website/04.jpg",
+    "w": 1600,
+    "h": 1396
+   },
+   {
+    "src": "img/whittemore-gov-tech-website/05.jpg",
+    "w": 1600,
+    "h": 1170
+   },
+   {
+    "src": "img/whittemore-gov-tech-website/06.jpg",
+    "w": 1600,
+    "h": 2017
+   },
+   {
+    "src": "img/whittemore-gov-tech-website/07.jpg",
+    "w": 1600,
+    "h": 1376
+   }
+  ]
+ },
+ {
+  "slug": "spiceweb-media-agency-website",
+  "type": "web",
+  "title": "SpiceWeb Media: Digital Agency Website",
+  "desc": "SpiceWeb Media is a full-service digital agency for branding, websites, SEO, Google Ads and social media.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "marketing agency",
+   "agency",
+   "branding",
+   "seo agency"
+  ],
+  "thumb": {
+   "src": "img/spiceweb-media-agency-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/spiceweb-media-agency-website/01.jpg",
+    "w": 1600,
+    "h": 1195
+   },
+   {
+    "src": "img/spiceweb-media-agency-website/02.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/spiceweb-media-agency-website/03.jpg",
+    "w": 1600,
+    "h": 1250
+   },
+   {
+    "src": "img/spiceweb-media-agency-website/04.jpg",
+    "w": 1600,
+    "h": 3516
+   },
+   {
+    "src": "img/spiceweb-media-agency-website/05.jpg",
+    "w": 1600,
+    "h": 1203
+   },
+   {
+    "src": "img/spiceweb-media-agency-website/06.jpg",
+    "w": 1600,
+    "h": 1950
+   }
+  ]
+ },
+ {
+  "slug": "gear-audio-ecommerce-website",
+  "type": "web",
+  "title": "Gear: Premium Tech and Audio eCommerce Website",
+  "desc": "Gear is an online store for premium tech and audio.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "ecommerce",
+   "online store",
+   "tech",
+   "audio"
+  ],
+  "thumb": {
+   "src": "img/gear-audio-ecommerce-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/gear-audio-ecommerce-website/01.jpg",
+    "w": 1600,
+    "h": 1783
+   },
+   {
+    "src": "img/gear-audio-ecommerce-website/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/gear-audio-ecommerce-website/03.jpg",
+    "w": 1600,
+    "h": 1133
+   },
+   {
+    "src": "img/gear-audio-ecommerce-website/04.jpg",
+    "w": 1600,
+    "h": 2268
+   },
+   {
+    "src": "img/gear-audio-ecommerce-website/05.jpg",
+    "w": 1600,
+    "h": 2128
+   },
+   {
+    "src": "img/gear-audio-ecommerce-website/06.jpg",
+    "w": 1600,
+    "h": 1170
+   }
+  ]
+ },
+ {
+  "slug": "inn-twin-digital-twin-studio-website",
+  "type": "web",
+  "title": "Inn Twin: Digital Twin Studio Website",
+  "desc": "Inn Twin captures true-to-scale digital twins of spaces, materials and products for architects and brands.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "3d",
+   "digital twin",
+   "architecture",
+   "vr",
+   "dark ui"
+  ],
+  "thumb": {
+   "src": "img/inn-twin-digital-twin-studio-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/inn-twin-digital-twin-studio-website/01.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/inn-twin-digital-twin-studio-website/02.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/inn-twin-digital-twin-studio-website/03.jpg",
+    "w": 1600,
+    "h": 1767
+   },
+   {
+    "src": "img/inn-twin-digital-twin-studio-website/04.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "img/inn-twin-digital-twin-studio-website/05.jpg",
+    "w": 1600,
+    "h": 1800
+   },
+   {
+    "src": "img/inn-twin-digital-twin-studio-website/06.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/inn-twin-digital-twin-studio-website/07.jpg",
+    "w": 1600,
+    "h": 963
+   }
+  ]
+ },
+ {
   "slug": "terral-built-on-structure",
   "type": "brand",
   "title": "TERRAL — Built on Structure",
@@ -2466,109 +3036,6 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "gear-a-futuristic-tech-e-commerce-experience",
-  "type": "web",
-  "title": "Gear – A Futuristic Tech E-commerce Experience",
-  "desc": "A futuristic UI/UX design for the Gear Website, an e-commerce platform for innovative tech gadgets. The sleek, modern interface and intuitive shopping experience create a seamless and engaging digital store.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "saas",
-   "ecommerce",
-   "website",
-   "tech"
-  ],
-  "thumb": {
-   "src": "img/gear-a-futuristic-tech-e-commerce-experience/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/gear-a-futuristic-tech-e-commerce-experience/01.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/gear-a-futuristic-tech-e-commerce-experience/02.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/gear-a-futuristic-tech-e-commerce-experience/03.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/gear-a-futuristic-tech-e-commerce-experience/04.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/gear-a-futuristic-tech-e-commerce-experience/05.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/gear-a-futuristic-tech-e-commerce-experience/06.jpg",
-    "w": 1440,
-    "h": 7307
-   }
-  ]
- },
- {
-  "slug": "siepay-crypto-payment-website",
-  "type": "web",
-  "title": "Siepay - Crypto Payment Website",
-  "desc": "",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "crypto",
-   "fintech",
-   "website"
-  ],
-  "thumb": {
-   "src": "img/siepay-crypto-payment-website/thumb.jpg",
-   "w": 1200,
-   "h": 939
-  },
-  "images": [
-   {
-    "src": "img/siepay-crypto-payment-website/01.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/siepay-crypto-payment-website/02.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/siepay-crypto-payment-website/03.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/siepay-crypto-payment-website/04.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/siepay-crypto-payment-website/05.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/siepay-crypto-payment-website/06.jpg",
-    "w": 1440,
-    "h": 10631
-   }
-  ]
- },
- {
   "slug": "cloud-care-mobile-app-design",
   "type": "web",
   "title": "Cloud Care - Mobile App design",
@@ -2753,56 +3220,6 @@ window.PROJECTS = [
     "src": "img/luxae-home-decor-website/06.jpg",
     "w": 1440,
     "h": 3999
-   }
-  ]
- },
- {
-  "slug": "passion-jewellery-brand-website",
-  "type": "web",
-  "title": "Passion - Jewellery Brand website",
-  "desc": "",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "luxury"
-  ],
-  "thumb": {
-   "src": "img/passion-jewellery-brand-website/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/passion-jewellery-brand-website/01.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/passion-jewellery-brand-website/02.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/passion-jewellery-brand-website/03.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/passion-jewellery-brand-website/04.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/passion-jewellery-brand-website/05.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/passion-jewellery-brand-website/06.jpg",
-    "w": 1440,
-    "h": 7466
    }
   ]
  },
@@ -3004,56 +3421,6 @@ window.PROJECTS = [
     "src": "img/solstech-software-house-website/06.jpg",
     "w": 1440,
     "h": 7289
-   }
-  ]
- },
- {
-  "slug": "workstream-saas-website-design",
-  "type": "web",
-  "title": "Workstream - Saas Website design",
-  "desc": "",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "saas",
-   "website"
-  ],
-  "thumb": {
-   "src": "img/workstream-saas-website-design/thumb.jpg",
-   "w": 1200,
-   "h": 939
-  },
-  "images": [
-   {
-    "src": "img/workstream-saas-website-design/01.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/workstream-saas-website-design/02.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/workstream-saas-website-design/03.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/workstream-saas-website-design/04.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/workstream-saas-website-design/05.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/workstream-saas-website-design/06.jpg",
-    "w": 1440,
-    "h": 5051
    }
   ]
  },

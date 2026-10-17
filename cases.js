@@ -489,34 +489,6 @@ window.CASES = {
    "We designed the website for Code Baustein, a blockchain and SaaS software house, to explain their services clearly and win the trust of new clients."
   ]
  },
- "gear-a-futuristic-tech-e-commerce-experience": {
-  "title": "Gear: A Futuristic Tech eCommerce Website",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "ecommerce",
-   "tech",
-   "online store",
-   "website"
-  ],
-  "about": [
-   "We designed an online store for Gear, a brand selling futuristic tech gadgets. Sleek and modern, it makes browsing and buying easy."
-  ]
- },
- "siepay-crypto-payment-website": {
-  "title": "Siepay: Crypto Payment Website",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "crypto",
-   "fintech",
-   "landing page",
-   "website"
-  ],
-  "about": [
-   "We designed a website for Siepay, a crypto payment platform for recurring payments. It makes a complex product feel simple and trustworthy."
-  ]
- },
  "cloud-care-mobile-app-design": {
   "title": "Cloud Care: Mobile App Design",
   "tags": [
@@ -570,20 +542,6 @@ window.CASES = {
   ],
   "about": [
    "We designed the Luxae website, a warm and inviting place to explore their home decor collections before shopping."
-  ]
- },
- "passion-jewellery-brand-website": {
-  "title": "Passion: Jewellery Brand Website",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "ecommerce",
-   "jewellery",
-   "luxury",
-   "website"
-  ],
-  "about": [
-   "We designed an elegant website for Passion, a fine jewellery brand, to show off its collections."
   ]
  },
  "genuine-connection-landing-page": {
@@ -641,20 +599,6 @@ window.CASES = {
    "We designed a website for SolsTech, a software house that builds mobile apps."
   ]
  },
- "workstream-saas-website-design": {
-  "title": "WorkStreams: SaaS Website Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "saas",
-   "ai",
-   "data",
-   "website"
-  ],
-  "about": [
-   "We designed a SaaS website for WorkStreams, an AI data assistant that turns plain questions into answers and charts."
-  ]
- },
  "website-design-cryptocurrency-web3-crypto-nft": {
   "title": "TenUp: Web3 dApps Landing Page",
   "tags": [
@@ -694,6 +638,301 @@ window.CASES = {
   ],
   "about": [
    "We designed a landing page for Dappomatics, an NFT marketplace."
+  ]
+ },
+ "noara-labs-website": {
+  "title": "Noara Labs: Tech Talent Partner Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "staffing",
+   "software house",
+   "b2b",
+   "careers"
+  ],
+  "about": [
+   "Noara Labs connects growing companies with vetted remote engineers, dedicated teams and full product builds."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Noara speaks to two audiences at once: companies that need to hire, and developers looking for their next role. Most staffing sites feel generic and blur the two together, so Noara needed a site that feels bold and modern and gives each audience its own clear path."
+   ],
+   [
+    "What we did",
+    "We designed a bold site in black and signal orange with apricot, deep green and cream, built around a pinwheel shape. Hiring companies and developers each get their own path, with a careers page of open roles, a simple apply flow and a call booking page that confirms the next step."
+   ],
+   [
+    "Scope",
+    "UI/UX design, multi-page website with desktop and mobile layouts, design system, sitemap, wireframes and prototype."
+   ]
+  ]
+ },
+ "passion-jewellery-ecommerce-website": {
+  "title": "Passion: Fine Jewellery eCommerce Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "ecommerce",
+   "jewellery",
+   "luxury",
+   "fashion",
+   "online store"
+  ],
+  "about": [
+   "Passion is a fine jewellery store built as a lookbook you can shop."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Fine jewellery sells on feeling, but most stores flatten it into a plain product grid. Passion needed a site that feels like a fashion editorial without hiding the products or the path to buy."
+   ],
+   [
+    "What we did",
+    "We set the mood with arched portraits, generous space and Marcellus headlines in a plum palette, then made buying easy: clear categories, product pages with metal and length options, and a simple bag."
+   ],
+   [
+    "Scope",
+    "UI/UX design: home, collections, product, bag and about pages."
+   ]
+  ]
+ },
+ "workstreams-ai-data-assistant-website": {
+  "title": "WorkStreams: AI Data Assistant Product Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "saas",
+   "ai",
+   "data",
+   "startup"
+  ],
+  "about": [
+   "WorkStreams is an AI data assistant. Teams ask their databases questions in plain English and get answers, charts and SQL back."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Data tools usually speak to engineers. WorkStreams needed a site that makes AI-assisted analysis feel useful to a whole team, and turns early interest into a waitlist."
+   ],
+   [
+    "What we did",
+    "We designed a deep violet and midnight look with chat chips and code panels that explain insights, database health and SQL generation in plain words. Every page leads to one action: join the waitlist."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 5 pages plus a waitlist flow, design system, sitemap, user journeys, wireframes and prototype."
+   ]
+  ]
+ },
+ "siepay-crypto-payments-landing-page": {
+  "title": "Siepay: Crypto Recurring Payments Landing Page",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "landing page",
+   "crypto",
+   "fintech",
+   "payments",
+   "saas",
+   "web3"
+  ],
+  "about": [
+   "Siepay is a cryptocurrency recurring payment system for businesses."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Crypto payments are usually one-off and manual. For a business, running subscriptions and invoices in crypto felt risky, and customers were not sure what they were signing up for."
+   ],
+   [
+    "What we did",
+    "We designed a landing page that says what Siepay does in one headline, shows invoices, MetaMask and subscriptions as friendly 3D cards, builds trust with real numbers and ends on a clear free trial."
+   ],
+   [
+    "Scope",
+    "UI/UX design, landing page for desktop."
+   ]
+  ]
+ },
+ "searchlight-digital-agency-website": {
+  "title": "Searchlight Digital: SEO and Marketing Agency Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "seo agency",
+   "marketing agency",
+   "agency",
+   "dark ui"
+  ],
+  "about": [
+   "Searchlight Digital is an SEO and digital marketing agency helping Los Angeles businesses rank on Google, show up in AI search and win qualified leads."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Every SEO agency promises page one. Searchlight needed a site that feels premium from the first scroll and turns local business owners into audit requests."
+   ],
+   [
+    "What we did",
+    "We built the whole site around a spotlight idea: dark sections lit by warm gold, a scrolling services ticker, image-led service cards and a clear four-step growth framework, all leading to one action: request a free SEO audit."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 5 pages (Home, About, Services, Resource Center, Contact), responsive."
+   ]
+  ]
+ },
+ "winder-stilhaus-interiors-website": {
+  "title": "Winder & Stilhaus: Kitchens and Interiors Studio Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "interior design",
+   "kitchens",
+   "luxury",
+   "home renovation",
+   "branding"
+  ],
+  "about": [
+   "Winder & Stilhaus brings British joinery and German precision to kitchens, bathrooms and interiors."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "WS sells high-value rooms, so the site had to feel calm and crafted, explain a structured process and give homeowners a confident first step."
+   ],
+   [
+    "What we did",
+    "We used editorial serif headlines, a charcoal and stone palette lit by one ember accent and big interior photography, and showed guide pricing openly so homeowners know where they stand."
+   ],
+   [
+    "Scope",
+    "9-page website with mobile layouts, design system, branded emails, a quote template and an A4 specification guide."
+   ]
+  ]
+ },
+ "whittemore-gov-tech-website": {
+  "title": "Whittemore: Gov Tech Web and Software Studio Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "gov tech",
+   "software house",
+   "accessibility",
+   "corporate"
+  ],
+  "about": [
+   "Whittemore is a Wyoming technology studio that builds accessible websites, portals and custom software for government agencies and growing businesses."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Public buyers care about trust, accessibility and clarity more than flashy visuals. The site had to show real care for accessibility and make it easy to start a conversation."
+   ],
+   [
+    "What we did",
+    "We designed a confident navy look with an arch-and-sun hero framing every page, case studies that show real impact and clear paths to a project conversation."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 8 pages, design system, sitemap, user journeys, wireframes, clickable prototype and responsive mobile."
+   ]
+  ]
+ },
+ "spiceweb-media-agency-website": {
+  "title": "SpiceWeb Media: Digital Agency Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "marketing agency",
+   "agency",
+   "branding",
+   "seo agency"
+  ],
+  "about": [
+   "SpiceWeb Media is a full-service digital agency for branding, websites, SEO, Google Ads and social media."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "An agency website has to prove its own work. SpiceWeb needed a site that feels bold, shows real results and turns visitors into booked consultations."
+   ],
+   [
+    "What we did",
+    "We designed a bold monochrome look with one spice red accent and a portfolio-led layout, including a client case study page and a booking confirmation page."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 9 pages, design system, sitemap, wireframes and prototype."
+   ]
+  ]
+ },
+ "gear-audio-ecommerce-website": {
+  "title": "Gear: Premium Tech and Audio eCommerce Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "ecommerce",
+   "online store",
+   "tech",
+   "audio"
+  ],
+  "about": [
+   "Gear is an online store for premium tech and audio."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Electronics stores often bury great products under busy layouts, banners and discount noise. Gear needed a store that feels as premium as its products and still makes buying simple."
+   ],
+   [
+    "What we did",
+    "We designed a quiet monochrome store with large product photography, clear categories, product cards with price and rating, a live offer and an FAQ, so shoppers can browse, compare and add to cart without friction."
+   ],
+   [
+    "Scope",
+    "UI/UX design, home page, product page and design system."
+   ]
+  ]
+ },
+ "inn-twin-digital-twin-studio-website": {
+  "title": "Inn Twin: Digital Twin Studio Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "3d",
+   "digital twin",
+   "architecture",
+   "vr",
+   "dark ui"
+  ],
+  "about": [
+   "Inn Twin captures true-to-scale digital twins of spaces, materials and products for architects and brands."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Inn Twin sells visual truth, so the site itself had to look as real and cinematic as its captures, while explaining a technical service simply."
+   ],
+   [
+    "What we did",
+    "We designed a dark, immersive studio site with cinematic renders, a warm gold accent and calm type, plus a material library and a VR showroom page."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 8 studio pages plus an access flow, design system and prototype."
+   ]
   ]
  }
 };

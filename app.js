@@ -132,7 +132,8 @@ function caseHTML(i) {
   const p = P[i], c = (window.CASES || {})[p.slug] || {};
   const prev = P[(i - 1 + P.length) % P.length], next = P[(i + 1) % P.length];
   const more = [1, 2, 3].map(k => P[(i + k) % P.length]);
-  const about = (c.about || [p.desc].filter(Boolean)).map(t => `<p>${esc(t)}</p>`).join("");
+  const about = (c.about || [p.desc].filter(Boolean)).map(t => `<p>${esc(t)}</p>`).join("")
+    + (c.sections || []).map(([h, t]) => `<h2>${esc(h)}</h2><p>${esc(t)}</p>`).join("");  // challenge / what we did / scope
   return `
   <article class="shot-page">
     <header class="sp-head">
