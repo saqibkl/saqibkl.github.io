@@ -131,7 +131,7 @@ if (grid) {
 }
 
 /* ---------- case study (shared by the pop-up sheet on index.html and the standalone project.html) ---------- */
-const UPWORK = "https://www.upwork.com/freelancers/saqibkl", BEHANCE = "https://www.behance.net/saqibkamal2";
+const UPWORK = "https://www.upwork.com/freelancers/saqibkl", BEHANCE = "https://www.behance.net/saqibkamal";
 const out = (href, label, cls) => `<a class="btn ${cls}" href="${href}" target="_blank" rel="noopener">${label}</a>`;
 function caseHTML(i) {
   const p = P[i], c = (window.CASES || {})[p.slug] || {};
