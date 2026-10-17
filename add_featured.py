@@ -13,10 +13,14 @@ KEEP_MOCKUPS = {"06_careers_mockup.jpg", "03_kitchens_mockup.jpg"}  # the two la
 REPLACES = ["siepay-crypto-payment-website", "workstream-saas-website-design",
             "passion-jewellery-brand-website", "gear-a-futuristic-tech-e-commerce-experience"]
 W = ["ui/ux", "web design", "website"]
+# pinned: the standout brand projects stay first, then these websites, then everything else
+PINNED = ["terral-built-on-structure", "qore-core-driven-strategy-brand-identity", "opendox-connected-knowledge-brand-identity",
+          "taskera-ai-powered-productivity-platform", "bambu-eco-friendly-daily-essentials-brand-identity", "bound-nature-first-living-brand-identity"]
 
 # slug, Behance folder, Upwork thumbnail, title, tags, intro, challenge, what we did, scope
 PROJECTS = [
-    ("noara-labs-website", "05 Noara Labs", "01_noara.jpg", "Noara Labs: Tech Talent Partner Website",
+    ("noara-labs-website", "05 Noara Labs", UPLOADS / "05 Noara Labs" / "00_thumbnail_D_pinwheel_laptop.jpg",  # user: the pinwheel laptop as cover
+     "Noara Labs: Tech Talent Partner Website",
      W + ["staffing", "software house", "b2b", "careers"],
      "Noara Labs connects growing companies with vetted remote engineers, dedicated teams and full product builds.",
      "Noara speaks to two audiences at once: companies that need to hire, and developers looking for their next role. Most staffing sites feel generic and blur the two together, so Noara needed a site that feels bold and modern and gives each audience its own clear path.",
@@ -126,7 +130,8 @@ if __name__ == "__main__":
         cases[slug] = dict(title=title, tags=tags, about=[intro],
                            sections=[["The challenge", challenge], ["What we did", did], ["Scope", scope]])
         print(f"{slug:42} {len(mods):2} modules: {', '.join(m.stem for m in mods)}")
-    data = fresh + data
+    pinned = [next(p for p in data if p["slug"] == s) for s in PINNED]
+    data = pinned + fresh + [p for p in data if p["slug"] not in PINNED]
     assert len({p['slug'] for p in data}) == len(data), "duplicate slug"
     (OUT / "data.js").write_text(js[:js.index("[")] + json.dumps(data, indent=1, ensure_ascii=False) + ";\n", encoding="utf-8")
     (OUT / "cases.js").write_text(cs[:cs.index("{")] + json.dumps(cases, indent=1, ensure_ascii=False) + ";\n", encoding="utf-8")

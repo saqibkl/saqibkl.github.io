@@ -1,5 +1,398 @@
 window.PROJECTS = [
  {
+  "slug": "terral-built-on-structure",
+  "type": "brand",
+  "title": "TERRAL — Built on Structure",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "construction"
+  ],
+  "thumb": {
+   "src": "img/terral-built-on-structure/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/terral-built-on-structure/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/terral-built-on-structure/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/terral-built-on-structure/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/terral-built-on-structure/09.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "qore-core-driven-strategy-brand-identity",
+  "type": "brand",
+  "title": "QORE — Core-Driven Strategy Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/qore-core-driven-strategy-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "opendox-connected-knowledge-brand-identity",
+  "type": "brand",
+  "title": "Opendox — Connected Knowledge Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/opendox-connected-knowledge-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "taskera-ai-powered-productivity-platform",
+  "type": "brand",
+  "title": "TASKERA — AI-Powered Productivity Platform",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "saas",
+   "ai"
+  ],
+  "thumb": {
+   "src": "img/taskera-ai-powered-productivity-platform/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/09.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/10.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "bambu-eco-friendly-daily-essentials-brand-identity",
+  "type": "brand",
+  "title": "BAMBU — Eco-Friendly Daily Essentials Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "sustainability"
+  ],
+  "thumb": {
+   "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "bound-nature-first-living-brand-identity",
+  "type": "brand",
+  "title": "BOUND - Nature First Living Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "sustainability"
+  ],
+  "thumb": {
+   "src": "img/bound-nature-first-living-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/bound-nature-first-living-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1138
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2276
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
   "slug": "noara-labs-website",
   "type": "web",
   "title": "Noara Labs: Tech Talent Partner Website",
@@ -566,399 +959,6 @@ window.PROJECTS = [
     "src": "img/inn-twin-digital-twin-studio-website/07.jpg",
     "w": 1600,
     "h": 963
-   }
-  ]
- },
- {
-  "slug": "terral-built-on-structure",
-  "type": "brand",
-  "title": "TERRAL — Built on Structure",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
-  "tags": [
-   "brand identity",
-   "branding",
-   "construction"
-  ],
-  "thumb": {
-   "src": "img/terral-built-on-structure/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/terral-built-on-structure/01.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/02.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/03.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/04.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/terral-built-on-structure/05.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/06.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/07.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/terral-built-on-structure/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/terral-built-on-structure/09.jpg",
-    "w": 1600,
-    "h": 1142
-   }
-  ]
- },
- {
-  "slug": "qore-core-driven-strategy-brand-identity",
-  "type": "brand",
-  "title": "QORE — Core-Driven Strategy Brand Identity",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
-  "tags": [
-   "brand identity",
-   "branding"
-  ],
-  "thumb": {
-   "src": "img/qore-core-driven-strategy-brand-identity/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/01.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/02.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/03.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/04.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/05.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/06.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/07.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/09.jpg",
-    "w": 1600,
-    "h": 1142
-   }
-  ]
- },
- {
-  "slug": "opendox-connected-knowledge-brand-identity",
-  "type": "brand",
-  "title": "Opendox — Connected Knowledge Brand Identity",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
-  "tags": [
-   "brand identity",
-   "branding"
-  ],
-  "thumb": {
-   "src": "img/opendox-connected-knowledge-brand-identity/thumb.jpg",
-   "w": 1200,
-   "h": 939
-  },
-  "images": [
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/01.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/02.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/03.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/04.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/05.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/06.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/07.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/09.jpg",
-    "w": 1600,
-    "h": 1142
-   }
-  ]
- },
- {
-  "slug": "taskera-ai-powered-productivity-platform",
-  "type": "brand",
-  "title": "TASKERA — AI-Powered Productivity Platform",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
-  "tags": [
-   "brand identity",
-   "branding",
-   "saas",
-   "ai"
-  ],
-  "thumb": {
-   "src": "img/taskera-ai-powered-productivity-platform/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/01.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/02.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/03.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/04.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/05.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/06.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/07.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/09.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/10.jpg",
-    "w": 1600,
-    "h": 1142
-   }
-  ]
- },
- {
-  "slug": "bambu-eco-friendly-daily-essentials-brand-identity",
-  "type": "brand",
-  "title": "BAMBU — Eco-Friendly Daily Essentials Brand Identity",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
-  "tags": [
-   "brand identity",
-   "branding",
-   "sustainability"
-  ],
-  "thumb": {
-   "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/01.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/02.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/03.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/04.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/05.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/06.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/07.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/09.jpg",
-    "w": 1600,
-    "h": 1142
-   }
-  ]
- },
- {
-  "slug": "bound-nature-first-living-brand-identity",
-  "type": "brand",
-  "title": "BOUND - Nature First Living Brand Identity",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
-  "tags": [
-   "brand identity",
-   "branding",
-   "sustainability"
-  ],
-  "thumb": {
-   "src": "img/bound-nature-first-living-brand-identity/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/bound-nature-first-living-brand-identity/01.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/02.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/03.jpg",
-    "w": 1600,
-    "h": 1143
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/04.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/05.jpg",
-    "w": 1600,
-    "h": 1138
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/06.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/07.jpg",
-    "w": 1600,
-    "h": 2276
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/09.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/10.jpg",
-    "w": 1600,
-    "h": 1142
    }
   ]
  },
