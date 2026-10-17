@@ -489,48 +489,6 @@ window.CASES = {
    "We designed the website for Code Baustein, a blockchain and SaaS software house, to explain their services clearly and win the trust of new clients."
   ]
  },
- "cloud-care-mobile-app-design": {
-  "title": "Cloud Care: Mobile App Design",
-  "tags": [
-   "ui/ux",
-   "mobile app",
-   "healthcare",
-   "baby care",
-   "app design"
-  ],
-  "about": [
-   "CloudCare helps parents through early parenthood with gentle, reassuring care.",
-   "We designed a calm, easy app with soft colours and friendly details, so it feels like a trusted companion for tired parents."
-  ]
- },
- "gear-app-a-futuristic-shopping-experience": {
-  "title": "Gear App: A Futuristic Shopping Experience",
-  "tags": [
-   "ui/ux",
-   "mobile app",
-   "ecommerce",
-   "audio",
-   "app design"
-  ],
-  "about": [
-   "Gear is a shopping app for premium audio products.",
-   "We designed a dark, futuristic and easy-to-use app that helps people discover products and check out quickly."
-  ]
- },
- "luxae-a-seamless-home-decor-shopping": {
-  "title": "Luxae: Home Decor Shopping App",
-  "tags": [
-   "ui/ux",
-   "mobile app",
-   "ecommerce",
-   "home decor",
-   "app design"
-  ],
-  "about": [
-   "Luxae sells carefully chosen home decor and accessories.",
-   "We designed a clean, modern shopping app where people can browse, pick colours and buy decor easily."
-  ]
- },
  "luxae-home-decor-website": {
   "title": "Luxae: Home Decor Website",
   "tags": [
@@ -990,6 +948,221 @@ window.CASES = {
    [
     "Scope",
     "Platform UX, UI and design system, 16 screens including login."
+   ]
+  ]
+ },
+ "nostradamus-football-prediction-app": {
+  "title": "Nostradamus: Football Prediction App",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "sports",
+   "betting",
+   "social",
+   "gaming"
+  ],
+  "about": [
+   "Nostradamus turns watching football into a game between friends."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Prediction apps often bury the fun under odds tables and long forms, so a quick bet with a friend feels like paperwork."
+   ],
+   [
+    "What we did",
+    "We made a dashboard that leads with the next match, one tap to predict a score, simple challenges, private pools and leaderboards that show where you stand."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 59 mobile screens across 7 app areas, design system and prototype."
+   ]
+  ]
+ },
+ "guardio-theft-protection-app": {
+  "title": "Guardio: Theft Protection and Reporting App",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "security",
+   "insurance",
+   "utility"
+  ],
+  "about": [
+   "Guardio helps people register what they own and report a theft in minutes."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "When something valuable is stolen, people scramble for receipts, serial numbers and photos, and filing a report takes hours."
+   ],
+   [
+    "What we did",
+    "We made an app where items are registered once with everything attached, so a full theft report, the nearest police station and insurance options are a few taps away."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 16 mobile screens, design system and prototype."
+   ]
+  ]
+ },
+ "gear-tech-shopping-app": {
+  "title": "Gear: Premium Tech Shopping App",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "ecommerce",
+   "shopping",
+   "tech",
+   "audio"
+  ],
+  "about": [
+   "Gear is a shopping app for premium tech accessories."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Electronics stores often bury great products under busy layouts, and checkout breaks the premium feel."
+   ],
+   [
+    "What we did",
+    "We made a monochrome store with large product imagery, clear categories, a wishlist and a short checkout that stays out of the way."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 11 mobile screens, design system and prototype."
+   ]
+  ]
+ },
+ "luxae-home-decor-shopping-app": {
+  "title": "Luxae: Home Decor Shopping App",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "ecommerce",
+   "shopping",
+   "furniture",
+   "home decor"
+  ],
+  "about": [
+   "Luxae is a calm, gallery like store for furniture and decor."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Decor apps often feel like busy catalogues, and the checkout breaks the mood the products create."
+   ],
+   [
+    "What we did",
+    "We made soft periwinkle screens with large product images, a simple colour picker and a short checkout, plus a splash in three colourways."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 12 mobile screens, design system and prototype."
+   ]
+  ]
+ },
+ "cloud-care-family-health-app": {
+  "title": "Cloud Care: Family Health App",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "health",
+   "healthcare",
+   "family",
+   "wellness"
+  ],
+  "about": [
+   "Cloud Care helps parents look after the whole family's health in one calm place."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Family health lives in too many places: paper notes, reminders on different phones and appointment letters."
+   ],
+   [
+    "What we did",
+    "We made one gentle app for vitals, baby sleep, medication reminders and appointments, with warm colours and clear cards that read at a glance."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 10 mobile screens, design system and prototype."
+   ]
+  ]
+ },
+ "ahln-smart-delivery-box-app": {
+  "title": "Ahln: Smart Delivery Box App",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "iot",
+   "smart home",
+   "delivery",
+   "dark mode"
+  ],
+  "about": [
+   "Ahln is a smart delivery box for homes, controlled from a phone."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "Parcels arrive when nobody is home, so they get left at the door, sent back or handed to a neighbour."
+   ],
+   [
+    "What we did",
+    "We made an app to track deliveries, watch the box camera, open a door remotely and give family or riders time limited access, in Light and Dark mode."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 52 mobile screens in Light and Dark, design system and prototype."
+   ]
+  ]
+ },
+ "lavender-organizes-business-app": {
+  "title": "Lavender Organizes: Home Organising App",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "service booking",
+   "business",
+   "multi role"
+  ],
+  "about": [
+   "One app for a home organising business: customers, organizers and admins."
+  ],
+  "sections": [
+   [
+    "The challenge",
+    "The business ran on calls, notes and spreadsheets, and juggling three kinds of users slowed everyone down."
+   ],
+   [
+    "What we did",
+    "We made one app with a role picker: customers book and pay, organizers run their tasks, and admins assign work and follow every project."
+   ],
+   [
+    "Scope",
+    "UI/UX design, 82 mobile screens across 3 roles, design system and prototype."
    ]
   ]
  }

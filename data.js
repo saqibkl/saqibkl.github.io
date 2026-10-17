@@ -1084,6 +1084,474 @@ window.PROJECTS = [
   ]
  },
  {
+  "slug": "nostradamus-football-prediction-app",
+  "type": "app",
+  "title": "Nostradamus: Football Prediction App",
+  "desc": "Nostradamus turns watching football into a game between friends.",
+  "cats": "UI/UX, App Design",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "sports",
+   "betting",
+   "social",
+   "gaming"
+  ],
+  "thumb": {
+   "src": "img/nostradamus-football-prediction-app/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/nostradamus-football-prediction-app/01.jpg",
+    "w": 1600,
+    "h": 1300
+   },
+   {
+    "src": "img/nostradamus-football-prediction-app/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/nostradamus-football-prediction-app/03.jpg",
+    "w": 1600,
+    "h": 1183
+   },
+   {
+    "src": "img/nostradamus-football-prediction-app/04.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/nostradamus-football-prediction-app/05.jpg",
+    "w": 1600,
+    "h": 1990
+   },
+   {
+    "src": "img/nostradamus-football-prediction-app/06.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/nostradamus-football-prediction-app/07.jpg",
+    "w": 1600,
+    "h": 1990
+   },
+   {
+    "src": "img/nostradamus-football-prediction-app/08.jpg",
+    "w": 1600,
+    "h": 1990
+   },
+   {
+    "src": "img/nostradamus-football-prediction-app/09.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/nostradamus-football-prediction-app/10.jpg",
+    "w": 1600,
+    "h": 1990
+   },
+   {
+    "src": "img/nostradamus-football-prediction-app/11.jpg",
+    "w": 1600,
+    "h": 1252
+   }
+  ]
+ },
+ {
+  "slug": "guardio-theft-protection-app",
+  "type": "app",
+  "title": "Guardio: Theft Protection and Reporting App",
+  "desc": "Guardio helps people register what they own and report a theft in minutes.",
+  "cats": "UI/UX, App Design",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "security",
+   "insurance",
+   "utility"
+  ],
+  "thumb": {
+   "src": "img/guardio-theft-protection-app/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/guardio-theft-protection-app/01.jpg",
+    "w": 1600,
+    "h": 1300
+   },
+   {
+    "src": "img/guardio-theft-protection-app/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/guardio-theft-protection-app/03.jpg",
+    "w": 1600,
+    "h": 1183
+   },
+   {
+    "src": "img/guardio-theft-protection-app/04.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/guardio-theft-protection-app/05.jpg",
+    "w": 1600,
+    "h": 1990
+   },
+   {
+    "src": "img/guardio-theft-protection-app/06.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/guardio-theft-protection-app/07.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/guardio-theft-protection-app/08.jpg",
+    "w": 1600,
+    "h": 1252
+   }
+  ]
+ },
+ {
+  "slug": "gear-tech-shopping-app",
+  "type": "app",
+  "title": "Gear: Premium Tech Shopping App",
+  "desc": "Gear is a shopping app for premium tech accessories.",
+  "cats": "UI/UX, App Design",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "ecommerce",
+   "shopping",
+   "tech",
+   "audio"
+  ],
+  "thumb": {
+   "src": "img/gear-tech-shopping-app/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/gear-tech-shopping-app/01.jpg",
+    "w": 1600,
+    "h": 1300
+   },
+   {
+    "src": "img/gear-tech-shopping-app/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/gear-tech-shopping-app/03.jpg",
+    "w": 1600,
+    "h": 1183
+   },
+   {
+    "src": "img/gear-tech-shopping-app/04.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/gear-tech-shopping-app/05.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/gear-tech-shopping-app/06.jpg",
+    "w": 1600,
+    "h": 1990
+   },
+   {
+    "src": "img/gear-tech-shopping-app/07.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/gear-tech-shopping-app/08.jpg",
+    "w": 1600,
+    "h": 1252
+   }
+  ]
+ },
+ {
+  "slug": "luxae-home-decor-shopping-app",
+  "type": "app",
+  "title": "Luxae: Home Decor Shopping App",
+  "desc": "Luxae is a calm, gallery like store for furniture and decor.",
+  "cats": "UI/UX, App Design",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "ecommerce",
+   "shopping",
+   "furniture",
+   "home decor"
+  ],
+  "thumb": {
+   "src": "img/luxae-home-decor-shopping-app/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/luxae-home-decor-shopping-app/01.jpg",
+    "w": 1600,
+    "h": 1300
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/03.jpg",
+    "w": 1600,
+    "h": 1183
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/04.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/05.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/06.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/07.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/08.jpg",
+    "w": 1600,
+    "h": 1252
+   }
+  ]
+ },
+ {
+  "slug": "cloud-care-family-health-app",
+  "type": "app",
+  "title": "Cloud Care: Family Health App",
+  "desc": "Cloud Care helps parents look after the whole family's health in one calm place.",
+  "cats": "UI/UX, App Design",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "health",
+   "healthcare",
+   "family",
+   "wellness"
+  ],
+  "thumb": {
+   "src": "img/cloud-care-family-health-app/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/cloud-care-family-health-app/01.jpg",
+    "w": 1600,
+    "h": 1300
+   },
+   {
+    "src": "img/cloud-care-family-health-app/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/cloud-care-family-health-app/03.jpg",
+    "w": 1600,
+    "h": 1183
+   },
+   {
+    "src": "img/cloud-care-family-health-app/04.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/cloud-care-family-health-app/05.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/cloud-care-family-health-app/06.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/cloud-care-family-health-app/07.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/cloud-care-family-health-app/08.jpg",
+    "w": 1600,
+    "h": 1252
+   }
+  ]
+ },
+ {
+  "slug": "ahln-smart-delivery-box-app",
+  "type": "app",
+  "title": "Ahln: Smart Delivery Box App",
+  "desc": "Ahln is a smart delivery box for homes, controlled from a phone.",
+  "cats": "UI/UX, App Design",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "iot",
+   "smart home",
+   "delivery",
+   "dark mode"
+  ],
+  "thumb": {
+   "src": "img/ahln-smart-delivery-box-app/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/ahln-smart-delivery-box-app/01.jpg",
+    "w": 1600,
+    "h": 1300
+   },
+   {
+    "src": "img/ahln-smart-delivery-box-app/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/ahln-smart-delivery-box-app/03.jpg",
+    "w": 1600,
+    "h": 1183
+   },
+   {
+    "src": "img/ahln-smart-delivery-box-app/04.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/ahln-smart-delivery-box-app/05.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/ahln-smart-delivery-box-app/06.jpg",
+    "w": 1600,
+    "h": 1990
+   },
+   {
+    "src": "img/ahln-smart-delivery-box-app/07.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/ahln-smart-delivery-box-app/08.jpg",
+    "w": 1600,
+    "h": 1252
+   },
+   {
+    "src": "img/ahln-smart-delivery-box-app/09.jpg",
+    "w": 1600,
+    "h": 1990
+   }
+  ]
+ },
+ {
+  "slug": "lavender-organizes-business-app",
+  "type": "app",
+  "title": "Lavender Organizes: Home Organising App",
+  "desc": "One app for a home organising business: customers, organizers and admins.",
+  "cats": "UI/UX, App Design",
+  "tags": [
+   "ui/ux",
+   "mobile app",
+   "app design",
+   "ios",
+   "android",
+   "service booking",
+   "business",
+   "multi role"
+  ],
+  "thumb": {
+   "src": "img/lavender-organizes-business-app/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/lavender-organizes-business-app/01.jpg",
+    "w": 1600,
+    "h": 1300
+   },
+   {
+    "src": "img/lavender-organizes-business-app/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/lavender-organizes-business-app/03.jpg",
+    "w": 1600,
+    "h": 1183
+   },
+   {
+    "src": "img/lavender-organizes-business-app/04.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/lavender-organizes-business-app/05.jpg",
+    "w": 1600,
+    "h": 1990
+   },
+   {
+    "src": "img/lavender-organizes-business-app/06.jpg",
+    "w": 1600,
+    "h": 1990
+   },
+   {
+    "src": "img/lavender-organizes-business-app/07.jpg",
+    "w": 1600,
+    "h": 1990
+   }
+  ]
+ },
+ {
   "slug": "pro-premium-supplement-branding",
   "type": "brand",
   "title": "PRO – Premium Supplement Branding",
@@ -3153,143 +3621,6 @@ window.PROJECTS = [
     "src": "img/code-baustein-software-house-website/05.jpg",
     "w": 1600,
     "h": 8494
-   }
-  ]
- },
- {
-  "slug": "cloud-care-mobile-app-design",
-  "type": "app",
-  "title": "Cloud Care - Mobile App design",
-  "desc": "",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "mobile app",
-   "wellness"
-  ],
-  "thumb": {
-   "src": "img/cloud-care-mobile-app-design/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/cloud-care-mobile-app-design/01.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/cloud-care-mobile-app-design/02.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/cloud-care-mobile-app-design/03.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/cloud-care-mobile-app-design/04.jpg",
-    "w": 1600,
-    "h": 1200
-   }
-  ]
- },
- {
-  "slug": "gear-app-a-futuristic-shopping-experience",
-  "type": "app",
-  "title": "Gear App – A Futuristic Shopping Experience",
-  "desc": "A sleek and futuristic UI/UX design for Gear, an e-commerce mobile app tailored for premium audio products. The interface is dark-themed, highly interactive, and user-friendly, ensuring an immersive shopping experience.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "ecommerce",
-   "mobile app",
-   "luxury"
-  ],
-  "thumb": {
-   "src": "img/gear-app-a-futuristic-shopping-experience/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/gear-app-a-futuristic-shopping-experience/01.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/gear-app-a-futuristic-shopping-experience/02.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/gear-app-a-futuristic-shopping-experience/03.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/gear-app-a-futuristic-shopping-experience/04.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/gear-app-a-futuristic-shopping-experience/05.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/gear-app-a-futuristic-shopping-experience/06.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/gear-app-a-futuristic-shopping-experience/07.jpg",
-    "w": 1600,
-    "h": 1200
-   }
-  ]
- },
- {
-  "slug": "luxae-a-seamless-home-decor-shopping",
-  "type": "app",
-  "title": "Luxae – A Seamless Home Décor Shopping",
-  "desc": "An elegantly designed mobile app for Luxae, a refined home décor brand. This UI/UX project focuses on a seamless shopping experience, intuitive navigation, and a visually immersive product discovery journey.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "ecommerce",
-   "mobile app",
-   "home decor"
-  ],
-  "thumb": {
-   "src": "img/luxae-a-seamless-home-decor-shopping/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/luxae-a-seamless-home-decor-shopping/01.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/luxae-a-seamless-home-decor-shopping/02.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/luxae-a-seamless-home-decor-shopping/03.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/luxae-a-seamless-home-decor-shopping/04.jpg",
-    "w": 1600,
-    "h": 1200
    }
   ]
  },
