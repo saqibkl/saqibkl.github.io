@@ -1165,5 +1165,609 @@ window.CASES = {
     "UI/UX design, 82 mobile screens across 3 roles, design system and prototype."
    ]
   ]
+ },
+ "hexa-care-website": {
+  "title": "Hexa Care: Disability and Aged Care Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "healthcare",
+   "ndis",
+   "aged care"
+  ],
+  "about": [
+   "Hexa Care is a nurse-led disability and aged care provider."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A warm, calm site that explains every service simply, shows the care journey step by step and makes it easy for families to request a call back."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "national-tree-services-website": {
+  "title": "National Tree Services: Tree Removal Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "trades",
+   "local business",
+   "lead generation"
+  ],
+  "about": [
+   "National Tree Services offers tree removal, pruning and land clearing across Sydney."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A bold green site with a quote form in the hero, clear service cards, real job photos and reviews that build trust before the call."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "noble-balustrades-landing-pages": {
+  "title": "Noble Balustrades: Stainless Balustrade Landing Pages",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "trades",
+   "landing page",
+   "lead generation"
+  ],
+  "about": [
+   "Noble Balustrades designs and installs custom stainless steel balustrades."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "Conversion-focused landing pages with a quote form up front, product types, recent installs and a simple process that ends in a booked measure."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "parra-digital-marketing-agency-website": {
+  "title": "Parra Digital: Marketing Agency Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "marketing agency",
+   "agency",
+   "seo agency"
+  ],
+  "about": [
+   "Parra Digital is a digital marketing agency for Western Sydney businesses."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A confident navy and yellow site that sells a free marketing audit, explains each service clearly and backs it with client stories."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "reinspect-building-inspections-landing-page": {
+  "title": "Reinspect: Building Inspections Landing Page",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "property",
+   "landing page"
+  ],
+  "about": [
+   "Reinspect provides building and pest inspections for buyers and owners."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A clear landing page that explains inspection types, shows what the report covers and drives buyers to book an inspection."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "renewed-kitchens-bathrooms-landing-page": {
+  "title": "Renewed Kitchens and Bathrooms: Renovation Landing Page",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "home renovation",
+   "kitchens",
+   "landing page"
+  ],
+  "about": [
+   "Renewed Kitchens and Bathrooms renovates kitchens and bathrooms with a fixed, clear process."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A fresh landing page with before and after work, a simple renovation process and a quote request at every step."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "saqch-partners-accounting-landing-page": {
+  "title": "SaqCh Partners: Accounting and Virtual CFO Landing Page",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "accounting",
+   "finance",
+   "b2b",
+   "landing page"
+  ],
+  "about": [
+   "SaqCh Partners provides accounting, tax and virtual CFO support for growing businesses."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A trustworthy landing page that turns finance services into clear packages and leads to a discovery call."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "silverwater-collision-centre-landing-page": {
+  "title": "Silverwater Collision Centre: Smash Repair Landing Page",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "automotive",
+   "local business",
+   "landing page"
+  ],
+  "about": [
+   "Silverwater Collision Centre repairs, protects and details cars in Sydney."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A dark, premium landing page with bold red accents, a quote form, service cards and real customer reviews."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "spec-building-products-marketing-website": {
+  "title": "Spec: Building Products Marketing Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "marketing agency",
+   "b2b"
+  ],
+  "about": [
+   "Spec helps building product manufacturers get specified by architects and builders."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A dark, focused website that explains the specification problem, the Spec approach and the results, with a clear path to a strategy call."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "supplyspec-construction-platform-website": {
+  "title": "SupplySpec: B2B Construction Platform Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "b2b",
+   "saas",
+   "platform"
+  ],
+  "about": [
+   "SupplySpec connects building product suppliers with architects and builders."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A clean platform site with separate paths for suppliers and specifiers, product listings and an easy sign-up flow."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "syddigital-creative-agency-website": {
+  "title": "SydDigital: Creative Agency Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "agency",
+   "branding",
+   "marketing agency",
+   "dark ui"
+  ],
+  "about": [
+   "SydDigital is a Sydney agency for advertising, branding and websites."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A bold black and red agency site that shows strategy, services and results, and turns visitors into strategy sessions."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "unity-online-school-landing-page": {
+  "title": "Unity Online: Online School Landing Page",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "education",
+   "e-learning",
+   "landing page"
+  ],
+  "about": [
+   "Unity Online is an online school for Year 7 and 8 students."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A friendly landing page that explains how online learning works, what students get and how parents can enrol."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "workcover-hub-workers-compensation-website": {
+  "title": "WorkCover Hub: Workers Compensation Guide Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "legal",
+   "insurance",
+   "guide"
+  ],
+  "about": [
+   "WorkCover Hub guides injured workers through their compensation claim."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A calm, reassuring site that breaks a stressful claim into simple steps and connects workers with help."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "devox-cladding-landing-page": {
+  "title": "Devox: Cladding Landing Page",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "trades",
+   "landing page"
+  ],
+  "about": [
+   "Devox designs and installs modern cladding for homes and commercial buildings."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A sleek black and gold landing page with project photos, cladding options and a quote request front and centre."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "bright-engineered-balustrades-website": {
+  "title": "Bright Engineered: Balustrades Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "trades"
+  ],
+  "about": [
+   "Bright Engineered designs and installs glass and steel balustrades."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A clean multi-page site with product ranges, project galleries and a clear quote flow."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "a-link-plumbing-landing-page": {
+  "title": "A-Link Plumbing: Plumbing Services Landing Page",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "trades",
+   "plumbing",
+   "local business",
+   "landing page"
+  ],
+  "about": [
+   "A-Link Plumbing provides emergency and general plumbing services."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A bright, direct landing page with call and quote buttons, clear services and reviews that build trust fast."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "add-design-studio-website": {
+  "title": "ADD Design Studio: Interior Design Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "interior design",
+   "architecture",
+   "luxury"
+  ],
+  "about": [
+   "ADD Design Studio creates residential and commercial interiors."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A quiet, editorial website that lets the project photography lead, with services and a simple enquiry flow."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "alvi-ad-architecture-website": {
+  "title": "ALVI+AD: Architecture and Design Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "architecture",
+   "construction",
+   "design studio"
+  ],
+  "about": [
+   "ALVI+AD is an architecture and design practice."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A modern multi-page website with project case studies, services and a clear path to start a project."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "alvi-consulting-website": {
+  "title": "Alvi Consulting: Digital Consulting Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "consulting",
+   "marketing agency",
+   "b2b"
+  ],
+  "about": [
+   "Alvi Consulting helps businesses grow with websites, marketing and strategy."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A professional multi-page website that explains services, shows client work and drives consultations."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "amana-renovations-website": {
+  "title": "Amana Renovations: Home Renovation Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "home renovation",
+   "construction",
+   "trades"
+  ],
+  "about": [
+   "Amana Renovations delivers home renovations and shopfitting."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A warm website with project galleries, a clear renovation process and quote requests throughout."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "aussie-link-visa-services-website": {
+  "title": "Aussie-Link: Visa and Migration Services Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "immigration",
+   "legal",
+   "consulting"
+  ],
+  "about": [
+   "Aussie-Link helps clients with Australian visas and migration."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A clear, trustworthy multi-page site that explains each visa type, the process and how to book a consultation."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "beds-r-us-furniture-landing-page": {
+  "title": "Beds R Us: Bedding and Furniture Landing Page",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "ecommerce",
+   "furniture",
+   "retail",
+   "landing page"
+  ],
+  "about": [
+   "Beds R Us sells beds, mattresses and bedroom furniture in Warwick Farm."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A bright retail landing page with product categories, offers and store details that bring shoppers in."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "bright-balustrading-website": {
+  "title": "Bright Balustrading: Balustrade Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "trades"
+  ],
+  "about": [
+   "Bright Balustrading designs and installs balustrades and fencing."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A bold multi-page website with product types, completed projects and a simple quote flow."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "complete-marble-care-website": {
+  "title": "Complete Marble Care: Stone Restoration Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "home services",
+   "restoration",
+   "local business"
+  ],
+  "about": [
+   "Complete Marble Care restores, polishes and seals marble and natural stone."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "An elegant website with before and after results, service details and an easy quote request."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
+ },
+ "healthplex-allied-health-website": {
+  "title": "HealthPlex: Allied Health Network Website",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "healthcare",
+   "allied health",
+   "franchise"
+  ],
+  "about": [
+   "HealthPlex is a national allied health network of physiotherapy and related clinics."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "A bright, modern website that explains services, finds the nearest clinic and invites practitioners to join the network."
+   ],
+   [
+    "Scope",
+    "UI/UX design, website design, design system and responsive layouts."
+   ]
+  ]
  }
 };

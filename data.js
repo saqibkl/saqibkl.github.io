@@ -1084,6 +1084,1265 @@ window.PROJECTS = [
   ]
  },
  {
+  "slug": "hexa-care-website",
+  "type": "web",
+  "title": "Hexa Care: Disability and Aged Care Website",
+  "desc": "Hexa Care is a nurse-led disability and aged care provider.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "healthcare",
+   "ndis",
+   "aged care"
+  ],
+  "thumb": {
+   "src": "img/hexa-care-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/hexa-care-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/hexa-care-website/02.jpg",
+    "w": 1600,
+    "h": 2200
+   },
+   {
+    "src": "img/hexa-care-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/hexa-care-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/hexa-care-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/hexa-care-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "national-tree-services-website",
+  "type": "web",
+  "title": "National Tree Services: Tree Removal Website",
+  "desc": "National Tree Services offers tree removal, pruning and land clearing across Sydney.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "trades",
+   "local business",
+   "lead generation"
+  ],
+  "thumb": {
+   "src": "img/national-tree-services-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/national-tree-services-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/national-tree-services-website/02.jpg",
+    "w": 1600,
+    "h": 2428
+   },
+   {
+    "src": "img/national-tree-services-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/national-tree-services-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/national-tree-services-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/national-tree-services-website/06.jpg",
+    "w": 1600,
+    "h": 707
+   }
+  ]
+ },
+ {
+  "slug": "noble-balustrades-landing-pages",
+  "type": "web",
+  "title": "Noble Balustrades: Stainless Balustrade Landing Pages",
+  "desc": "Noble Balustrades designs and installs custom stainless steel balustrades.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "trades",
+   "landing page",
+   "lead generation"
+  ],
+  "thumb": {
+   "src": "img/noble-balustrades-landing-pages/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/noble-balustrades-landing-pages/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/02.jpg",
+    "w": 1600,
+    "h": 2812
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/06.jpg",
+    "w": 1600,
+    "h": 1033
+   }
+  ]
+ },
+ {
+  "slug": "parra-digital-marketing-agency-website",
+  "type": "web",
+  "title": "Parra Digital: Marketing Agency Website",
+  "desc": "Parra Digital is a digital marketing agency for Western Sydney businesses.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "marketing agency",
+   "agency",
+   "seo agency"
+  ],
+  "thumb": {
+   "src": "img/parra-digital-marketing-agency-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/parra-digital-marketing-agency-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/parra-digital-marketing-agency-website/02.jpg",
+    "w": 1600,
+    "h": 3037
+   },
+   {
+    "src": "img/parra-digital-marketing-agency-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/parra-digital-marketing-agency-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/parra-digital-marketing-agency-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/parra-digital-marketing-agency-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "reinspect-building-inspections-landing-page",
+  "type": "web",
+  "title": "Reinspect: Building Inspections Landing Page",
+  "desc": "Reinspect provides building and pest inspections for buyers and owners.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "property",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/reinspect-building-inspections-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/reinspect-building-inspections-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/reinspect-building-inspections-landing-page/02.jpg",
+    "w": 1600,
+    "h": 2069
+   },
+   {
+    "src": "img/reinspect-building-inspections-landing-page/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/reinspect-building-inspections-landing-page/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/reinspect-building-inspections-landing-page/05.jpg",
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ },
+ {
+  "slug": "renewed-kitchens-bathrooms-landing-page",
+  "type": "web",
+  "title": "Renewed Kitchens and Bathrooms: Renovation Landing Page",
+  "desc": "Renewed Kitchens and Bathrooms renovates kitchens and bathrooms with a fixed, clear process.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "home renovation",
+   "kitchens",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/renewed-kitchens-bathrooms-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/renewed-kitchens-bathrooms-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/renewed-kitchens-bathrooms-landing-page/02.jpg",
+    "w": 1600,
+    "h": 2403
+   },
+   {
+    "src": "img/renewed-kitchens-bathrooms-landing-page/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/renewed-kitchens-bathrooms-landing-page/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/renewed-kitchens-bathrooms-landing-page/05.jpg",
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ },
+ {
+  "slug": "saqch-partners-accounting-landing-page",
+  "type": "web",
+  "title": "SaqCh Partners: Accounting and Virtual CFO Landing Page",
+  "desc": "SaqCh Partners provides accounting, tax and virtual CFO support for growing businesses.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "accounting",
+   "finance",
+   "b2b",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/saqch-partners-accounting-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/saqch-partners-accounting-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/saqch-partners-accounting-landing-page/02.jpg",
+    "w": 1600,
+    "h": 2746
+   },
+   {
+    "src": "img/saqch-partners-accounting-landing-page/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/saqch-partners-accounting-landing-page/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/saqch-partners-accounting-landing-page/05.jpg",
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ },
+ {
+  "slug": "silverwater-collision-centre-landing-page",
+  "type": "web",
+  "title": "Silverwater Collision Centre: Smash Repair Landing Page",
+  "desc": "Silverwater Collision Centre repairs, protects and details cars in Sydney.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "automotive",
+   "local business",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/silverwater-collision-centre-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/silverwater-collision-centre-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/silverwater-collision-centre-landing-page/02.jpg",
+    "w": 1600,
+    "h": 1741
+   },
+   {
+    "src": "img/silverwater-collision-centre-landing-page/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/silverwater-collision-centre-landing-page/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/silverwater-collision-centre-landing-page/05.jpg",
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ },
+ {
+  "slug": "spec-building-products-marketing-website",
+  "type": "web",
+  "title": "Spec: Building Products Marketing Website",
+  "desc": "Spec helps building product manufacturers get specified by architects and builders.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "marketing agency",
+   "b2b"
+  ],
+  "thumb": {
+   "src": "img/spec-building-products-marketing-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/spec-building-products-marketing-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/spec-building-products-marketing-website/02.jpg",
+    "w": 1600,
+    "h": 1393
+   },
+   {
+    "src": "img/spec-building-products-marketing-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/spec-building-products-marketing-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/spec-building-products-marketing-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ },
+ {
+  "slug": "supplyspec-construction-platform-website",
+  "type": "web",
+  "title": "SupplySpec: B2B Construction Platform Website",
+  "desc": "SupplySpec connects building product suppliers with architects and builders.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "b2b",
+   "saas",
+   "platform"
+  ],
+  "thumb": {
+   "src": "img/supplyspec-construction-platform-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/supplyspec-construction-platform-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/02.jpg",
+    "w": 1600,
+    "h": 1972
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/06.jpg",
+    "w": 1600,
+    "h": 1033
+   }
+  ]
+ },
+ {
+  "slug": "syddigital-creative-agency-website",
+  "type": "web",
+  "title": "SydDigital: Creative Agency Website",
+  "desc": "SydDigital is a Sydney agency for advertising, branding and websites.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "agency",
+   "branding",
+   "marketing agency",
+   "dark ui"
+  ],
+  "thumb": {
+   "src": "img/syddigital-creative-agency-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/syddigital-creative-agency-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/syddigital-creative-agency-website/02.jpg",
+    "w": 1600,
+    "h": 1431
+   },
+   {
+    "src": "img/syddigital-creative-agency-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/syddigital-creative-agency-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/syddigital-creative-agency-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/syddigital-creative-agency-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "unity-online-school-landing-page",
+  "type": "web",
+  "title": "Unity Online: Online School Landing Page",
+  "desc": "Unity Online is an online school for Year 7 and 8 students.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "education",
+   "e-learning",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/unity-online-school-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/unity-online-school-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/unity-online-school-landing-page/02.jpg",
+    "w": 1600,
+    "h": 2149
+   },
+   {
+    "src": "img/unity-online-school-landing-page/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/unity-online-school-landing-page/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/unity-online-school-landing-page/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/unity-online-school-landing-page/06.jpg",
+    "w": 1600,
+    "h": 1402
+   }
+  ]
+ },
+ {
+  "slug": "workcover-hub-workers-compensation-website",
+  "type": "web",
+  "title": "WorkCover Hub: Workers Compensation Guide Website",
+  "desc": "WorkCover Hub guides injured workers through their compensation claim.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "legal",
+   "insurance",
+   "guide"
+  ],
+  "thumb": {
+   "src": "img/workcover-hub-workers-compensation-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/workcover-hub-workers-compensation-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/02.jpg",
+    "w": 1600,
+    "h": 1848
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "devox-cladding-landing-page",
+  "type": "web",
+  "title": "Devox: Cladding Landing Page",
+  "desc": "Devox designs and installs modern cladding for homes and commercial buildings.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "trades",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/devox-cladding-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/devox-cladding-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/devox-cladding-landing-page/02.jpg",
+    "w": 1600,
+    "h": 2178
+   },
+   {
+    "src": "img/devox-cladding-landing-page/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/devox-cladding-landing-page/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/devox-cladding-landing-page/05.jpg",
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ },
+ {
+  "slug": "bright-engineered-balustrades-website",
+  "type": "web",
+  "title": "Bright Engineered: Balustrades Website",
+  "desc": "Bright Engineered designs and installs glass and steel balustrades.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "trades"
+  ],
+  "thumb": {
+   "src": "img/bright-engineered-balustrades-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/bright-engineered-balustrades-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/bright-engineered-balustrades-website/02.jpg",
+    "w": 1600,
+    "h": 2482
+   },
+   {
+    "src": "img/bright-engineered-balustrades-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/bright-engineered-balustrades-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/bright-engineered-balustrades-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/bright-engineered-balustrades-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "a-link-plumbing-landing-page",
+  "type": "web",
+  "title": "A-Link Plumbing: Plumbing Services Landing Page",
+  "desc": "A-Link Plumbing provides emergency and general plumbing services.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "trades",
+   "plumbing",
+   "local business",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/a-link-plumbing-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/a-link-plumbing-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/a-link-plumbing-landing-page/02.jpg",
+    "w": 1600,
+    "h": 1660
+   },
+   {
+    "src": "img/a-link-plumbing-landing-page/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/a-link-plumbing-landing-page/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/a-link-plumbing-landing-page/05.jpg",
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ },
+ {
+  "slug": "add-design-studio-website",
+  "type": "web",
+  "title": "ADD Design Studio: Interior Design Website",
+  "desc": "ADD Design Studio creates residential and commercial interiors.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "interior design",
+   "architecture",
+   "luxury"
+  ],
+  "thumb": {
+   "src": "img/add-design-studio-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/add-design-studio-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/add-design-studio-website/02.jpg",
+    "w": 1600,
+    "h": 1951
+   },
+   {
+    "src": "img/add-design-studio-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/add-design-studio-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/add-design-studio-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ },
+ {
+  "slug": "alvi-ad-architecture-website",
+  "type": "web",
+  "title": "ALVI+AD: Architecture and Design Website",
+  "desc": "ALVI+AD is an architecture and design practice.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "architecture",
+   "construction",
+   "design studio"
+  ],
+  "thumb": {
+   "src": "img/alvi-ad-architecture-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/alvi-ad-architecture-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/02.jpg",
+    "w": 1600,
+    "h": 2785
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "alvi-consulting-website",
+  "type": "web",
+  "title": "Alvi Consulting: Digital Consulting Website",
+  "desc": "Alvi Consulting helps businesses grow with websites, marketing and strategy.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "consulting",
+   "marketing agency",
+   "b2b"
+  ],
+  "thumb": {
+   "src": "img/alvi-consulting-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/alvi-consulting-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/alvi-consulting-website/02.jpg",
+    "w": 1600,
+    "h": 2610
+   },
+   {
+    "src": "img/alvi-consulting-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/alvi-consulting-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/alvi-consulting-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/alvi-consulting-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "amana-renovations-website",
+  "type": "web",
+  "title": "Amana Renovations: Home Renovation Website",
+  "desc": "Amana Renovations delivers home renovations and shopfitting.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "home renovation",
+   "construction",
+   "trades"
+  ],
+  "thumb": {
+   "src": "img/amana-renovations-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/amana-renovations-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/amana-renovations-website/02.jpg",
+    "w": 1600,
+    "h": 2159
+   },
+   {
+    "src": "img/amana-renovations-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/amana-renovations-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/amana-renovations-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/amana-renovations-website/06.jpg",
+    "w": 1600,
+    "h": 1402
+   }
+  ]
+ },
+ {
+  "slug": "aussie-link-visa-services-website",
+  "type": "web",
+  "title": "Aussie-Link: Visa and Migration Services Website",
+  "desc": "Aussie-Link helps clients with Australian visas and migration.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "immigration",
+   "legal",
+   "consulting"
+  ],
+  "thumb": {
+   "src": "img/aussie-link-visa-services-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/aussie-link-visa-services-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/02.jpg",
+    "w": 1600,
+    "h": 2835
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "beds-r-us-furniture-landing-page",
+  "type": "web",
+  "title": "Beds R Us: Bedding and Furniture Landing Page",
+  "desc": "Beds R Us sells beds, mattresses and bedroom furniture in Warwick Farm.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "ecommerce",
+   "furniture",
+   "retail",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/beds-r-us-furniture-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/beds-r-us-furniture-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/beds-r-us-furniture-landing-page/02.jpg",
+    "w": 1600,
+    "h": 2194
+   },
+   {
+    "src": "img/beds-r-us-furniture-landing-page/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/beds-r-us-furniture-landing-page/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/beds-r-us-furniture-landing-page/05.jpg",
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ },
+ {
+  "slug": "bright-balustrading-website",
+  "type": "web",
+  "title": "Bright Balustrading: Balustrade Website",
+  "desc": "Bright Balustrading designs and installs balustrades and fencing.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "trades"
+  ],
+  "thumb": {
+   "src": "img/bright-balustrading-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/bright-balustrading-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/bright-balustrading-website/02.jpg",
+    "w": 1600,
+    "h": 2254
+   },
+   {
+    "src": "img/bright-balustrading-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/bright-balustrading-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/bright-balustrading-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/bright-balustrading-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "complete-marble-care-website",
+  "type": "web",
+  "title": "Complete Marble Care: Stone Restoration Website",
+  "desc": "Complete Marble Care restores, polishes and seals marble and natural stone.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "home services",
+   "restoration",
+   "local business"
+  ],
+  "thumb": {
+   "src": "img/complete-marble-care-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/complete-marble-care-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/complete-marble-care-website/02.jpg",
+    "w": 1600,
+    "h": 2962
+   },
+   {
+    "src": "img/complete-marble-care-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/complete-marble-care-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/complete-marble-care-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/complete-marble-care-website/06.jpg",
+    "w": 1600,
+    "h": 1033
+   }
+  ]
+ },
+ {
+  "slug": "healthplex-allied-health-website",
+  "type": "web",
+  "title": "HealthPlex: Allied Health Network Website",
+  "desc": "HealthPlex is a national allied health network of physiotherapy and related clinics.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "healthcare",
+   "allied health",
+   "franchise"
+  ],
+  "thumb": {
+   "src": "img/healthplex-allied-health-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/healthplex-allied-health-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/healthplex-allied-health-website/02.jpg",
+    "w": 1600,
+    "h": 2088
+   },
+   {
+    "src": "img/healthplex-allied-health-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/healthplex-allied-health-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/healthplex-allied-health-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/healthplex-allied-health-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
   "slug": "nostradamus-football-prediction-app",
   "type": "app",
   "title": "Nostradamus: Football Prediction App",
