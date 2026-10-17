@@ -2511,43 +2511,98 @@ window.PROJECTS = [
   "images": [
    {
     "src": "img/gear-tech-shopping-app/01.jpg",
-    "w": 1600,
-    "h": 1300
+    "w": 1400,
+    "h": 1200
    },
    {
     "src": "img/gear-tech-shopping-app/02.jpg",
-    "w": 1600,
-    "h": 958
+    "w": 1400,
+    "h": 120
    },
    {
     "src": "img/gear-tech-shopping-app/03.jpg",
-    "w": 1600,
-    "h": 1183
+    "w": 1400,
+    "h": 920
    },
    {
     "src": "img/gear-tech-shopping-app/04.jpg",
-    "w": 1600,
-    "h": 900
+    "w": 1400,
+    "h": 760
    },
    {
     "src": "img/gear-tech-shopping-app/05.jpg",
-    "w": 1600,
-    "h": 1252
+    "w": 1400,
+    "h": 520
    },
    {
     "src": "img/gear-tech-shopping-app/06.jpg",
-    "w": 1600,
-    "h": 1990
+    "w": 1400,
+    "h": 1070
    },
    {
     "src": "img/gear-tech-shopping-app/07.jpg",
-    "w": 1600,
-    "h": 1252
+    "w": 1400,
+    "h": 520
    },
    {
     "src": "img/gear-tech-shopping-app/08.jpg",
-    "w": 1600,
-    "h": 1252
+    "w": 1400,
+    "h": 1100
+   },
+   {
+    "src": "img/gear-tech-shopping-app/09.jpg",
+    "w": 1400,
+    "h": 520
+   },
+   {
+    "src": "img/gear-tech-shopping-app/10.jpg",
+    "w": 1400,
+    "h": 2550
+   },
+   {
+    "src": "img/gear-tech-shopping-app/11.jpg",
+    "w": 1400,
+    "h": 1150
+   },
+   {
+    "src": "img/gear-tech-shopping-app/12.jpg",
+    "w": 1400,
+    "h": 520
+   },
+   {
+    "src": "img/gear-tech-shopping-app/13.jpg",
+    "w": 1400,
+    "h": 1300
+   },
+   {
+    "src": "img/gear-tech-shopping-app/14.jpg",
+    "w": 1400,
+    "h": 120
+   },
+   {
+    "src": "img/gear-tech-shopping-app/15.jpg",
+    "w": 1400,
+    "h": 1226
+   },
+   {
+    "src": "img/gear-tech-shopping-app/16.jpg",
+    "w": 1400,
+    "h": 1261
+   },
+   {
+    "src": "img/gear-tech-shopping-app/17.jpg",
+    "w": 1400,
+    "h": 1000
+   },
+   {
+    "src": "img/gear-tech-shopping-app/18.jpg",
+    "w": 1400,
+    "h": 1250
+   },
+   {
+    "src": "img/gear-tech-shopping-app/19.jpg",
+    "w": 1400,
+    "h": 1000
    }
   ]
  },
@@ -2576,43 +2631,98 @@ window.PROJECTS = [
   "images": [
    {
     "src": "img/luxae-home-decor-shopping-app/01.jpg",
-    "w": 1600,
-    "h": 1300
+    "w": 1400,
+    "h": 1200
    },
    {
     "src": "img/luxae-home-decor-shopping-app/02.jpg",
-    "w": 1600,
-    "h": 958
+    "w": 1400,
+    "h": 120
    },
    {
     "src": "img/luxae-home-decor-shopping-app/03.jpg",
-    "w": 1600,
-    "h": 1183
+    "w": 1400,
+    "h": 920
    },
    {
     "src": "img/luxae-home-decor-shopping-app/04.jpg",
-    "w": 1600,
-    "h": 900
+    "w": 1400,
+    "h": 760
    },
    {
     "src": "img/luxae-home-decor-shopping-app/05.jpg",
-    "w": 1600,
-    "h": 1252
+    "w": 1400,
+    "h": 520
    },
    {
     "src": "img/luxae-home-decor-shopping-app/06.jpg",
-    "w": 1600,
-    "h": 1252
+    "w": 1400,
+    "h": 1070
    },
    {
     "src": "img/luxae-home-decor-shopping-app/07.jpg",
-    "w": 1600,
-    "h": 1252
+    "w": 1400,
+    "h": 520
    },
    {
     "src": "img/luxae-home-decor-shopping-app/08.jpg",
-    "w": 1600,
-    "h": 1252
+    "w": 1400,
+    "h": 1100
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/09.jpg",
+    "w": 1400,
+    "h": 520
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/10.jpg",
+    "w": 1400,
+    "h": 2640
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/11.jpg",
+    "w": 1400,
+    "h": 1150
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/12.jpg",
+    "w": 1400,
+    "h": 520
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/13.jpg",
+    "w": 1400,
+    "h": 1300
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/14.jpg",
+    "w": 1400,
+    "h": 120
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/15.jpg",
+    "w": 1400,
+    "h": 1226
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/16.jpg",
+    "w": 1400,
+    "h": 1150
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/17.jpg",
+    "w": 1400,
+    "h": 1000
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/18.jpg",
+    "w": 1400,
+    "h": 1250
+   },
+   {
+    "src": "img/luxae-home-decor-shopping-app/19.jpg",
+    "w": 1400,
+    "h": 1000
    }
   ]
  },

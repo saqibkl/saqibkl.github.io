@@ -24,13 +24,13 @@ APPS = [
      "When something valuable is stolen, people scramble for receipts, serial numbers and photos, and filing a report takes hours.",
      "We made an app where items are registered once with everything attached, so a full theft report, the nearest police station and insurance options are a few taps away.",
      "UI/UX design, 16 mobile screens, design system and prototype."),
-    ("gear-tech-shopping-app", "17 Gear App", "Gear: Premium Tech Shopping App",
+    ("gear-tech-shopping-app", "17 Gear Case Study", "Gear: Premium Tech Shopping App",
      ["ecommerce", "shopping", "tech", "audio"],
      "Gear is a shopping app for premium tech accessories.",
      "Electronics stores often bury great products under busy layouts, and checkout breaks the premium feel.",
      "We made a monochrome store with large product imagery, clear categories, a wishlist and a short checkout that stays out of the way.",
      "UI/UX design, 11 mobile screens, design system and prototype."),
-    ("luxae-home-decor-shopping-app", "18 Luxae App", "Luxae: Home Decor Shopping App",
+    ("luxae-home-decor-shopping-app", "18 Luxae Case Study", "Luxae: Home Decor Shopping App",
      ["ecommerce", "shopping", "furniture", "home decor"],
      "Luxae is a calm, gallery like store for furniture and decor.",
      "Decor apps often feel like busy catalogues, and the checkout breaks the mood the products create.",
@@ -63,6 +63,9 @@ if __name__ == "__main__":
     for slug in REPLACES:
         shutil.rmtree(OUT / "img" / slug, ignore_errors=True)
         cases.pop(slug, None)
+    # keep the apps where they already sit (other scripts insert above them); AFTER only on first run
+    at = next((p["slug"] for p in data if p["slug"] in drop), None)
+    prev = data[[p["slug"] for p in data].index(at) - 1]["slug"] if at else AFTER
     data = [p for p in data if p["slug"] not in drop]
     fresh = []
     for slug, folder, title, tags, intro, challenge, did, scope in APPS:
@@ -76,7 +79,7 @@ if __name__ == "__main__":
         cases[slug] = dict(title=title, tags=T + tags, about=[intro],
                            sections=[["The challenge", challenge], ["What we did", did], ["Scope", scope]])
         print(f"{slug:40} {len(mods)} modules")
-    i = next(k for k, p in enumerate(data) if p["slug"] == AFTER) + 1
+    i = next(k for k, p in enumerate(data) if p["slug"] == prev) + 1
     data = data[:i] + fresh + data[i:]
     assert len({p["slug"] for p in data}) == len(data), "duplicate slug"
     (OUT / "data.js").write_text(js[:js.index("[")] + json.dumps(data, indent=1, ensure_ascii=False) + ";\n", encoding="utf-8")
