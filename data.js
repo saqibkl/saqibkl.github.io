@@ -1387,54 +1387,6 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "saqch-partners-accounting-landing-page",
-  "type": "web",
-  "title": "SaqCh Partners: Accounting and Virtual CFO Landing Page",
-  "desc": "SaqCh Partners provides accounting, tax and virtual CFO support for growing businesses.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "accounting",
-   "finance",
-   "b2b",
-   "landing page"
-  ],
-  "thumb": {
-   "src": "img/saqch-partners-accounting-landing-page/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/saqch-partners-accounting-landing-page/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/saqch-partners-accounting-landing-page/02.jpg",
-    "w": 1600,
-    "h": 2746
-   },
-   {
-    "src": "img/saqch-partners-accounting-landing-page/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/saqch-partners-accounting-landing-page/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/saqch-partners-accounting-landing-page/05.jpg",
-    "w": 1600,
-    "h": 1000
-   }
-  ]
- },
- {
   "slug": "silverwater-collision-centre-landing-page",
   "type": "web",
   "title": "Silverwater Collision Centre: Smash Repair Landing Page",

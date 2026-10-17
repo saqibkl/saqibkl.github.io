@@ -9,7 +9,8 @@ SRC = SAQIB / "Behance Uploads" / "Alvi"
 AFTER = "inn-twin-data-platform-dashboard"
 # user took these off the site (need rework first); share their Figma Behance page on request
 SKIP = {"syddigital-creative-agency-website", "unity-online-school-landing-page", "bright-engineered-balustrades-website",
-        "a-link-plumbing-landing-page", "amana-renovations-website", "bright-balustrading-website", "healthplex-allied-health-website"}  # last Upwork item; Alvi sites go below it
+        "a-link-plumbing-landing-page", "amana-renovations-website", "bright-balustrading-website", "healthplex-allied-health-website",
+        "saqch-partners-accounting-landing-page"}  # last Upwork item; Alvi sites go below it
 
 # slug, title, extra tags, intro, what we did, scope
 P = [
