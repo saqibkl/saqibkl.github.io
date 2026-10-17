@@ -60,11 +60,15 @@ if (grid) {
       const tk = ease(clamp((t - k * .05) / .9));  // slight stagger: back cards leave a beat later
       const g = slots[k] ? { x: slots[k].x + slots[k].w / 2, y: slots[k].y + slots[k].h / 2, w: slots[k].w, h: slots[k].h } : k0;
       const m = key => k0[key] + (g[key] - k0[key]) * tk;
-      Object.assign(c.style, { left: `${m("x") - m("w") / 2}px`, top: `${m("y") - m("h") / 2}px`, width: `${m("w")}px`, height: `${m("h")}px`,
-        transform: `rotate(${k * 2 * (1 - tk)}deg)`, boxShadow: `0 30px 60px -30px rgb(23 24 28 / ${(.45 * (1 - tk)).toFixed(3)})` });
+      // curved path (cubic Bezier): drop down on the right with a small outward swing, clear of the tab labels,
+      // then sweep sideways into the slot, tilting into the turn like a dealt card
+      const u = 1 - tk, dx = g.x - k0.x;
+      const x = k0.x + 3 * u * u * tk * Math.min(220, d.w * .38) + tk ** 3 * dx, y = k0.y + (g.y - k0.y) * (1 - u ** 3);
+      const tilt = k * 2 * u + Math.sin(Math.PI * tk) * (dx < 0 ? -7 : 5);
+      Object.assign(c.style, { left: `${x - m("w") / 2}px`, top: `${y - m("h") / 2}px`, width: `${m("w")}px`, height: `${m("h")}px`,
+        transform: `rotate(${tilt}deg)`, boxShadow: `0 30px 60px -30px rgb(23 24 28 / ${(.45 * u).toFixed(3)})` });
     });
     fly.classList.toggle("landed", t >= 1);
-    document.getElementById("work").classList.toggle("flying", t > 0 && t < 1);
     grid.classList.toggle("held", free && t < 1);
   }
   let queued = false, shown = 0;
