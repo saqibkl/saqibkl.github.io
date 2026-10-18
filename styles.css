@@ -101,14 +101,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-o
 @media (hover: none) { .shot figure::after, .shot .peek { opacity: 1; transform: none; } .chips { display: none; } }
 
 /* Reveal on scroll (only when JS runs; content stays visible without it) */
-.js .reveal { opacity: 0; transform: translateY(48px) scale(.96); filter: blur(8px); transition: opacity .9s var(--ease), transform 1s var(--ease), filter .9s var(--ease); transition-delay: calc(var(--i, 0) * 90ms); }
-.js .reveal.in { opacity: 1; transform: none; filter: none; }
-/* card images settle in from a slight zoom as the card arrives */
-.js .shot.reveal figure img { transform: scale(1.12); transition: transform 1.4s var(--ease); transition-delay: calc(var(--i, 0) * 90ms + 120ms); }
-.js .shot.reveal.in figure img { transform: none; }
-.js .shot.reveal.in:hover figure img { transform: scale(1.04); }
-/* case-study images: rise and unblur one by one while scrolling */
-.js .sp-media img.reveal { transform: translateY(70px) scale(.97); transition-duration: 1s, 1.1s, .9s; }
+.js .reveal { opacity: 0; transform: translateY(40px); transition: opacity .9s var(--ease), transform 1s var(--ease); transition-delay: calc(var(--i, 0) * 90ms); }
+.js .reveal.in { opacity: 1; transform: none; }
+/* case-study images: slide up one by one while scrolling */
+.js .sp-media img.reveal { transform: translateY(56px); }
 
 /* About + footer */
 .about { margin: 120px 0 0; padding: 48px 0 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
@@ -230,7 +226,7 @@ footer { padding: 64px 0 40px; color: #9a9ca3; font-size: 14px; }
 .sheet.on .sp-head { animation: rise .7s var(--ease) .18s both; }
 .sheet.on .sp-head + .sp-media { animation: rise .8s var(--ease) .28s both; }
 .sheet.on .sp-text { animation: rise .8s var(--ease) .38s both; }
-@keyframes zoomin { from { opacity: 0; transform: scale(1.06); filter: blur(10px); } }
+@keyframes zoomin { from { opacity: 0; transform: translateY(40px); } }
 .sheet.on .sp-head h1 { animation: rise .8s var(--ease) .12s both; }
 .sheet.on .sp-head + .sp-media img { animation: zoomin 1.1s var(--ease) .3s both; }
 html.sheet-open { overflow: hidden; }
