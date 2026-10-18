@@ -1021,676 +1021,6 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "inn-twin-data-platform-dashboard",
-  "type": "app",
-  "title": "Inn Twin: Spatial Data Platform Dashboard",
-  "desc": "Inn Twin's data platform is where engineers and AI teams work with spatial twins, textures, meshes and training data.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "dashboard",
-   "web app",
-   "saas",
-   "data platform",
-   "ai",
-   "3d"
-  ],
-  "thumb": {
-   "src": "img/inn-twin-data-platform-dashboard/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/inn-twin-data-platform-dashboard/01.jpg",
-    "w": 1600,
-    "h": 1067
-   },
-   {
-    "src": "img/inn-twin-data-platform-dashboard/02.jpg",
-    "w": 1600,
-    "h": 1029
-   },
-   {
-    "src": "img/inn-twin-data-platform-dashboard/03.jpg",
-    "w": 1600,
-    "h": 1208
-   },
-   {
-    "src": "img/inn-twin-data-platform-dashboard/04.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/inn-twin-data-platform-dashboard/05.jpg",
-    "w": 1600,
-    "h": 1067
-   },
-   {
-    "src": "img/inn-twin-data-platform-dashboard/06.jpg",
-    "w": 1600,
-    "h": 3006
-   },
-   {
-    "src": "img/inn-twin-data-platform-dashboard/07.jpg",
-    "w": 1600,
-    "h": 1292
-   },
-   {
-    "src": "img/inn-twin-data-platform-dashboard/08.jpg",
-    "w": 1600,
-    "h": 1067
-   }
-  ]
- },
- {
-  "slug": "hexa-care-website",
-  "type": "web",
-  "title": "Hexa Care: Disability and Aged Care Website",
-  "desc": "Hexa Care is a nurse-led disability and aged care provider.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "healthcare",
-   "ndis",
-   "aged care"
-  ],
-  "thumb": {
-   "src": "img/hexa-care-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/hexa-care-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/hexa-care-website/02.jpg",
-    "w": 1600,
-    "h": 2200
-   },
-   {
-    "src": "img/hexa-care-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/hexa-care-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/hexa-care-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/hexa-care-website/06.jpg",
-    "w": 1600,
-    "h": 1817
-   }
-  ]
- },
- {
-  "slug": "noble-balustrades-landing-pages",
-  "type": "web",
-  "title": "Noble Balustrades: Stainless Balustrade Landing Pages",
-  "desc": "Noble Balustrades designs and installs custom stainless steel balustrades.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "trades",
-   "landing page",
-   "lead generation"
-  ],
-  "thumb": {
-   "src": "img/noble-balustrades-landing-pages/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/noble-balustrades-landing-pages/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/noble-balustrades-landing-pages/02.jpg",
-    "w": 1600,
-    "h": 2812
-   },
-   {
-    "src": "img/noble-balustrades-landing-pages/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/noble-balustrades-landing-pages/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/noble-balustrades-landing-pages/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/noble-balustrades-landing-pages/06.jpg",
-    "w": 1600,
-    "h": 1033
-   }
-  ]
- },
- {
-  "slug": "renewed-kitchens-bathrooms-landing-page",
-  "type": "web",
-  "title": "Renewed Kitchens and Bathrooms: Renovation Landing Page",
-  "desc": "Renewed Kitchens and Bathrooms renovates kitchens and bathrooms with a fixed, clear process.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "home renovation",
-   "kitchens",
-   "landing page"
-  ],
-  "thumb": {
-   "src": "img/renewed-kitchens-bathrooms-landing-page/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/renewed-kitchens-bathrooms-landing-page/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/renewed-kitchens-bathrooms-landing-page/02.jpg",
-    "w": 1600,
-    "h": 2403
-   },
-   {
-    "src": "img/renewed-kitchens-bathrooms-landing-page/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/renewed-kitchens-bathrooms-landing-page/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/renewed-kitchens-bathrooms-landing-page/05.jpg",
-    "w": 1600,
-    "h": 1000
-   }
-  ]
- },
- {
-  "slug": "supplyspec-construction-platform-website",
-  "type": "web",
-  "title": "SupplySpec: B2B Construction Platform Website",
-  "desc": "SupplySpec connects building product suppliers with architects and builders.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "b2b",
-   "saas",
-   "platform"
-  ],
-  "thumb": {
-   "src": "img/supplyspec-construction-platform-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/supplyspec-construction-platform-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/supplyspec-construction-platform-website/02.jpg",
-    "w": 1600,
-    "h": 1972
-   },
-   {
-    "src": "img/supplyspec-construction-platform-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/supplyspec-construction-platform-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/supplyspec-construction-platform-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/supplyspec-construction-platform-website/06.jpg",
-    "w": 1600,
-    "h": 1033
-   }
-  ]
- },
- {
-  "slug": "workcover-hub-workers-compensation-website",
-  "type": "web",
-  "title": "WorkCover Hub: Workers Compensation Guide Website",
-  "desc": "WorkCover Hub guides injured workers through their compensation claim.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "legal",
-   "insurance",
-   "guide"
-  ],
-  "thumb": {
-   "src": "img/workcover-hub-workers-compensation-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/workcover-hub-workers-compensation-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/workcover-hub-workers-compensation-website/02.jpg",
-    "w": 1600,
-    "h": 1848
-   },
-   {
-    "src": "img/workcover-hub-workers-compensation-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/workcover-hub-workers-compensation-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/workcover-hub-workers-compensation-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/workcover-hub-workers-compensation-website/06.jpg",
-    "w": 1600,
-    "h": 1817
-   }
-  ]
- },
- {
-  "slug": "devox-cladding-landing-page",
-  "type": "web",
-  "title": "Devox: Cladding Landing Page",
-  "desc": "Devox designs and installs modern cladding for homes and commercial buildings.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "trades",
-   "landing page"
-  ],
-  "thumb": {
-   "src": "img/devox-cladding-landing-page/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/devox-cladding-landing-page/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/devox-cladding-landing-page/02.jpg",
-    "w": 1600,
-    "h": 2178
-   },
-   {
-    "src": "img/devox-cladding-landing-page/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/devox-cladding-landing-page/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/devox-cladding-landing-page/05.jpg",
-    "w": 1600,
-    "h": 1000
-   }
-  ]
- },
- {
-  "slug": "add-design-studio-website",
-  "type": "web",
-  "title": "ADD Design Studio: Interior Design Website",
-  "desc": "ADD Design Studio creates residential and commercial interiors.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "interior design",
-   "architecture",
-   "luxury"
-  ],
-  "thumb": {
-   "src": "img/add-design-studio-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/add-design-studio-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/add-design-studio-website/02.jpg",
-    "w": 1600,
-    "h": 1951
-   },
-   {
-    "src": "img/add-design-studio-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/add-design-studio-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/add-design-studio-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   }
-  ]
- },
- {
-  "slug": "alvi-ad-architecture-website",
-  "type": "web",
-  "title": "ALVI+AD: Architecture and Design Website",
-  "desc": "ALVI+AD is an architecture and design practice.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "architecture",
-   "construction",
-   "design studio"
-  ],
-  "thumb": {
-   "src": "img/alvi-ad-architecture-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/alvi-ad-architecture-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/alvi-ad-architecture-website/02.jpg",
-    "w": 1600,
-    "h": 2785
-   },
-   {
-    "src": "img/alvi-ad-architecture-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/alvi-ad-architecture-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/alvi-ad-architecture-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/alvi-ad-architecture-website/06.jpg",
-    "w": 1600,
-    "h": 1817
-   }
-  ]
- },
- {
-  "slug": "alvi-consulting-website",
-  "type": "web",
-  "title": "Alvi Consulting: Digital Consulting Website",
-  "desc": "Alvi Consulting helps businesses grow with websites, marketing and strategy.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "consulting",
-   "marketing agency",
-   "b2b"
-  ],
-  "thumb": {
-   "src": "img/alvi-consulting-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/alvi-consulting-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/alvi-consulting-website/02.jpg",
-    "w": 1600,
-    "h": 2610
-   },
-   {
-    "src": "img/alvi-consulting-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/alvi-consulting-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/alvi-consulting-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/alvi-consulting-website/06.jpg",
-    "w": 1600,
-    "h": 1817
-   }
-  ]
- },
- {
-  "slug": "aussie-link-visa-services-website",
-  "type": "web",
-  "title": "Aussie-Link: Visa and Migration Services Website",
-  "desc": "Aussie-Link helps clients with Australian visas and migration.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "immigration",
-   "legal",
-   "consulting"
-  ],
-  "thumb": {
-   "src": "img/aussie-link-visa-services-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/aussie-link-visa-services-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/aussie-link-visa-services-website/02.jpg",
-    "w": 1600,
-    "h": 2835
-   },
-   {
-    "src": "img/aussie-link-visa-services-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/aussie-link-visa-services-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/aussie-link-visa-services-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/aussie-link-visa-services-website/06.jpg",
-    "w": 1600,
-    "h": 1817
-   }
-  ]
- },
- {
-  "slug": "beds-r-us-furniture-landing-page",
-  "type": "web",
-  "title": "Beds R Us: Bedding and Furniture Landing Page",
-  "desc": "Beds R Us sells beds, mattresses and bedroom furniture in Warwick Farm.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "ecommerce",
-   "furniture",
-   "retail",
-   "landing page"
-  ],
-  "thumb": {
-   "src": "img/beds-r-us-furniture-landing-page/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/beds-r-us-furniture-landing-page/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/beds-r-us-furniture-landing-page/02.jpg",
-    "w": 1600,
-    "h": 2194
-   },
-   {
-    "src": "img/beds-r-us-furniture-landing-page/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/beds-r-us-furniture-landing-page/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/beds-r-us-furniture-landing-page/05.jpg",
-    "w": 1600,
-    "h": 1000
-   }
-  ]
- },
- {
-  "slug": "complete-marble-care-website",
-  "type": "web",
-  "title": "Complete Marble Care: Stone Restoration Website",
-  "desc": "Complete Marble Care restores, polishes and seals marble and natural stone.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "home services",
-   "restoration",
-   "local business"
-  ],
-  "thumb": {
-   "src": "img/complete-marble-care-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/complete-marble-care-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/complete-marble-care-website/02.jpg",
-    "w": 1600,
-    "h": 2962
-   },
-   {
-    "src": "img/complete-marble-care-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/complete-marble-care-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/complete-marble-care-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/complete-marble-care-website/06.jpg",
-    "w": 1600,
-    "h": 1033
-   }
-  ]
- },
- {
   "slug": "nostradamus-football-prediction-app",
   "type": "app",
   "title": "Nostradamus: Football Prediction App",
@@ -1771,6 +1101,69 @@ window.PROJECTS = [
   ]
  },
  {
+  "slug": "inn-twin-data-platform-dashboard",
+  "type": "app",
+  "title": "Inn Twin: Spatial Data Platform Dashboard",
+  "desc": "Inn Twin's data platform is where engineers and AI teams work with spatial twins, textures, meshes and training data.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "dashboard",
+   "web app",
+   "saas",
+   "data platform",
+   "ai",
+   "3d"
+  ],
+  "thumb": {
+   "src": "img/inn-twin-data-platform-dashboard/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/inn-twin-data-platform-dashboard/01.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/02.jpg",
+    "w": 1600,
+    "h": 1029
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/03.jpg",
+    "w": 1600,
+    "h": 1208
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/04.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/05.jpg",
+    "w": 1600,
+    "h": 1067
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/06.jpg",
+    "w": 1600,
+    "h": 3006
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/07.jpg",
+    "w": 1600,
+    "h": 1292
+   },
+   {
+    "src": "img/inn-twin-data-platform-dashboard/08.jpg",
+    "w": 1600,
+    "h": 1067
+   }
+  ]
+ },
+ {
   "slug": "guardio-theft-protection-app",
   "type": "app",
   "title": "Guardio: Theft Protection and Reporting App",
@@ -1831,6 +1224,54 @@ window.PROJECTS = [
     "src": "img/guardio-theft-protection-app/08.jpg",
     "w": 1600,
     "h": 1252
+   }
+  ]
+ },
+ {
+  "slug": "copy-trading-platform-dashboard",
+  "type": "app",
+  "title": "Tenup Copy Trading: Crypto Copy Trading Platform",
+  "desc": "Tenup Copy Trading lets people follow experienced crypto traders and mirror their trades automatically.",
+  "cats": "UI/UX, Web App",
+  "tags": [
+   "ui/ux",
+   "dashboard",
+   "web app",
+   "crypto",
+   "trading",
+   "fintech",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/copy-trading-platform-dashboard/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/copy-trading-platform-dashboard/01.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/copy-trading-platform-dashboard/02.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/copy-trading-platform-dashboard/03.jpg",
+    "w": 1600,
+    "h": 2083
+   },
+   {
+    "src": "img/copy-trading-platform-dashboard/04.jpg",
+    "w": 1600,
+    "h": 1018
+   },
+   {
+    "src": "img/copy-trading-platform-dashboard/05.jpg",
+    "w": 1600,
+    "h": 1000
    }
   ]
  },
@@ -1951,6 +1392,42 @@ window.PROJECTS = [
     "src": "img/gear-tech-shopping-app/19.jpg",
     "w": 1400,
     "h": 1000
+   }
+  ]
+ },
+ {
+  "slug": "motor-ad-design-app",
+  "type": "app",
+  "title": "Motor: Ad Design Web App",
+  "desc": "Motor is a web app for designing ads faster: pick a template, edit it and export it as an image, video or HTML ad.",
+  "cats": "UI/UX, Web App",
+  "tags": [
+   "ui/ux",
+   "web app",
+   "saas",
+   "design tool",
+   "marketing"
+  ],
+  "thumb": {
+   "src": "img/motor-ad-design-app/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/motor-ad-design-app/01.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/motor-ad-design-app/02.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/motor-ad-design-app/03.jpg",
+    "w": 1600,
+    "h": 867
    }
   ]
  },
@@ -2265,6 +1742,608 @@ window.PROJECTS = [
     "src": "img/lavender-organizes-business-app/07.jpg",
     "w": 1600,
     "h": 1990
+   }
+  ]
+ },
+ {
+  "slug": "hexa-care-website",
+  "type": "web",
+  "title": "Hexa Care: Disability and Aged Care Website",
+  "desc": "Hexa Care is a nurse-led disability and aged care provider.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "healthcare",
+   "ndis",
+   "aged care"
+  ],
+  "thumb": {
+   "src": "img/hexa-care-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/hexa-care-website/01.jpg",
+    "w": 1600,
+    "h": 1078
+   },
+   {
+    "src": "img/hexa-care-website/02.jpg",
+    "w": 1600,
+    "h": 2195
+   },
+   {
+    "src": "img/hexa-care-website/03.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/hexa-care-website/04.jpg",
+    "w": 1600,
+    "h": 978
+   },
+   {
+    "src": "img/hexa-care-website/05.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/hexa-care-website/06.jpg",
+    "w": 1600,
+    "h": 1812
+   }
+  ]
+ },
+ {
+  "slug": "noble-balustrades-landing-pages",
+  "type": "web",
+  "title": "Noble Balustrades: Stainless Balustrade Landing Pages",
+  "desc": "Noble Balustrades designs and installs custom stainless steel balustrades.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "trades",
+   "landing page",
+   "lead generation"
+  ],
+  "thumb": {
+   "src": "img/noble-balustrades-landing-pages/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/noble-balustrades-landing-pages/01.jpg",
+    "w": 1600,
+    "h": 1078
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/02.jpg",
+    "w": 1600,
+    "h": 2807
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/03.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/04.jpg",
+    "w": 1600,
+    "h": 978
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/05.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/06.jpg",
+    "w": 1600,
+    "h": 1028
+   }
+  ]
+ },
+ {
+  "slug": "renewed-kitchens-bathrooms-landing-page",
+  "type": "web",
+  "title": "Renewed Kitchens and Bathrooms: Renovation Landing Page",
+  "desc": "Renewed Kitchens and Bathrooms renovates kitchens and bathrooms with a fixed, clear process.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "home renovation",
+   "kitchens",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/renewed-kitchens-bathrooms-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/renewed-kitchens-bathrooms-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1078
+   },
+   {
+    "src": "img/renewed-kitchens-bathrooms-landing-page/02.jpg",
+    "w": 1600,
+    "h": 2398
+   },
+   {
+    "src": "img/renewed-kitchens-bathrooms-landing-page/03.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/renewed-kitchens-bathrooms-landing-page/04.jpg",
+    "w": 1600,
+    "h": 978
+   },
+   {
+    "src": "img/renewed-kitchens-bathrooms-landing-page/05.jpg",
+    "w": 1600,
+    "h": 995
+   }
+  ]
+ },
+ {
+  "slug": "supplyspec-construction-platform-website",
+  "type": "web",
+  "title": "SupplySpec: B2B Construction Platform Website",
+  "desc": "SupplySpec connects building product suppliers with architects and builders.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "b2b",
+   "saas",
+   "platform"
+  ],
+  "thumb": {
+   "src": "img/supplyspec-construction-platform-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/supplyspec-construction-platform-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/02.jpg",
+    "w": 1600,
+    "h": 2181
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/06.jpg",
+    "w": 1600,
+    "h": 1033
+   }
+  ]
+ },
+ {
+  "slug": "workcover-hub-workers-compensation-website",
+  "type": "web",
+  "title": "WorkCover Hub: Workers Compensation Guide Website",
+  "desc": "WorkCover Hub guides injured workers through their compensation claim.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "legal",
+   "insurance",
+   "guide"
+  ],
+  "thumb": {
+   "src": "img/workcover-hub-workers-compensation-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/workcover-hub-workers-compensation-website/01.jpg",
+    "w": 1600,
+    "h": 1078
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/02.jpg",
+    "w": 1600,
+    "h": 1843
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/03.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/04.jpg",
+    "w": 1600,
+    "h": 978
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/05.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/06.jpg",
+    "w": 1600,
+    "h": 1812
+   }
+  ]
+ },
+ {
+  "slug": "devox-cladding-landing-page",
+  "type": "web",
+  "title": "Devox: Cladding Landing Page",
+  "desc": "Devox designs and installs modern cladding for homes and commercial buildings.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "trades",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/devox-cladding-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/devox-cladding-landing-page/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/devox-cladding-landing-page/02.jpg",
+    "w": 1600,
+    "h": 2178
+   },
+   {
+    "src": "img/devox-cladding-landing-page/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/devox-cladding-landing-page/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/devox-cladding-landing-page/05.jpg",
+    "w": 1600,
+    "h": 1000
+   }
+  ]
+ },
+ {
+  "slug": "add-design-studio-website",
+  "type": "web",
+  "title": "ADD Design Studio: Interior Design Website",
+  "desc": "ADD Design Studio creates residential and commercial interiors.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "interior design",
+   "architecture",
+   "luxury"
+  ],
+  "thumb": {
+   "src": "img/add-design-studio-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/add-design-studio-website/01.jpg",
+    "w": 1600,
+    "h": 1078
+   },
+   {
+    "src": "img/add-design-studio-website/02.jpg",
+    "w": 1600,
+    "h": 1946
+   },
+   {
+    "src": "img/add-design-studio-website/03.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/add-design-studio-website/04.jpg",
+    "w": 1600,
+    "h": 978
+   },
+   {
+    "src": "img/add-design-studio-website/05.jpg",
+    "w": 1600,
+    "h": 995
+   }
+  ]
+ },
+ {
+  "slug": "alvi-ad-architecture-website",
+  "type": "web",
+  "title": "ALVI+AD: Architecture and Design Website",
+  "desc": "ALVI+AD is an architecture and design practice.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "architecture",
+   "construction",
+   "design studio"
+  ],
+  "thumb": {
+   "src": "img/alvi-ad-architecture-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/alvi-ad-architecture-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/02.jpg",
+    "w": 1600,
+    "h": 2786
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "alvi-consulting-website",
+  "type": "web",
+  "title": "Alvi Consulting: Digital Consulting Website",
+  "desc": "Alvi Consulting helps businesses grow with websites, marketing and strategy.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "consulting",
+   "marketing agency",
+   "b2b"
+  ],
+  "thumb": {
+   "src": "img/alvi-consulting-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/alvi-consulting-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/alvi-consulting-website/02.jpg",
+    "w": 1600,
+    "h": 2611
+   },
+   {
+    "src": "img/alvi-consulting-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/alvi-consulting-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/alvi-consulting-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/alvi-consulting-website/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "aussie-link-visa-services-website",
+  "type": "web",
+  "title": "Aussie-Link: Visa and Migration Services Website",
+  "desc": "Aussie-Link helps clients with Australian visas and migration.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "immigration",
+   "legal",
+   "consulting"
+  ],
+  "thumb": {
+   "src": "img/aussie-link-visa-services-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/aussie-link-visa-services-website/01.jpg",
+    "w": 1600,
+    "h": 1078
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/02.jpg",
+    "w": 1600,
+    "h": 2830
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/03.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/04.jpg",
+    "w": 1600,
+    "h": 978
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/05.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/06.jpg",
+    "w": 1600,
+    "h": 1812
+   }
+  ]
+ },
+ {
+  "slug": "beds-r-us-furniture-landing-page",
+  "type": "web",
+  "title": "Beds R Us: Bedding and Furniture Landing Page",
+  "desc": "Beds R Us sells beds, mattresses and bedroom furniture in Warwick Farm.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "ecommerce",
+   "furniture",
+   "retail",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/beds-r-us-furniture-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/beds-r-us-furniture-landing-page/01.jpg",
+    "w": 1600,
+    "h": 998
+   },
+   {
+    "src": "img/beds-r-us-furniture-landing-page/02.jpg",
+    "w": 1600,
+    "h": 998
+   },
+   {
+    "src": "img/beds-r-us-furniture-landing-page/03.jpg",
+    "w": 1600,
+    "h": 2238
+   },
+   {
+    "src": "img/beds-r-us-furniture-landing-page/04.jpg",
+    "w": 1600,
+    "h": 998
+   }
+  ]
+ },
+ {
+  "slug": "complete-marble-care-website",
+  "type": "web",
+  "title": "Complete Marble Care: Stone Restoration Website",
+  "desc": "Complete Marble Care restores, polishes and seals marble and natural stone.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "home services",
+   "restoration",
+   "local business"
+  ],
+  "thumb": {
+   "src": "img/complete-marble-care-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/complete-marble-care-website/01.jpg",
+    "w": 1600,
+    "h": 1078
+   },
+   {
+    "src": "img/complete-marble-care-website/02.jpg",
+    "w": 1600,
+    "h": 2958
+   },
+   {
+    "src": "img/complete-marble-care-website/03.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/complete-marble-care-website/04.jpg",
+    "w": 1600,
+    "h": 978
+   },
+   {
+    "src": "img/complete-marble-care-website/05.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/complete-marble-care-website/06.jpg",
+    "w": 1600,
+    "h": 1028
    }
   ]
  },
@@ -4311,33 +4390,38 @@ window.PROJECTS = [
   "thumb": {
    "src": "img/code-baustein-software-house-website/thumb.jpg",
    "w": 1200,
-   "h": 939
+   "h": 900
   },
   "images": [
    {
-    "src": "img/code-baustein-software-house-website/01.jpg",
+    "src": "img/code-baustein-software-house-website/t/01.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1083
    },
    {
-    "src": "img/code-baustein-software-house-website/02.jpg",
+    "src": "img/code-baustein-software-house-website/t/02.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 2693
    },
    {
-    "src": "img/code-baustein-software-house-website/03.jpg",
+    "src": "img/code-baustein-software-house-website/t/03.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1383
    },
    {
-    "src": "img/code-baustein-software-house-website/04.jpg",
+    "src": "img/code-baustein-software-house-website/t/04.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 983
    },
    {
-    "src": "img/code-baustein-software-house-website/05.jpg",
+    "src": "img/code-baustein-software-house-website/t/05.jpg",
     "w": 1600,
-    "h": 8494
+    "h": 1000
+   },
+   {
+    "src": "img/code-baustein-software-house-website/t/06.jpg",
+    "w": 1600,
+    "h": 1817
    }
   ]
  },
@@ -4357,38 +4441,38 @@ window.PROJECTS = [
   "thumb": {
    "src": "img/luxae-home-decor-website/thumb.jpg",
    "w": 1200,
-   "h": 939
+   "h": 900
   },
   "images": [
    {
-    "src": "img/luxae-home-decor-website/01.jpg",
+    "src": "img/luxae-home-decor-website/t/01.jpg",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "img/luxae-home-decor-website/02.jpg",
+    "src": "img/luxae-home-decor-website/t/02.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 958
    },
    {
-    "src": "img/luxae-home-decor-website/03.jpg",
+    "src": "img/luxae-home-decor-website/t/03.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1147
    },
    {
-    "src": "img/luxae-home-decor-website/04.jpg",
+    "src": "img/luxae-home-decor-website/t/04.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1482
    },
    {
-    "src": "img/luxae-home-decor-website/05.jpg",
+    "src": "img/luxae-home-decor-website/t/05.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 900
    },
    {
-    "src": "img/luxae-home-decor-website/06.jpg",
-    "w": 1440,
-    "h": 3999
+    "src": "img/luxae-home-decor-website/t/06.jpg",
+    "w": 1600,
+    "h": 2567
    }
   ]
  },
@@ -4406,38 +4490,38 @@ window.PROJECTS = [
   "thumb": {
    "src": "img/genuine-connection-landing-page/thumb.jpg",
    "w": 1200,
-   "h": 939
+   "h": 900
   },
   "images": [
    {
-    "src": "img/genuine-connection-landing-page/01.jpg",
+    "src": "img/genuine-connection-landing-page/t/01.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1083
    },
    {
-    "src": "img/genuine-connection-landing-page/02.jpg",
+    "src": "img/genuine-connection-landing-page/t/02.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1811
    },
    {
-    "src": "img/genuine-connection-landing-page/03.jpg",
+    "src": "img/genuine-connection-landing-page/t/03.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1167
    },
    {
-    "src": "img/genuine-connection-landing-page/04.jpg",
+    "src": "img/genuine-connection-landing-page/t/04.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 983
    },
    {
-    "src": "img/genuine-connection-landing-page/05.jpg",
+    "src": "img/genuine-connection-landing-page/t/05.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1000
    },
    {
-    "src": "img/genuine-connection-landing-page/06.jpg",
-    "w": 1440,
-    "h": 5470
+    "src": "img/genuine-connection-landing-page/t/06.jpg",
+    "w": 1600,
+    "h": 1157
    }
   ]
  },
@@ -4456,38 +4540,38 @@ window.PROJECTS = [
   "thumb": {
    "src": "img/future-bit-crypto-trading-website/thumb.jpg",
    "w": 1200,
-   "h": 939
+   "h": 900
   },
   "images": [
    {
-    "src": "img/future-bit-crypto-trading-website/01.jpg",
+    "src": "img/future-bit-crypto-trading-website/t/01.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1083
    },
    {
-    "src": "img/future-bit-crypto-trading-website/02.jpg",
+    "src": "img/future-bit-crypto-trading-website/t/02.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 2212
    },
    {
-    "src": "img/future-bit-crypto-trading-website/03.jpg",
+    "src": "img/future-bit-crypto-trading-website/t/03.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1167
    },
    {
-    "src": "img/future-bit-crypto-trading-website/04.jpg",
+    "src": "img/future-bit-crypto-trading-website/t/04.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 983
    },
    {
-    "src": "img/future-bit-crypto-trading-website/05.jpg",
+    "src": "img/future-bit-crypto-trading-website/t/05.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1000
    },
    {
-    "src": "img/future-bit-crypto-trading-website/06.jpg",
-    "w": 1440,
-    "h": 7729
+    "src": "img/future-bit-crypto-trading-website/t/06.jpg",
+    "w": 1600,
+    "h": 1558
    }
   ]
  },
@@ -4507,38 +4591,58 @@ window.PROJECTS = [
   "thumb": {
    "src": "img/wealth-coach-crypto-learning-website/thumb.jpg",
    "w": 1200,
-   "h": 939
+   "h": 900
   },
   "images": [
    {
-    "src": "img/wealth-coach-crypto-learning-website/01.jpg",
+    "src": "img/wealth-coach-crypto-learning-website/t/01.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1083
    },
    {
-    "src": "img/wealth-coach-crypto-learning-website/02.jpg",
+    "src": "img/wealth-coach-crypto-learning-website/t/02.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 2062
    },
    {
-    "src": "img/wealth-coach-crypto-learning-website/03.jpg",
+    "src": "img/wealth-coach-crypto-learning-website/t/03.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1167
    },
    {
-    "src": "img/wealth-coach-crypto-learning-website/04.jpg",
+    "src": "img/wealth-coach-crypto-learning-website/t/04.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 983
    },
    {
-    "src": "img/wealth-coach-crypto-learning-website/05.jpg",
+    "src": "img/wealth-coach-crypto-learning-website/t/05.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1000
    },
    {
-    "src": "img/wealth-coach-crypto-learning-website/06.jpg",
+    "src": "img/wealth-coach-crypto-learning-website/t/06.jpg",
+    "w": 1600,
+    "h": 993
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-website/dash_1_payments.jpg",
     "w": 1440,
-    "h": 6810
+    "h": 1024
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-website/dash_2_billing.jpg",
+    "w": 1440,
+    "h": 1024
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-website/dash_3_live.jpg",
+    "w": 1440,
+    "h": 1024
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-website/dash_4_updates.jpg",
+    "w": 1440,
+    "h": 1024
    }
   ]
  },
@@ -4558,38 +4662,43 @@ window.PROJECTS = [
   "thumb": {
    "src": "img/solstech-software-house-website/thumb.jpg",
    "w": 1200,
-   "h": 939
+   "h": 900
   },
   "images": [
    {
-    "src": "img/solstech-software-house-website/01.jpg",
+    "src": "img/solstech-software-house-website/t/01.jpg",
     "w": 1600,
     "h": 1200
    },
    {
-    "src": "img/solstech-software-house-website/02.jpg",
+    "src": "img/solstech-software-house-website/t/02.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 958
    },
    {
-    "src": "img/solstech-software-house-website/03.jpg",
+    "src": "img/solstech-software-house-website/t/03.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1075
    },
    {
-    "src": "img/solstech-software-house-website/04.jpg",
+    "src": "img/solstech-software-house-website/t/04.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 2263
    },
    {
-    "src": "img/solstech-software-house-website/05.jpg",
+    "src": "img/solstech-software-house-website/t/05.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 900
    },
    {
-    "src": "img/solstech-software-house-website/06.jpg",
-    "w": 1440,
-    "h": 7289
+    "src": "img/solstech-software-house-website/t/06.jpg",
+    "w": 1600,
+    "h": 2574
+   },
+   {
+    "src": "img/solstech-software-house-website/t/07.jpg",
+    "w": 1600,
+    "h": 1042
    }
   ]
  },
@@ -4607,38 +4716,38 @@ window.PROJECTS = [
   "thumb": {
    "src": "img/lavender-organizes-website-design/thumb.jpg",
    "w": 1200,
-   "h": 939
+   "h": 900
   },
   "images": [
    {
-    "src": "img/lavender-organizes-website-design/01.jpg",
+    "src": "img/lavender-organizes-website-design/t/01.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1083
    },
    {
-    "src": "img/lavender-organizes-website-design/02.jpg",
+    "src": "img/lavender-organizes-website-design/t/02.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 3734
    },
    {
-    "src": "img/lavender-organizes-website-design/03.jpg",
+    "src": "img/lavender-organizes-website-design/t/03.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1000
    },
    {
-    "src": "img/lavender-organizes-website-design/04.jpg",
+    "src": "img/lavender-organizes-website-design/t/04.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 983
    },
    {
-    "src": "img/lavender-organizes-website-design/05.jpg",
+    "src": "img/lavender-organizes-website-design/t/05.jpg",
     "w": 1600,
-    "h": 1200
+    "h": 1000
    },
    {
-    "src": "img/lavender-organizes-website-design/06.jpg",
-    "w": 1016,
-    "h": 10281
+    "src": "img/lavender-organizes-website-design/t/06.jpg",
+    "w": 1600,
+    "h": 1817
    }
   ]
  }

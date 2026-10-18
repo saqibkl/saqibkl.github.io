@@ -1428,5 +1428,53 @@ window.CASES = {
     "UI/UX design, website design, design system and responsive layouts."
    ]
   ]
+ },
+ "copy-trading-platform-dashboard": {
+  "title": "Tenup Copy Trading: Crypto Copy Trading Platform",
+  "tags": [
+   "ui/ux",
+   "dashboard",
+   "web app",
+   "crypto",
+   "trading",
+   "fintech",
+   "landing page"
+  ],
+  "about": [
+   "Tenup Copy Trading lets people follow experienced crypto traders and mirror their trades automatically."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "We designed a landing page that explains copy trading simply, then a dashboard with a portfolio overview, live statistics, asset balances and trader profiles, shown here in a dark theme."
+   ],
+   [
+    "Scope",
+    "UI/UX design, landing page and web app screens, design system."
+   ]
+  ]
+ },
+ "motor-ad-design-app": {
+  "title": "Motor: Ad Design Web App",
+  "tags": [
+   "ui/ux",
+   "web app",
+   "saas",
+   "design tool",
+   "marketing"
+  ],
+  "about": [
+   "Motor is a web app for designing ads faster: pick a template, edit it and export it as an image, video or HTML ad."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "We designed the full flow: sign up, choose a template, edit text and photos, upload images, preview, export and find past work again in Recent Designs, in a calm purple workspace."
+   ],
+   [
+    "Scope",
+    "UI/UX design, landing page and web app screens, design system."
+   ]
+  ]
  }
 };

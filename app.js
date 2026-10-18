@@ -15,7 +15,7 @@ const img = (im, alt, eager, vt) =>
 const swap = fn => (!reduce && document.startViewTransition) ? document.startViewTransition(fn) : fn();
 
 const shot = (p, i) => `
-  <a class="shot reveal" style="--i:${i % 3}" href="project.html#${p.slug}" aria-label="${esc(p.title)}">
+  <a class="shot reveal" style="--i:${i % 4}" href="project.html#${p.slug}" aria-label="${esc(p.title)}">
     <figure>${img(p.thumb, p.title, i < 3, "shot-" + p.slug)}
       <span class="peek"><span class="t">${esc(name(p.title))}<small>${esc(sub(p.title) || "Brand identity")}</small></span>
         <span class="chips" aria-hidden="true"><span class="chip">${kind(p)}</span><span class="chip round">↗</span></span></span>
