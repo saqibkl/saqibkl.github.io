@@ -117,8 +117,9 @@ def mix_all():
     js, data = load("data.js", "[", "]")
     alvi = {p.name for p in (UPLOADS / "Alvi").iterdir() if p.is_dir()}
     old_web = {d.name for d in (UPLOADS / "_old_sites").iterdir() if d.is_dir()}
-    first_web = next(k for k, p in enumerate(data) if p["type"] == "web")
-    new_brand = [p for p in data[:first_web] if p["type"] == "brand"]
+    NEW_BRAND = ["terral-built-on-structure", "qore-core-driven-strategy-brand-identity", "opendox-connected-knowledge-brand-identity",
+                 "taskera-ai-powered-productivity-platform", "bambu-eco-friendly-daily-essentials-brand-identity", "bound-nature-first-living-brand-identity"]
+    new_brand = [next(p for p in data if p["slug"] == s) for s in NEW_BRAND]  # fixed list: order in data.js changes each run
     old_brand = [p for p in data if p["type"] == "brand" and p not in new_brand]
     web = [p for p in data if p["type"] == "web" and p["slug"] not in alvi | old_web]
     apps = [p for p in data if p["type"] == "app"]
