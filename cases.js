@@ -1162,30 +1162,6 @@ window.CASES = {
    ]
   ]
  },
- "national-tree-services-website": {
-  "title": "National Tree Services: Tree Removal Website",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "trades",
-   "local business",
-   "lead generation"
-  ],
-  "about": [
-   "National Tree Services offers tree removal, pruning and land clearing across Sydney."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A bold green site with a quote form in the hero, clear service cards, real job photos and reviews that build trust before the call."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
  "noble-balustrades-landing-pages": {
   "title": "Noble Balustrades: Stainless Balustrade Landing Pages",
   "tags": [
@@ -1211,54 +1187,6 @@ window.CASES = {
    ]
   ]
  },
- "parra-digital-marketing-agency-website": {
-  "title": "Parra Digital: Marketing Agency Website",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "marketing agency",
-   "agency",
-   "seo agency"
-  ],
-  "about": [
-   "Parra Digital is a digital marketing agency for Western Sydney businesses."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A confident navy and yellow site that sells a free marketing audit, explains each service clearly and backs it with client stories."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
- "reinspect-building-inspections-landing-page": {
-  "title": "Reinspect: Building Inspections Landing Page",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "property",
-   "landing page"
-  ],
-  "about": [
-   "Reinspect provides building and pest inspections for buyers and owners."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A clear landing page that explains inspection types, shows what the report covers and drives buyers to book an inspection."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
  "renewed-kitchens-bathrooms-landing-page": {
   "title": "Renewed Kitchens and Bathrooms: Renovation Landing Page",
   "tags": [
@@ -1276,30 +1204,6 @@ window.CASES = {
    [
     "What we did",
     "A fresh landing page with before and after work, a simple renovation process and a quote request at every step."
-   ],
-   [
-    "Scope",
-    "UI/UX design, website design, design system and responsive layouts."
-   ]
-  ]
- },
- "silverwater-collision-centre-landing-page": {
-  "title": "Silverwater Collision Centre: Smash Repair Landing Page",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "automotive",
-   "local business",
-   "landing page"
-  ],
-  "about": [
-   "Silverwater Collision Centre repairs, protects and details cars in Sydney."
-  ],
-  "sections": [
-   [
-    "What we did",
-    "A dark, premium landing page with bold red accents, a quote form, service cards and real customer reviews."
    ],
    [
     "Scope",
