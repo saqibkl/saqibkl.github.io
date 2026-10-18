@@ -12,9 +12,9 @@ V3 = UPLOADS / "_v3_thumbs"
 AFTER = "inn-twin-data-platform-dashboard"
 NEW = [  # slug, upload folder, title, tags, intro, did
     ("copy-trading-platform-dashboard", "21 Copy Trading", "Tenup Copy Trading: Crypto Copy Trading Platform",
-     ["ui/ux", "dashboard", "web app", "crypto", "trading", "fintech", "landing page"],
+     ["ui/ux", "dashboard", "web app", "crypto", "trading", "fintech"],
      "Tenup Copy Trading lets people follow experienced crypto traders and mirror their trades automatically.",
-     "We designed a landing page that explains copy trading simply, then a dashboard with a portfolio overview, live statistics, asset balances and trader profiles, shown here in a dark theme."),
+     "We designed the full web app: sign up and KYC, connecting exchanges, plans, finding and following traders with risk limits, live trades and a portfolio overview, in a dark theme and a light theme."),
     ("motor-ad-design-app", "22 Motor", "Motor: Ad Design Web App",
      ["ui/ux", "web app", "saas", "design tool", "marketing"],
      "Motor is a web app for designing ads faster: pick a template, edit it and export it as an image, video or HTML ad.",
@@ -79,7 +79,7 @@ if __name__ == "__main__":
         fresh.append(dict(slug=slug, type="app", title=title, desc=intro, cats="UI/UX, Web App", tags=tags,
                           thumb=save(f / "00_thumbnail.png", OUT / "img" / slug / "thumb.jpg", 1200),
                           images=[save(m, OUT / "img" / slug / f"{k:02d}.jpg", 1600) for k, m in enumerate(mods, 1)]))
-        cases[slug] = dict(title=title, tags=tags, about=[intro], sections=[["What we did", did], ["Scope", "UI/UX design, landing page and web app screens, design system."]])
+        cases[slug] = dict(title=title, tags=tags, about=[intro], sections=[["What we did", did], ["Scope", "UI/UX design, web app screens, design system."]])
     i = next(k for k, p in enumerate(data) if p["slug"] == AFTER) + 1
     data = data[:i] + fresh + data[i:]
     assert len({p["slug"] for p in data}) == len(data), "duplicate slug"

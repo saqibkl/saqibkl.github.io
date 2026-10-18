@@ -1437,8 +1437,7 @@ window.CASES = {
    "web app",
    "crypto",
    "trading",
-   "fintech",
-   "landing page"
+   "fintech"
   ],
   "about": [
    "Tenup Copy Trading lets people follow experienced crypto traders and mirror their trades automatically."
@@ -1446,11 +1445,11 @@ window.CASES = {
   "sections": [
    [
     "What we did",
-    "We designed a landing page that explains copy trading simply, then a dashboard with a portfolio overview, live statistics, asset balances and trader profiles, shown here in a dark theme."
+    "We designed the full web app: sign up and KYC, connecting exchanges, plans, finding and following traders with risk limits, live trades and a portfolio overview, in a dark theme and a light theme."
    ],
    [
     "Scope",
-    "UI/UX design, landing page and web app screens, design system."
+    "UI/UX design, web app screens, design system."
    ]
   ]
  },
@@ -1473,7 +1472,7 @@ window.CASES = {
    ],
    [
     "Scope",
-    "UI/UX design, landing page and web app screens, design system."
+    "UI/UX design, web app screens, design system."
    ]
   ]
  },
@@ -1497,7 +1496,7 @@ window.CASES = {
    ],
    [
     "Scope",
-    "UI/UX design, landing page and web app screens, design system."
+    "UI/UX design, web app screens, design system."
    ]
   ]
  },
@@ -1521,7 +1520,7 @@ window.CASES = {
    ],
    [
     "Scope",
-    "UI/UX design, landing page and web app screens, design system."
+    "UI/UX design, web app screens, design system."
    ]
   ]
  }

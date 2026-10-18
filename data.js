@@ -1239,8 +1239,7 @@ window.PROJECTS = [
    "web app",
    "crypto",
    "trading",
-   "fintech",
-   "landing page"
+   "fintech"
   ],
   "thumb": {
    "src": "img/copy-trading-platform-dashboard/thumb.jpg",
@@ -1256,22 +1255,22 @@ window.PROJECTS = [
    {
     "src": "img/copy-trading-platform-dashboard/02.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 1018
    },
    {
     "src": "img/copy-trading-platform-dashboard/03.jpg",
     "w": 1600,
-    "h": 2083
+    "h": 1000
    },
    {
     "src": "img/copy-trading-platform-dashboard/04.jpg",
     "w": 1600,
-    "h": 1018
+    "h": 1083
    },
    {
     "src": "img/copy-trading-platform-dashboard/05.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 867
    }
   ]
  },
@@ -1579,7 +1578,22 @@ window.PROJECTS = [
    {
     "src": "img/future-bit-trading-dashboard/02.jpg",
     "w": 1600,
-    "h": 1558
+    "h": 1000
+   },
+   {
+    "src": "img/future-bit-trading-dashboard/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/future-bit-trading-dashboard/04.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/future-bit-trading-dashboard/05.jpg",
+    "w": 1600,
+    "h": 867
    }
   ]
  },
