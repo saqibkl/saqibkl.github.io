@@ -3,6 +3,7 @@ Copy Trading and Motor dashboards. Also writes each v3 image back to the source 
 scripts read, so re-running add_featured.py / add_alvi.py keeps the new thumbnails. Re-runnable.
 Run:  python apply_v3.py"""
 import json, shutil, sys
+from itertools import zip_longest
 from pathlib import Path
 from PIL import Image
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -106,14 +107,8 @@ if __name__ == "__main__":
     mix_apps()
 
 
-def spread(*groups):
-    """Merge groups so each is spread evenly (keeps each group's own order)."""
-    tagged = [(k / len(g), n, p) for n, g in enumerate(groups) for k, p in enumerate(g)]
-    return [p for *_, p in sorted(tagged, key=lambda t: t[:2])]
-
-
 def mix_all():
-    """All tab: new work mixed on top (first row is branding only), older and Alvi work mixed lower."""
+    """All tab: rows of a single kind (branding, website, app), newest work first, older and Alvi work lower."""
     js, data = load("data.js", "[", "]")
     alvi = {p.name for p in (UPLOADS / "Alvi").iterdir() if p.is_dir()}
     old_web = {d.name for d in (UPLOADS / "_old_sites").iterdir() if d.is_dir()}
@@ -125,8 +120,11 @@ def mix_all():
     apps = [p for p in data if p["type"] == "app"]
     lower_web = [p for p in data if p["type"] == "web" and p["slug"] in alvi]
     oldest = [p for p in data if p["type"] == "web" and p["slug"] in old_web]
-    top = new_brand[:3] + spread(web, apps, new_brand[3:])
-    data2 = top + spread(lower_web, old_brand, oldest)
+    # whole rows of one kind (grid is 3 wide): branding row, website row, app row, repeat; newest first in each kind
+    kinds = [new_brand + old_brand, web + lower_web + oldest, apps]
+    rows = [[g[i:i + 3] for i in range(0, len(g) // 3 * 3, 3)] for g in kinds]
+    data2 = [p for trio in zip_longest(*rows) for row in trio if row for p in row]
+    data2 += [p for g in kinds for p in g[len(g) // 3 * 3:]]  # partial rows go last so rows stay aligned
     assert sorted(p["slug"] for p in data2) == sorted(p["slug"] for p in data), "lost a project"
     (OUT / "data.js").write_text(js[:js.index("[")] + json.dumps(data2, indent=1, ensure_ascii=False) + ";\n", encoding="utf-8")
     print("mixed:", [p["type"][0] for p in data2])
