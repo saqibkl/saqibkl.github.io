@@ -104,3 +104,32 @@ def mix_apps():
 
 if __name__ == "__main__":
     mix_apps()
+
+
+def spread(*groups):
+    """Merge groups so each is spread evenly (keeps each group's own order)."""
+    tagged = [(k / len(g), n, p) for n, g in enumerate(groups) for k, p in enumerate(g)]
+    return [p for *_, p in sorted(tagged, key=lambda t: t[:2])]
+
+
+def mix_all():
+    """All tab: new work mixed on top (2 branding in the first row), older and Alvi work mixed lower."""
+    js, data = load("data.js", "[", "]")
+    alvi = {p.name for p in (UPLOADS / "Alvi").iterdir() if p.is_dir()}
+    old_web = {d.name for d in (UPLOADS / "_old_sites").iterdir() if d.is_dir()}
+    first_web = next(k for k, p in enumerate(data) if p["type"] == "web")
+    new_brand = [p for p in data[:first_web] if p["type"] == "brand"]
+    old_brand = [p for p in data if p["type"] == "brand" and p not in new_brand]
+    web = [p for p in data if p["type"] == "web" and p["slug"] not in alvi | old_web]
+    apps = [p for p in data if p["type"] == "app"]
+    lower_web = [p for p in data if p["type"] == "web" and p["slug"] in alvi]
+    oldest = [p for p in data if p["type"] == "web" and p["slug"] in old_web]
+    top = [new_brand[0], web[0], new_brand[1]] + spread(web[1:], apps, new_brand[2:])
+    data2 = top + spread(lower_web, old_brand, oldest)
+    assert sorted(p["slug"] for p in data2) == sorted(p["slug"] for p in data), "lost a project"
+    (OUT / "data.js").write_text(js[:js.index("[")] + json.dumps(data2, indent=1, ensure_ascii=False) + ";\n", encoding="utf-8")
+    print("mixed:", [p["type"][0] for p in data2])
+
+
+if __name__ == "__main__":
+    mix_all()
