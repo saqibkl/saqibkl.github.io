@@ -113,7 +113,7 @@ def spread(*groups):
 
 
 def mix_all():
-    """All tab: new work mixed on top (2 branding in the first row), older and Alvi work mixed lower."""
+    """All tab: new work mixed on top (first row is branding only), older and Alvi work mixed lower."""
     js, data = load("data.js", "[", "]")
     alvi = {p.name for p in (UPLOADS / "Alvi").iterdir() if p.is_dir()}
     old_web = {d.name for d in (UPLOADS / "_old_sites").iterdir() if d.is_dir()}
@@ -124,7 +124,7 @@ def mix_all():
     apps = [p for p in data if p["type"] == "app"]
     lower_web = [p for p in data if p["type"] == "web" and p["slug"] in alvi]
     oldest = [p for p in data if p["type"] == "web" and p["slug"] in old_web]
-    top = [new_brand[0], web[0], new_brand[1]] + spread(web[1:], apps, new_brand[2:])
+    top = new_brand[:3] + spread(web, apps, new_brand[3:])
     data2 = top + spread(lower_web, old_brand, oldest)
     assert sorted(p["slug"] for p in data2) == sorted(p["slug"] for p in data), "lost a project"
     (OUT / "data.js").write_text(js[:js.index("[")] + json.dumps(data2, indent=1, ensure_ascii=False) + ";\n", encoding="utf-8")

@@ -122,123 +122,6 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "qore-core-driven-strategy-brand-identity",
-  "type": "brand",
-  "title": "QORE — Core-Driven Strategy Brand Identity",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
-  "tags": [
-   "brand identity",
-   "branding"
-  ],
-  "thumb": {
-   "src": "img/qore-core-driven-strategy-brand-identity/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/01.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/02.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/03.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/04.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/05.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/06.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/07.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/qore-core-driven-strategy-brand-identity/09.jpg",
-    "w": 1600,
-    "h": 1142
-   }
-  ]
- },
- {
-  "slug": "passion-jewellery-ecommerce-website",
-  "type": "web",
-  "title": "Passion: Fine Jewellery eCommerce Website",
-  "desc": "Passion is a fine jewellery store built as a lookbook you can shop.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "ecommerce",
-   "jewellery",
-   "luxury",
-   "fashion",
-   "online store"
-  ],
-  "thumb": {
-   "src": "img/passion-jewellery-ecommerce-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/passion-jewellery-ecommerce-website/01.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/passion-jewellery-ecommerce-website/02.jpg",
-    "w": 1600,
-    "h": 958
-   },
-   {
-    "src": "img/passion-jewellery-ecommerce-website/03.jpg",
-    "w": 1600,
-    "h": 1075
-   },
-   {
-    "src": "img/passion-jewellery-ecommerce-website/04.jpg",
-    "w": 1600,
-    "h": 2305
-   },
-   {
-    "src": "img/passion-jewellery-ecommerce-website/05.jpg",
-    "w": 1600,
-    "h": 991
-   },
-   {
-    "src": "img/passion-jewellery-ecommerce-website/06.jpg",
-    "w": 1600,
-    "h": 2574
-   }
-  ]
- },
- {
   "slug": "siepay-merchant-dashboard",
   "type": "app",
   "title": "Siepay: Crypto Payments Merchant Dashboard",
@@ -293,69 +176,6 @@ window.PROJECTS = [
     "src": "img/siepay-merchant-dashboard/07.jpg",
     "w": 1600,
     "h": 1296
-   }
-  ]
- },
- {
-  "slug": "opendox-connected-knowledge-brand-identity",
-  "type": "brand",
-  "title": "Opendox — Connected Knowledge Brand Identity",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
-  "tags": [
-   "brand identity",
-   "branding"
-  ],
-  "thumb": {
-   "src": "img/opendox-connected-knowledge-brand-identity/thumb.jpg",
-   "w": 1200,
-   "h": 939
-  },
-  "images": [
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/01.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/02.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/03.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/04.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/05.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/06.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/07.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/opendox-connected-knowledge-brand-identity/09.jpg",
-    "w": 1600,
-    "h": 1142
    }
   ]
  },
@@ -440,60 +260,56 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "workstreams-ai-data-assistant-website",
+  "slug": "passion-jewellery-ecommerce-website",
   "type": "web",
-  "title": "WorkStreams: AI Data Assistant Product Website",
-  "desc": "WorkStreams is an AI data assistant. Teams ask their databases questions in plain English and get answers, charts and SQL back.",
+  "title": "Passion: Fine Jewellery eCommerce Website",
+  "desc": "Passion is a fine jewellery store built as a lookbook you can shop.",
   "cats": "UI/UX, Web Design",
   "tags": [
    "ui/ux",
    "web design",
    "website",
-   "saas",
-   "ai",
-   "data",
-   "startup"
+   "ecommerce",
+   "jewellery",
+   "luxury",
+   "fashion",
+   "online store"
   ],
   "thumb": {
-   "src": "img/workstreams-ai-data-assistant-website/thumb.jpg",
+   "src": "img/passion-jewellery-ecommerce-website/thumb.jpg",
    "w": 1200,
    "h": 900
   },
   "images": [
    {
-    "src": "img/workstreams-ai-data-assistant-website/01.jpg",
+    "src": "img/passion-jewellery-ecommerce-website/01.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 1200
    },
    {
-    "src": "img/workstreams-ai-data-assistant-website/02.jpg",
+    "src": "img/passion-jewellery-ecommerce-website/02.jpg",
     "w": 1600,
-    "h": 1083
+    "h": 958
    },
    {
-    "src": "img/workstreams-ai-data-assistant-website/03.jpg",
+    "src": "img/passion-jewellery-ecommerce-website/03.jpg",
     "w": 1600,
-    "h": 1250
+    "h": 1075
    },
    {
-    "src": "img/workstreams-ai-data-assistant-website/04.jpg",
+    "src": "img/passion-jewellery-ecommerce-website/04.jpg",
     "w": 1600,
-    "h": 1732
+    "h": 2305
    },
    {
-    "src": "img/workstreams-ai-data-assistant-website/05.jpg",
+    "src": "img/passion-jewellery-ecommerce-website/05.jpg",
     "w": 1600,
-    "h": 1111
+    "h": 991
    },
    {
-    "src": "img/workstreams-ai-data-assistant-website/06.jpg",
+    "src": "img/passion-jewellery-ecommerce-website/06.jpg",
     "w": 1600,
-    "h": 1358
-   },
-   {
-    "src": "img/workstreams-ai-data-assistant-website/07.jpg",
-    "w": 1600,
-    "h": 833
+    "h": 2574
    }
   ]
  },
@@ -561,57 +377,60 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "siepay-crypto-payments-landing-page",
+  "slug": "workstreams-ai-data-assistant-website",
   "type": "web",
-  "title": "Siepay: Crypto Recurring Payments Landing Page",
-  "desc": "Siepay is a cryptocurrency recurring payment system for businesses.",
+  "title": "WorkStreams: AI Data Assistant Product Website",
+  "desc": "WorkStreams is an AI data assistant. Teams ask their databases questions in plain English and get answers, charts and SQL back.",
   "cats": "UI/UX, Web Design",
   "tags": [
    "ui/ux",
    "web design",
    "website",
-   "landing page",
-   "crypto",
-   "fintech",
-   "payments",
    "saas",
-   "web3"
+   "ai",
+   "data",
+   "startup"
   ],
   "thumb": {
-   "src": "img/siepay-crypto-payments-landing-page/thumb.jpg",
+   "src": "img/workstreams-ai-data-assistant-website/thumb.jpg",
    "w": 1200,
    "h": 900
   },
   "images": [
    {
-    "src": "img/siepay-crypto-payments-landing-page/01.jpg",
+    "src": "img/workstreams-ai-data-assistant-website/01.jpg",
     "w": 1600,
-    "h": 1800
+    "h": 1000
    },
    {
-    "src": "img/siepay-crypto-payments-landing-page/02.jpg",
+    "src": "img/workstreams-ai-data-assistant-website/02.jpg",
     "w": 1600,
-    "h": 1050
+    "h": 1083
    },
    {
-    "src": "img/siepay-crypto-payments-landing-page/03.jpg",
+    "src": "img/workstreams-ai-data-assistant-website/03.jpg",
     "w": 1600,
-    "h": 1183
+    "h": 1250
    },
    {
-    "src": "img/siepay-crypto-payments-landing-page/04.jpg",
+    "src": "img/workstreams-ai-data-assistant-website/04.jpg",
     "w": 1600,
-    "h": 817
+    "h": 1732
    },
    {
-    "src": "img/siepay-crypto-payments-landing-page/05.jpg",
+    "src": "img/workstreams-ai-data-assistant-website/05.jpg",
     "w": 1600,
-    "h": 750
+    "h": 1111
    },
    {
-    "src": "img/siepay-crypto-payments-landing-page/06.jpg",
+    "src": "img/workstreams-ai-data-assistant-website/06.jpg",
     "w": 1600,
-    "h": 3084
+    "h": 1358
+   },
+   {
+    "src": "img/workstreams-ai-data-assistant-website/07.jpg",
+    "w": 1600,
+    "h": 833
    }
   ]
  },
@@ -680,72 +499,57 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "taskera-ai-powered-productivity-platform",
-  "type": "brand",
-  "title": "TASKERA — AI-Powered Productivity Platform",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
+  "slug": "siepay-crypto-payments-landing-page",
+  "type": "web",
+  "title": "Siepay: Crypto Recurring Payments Landing Page",
+  "desc": "Siepay is a cryptocurrency recurring payment system for businesses.",
+  "cats": "UI/UX, Web Design",
   "tags": [
-   "brand identity",
-   "branding",
+   "ui/ux",
+   "web design",
+   "website",
+   "landing page",
+   "crypto",
+   "fintech",
+   "payments",
    "saas",
-   "ai"
+   "web3"
   ],
   "thumb": {
-   "src": "img/taskera-ai-powered-productivity-platform/thumb.jpg",
+   "src": "img/siepay-crypto-payments-landing-page/thumb.jpg",
    "w": 1200,
-   "h": 938
+   "h": 900
   },
   "images": [
    {
-    "src": "img/taskera-ai-powered-productivity-platform/01.jpg",
+    "src": "img/siepay-crypto-payments-landing-page/01.jpg",
     "w": 1600,
-    "h": 1142
+    "h": 1800
    },
    {
-    "src": "img/taskera-ai-powered-productivity-platform/02.jpg",
+    "src": "img/siepay-crypto-payments-landing-page/02.jpg",
     "w": 1600,
-    "h": 1142
+    "h": 1050
    },
    {
-    "src": "img/taskera-ai-powered-productivity-platform/03.jpg",
+    "src": "img/siepay-crypto-payments-landing-page/03.jpg",
     "w": 1600,
-    "h": 1142
+    "h": 1183
    },
    {
-    "src": "img/taskera-ai-powered-productivity-platform/04.jpg",
+    "src": "img/siepay-crypto-payments-landing-page/04.jpg",
     "w": 1600,
-    "h": 686
+    "h": 817
    },
    {
-    "src": "img/taskera-ai-powered-productivity-platform/05.jpg",
+    "src": "img/siepay-crypto-payments-landing-page/05.jpg",
     "w": 1600,
-    "h": 1142
+    "h": 750
    },
    {
-    "src": "img/taskera-ai-powered-productivity-platform/06.jpg",
+    "src": "img/siepay-crypto-payments-landing-page/06.jpg",
     "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/07.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/09.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/taskera-ai-powered-productivity-platform/10.jpg",
-    "w": 1600,
-    "h": 1142
+    "h": 3084
    }
   ]
  },
@@ -793,64 +597,6 @@ window.PROJECTS = [
     "src": "img/copy-trading-platform-dashboard/05.jpg",
     "w": 1600,
     "h": 867
-   }
-  ]
- },
- {
-  "slug": "searchlight-digital-agency-website",
-  "type": "web",
-  "title": "Searchlight Digital: SEO and Marketing Agency Website",
-  "desc": "Searchlight Digital is an SEO and digital marketing agency helping Los Angeles businesses rank on Google, show up in AI search and win qualified leads.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "seo agency",
-   "marketing agency",
-   "agency",
-   "dark ui"
-  ],
-  "thumb": {
-   "src": "img/searchlight-digital-agency-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/searchlight-digital-agency-website/01.jpg",
-    "w": 1600,
-    "h": 1042
-   },
-   {
-    "src": "img/searchlight-digital-agency-website/02.jpg",
-    "w": 1600,
-    "h": 958
-   },
-   {
-    "src": "img/searchlight-digital-agency-website/03.jpg",
-    "w": 1600,
-    "h": 2067
-   },
-   {
-    "src": "img/searchlight-digital-agency-website/04.jpg",
-    "w": 1600,
-    "h": 1708
-   },
-   {
-    "src": "img/searchlight-digital-agency-website/05.jpg",
-    "w": 1600,
-    "h": 1687
-   },
-   {
-    "src": "img/searchlight-digital-agency-website/06.jpg",
-    "w": 1600,
-    "h": 2378
-   },
-   {
-    "src": "img/searchlight-digital-agency-website/07.jpg",
-    "w": 1600,
-    "h": 1408
    }
   ]
  },
@@ -975,6 +721,100 @@ window.PROJECTS = [
   ]
  },
  {
+  "slug": "searchlight-digital-agency-website",
+  "type": "web",
+  "title": "Searchlight Digital: SEO and Marketing Agency Website",
+  "desc": "Searchlight Digital is an SEO and digital marketing agency helping Los Angeles businesses rank on Google, show up in AI search and win qualified leads.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "seo agency",
+   "marketing agency",
+   "agency",
+   "dark ui"
+  ],
+  "thumb": {
+   "src": "img/searchlight-digital-agency-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/searchlight-digital-agency-website/01.jpg",
+    "w": 1600,
+    "h": 1042
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/03.jpg",
+    "w": 1600,
+    "h": 2067
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/04.jpg",
+    "w": 1600,
+    "h": 1708
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/05.jpg",
+    "w": 1600,
+    "h": 1687
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/06.jpg",
+    "w": 1600,
+    "h": 2378
+   },
+   {
+    "src": "img/searchlight-digital-agency-website/07.jpg",
+    "w": 1600,
+    "h": 1408
+   }
+  ]
+ },
+ {
+  "slug": "motor-ad-design-app",
+  "type": "app",
+  "title": "Motor: Ad Design Web App",
+  "desc": "Motor is a web app for designing ads faster: pick a template, edit it and export it as an image, video or HTML ad.",
+  "cats": "UI/UX, Web App",
+  "tags": [
+   "ui/ux",
+   "web app",
+   "saas",
+   "design tool",
+   "marketing"
+  ],
+  "thumb": {
+   "src": "img/motor-ad-design-app/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/motor-ad-design-app/01.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/motor-ad-design-app/02.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/motor-ad-design-app/03.jpg",
+    "w": 1600,
+    "h": 867
+   }
+  ]
+ },
+ {
   "slug": "winder-stilhaus-interiors-website",
   "type": "web",
   "title": "Winder & Stilhaus: Kitchens and Interiors Studio Website",
@@ -1035,106 +875,6 @@ window.PROJECTS = [
     "src": "img/winder-stilhaus-interiors-website/08.jpg",
     "w": 1600,
     "h": 1675
-   }
-  ]
- },
- {
-  "slug": "motor-ad-design-app",
-  "type": "app",
-  "title": "Motor: Ad Design Web App",
-  "desc": "Motor is a web app for designing ads faster: pick a template, edit it and export it as an image, video or HTML ad.",
-  "cats": "UI/UX, Web App",
-  "tags": [
-   "ui/ux",
-   "web app",
-   "saas",
-   "design tool",
-   "marketing"
-  ],
-  "thumb": {
-   "src": "img/motor-ad-design-app/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/motor-ad-design-app/01.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/motor-ad-design-app/02.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/motor-ad-design-app/03.jpg",
-    "w": 1600,
-    "h": 867
-   }
-  ]
- },
- {
-  "slug": "bambu-eco-friendly-daily-essentials-brand-identity",
-  "type": "brand",
-  "title": "BAMBU — Eco-Friendly Daily Essentials Brand Identity",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
-  "tags": [
-   "brand identity",
-   "branding",
-   "sustainability"
-  ],
-  "thumb": {
-   "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/01.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/02.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/03.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/04.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/05.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/06.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/07.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/09.jpg",
-    "w": 1600,
-    "h": 1142
    }
   ]
  },
@@ -1364,59 +1104,6 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "spiceweb-media-agency-website",
-  "type": "web",
-  "title": "SpiceWeb Media: Digital Agency Website",
-  "desc": "SpiceWeb Media is a full-service digital agency for branding, websites, SEO, Google Ads and social media.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "marketing agency",
-   "agency",
-   "branding",
-   "seo agency"
-  ],
-  "thumb": {
-   "src": "img/spiceweb-media-agency-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/spiceweb-media-agency-website/01.jpg",
-    "w": 1600,
-    "h": 1195
-   },
-   {
-    "src": "img/spiceweb-media-agency-website/02.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/spiceweb-media-agency-website/03.jpg",
-    "w": 1600,
-    "h": 1250
-   },
-   {
-    "src": "img/spiceweb-media-agency-website/04.jpg",
-    "w": 1600,
-    "h": 3516
-   },
-   {
-    "src": "img/spiceweb-media-agency-website/05.jpg",
-    "w": 1600,
-    "h": 1203
-   },
-   {
-    "src": "img/spiceweb-media-agency-website/06.jpg",
-    "w": 1600,
-    "h": 1950
-   }
-  ]
- },
- {
   "slug": "cloud-care-family-health-app",
   "type": "app",
   "title": "Cloud Care: Family Health App",
@@ -1482,71 +1169,55 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "bound-nature-first-living-brand-identity",
-  "type": "brand",
-  "title": "BOUND - Nature First Living Brand Identity",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
+  "slug": "spiceweb-media-agency-website",
+  "type": "web",
+  "title": "SpiceWeb Media: Digital Agency Website",
+  "desc": "SpiceWeb Media is a full-service digital agency for branding, websites, SEO, Google Ads and social media.",
+  "cats": "UI/UX, Web Design",
   "tags": [
-   "brand identity",
+   "ui/ux",
+   "web design",
+   "website",
+   "marketing agency",
+   "agency",
    "branding",
-   "sustainability"
+   "seo agency"
   ],
   "thumb": {
-   "src": "img/bound-nature-first-living-brand-identity/thumb.jpg",
+   "src": "img/spiceweb-media-agency-website/thumb.jpg",
    "w": 1200,
-   "h": 938
+   "h": 900
   },
   "images": [
    {
-    "src": "img/bound-nature-first-living-brand-identity/01.jpg",
+    "src": "img/spiceweb-media-agency-website/01.jpg",
     "w": 1600,
-    "h": 1142
+    "h": 1195
    },
    {
-    "src": "img/bound-nature-first-living-brand-identity/02.jpg",
+    "src": "img/spiceweb-media-agency-website/02.jpg",
     "w": 1600,
-    "h": 1142
+    "h": 1000
    },
    {
-    "src": "img/bound-nature-first-living-brand-identity/03.jpg",
+    "src": "img/spiceweb-media-agency-website/03.jpg",
     "w": 1600,
-    "h": 1143
+    "h": 1250
    },
    {
-    "src": "img/bound-nature-first-living-brand-identity/04.jpg",
+    "src": "img/spiceweb-media-agency-website/04.jpg",
     "w": 1600,
-    "h": 686
+    "h": 3516
    },
    {
-    "src": "img/bound-nature-first-living-brand-identity/05.jpg",
+    "src": "img/spiceweb-media-agency-website/05.jpg",
     "w": 1600,
-    "h": 1138
+    "h": 1203
    },
    {
-    "src": "img/bound-nature-first-living-brand-identity/06.jpg",
+    "src": "img/spiceweb-media-agency-website/06.jpg",
     "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/07.jpg",
-    "w": 1600,
-    "h": 2276
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/09.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bound-nature-first-living-brand-identity/10.jpg",
-    "w": 1600,
-    "h": 1142
+    "h": 1950
    }
   ]
  },
@@ -1891,6 +1562,490 @@ window.PROJECTS = [
   ]
  },
  {
+  "slug": "qore-core-driven-strategy-brand-identity",
+  "type": "brand",
+  "title": "QORE — Core-Driven Strategy Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/qore-core-driven-strategy-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/qore-core-driven-strategy-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "code-baustein-software-house-website",
+  "type": "web",
+  "title": "Code Baustein - Software House Website",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "saas",
+   "website",
+   "tech"
+  ],
+  "thumb": {
+   "src": "img/code-baustein-software-house-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/code-baustein-software-house-website/t/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/code-baustein-software-house-website/t/02.jpg",
+    "w": 1600,
+    "h": 2693
+   },
+   {
+    "src": "img/code-baustein-software-house-website/t/03.jpg",
+    "w": 1600,
+    "h": 1383
+   },
+   {
+    "src": "img/code-baustein-software-house-website/t/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/code-baustein-software-house-website/t/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/code-baustein-software-house-website/t/06.jpg",
+    "w": 1600,
+    "h": 1817
+   }
+  ]
+ },
+ {
+  "slug": "opendox-connected-knowledge-brand-identity",
+  "type": "brand",
+  "title": "Opendox — Connected Knowledge Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding"
+  ],
+  "thumb": {
+   "src": "img/opendox-connected-knowledge-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 939
+  },
+  "images": [
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/opendox-connected-knowledge-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "taskera-ai-powered-productivity-platform",
+  "type": "brand",
+  "title": "TASKERA — AI-Powered Productivity Platform",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "saas",
+   "ai"
+  ],
+  "thumb": {
+   "src": "img/taskera-ai-powered-productivity-platform/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/09.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/taskera-ai-powered-productivity-platform/10.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "noble-balustrades-landing-pages",
+  "type": "web",
+  "title": "Noble Balustrades: Stainless Balustrade Landing Pages",
+  "desc": "Noble Balustrades designs and installs custom stainless steel balustrades.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "trades",
+   "landing page",
+   "lead generation"
+  ],
+  "thumb": {
+   "src": "img/noble-balustrades-landing-pages/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/noble-balustrades-landing-pages/01.jpg",
+    "w": 1600,
+    "h": 1078
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/02.jpg",
+    "w": 1600,
+    "h": 2807
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/03.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/04.jpg",
+    "w": 1600,
+    "h": 978
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/05.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/noble-balustrades-landing-pages/06.jpg",
+    "w": 1600,
+    "h": 1028
+   }
+  ]
+ },
+ {
+  "slug": "bambu-eco-friendly-daily-essentials-brand-identity",
+  "type": "brand",
+  "title": "BAMBU — Eco-Friendly Daily Essentials Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "sustainability"
+  ],
+  "thumb": {
+   "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "bound-nature-first-living-brand-identity",
+  "type": "brand",
+  "title": "BOUND - Nature First Living Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "sustainability"
+  ],
+  "thumb": {
+   "src": "img/bound-nature-first-living-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/bound-nature-first-living-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1143
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1138
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2276
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bound-nature-first-living-brand-identity/10.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
+ {
+  "slug": "luxae-home-decor-website",
+  "type": "web",
+  "title": "Luxae - Home Decor Website",
+  "desc": "",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "sustainability",
+   "home decor"
+  ],
+  "thumb": {
+   "src": "img/luxae-home-decor-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/luxae-home-decor-website/t/01.jpg",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "img/luxae-home-decor-website/t/02.jpg",
+    "w": 1600,
+    "h": 958
+   },
+   {
+    "src": "img/luxae-home-decor-website/t/03.jpg",
+    "w": 1600,
+    "h": 1147
+   },
+   {
+    "src": "img/luxae-home-decor-website/t/04.jpg",
+    "w": 1600,
+    "h": 1482
+   },
+   {
+    "src": "img/luxae-home-decor-website/t/05.jpg",
+    "w": 1600,
+    "h": 900
+   },
+   {
+    "src": "img/luxae-home-decor-website/t/06.jpg",
+    "w": 1600,
+    "h": 2567
+   }
+  ]
+ },
+ {
   "slug": "pro-premium-supplement-branding",
   "type": "brand",
   "title": "PRO – Premium Supplement Branding",
@@ -1958,53 +2113,49 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "code-baustein-software-house-website",
+  "slug": "renewed-kitchens-bathrooms-landing-page",
   "type": "web",
-  "title": "Code Baustein - Software House Website",
-  "desc": "",
+  "title": "Renewed Kitchens and Bathrooms: Renovation Landing Page",
+  "desc": "Renewed Kitchens and Bathrooms renovates kitchens and bathrooms with a fixed, clear process.",
   "cats": "UI/UX, Web Design",
   "tags": [
    "ui/ux",
    "web design",
-   "saas",
    "website",
-   "tech"
+   "home renovation",
+   "kitchens",
+   "landing page"
   ],
   "thumb": {
-   "src": "img/code-baustein-software-house-website/thumb.jpg",
+   "src": "img/renewed-kitchens-bathrooms-landing-page/thumb.jpg",
    "w": 1200,
    "h": 900
   },
   "images": [
    {
-    "src": "img/code-baustein-software-house-website/t/01.jpg",
+    "src": "img/renewed-kitchens-bathrooms-landing-page/01.jpg",
     "w": 1600,
-    "h": 1083
+    "h": 1078
    },
    {
-    "src": "img/code-baustein-software-house-website/t/02.jpg",
+    "src": "img/renewed-kitchens-bathrooms-landing-page/02.jpg",
     "w": 1600,
-    "h": 2693
+    "h": 2398
    },
    {
-    "src": "img/code-baustein-software-house-website/t/03.jpg",
+    "src": "img/renewed-kitchens-bathrooms-landing-page/03.jpg",
     "w": 1600,
-    "h": 1383
+    "h": 995
    },
    {
-    "src": "img/code-baustein-software-house-website/t/04.jpg",
+    "src": "img/renewed-kitchens-bathrooms-landing-page/04.jpg",
     "w": 1600,
-    "h": 983
+    "h": 978
    },
    {
-    "src": "img/code-baustein-software-house-website/t/05.jpg",
+    "src": "img/renewed-kitchens-bathrooms-landing-page/05.jpg",
     "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/code-baustein-software-house-website/t/06.jpg",
-    "w": 1600,
-    "h": 1817
+    "h": 995
    }
   ]
  },
@@ -2178,59 +2329,6 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "noble-balustrades-landing-pages",
-  "type": "web",
-  "title": "Noble Balustrades: Stainless Balustrade Landing Pages",
-  "desc": "Noble Balustrades designs and installs custom stainless steel balustrades.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "trades",
-   "landing page",
-   "lead generation"
-  ],
-  "thumb": {
-   "src": "img/noble-balustrades-landing-pages/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/noble-balustrades-landing-pages/01.jpg",
-    "w": 1600,
-    "h": 1078
-   },
-   {
-    "src": "img/noble-balustrades-landing-pages/02.jpg",
-    "w": 1600,
-    "h": 2807
-   },
-   {
-    "src": "img/noble-balustrades-landing-pages/03.jpg",
-    "w": 1600,
-    "h": 995
-   },
-   {
-    "src": "img/noble-balustrades-landing-pages/04.jpg",
-    "w": 1600,
-    "h": 978
-   },
-   {
-    "src": "img/noble-balustrades-landing-pages/05.jpg",
-    "w": 1600,
-    "h": 995
-   },
-   {
-    "src": "img/noble-balustrades-landing-pages/06.jpg",
-    "w": 1600,
-    "h": 1028
-   }
-  ]
- },
- {
   "slug": "code-baustein-a-digital-first-brand-identity",
   "type": "brand",
   "title": "Code Baustein – A Digital-First Brand Identity",
@@ -2296,6 +2394,59 @@ window.PROJECTS = [
     "src": "img/code-baustein-a-digital-first-brand-identity/09.jpg",
     "w": 1600,
     "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "supplyspec-construction-platform-website",
+  "type": "web",
+  "title": "SupplySpec: B2B Construction Platform Website",
+  "desc": "SupplySpec connects building product suppliers with architects and builders.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "construction",
+   "b2b",
+   "saas",
+   "platform"
+  ],
+  "thumb": {
+   "src": "img/supplyspec-construction-platform-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/supplyspec-construction-platform-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/02.jpg",
+    "w": 1600,
+    "h": 2181
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/supplyspec-construction-platform-website/06.jpg",
+    "w": 1600,
+    "h": 1033
    }
   ]
  },
@@ -2369,100 +2520,51 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "luxae-home-decor-website",
+  "slug": "genuine-connection-landing-page",
   "type": "web",
-  "title": "Luxae - Home Decor Website",
+  "title": "Genuine Connection Landing Page",
   "desc": "",
   "cats": "UI/UX, Web Design",
   "tags": [
    "ui/ux",
    "web design",
-   "website",
-   "sustainability",
-   "home decor"
-  ],
-  "thumb": {
-   "src": "img/luxae-home-decor-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/luxae-home-decor-website/t/01.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/luxae-home-decor-website/t/02.jpg",
-    "w": 1600,
-    "h": 958
-   },
-   {
-    "src": "img/luxae-home-decor-website/t/03.jpg",
-    "w": 1600,
-    "h": 1147
-   },
-   {
-    "src": "img/luxae-home-decor-website/t/04.jpg",
-    "w": 1600,
-    "h": 1482
-   },
-   {
-    "src": "img/luxae-home-decor-website/t/05.jpg",
-    "w": 1600,
-    "h": 900
-   },
-   {
-    "src": "img/luxae-home-decor-website/t/06.jpg",
-    "w": 1600,
-    "h": 2567
-   }
-  ]
- },
- {
-  "slug": "renewed-kitchens-bathrooms-landing-page",
-  "type": "web",
-  "title": "Renewed Kitchens and Bathrooms: Renovation Landing Page",
-  "desc": "Renewed Kitchens and Bathrooms renovates kitchens and bathrooms with a fixed, clear process.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "home renovation",
-   "kitchens",
    "landing page"
   ],
   "thumb": {
-   "src": "img/renewed-kitchens-bathrooms-landing-page/thumb.jpg",
+   "src": "img/genuine-connection-landing-page/thumb.jpg",
    "w": 1200,
    "h": 900
   },
   "images": [
    {
-    "src": "img/renewed-kitchens-bathrooms-landing-page/01.jpg",
+    "src": "img/genuine-connection-landing-page/t/01.jpg",
     "w": 1600,
-    "h": 1078
+    "h": 1083
    },
    {
-    "src": "img/renewed-kitchens-bathrooms-landing-page/02.jpg",
+    "src": "img/genuine-connection-landing-page/t/02.jpg",
     "w": 1600,
-    "h": 2398
+    "h": 1811
    },
    {
-    "src": "img/renewed-kitchens-bathrooms-landing-page/03.jpg",
+    "src": "img/genuine-connection-landing-page/t/03.jpg",
     "w": 1600,
-    "h": 995
+    "h": 1167
    },
    {
-    "src": "img/renewed-kitchens-bathrooms-landing-page/04.jpg",
+    "src": "img/genuine-connection-landing-page/t/04.jpg",
     "w": 1600,
-    "h": 978
+    "h": 983
    },
    {
-    "src": "img/renewed-kitchens-bathrooms-landing-page/05.jpg",
+    "src": "img/genuine-connection-landing-page/t/05.jpg",
     "w": 1600,
-    "h": 995
+    "h": 1000
+   },
+   {
+    "src": "img/genuine-connection-landing-page/t/06.jpg",
+    "w": 1600,
+    "h": 1157
    }
   ]
  },
@@ -2539,6 +2641,58 @@ window.PROJECTS = [
   ]
  },
  {
+  "slug": "workcover-hub-workers-compensation-website",
+  "type": "web",
+  "title": "WorkCover Hub: Workers Compensation Guide Website",
+  "desc": "WorkCover Hub guides injured workers through their compensation claim.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "legal",
+   "insurance",
+   "guide"
+  ],
+  "thumb": {
+   "src": "img/workcover-hub-workers-compensation-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/workcover-hub-workers-compensation-website/01.jpg",
+    "w": 1600,
+    "h": 1078
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/02.jpg",
+    "w": 1600,
+    "h": 1843
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/03.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/04.jpg",
+    "w": 1600,
+    "h": 978
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/05.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/workcover-hub-workers-compensation-website/06.jpg",
+    "w": 1600,
+    "h": 1812
+   }
+  ]
+ },
+ {
   "slug": "brand-identity-estateone-media-real-estate-media",
   "type": "brand",
   "title": "Brand Identity - EstateOne Media - Real Estate Media",
@@ -2602,59 +2756,6 @@ window.PROJECTS = [
     "src": "img/brand-identity-estateone-media-real-estate-media/09.jpg",
     "w": 1600,
     "h": 1143
-   }
-  ]
- },
- {
-  "slug": "supplyspec-construction-platform-website",
-  "type": "web",
-  "title": "SupplySpec: B2B Construction Platform Website",
-  "desc": "SupplySpec connects building product suppliers with architects and builders.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "construction",
-   "b2b",
-   "saas",
-   "platform"
-  ],
-  "thumb": {
-   "src": "img/supplyspec-construction-platform-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/supplyspec-construction-platform-website/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/supplyspec-construction-platform-website/02.jpg",
-    "w": 1600,
-    "h": 2181
-   },
-   {
-    "src": "img/supplyspec-construction-platform-website/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/supplyspec-construction-platform-website/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/supplyspec-construction-platform-website/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/supplyspec-construction-platform-website/06.jpg",
-    "w": 1600,
-    "h": 1033
    }
   ]
  },
@@ -2789,51 +2890,49 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "genuine-connection-landing-page",
+  "slug": "devox-cladding-landing-page",
   "type": "web",
-  "title": "Genuine Connection Landing Page",
-  "desc": "",
+  "title": "Devox: Cladding Landing Page",
+  "desc": "Devox designs and installs modern cladding for homes and commercial buildings.",
   "cats": "UI/UX, Web Design",
   "tags": [
    "ui/ux",
    "web design",
+   "website",
+   "construction",
+   "trades",
    "landing page"
   ],
   "thumb": {
-   "src": "img/genuine-connection-landing-page/thumb.jpg",
+   "src": "img/devox-cladding-landing-page/thumb.jpg",
    "w": 1200,
    "h": 900
   },
   "images": [
    {
-    "src": "img/genuine-connection-landing-page/t/01.jpg",
+    "src": "img/devox-cladding-landing-page/01.jpg",
     "w": 1600,
     "h": 1083
    },
    {
-    "src": "img/genuine-connection-landing-page/t/02.jpg",
+    "src": "img/devox-cladding-landing-page/02.jpg",
     "w": 1600,
-    "h": 1811
+    "h": 2178
    },
    {
-    "src": "img/genuine-connection-landing-page/t/03.jpg",
-    "w": 1600,
-    "h": 1167
-   },
-   {
-    "src": "img/genuine-connection-landing-page/t/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/genuine-connection-landing-page/t/05.jpg",
+    "src": "img/devox-cladding-landing-page/03.jpg",
     "w": 1600,
     "h": 1000
    },
    {
-    "src": "img/genuine-connection-landing-page/t/06.jpg",
+    "src": "img/devox-cladding-landing-page/04.jpg",
     "w": 1600,
-    "h": 1157
+    "h": 983
+   },
+   {
+    "src": "img/devox-cladding-landing-page/05.jpg",
+    "w": 1600,
+    "h": 1000
    }
   ]
  },
@@ -2898,54 +2997,42 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "workcover-hub-workers-compensation-website",
+  "slug": "future-bit-crypto-trading-website",
   "type": "web",
-  "title": "WorkCover Hub: Workers Compensation Guide Website",
-  "desc": "WorkCover Hub guides injured workers through their compensation claim.",
+  "title": "Future Bit - Crypto Trading website",
+  "desc": "",
   "cats": "UI/UX, Web Design",
   "tags": [
    "ui/ux",
    "web design",
-   "website",
-   "legal",
-   "insurance",
-   "guide"
+   "crypto",
+   "website"
   ],
   "thumb": {
-   "src": "img/workcover-hub-workers-compensation-website/thumb.jpg",
+   "src": "img/future-bit-crypto-trading-website/thumb.jpg",
    "w": 1200,
    "h": 900
   },
   "images": [
    {
-    "src": "img/workcover-hub-workers-compensation-website/01.jpg",
+    "src": "img/future-bit-crypto-trading-website/t/01.jpg",
     "w": 1600,
-    "h": 1078
+    "h": 1083
    },
    {
-    "src": "img/workcover-hub-workers-compensation-website/02.jpg",
+    "src": "img/future-bit-crypto-trading-website/t/02.jpg",
     "w": 1600,
-    "h": 1843
+    "h": 2212
    },
    {
-    "src": "img/workcover-hub-workers-compensation-website/03.jpg",
+    "src": "img/future-bit-crypto-trading-website/t/03.jpg",
     "w": 1600,
-    "h": 995
+    "h": 1167
    },
    {
-    "src": "img/workcover-hub-workers-compensation-website/04.jpg",
+    "src": "img/future-bit-crypto-trading-website/t/04.jpg",
     "w": 1600,
-    "h": 978
-   },
-   {
-    "src": "img/workcover-hub-workers-compensation-website/05.jpg",
-    "w": 1600,
-    "h": 995
-   },
-   {
-    "src": "img/workcover-hub-workers-compensation-website/06.jpg",
-    "w": 1600,
-    "h": 1812
+    "h": 983
    }
   ]
  },
@@ -3087,49 +3174,49 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "devox-cladding-landing-page",
+  "slug": "add-design-studio-website",
   "type": "web",
-  "title": "Devox: Cladding Landing Page",
-  "desc": "Devox designs and installs modern cladding for homes and commercial buildings.",
+  "title": "ADD Design Studio: Interior Design Website",
+  "desc": "ADD Design Studio creates residential and commercial interiors.",
   "cats": "UI/UX, Web Design",
   "tags": [
    "ui/ux",
    "web design",
    "website",
-   "construction",
-   "trades",
-   "landing page"
+   "interior design",
+   "architecture",
+   "luxury"
   ],
   "thumb": {
-   "src": "img/devox-cladding-landing-page/thumb.jpg",
+   "src": "img/add-design-studio-website/thumb.jpg",
    "w": 1200,
    "h": 900
   },
   "images": [
    {
-    "src": "img/devox-cladding-landing-page/01.jpg",
+    "src": "img/add-design-studio-website/01.jpg",
     "w": 1600,
-    "h": 1083
+    "h": 1078
    },
    {
-    "src": "img/devox-cladding-landing-page/02.jpg",
+    "src": "img/add-design-studio-website/02.jpg",
     "w": 1600,
-    "h": 2178
+    "h": 1946
    },
    {
-    "src": "img/devox-cladding-landing-page/03.jpg",
+    "src": "img/add-design-studio-website/03.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 995
    },
    {
-    "src": "img/devox-cladding-landing-page/04.jpg",
+    "src": "img/add-design-studio-website/04.jpg",
     "w": 1600,
-    "h": 983
+    "h": 978
    },
    {
-    "src": "img/devox-cladding-landing-page/05.jpg",
+    "src": "img/add-design-studio-website/05.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 995
    }
   ]
  },
@@ -3189,46 +3276,6 @@ window.PROJECTS = [
     "src": "img/harmonia-wellness-brand-identity-product-design/08.jpg",
     "w": 1600,
     "h": 1143
-   }
-  ]
- },
- {
-  "slug": "future-bit-crypto-trading-website",
-  "type": "web",
-  "title": "Future Bit - Crypto Trading website",
-  "desc": "",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "crypto",
-   "website"
-  ],
-  "thumb": {
-   "src": "img/future-bit-crypto-trading-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/future-bit-crypto-trading-website/t/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/future-bit-crypto-trading-website/t/02.jpg",
-    "w": 1600,
-    "h": 2212
-   },
-   {
-    "src": "img/future-bit-crypto-trading-website/t/03.jpg",
-    "w": 1600,
-    "h": 1167
-   },
-   {
-    "src": "img/future-bit-crypto-trading-website/t/04.jpg",
-    "w": 1600,
-    "h": 983
    }
   ]
  },
@@ -3302,49 +3349,43 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "add-design-studio-website",
+  "slug": "wealth-coach-crypto-learning-website",
   "type": "web",
-  "title": "ADD Design Studio: Interior Design Website",
-  "desc": "ADD Design Studio creates residential and commercial interiors.",
+  "title": "Wealth Coach - Crypto Learning Website",
+  "desc": "",
   "cats": "UI/UX, Web Design",
   "tags": [
    "ui/ux",
    "web design",
-   "website",
-   "interior design",
-   "architecture",
-   "luxury"
+   "crypto",
+   "fintech",
+   "website"
   ],
   "thumb": {
-   "src": "img/add-design-studio-website/thumb.jpg",
+   "src": "img/wealth-coach-crypto-learning-website/thumb.jpg",
    "w": 1200,
    "h": 900
   },
   "images": [
    {
-    "src": "img/add-design-studio-website/01.jpg",
+    "src": "img/wealth-coach-crypto-learning-website/t/01.jpg",
     "w": 1600,
-    "h": 1078
+    "h": 1083
    },
    {
-    "src": "img/add-design-studio-website/02.jpg",
+    "src": "img/wealth-coach-crypto-learning-website/t/02.jpg",
     "w": 1600,
-    "h": 1946
+    "h": 2062
    },
    {
-    "src": "img/add-design-studio-website/03.jpg",
+    "src": "img/wealth-coach-crypto-learning-website/t/03.jpg",
     "w": 1600,
-    "h": 995
+    "h": 1167
    },
    {
-    "src": "img/add-design-studio-website/04.jpg",
+    "src": "img/wealth-coach-crypto-learning-website/t/04.jpg",
     "w": 1600,
-    "h": 978
-   },
-   {
-    "src": "img/add-design-studio-website/05.jpg",
-    "w": 1600,
-    "h": 995
+    "h": 983
    }
   ]
  },
@@ -3417,6 +3458,58 @@ window.PROJECTS = [
     "src": "img/halo-brand-identity/10.jpg",
     "w": 1600,
     "h": 1143
+   }
+  ]
+ },
+ {
+  "slug": "alvi-ad-architecture-website",
+  "type": "web",
+  "title": "ALVI+AD: Architecture and Design Website",
+  "desc": "ALVI+AD is an architecture and design practice.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "architecture",
+   "construction",
+   "design studio"
+  ],
+  "thumb": {
+   "src": "img/alvi-ad-architecture-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/alvi-ad-architecture-website/01.jpg",
+    "w": 1600,
+    "h": 1083
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/02.jpg",
+    "w": 1600,
+    "h": 2786
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/03.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/04.jpg",
+    "w": 1600,
+    "h": 983
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/alvi-ad-architecture-website/06.jpg",
+    "w": 1600,
+    "h": 1817
    }
   ]
  },
@@ -3557,93 +3650,52 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "wealth-coach-crypto-learning-website",
+  "slug": "alvi-consulting-website",
   "type": "web",
-  "title": "Wealth Coach - Crypto Learning Website",
-  "desc": "",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "crypto",
-   "fintech",
-   "website"
-  ],
-  "thumb": {
-   "src": "img/wealth-coach-crypto-learning-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/wealth-coach-crypto-learning-website/t/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/wealth-coach-crypto-learning-website/t/02.jpg",
-    "w": 1600,
-    "h": 2062
-   },
-   {
-    "src": "img/wealth-coach-crypto-learning-website/t/03.jpg",
-    "w": 1600,
-    "h": 1167
-   },
-   {
-    "src": "img/wealth-coach-crypto-learning-website/t/04.jpg",
-    "w": 1600,
-    "h": 983
-   }
-  ]
- },
- {
-  "slug": "alvi-ad-architecture-website",
-  "type": "web",
-  "title": "ALVI+AD: Architecture and Design Website",
-  "desc": "ALVI+AD is an architecture and design practice.",
+  "title": "Alvi Consulting: Digital Consulting Website",
+  "desc": "Alvi Consulting helps businesses grow with websites, marketing and strategy.",
   "cats": "UI/UX, Web Design",
   "tags": [
    "ui/ux",
    "web design",
    "website",
-   "architecture",
-   "construction",
-   "design studio"
+   "consulting",
+   "marketing agency",
+   "b2b"
   ],
   "thumb": {
-   "src": "img/alvi-ad-architecture-website/thumb.jpg",
+   "src": "img/alvi-consulting-website/thumb.jpg",
    "w": 1200,
    "h": 900
   },
   "images": [
    {
-    "src": "img/alvi-ad-architecture-website/01.jpg",
+    "src": "img/alvi-consulting-website/01.jpg",
     "w": 1600,
     "h": 1083
    },
    {
-    "src": "img/alvi-ad-architecture-website/02.jpg",
+    "src": "img/alvi-consulting-website/02.jpg",
     "w": 1600,
-    "h": 2786
+    "h": 2611
    },
    {
-    "src": "img/alvi-ad-architecture-website/03.jpg",
+    "src": "img/alvi-consulting-website/03.jpg",
     "w": 1600,
     "h": 1000
    },
    {
-    "src": "img/alvi-ad-architecture-website/04.jpg",
+    "src": "img/alvi-consulting-website/04.jpg",
     "w": 1600,
     "h": 983
    },
    {
-    "src": "img/alvi-ad-architecture-website/05.jpg",
+    "src": "img/alvi-consulting-website/05.jpg",
     "w": 1600,
     "h": 1000
    },
    {
-    "src": "img/alvi-ad-architecture-website/06.jpg",
+    "src": "img/alvi-consulting-website/06.jpg",
     "w": 1600,
     "h": 1817
    }
@@ -3787,54 +3839,58 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "alvi-consulting-website",
+  "slug": "solstech-software-house-website",
   "type": "web",
-  "title": "Alvi Consulting: Digital Consulting Website",
-  "desc": "Alvi Consulting helps businesses grow with websites, marketing and strategy.",
+  "title": "Solstech - Software house website",
+  "desc": "",
   "cats": "UI/UX, Web Design",
   "tags": [
    "ui/ux",
    "web design",
+   "saas",
    "website",
-   "consulting",
-   "marketing agency",
-   "b2b"
+   "tech"
   ],
   "thumb": {
-   "src": "img/alvi-consulting-website/thumb.jpg",
+   "src": "img/solstech-software-house-website/thumb.jpg",
    "w": 1200,
    "h": 900
   },
   "images": [
    {
-    "src": "img/alvi-consulting-website/01.jpg",
+    "src": "img/solstech-software-house-website/t/01.jpg",
     "w": 1600,
-    "h": 1083
+    "h": 1200
    },
    {
-    "src": "img/alvi-consulting-website/02.jpg",
+    "src": "img/solstech-software-house-website/t/02.jpg",
     "w": 1600,
-    "h": 2611
+    "h": 958
    },
    {
-    "src": "img/alvi-consulting-website/03.jpg",
+    "src": "img/solstech-software-house-website/t/03.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 1075
    },
    {
-    "src": "img/alvi-consulting-website/04.jpg",
+    "src": "img/solstech-software-house-website/t/04.jpg",
     "w": 1600,
-    "h": 983
+    "h": 2263
    },
    {
-    "src": "img/alvi-consulting-website/05.jpg",
+    "src": "img/solstech-software-house-website/t/05.jpg",
     "w": 1600,
-    "h": 1000
+    "h": 900
    },
    {
-    "src": "img/alvi-consulting-website/06.jpg",
+    "src": "img/solstech-software-house-website/t/06.jpg",
     "w": 1600,
-    "h": 1817
+    "h": 2574
+   },
+   {
+    "src": "img/solstech-software-house-website/t/07.jpg",
+    "w": 1600,
+    "h": 1042
    }
   ]
  },
@@ -3907,6 +3963,58 @@ window.PROJECTS = [
   ]
  },
  {
+  "slug": "aussie-link-visa-services-website",
+  "type": "web",
+  "title": "Aussie-Link: Visa and Migration Services Website",
+  "desc": "Aussie-Link helps clients with Australian visas and migration.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "immigration",
+   "legal",
+   "consulting"
+  ],
+  "thumb": {
+   "src": "img/aussie-link-visa-services-website/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/aussie-link-visa-services-website/01.jpg",
+    "w": 1600,
+    "h": 1078
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/02.jpg",
+    "w": 1600,
+    "h": 2830
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/03.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/04.jpg",
+    "w": 1600,
+    "h": 978
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/05.jpg",
+    "w": 1600,
+    "h": 995
+   },
+   {
+    "src": "img/aussie-link-visa-services-website/06.jpg",
+    "w": 1600,
+    "h": 1812
+   }
+  ]
+ },
+ {
   "slug": "magek-brand-identity",
   "type": "brand",
   "title": "Magek - Brand identity",
@@ -3971,114 +4079,6 @@ window.PROJECTS = [
     "src": "img/magek-brand-identity/10.jpg",
     "w": 1600,
     "h": 1143
-   }
-  ]
- },
- {
-  "slug": "solstech-software-house-website",
-  "type": "web",
-  "title": "Solstech - Software house website",
-  "desc": "",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "saas",
-   "website",
-   "tech"
-  ],
-  "thumb": {
-   "src": "img/solstech-software-house-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/solstech-software-house-website/t/01.jpg",
-    "w": 1600,
-    "h": 1200
-   },
-   {
-    "src": "img/solstech-software-house-website/t/02.jpg",
-    "w": 1600,
-    "h": 958
-   },
-   {
-    "src": "img/solstech-software-house-website/t/03.jpg",
-    "w": 1600,
-    "h": 1075
-   },
-   {
-    "src": "img/solstech-software-house-website/t/04.jpg",
-    "w": 1600,
-    "h": 2263
-   },
-   {
-    "src": "img/solstech-software-house-website/t/05.jpg",
-    "w": 1600,
-    "h": 900
-   },
-   {
-    "src": "img/solstech-software-house-website/t/06.jpg",
-    "w": 1600,
-    "h": 2574
-   },
-   {
-    "src": "img/solstech-software-house-website/t/07.jpg",
-    "w": 1600,
-    "h": 1042
-   }
-  ]
- },
- {
-  "slug": "aussie-link-visa-services-website",
-  "type": "web",
-  "title": "Aussie-Link: Visa and Migration Services Website",
-  "desc": "Aussie-Link helps clients with Australian visas and migration.",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website",
-   "immigration",
-   "legal",
-   "consulting"
-  ],
-  "thumb": {
-   "src": "img/aussie-link-visa-services-website/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/aussie-link-visa-services-website/01.jpg",
-    "w": 1600,
-    "h": 1078
-   },
-   {
-    "src": "img/aussie-link-visa-services-website/02.jpg",
-    "w": 1600,
-    "h": 2830
-   },
-   {
-    "src": "img/aussie-link-visa-services-website/03.jpg",
-    "w": 1600,
-    "h": 995
-   },
-   {
-    "src": "img/aussie-link-visa-services-website/04.jpg",
-    "w": 1600,
-    "h": 978
-   },
-   {
-    "src": "img/aussie-link-visa-services-website/05.jpg",
-    "w": 1600,
-    "h": 995
-   },
-   {
-    "src": "img/aussie-link-visa-services-website/06.jpg",
-    "w": 1600,
-    "h": 1812
    }
   ]
  },
@@ -4263,6 +4263,49 @@ window.PROJECTS = [
   ]
  },
  {
+  "slug": "beds-r-us-furniture-landing-page",
+  "type": "web",
+  "title": "Beds R Us: Bedding and Furniture Landing Page",
+  "desc": "Beds R Us sells beds, mattresses and bedroom furniture in Warwick Farm.",
+  "cats": "UI/UX, Web Design",
+  "tags": [
+   "ui/ux",
+   "web design",
+   "website",
+   "ecommerce",
+   "furniture",
+   "retail",
+   "landing page"
+  ],
+  "thumb": {
+   "src": "img/beds-r-us-furniture-landing-page/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/beds-r-us-furniture-landing-page/01.jpg",
+    "w": 1600,
+    "h": 998
+   },
+   {
+    "src": "img/beds-r-us-furniture-landing-page/02.jpg",
+    "w": 1600,
+    "h": 998
+   },
+   {
+    "src": "img/beds-r-us-furniture-landing-page/03.jpg",
+    "w": 1600,
+    "h": 2238
+   },
+   {
+    "src": "img/beds-r-us-furniture-landing-page/04.jpg",
+    "w": 1600,
+    "h": 998
+   }
+  ]
+ },
+ {
   "slug": "epos-b2b-consultation",
   "type": "brand",
   "title": "EPOS - B2B Consultation",
@@ -4362,45 +4405,51 @@ window.PROJECTS = [
   ]
  },
  {
-  "slug": "beds-r-us-furniture-landing-page",
+  "slug": "lavender-organizes-website-design",
   "type": "web",
-  "title": "Beds R Us: Bedding and Furniture Landing Page",
-  "desc": "Beds R Us sells beds, mattresses and bedroom furniture in Warwick Farm.",
+  "title": "Lavender Organizes Website Design",
+  "desc": "",
   "cats": "UI/UX, Web Design",
   "tags": [
    "ui/ux",
    "web design",
-   "website",
-   "ecommerce",
-   "furniture",
-   "retail",
-   "landing page"
+   "website"
   ],
   "thumb": {
-   "src": "img/beds-r-us-furniture-landing-page/thumb.jpg",
+   "src": "img/lavender-organizes-website-design/thumb.jpg",
    "w": 1200,
    "h": 900
   },
   "images": [
    {
-    "src": "img/beds-r-us-furniture-landing-page/01.jpg",
+    "src": "img/lavender-organizes-website-design/t/01.jpg",
     "w": 1600,
-    "h": 998
+    "h": 1083
    },
    {
-    "src": "img/beds-r-us-furniture-landing-page/02.jpg",
+    "src": "img/lavender-organizes-website-design/t/02.jpg",
     "w": 1600,
-    "h": 998
+    "h": 3734
    },
    {
-    "src": "img/beds-r-us-furniture-landing-page/03.jpg",
+    "src": "img/lavender-organizes-website-design/t/03.jpg",
     "w": 1600,
-    "h": 2238
+    "h": 1000
    },
    {
-    "src": "img/beds-r-us-furniture-landing-page/04.jpg",
+    "src": "img/lavender-organizes-website-design/t/04.jpg",
     "w": 1600,
-    "h": 998
+    "h": 983
+   },
+   {
+    "src": "img/lavender-organizes-website-design/t/05.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/lavender-organizes-website-design/t/06.jpg",
+    "w": 1600,
+    "h": 1817
    }
   ]
  },
@@ -4490,55 +4539,6 @@ window.PROJECTS = [
     "src": "img/brand-identity-organics/14.jpg",
     "w": 1600,
     "h": 446
-   }
-  ]
- },
- {
-  "slug": "lavender-organizes-website-design",
-  "type": "web",
-  "title": "Lavender Organizes Website Design",
-  "desc": "",
-  "cats": "UI/UX, Web Design",
-  "tags": [
-   "ui/ux",
-   "web design",
-   "website"
-  ],
-  "thumb": {
-   "src": "img/lavender-organizes-website-design/thumb.jpg",
-   "w": 1200,
-   "h": 900
-  },
-  "images": [
-   {
-    "src": "img/lavender-organizes-website-design/t/01.jpg",
-    "w": 1600,
-    "h": 1083
-   },
-   {
-    "src": "img/lavender-organizes-website-design/t/02.jpg",
-    "w": 1600,
-    "h": 3734
-   },
-   {
-    "src": "img/lavender-organizes-website-design/t/03.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/lavender-organizes-website-design/t/04.jpg",
-    "w": 1600,
-    "h": 983
-   },
-   {
-    "src": "img/lavender-organizes-website-design/t/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/lavender-organizes-website-design/t/06.jpg",
-    "w": 1600,
-    "h": 1817
    }
   ]
  },
