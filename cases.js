@@ -1476,5 +1476,53 @@ window.CASES = {
     "UI/UX design, landing page and web app screens, design system."
    ]
   ]
+ },
+ "future-bit-trading-dashboard": {
+  "title": "Future Bit: Crypto Trading Dashboard",
+  "tags": [
+   "ui/ux",
+   "dashboard",
+   "web app",
+   "crypto",
+   "trading",
+   "fintech"
+  ],
+  "about": [
+   "The Future Bit dashboard is where traders take part in the trading challenge: predict whether Bitcoin goes up or down, set a stake and a payout multiplier, and track every bet."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "We designed a dark trading dashboard with a live price chart, an up/down bet panel with a safe-to-wild multiplier slider, open bets with cash out, wallet balance, and the pages around it: leaderboard, rewards and account."
+   ],
+   [
+    "Scope",
+    "UI/UX design, landing page and web app screens, design system."
+   ]
+  ]
+ },
+ "wealth-coach-crypto-learning-dashboard": {
+  "title": "Wealth Coach: Crypto Learning Dashboard",
+  "tags": [
+   "ui/ux",
+   "dashboard",
+   "web app",
+   "crypto",
+   "education",
+   "fintech"
+  ],
+  "about": [
+   "The Wealth Coach dashboard is the members' area of a crypto learning platform: plans and payments, live sessions, course progress, signals and crypto updates in one place."
+  ],
+  "sections": [
+   [
+    "What we did",
+    "We designed the member dashboard with a community banner, plan and subscription card, next live session and course progress, plus the Payments, Billing, Live and Crypto Updates screens."
+   ],
+   [
+    "Scope",
+    "UI/UX design, landing page and web app screens, design system."
+   ]
+  ]
  }
 };

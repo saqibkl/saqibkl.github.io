@@ -1552,6 +1552,38 @@ window.PROJECTS = [
   ]
  },
  {
+  "slug": "future-bit-trading-dashboard",
+  "type": "app",
+  "title": "Future Bit: Crypto Trading Dashboard",
+  "desc": "The Future Bit dashboard is where traders take part in the trading challenge: predict whether Bitcoin goes up or down, set a stake and a payout multiplier, and track every bet.",
+  "cats": "UI/UX, Web App",
+  "tags": [
+   "ui/ux",
+   "dashboard",
+   "web app",
+   "crypto",
+   "trading",
+   "fintech"
+  ],
+  "thumb": {
+   "src": "img/future-bit-trading-dashboard/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/future-bit-trading-dashboard/01.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/future-bit-trading-dashboard/02.jpg",
+    "w": 1600,
+    "h": 1558
+   }
+  ]
+ },
+ {
   "slug": "cloud-care-family-health-app",
   "type": "app",
   "title": "Cloud Care: Family Health App",
@@ -1613,6 +1645,53 @@ window.PROJECTS = [
     "src": "img/cloud-care-family-health-app/08.jpg",
     "w": 1600,
     "h": 1252
+   }
+  ]
+ },
+ {
+  "slug": "wealth-coach-crypto-learning-dashboard",
+  "type": "app",
+  "title": "Wealth Coach: Crypto Learning Dashboard",
+  "desc": "The Wealth Coach dashboard is the members' area of a crypto learning platform: plans and payments, live sessions, course progress, signals and crypto updates in one place.",
+  "cats": "UI/UX, Web App",
+  "tags": [
+   "ui/ux",
+   "dashboard",
+   "web app",
+   "crypto",
+   "education",
+   "fintech"
+  ],
+  "thumb": {
+   "src": "img/wealth-coach-crypto-learning-dashboard/thumb.jpg",
+   "w": 1200,
+   "h": 900
+  },
+  "images": [
+   {
+    "src": "img/wealth-coach-crypto-learning-dashboard/01.jpg",
+    "w": 1600,
+    "h": 1000
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-dashboard/02.jpg",
+    "w": 1440,
+    "h": 1024
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-dashboard/03.jpg",
+    "w": 1440,
+    "h": 1024
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-dashboard/04.jpg",
+    "w": 1440,
+    "h": 1024
+   },
+   {
+    "src": "img/wealth-coach-crypto-learning-dashboard/05.jpg",
+    "w": 1440,
+    "h": 1024
    }
   ]
  },
@@ -4562,16 +4641,6 @@ window.PROJECTS = [
     "src": "img/future-bit-crypto-trading-website/t/04.jpg",
     "w": 1600,
     "h": 983
-   },
-   {
-    "src": "img/future-bit-crypto-trading-website/t/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/future-bit-crypto-trading-website/t/06.jpg",
-    "w": 1600,
-    "h": 1558
    }
   ]
  },
@@ -4613,36 +4682,6 @@ window.PROJECTS = [
     "src": "img/wealth-coach-crypto-learning-website/t/04.jpg",
     "w": 1600,
     "h": 983
-   },
-   {
-    "src": "img/wealth-coach-crypto-learning-website/t/05.jpg",
-    "w": 1600,
-    "h": 1000
-   },
-   {
-    "src": "img/wealth-coach-crypto-learning-website/t/06.jpg",
-    "w": 1600,
-    "h": 993
-   },
-   {
-    "src": "img/wealth-coach-crypto-learning-website/dash_1_payments.jpg",
-    "w": 1440,
-    "h": 1024
-   },
-   {
-    "src": "img/wealth-coach-crypto-learning-website/dash_2_billing.jpg",
-    "w": 1440,
-    "h": 1024
-   },
-   {
-    "src": "img/wealth-coach-crypto-learning-website/dash_3_live.jpg",
-    "w": 1440,
-    "h": 1024
-   },
-   {
-    "src": "img/wealth-coach-crypto-learning-website/dash_4_updates.jpg",
-    "w": 1440,
-    "h": 1024
    }
   ]
  },

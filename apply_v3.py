@@ -19,6 +19,14 @@ NEW = [  # slug, upload folder, title, tags, intro, did
      ["ui/ux", "web app", "saas", "design tool", "marketing"],
      "Motor is a web app for designing ads faster: pick a template, edit it and export it as an image, video or HTML ad.",
      "We designed the full flow: sign up, choose a template, edit text and photos, upload images, preview, export and find past work again in Recent Designs, in a calm purple workspace."),
+    ("future-bit-trading-dashboard", "23 FutureBit Dashboard", "Future Bit: Crypto Trading Dashboard",
+     ["ui/ux", "dashboard", "web app", "crypto", "trading", "fintech"],
+     "The Future Bit dashboard is where traders take part in the trading challenge: predict whether Bitcoin goes up or down, set a stake and a payout multiplier, and track every bet.",
+     "We designed a dark trading dashboard with a live price chart, an up/down bet panel with a safe-to-wild multiplier slider, open bets with cash out, wallet balance, and the pages around it: leaderboard, rewards and account."),
+    ("wealth-coach-crypto-learning-dashboard", "24 Crypto Learning Dashboard", "Wealth Coach: Crypto Learning Dashboard",
+     ["ui/ux", "dashboard", "web app", "crypto", "education", "fintech"],
+     "The Wealth Coach dashboard is the members' area of a crypto learning platform: plans and payments, live sessions, course progress, signals and crypto updates in one place.",
+     "We designed the member dashboard with a community banner, plan and subscription card, next live session and course progress, plus the Payments, Billing, Live and Crypto Updates screens."),
 ]
 
 
@@ -61,10 +69,6 @@ if __name__ == "__main__":
             continue
         shutil.rmtree(OUT / "img" / d.name / "t", ignore_errors=True)
         p["images"] = [save(f, OUT / "img" / d.name / "t" / f"{k:02d}.jpg", 1600) for k, f in enumerate(sorted(d.glob("*.png")), 1)]
-    # updated Crypto Learning dashboard screens (Technology Portfolio file) after the Wealth Coach website images
-    wc = next(p for p in data if p["slug"] == "wealth-coach-crypto-learning-website")
-    wc["images"] = [im for im in wc["images"] if "/dash_" not in im["src"]]
-    wc["images"] += [save(f, OUT / "img" / wc["slug"] / f"dash_{f.stem}.jpg", 1600) for f in sorted((UPLOADS / "_wealth_dash").glob("*.png"))]
     data = [p for p in data if p["slug"] not in new_slugs]
     fresh = []
     for slug, folder, title, tags, intro, did in NEW:
