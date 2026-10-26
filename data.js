@@ -18,9 +18,9 @@ window.PROJECTS = [
  },
  "images": [
   {
-   "src": "img/universal-hr-brand-identity/01.jpg",
-   "w": 1600,
-   "h": 901
+   "src": "img/universal-hr-brand-identity/01.mp4",
+   "w": 2800,
+   "h": 1576
   },
   {
    "src": "img/universal-hr-brand-identity/02.mp4",
