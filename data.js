@@ -18,11 +18,6 @@ window.PROJECTS = [
  },
  "images": [
   {
-   "src": "img/spice-web-media-brand-identity/01.jpg",
-   "w": 1600,
-   "h": 901
-  },
-  {
    "src": "img/spice-web-media-brand-identity/02.jpg",
    "w": 1600,
    "h": 937
