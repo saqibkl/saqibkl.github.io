@@ -1,6 +1,20 @@
 // Clean titles, Behance-style tags and a short case study per project, keyed by slug (data.js).
 // Text follows the Behance posts: plain words, what we made for them. No invented results.
 window.CASES = {
+ "ultra-natif-skincare-brand-identity": {
+ "title": "Ultra Natif: Skincare Brand Identity",
+ "tags": [
+  "brand identity",
+  "skincare",
+  "packaging",
+  "logo design",
+  "social media"
+ ],
+ "about": [
+  "Ultra Natif makes body care that supports skin in its native, intelligent state: microbiome-friendly formulas with regional botanicals, positioned as accessible premium.",
+  "We built the identity around a sunrise mark that grows from a leaf, a warm palette with a fresh teal core, and an icon set drawn from nature, then carried it across deodorant, scrub and body wash packaging, stationery and social."
+ ]
+},
  "artix-ai-agency-brand-identity": {
  "title": "Artix: AI Agency Brand Identity",
  "tags": [
