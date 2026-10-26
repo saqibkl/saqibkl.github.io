@@ -1,4 +1,118 @@
 window.PROJECTS = [
+{
+ "slug": "artix-ai-agency-brand-identity",
+ "type": "brand",
+ "title": "Artix: AI Agency Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "ai"
+ ],
+ "thumb": {
+  "src": "img/artix-ai-agency-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/artix-ai-agency-brand-identity/01.mp4",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/02.mp4",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/03.jpg",
+   "w": 1400,
+   "h": 900
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/04.jpg",
+   "w": 1400,
+   "h": 520
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/05.jpg",
+   "w": 1400,
+   "h": 760
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/06.jpg",
+   "w": 1400,
+   "h": 760
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/07.jpg",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/08.jpg",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/09.jpg",
+   "w": 1400,
+   "h": 900
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/10.jpg",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/11.jpg",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/12.jpg",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/13.jpg",
+   "w": 1400,
+   "h": 1232
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/14.jpg",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/15.jpg",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/16.jpg",
+   "w": 1400,
+   "h": 1050
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/17.jpg",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/18.jpg",
+   "w": 1400,
+   "h": 788
+  },
+  {
+   "src": "img/artix-ai-agency-brand-identity/19.jpg",
+   "w": 1400,
+   "h": 577
+  }
+ ]
+},
  {
   "slug": "terral-built-on-structure",
   "type": "brand",

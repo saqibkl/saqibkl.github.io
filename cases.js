@@ -1,6 +1,20 @@
 // Clean titles, Behance-style tags and a short case study per project, keyed by slug (data.js).
 // Text follows the Behance posts: plain words, what we made for them. No invented results.
 window.CASES = {
+ "artix-ai-agency-brand-identity": {
+ "title": "Artix: AI Agency Brand Identity",
+ "tags": [
+  "brand identity",
+  "ai agency",
+  "logo design",
+  "web design",
+  "social media"
+ ],
+ "about": [
+  "Artix is an AI-first agency for small and medium businesses: AI agents, AI websites and AI search. The promise is simple: more leads, less work, found by AI.",
+  "We built the identity around a sharp X mark, a dark ink ground with one flash of Artix Green, and a single typeface, Geist. The system carries across the website, social posts, touchpoints and large-format signage."
+ ]
+},
  "terral-built-on-structure": {
   "title": "Terral: Built on Structure",
   "tags": [

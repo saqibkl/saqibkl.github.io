@@ -9,8 +9,18 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;",
 const name = t => t.split(":")[0].trim();
 const sub = t => t.includes(":") ? t.slice(t.indexOf(":") + 1).trim() : "";
 const kind = p => p.tags.includes("dashboard") ? "Dashboard" : { web: "Website", app: "App", brand: "Branding" }[p.type];
-const img = (im, alt, eager, vt) =>
-  `<img src="${im.src}" width="${im.w}" height="${im.h}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async"${vt ? ` style="view-transition-name:${vt}"` : ""}>`;
+// .mp4/.webm sources render as a muted looping video (browsers block autoplay with sound); reduced-motion users get controls instead.
+// snd adds a mute toggle, only for clips marked "sound": true in data.js; leave it off inside links, where a button is not allowed.
+const img = (im, alt, eager, vt, snd) => (snd = snd && im.sound, /\.(mp4|webm)$/i.test(im.src))
+  ? (snd ? `<span class="vid">` : "") + `<video src="${im.src}" width="${im.w}" height="${im.h}" aria-label="${esc(alt)}" muted loop playsinline preload="metadata"${reduce ? " controls" : " autoplay"}${vt ? ` style="view-transition-name:${vt}"` : ""}></video>`
+    + (snd ? `<button class="snd" type="button" aria-label="Unmute video" aria-pressed="false"><i class="ph ph-speaker-slash" aria-hidden="true"></i></button></span>` : "")
+  : `<img src="${im.src}" width="${im.w}" height="${im.h}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async"${vt ? ` style="view-transition-name:${vt}"` : ""}>`;
+document.addEventListener("click", e => {
+  const b = e.target.closest(".snd"); if (!b) return;
+  const v = b.previousElementSibling; v.muted = !v.muted; if (!v.muted) v.play();
+  b.setAttribute("aria-pressed", String(!v.muted)); b.setAttribute("aria-label", v.muted ? "Unmute video" : "Mute video");
+  b.firstElementChild.className = `ph ph-speaker-${v.muted ? "slash" : "high"}`;
+});
 // Skip the morph when the user prefers less motion or the browser lacks the API.
 const swap = fn => (!reduce && document.startViewTransition) ? document.startViewTransition(fn) : fn();
 
@@ -149,9 +159,9 @@ function caseHTML(i) {
         ${out(UPWORK, "Get in touch", "primary sm")}
       </div>
     </header>
-    <div class="sp-media">${img(p.images[0], p.title, true)}</div>
+    <div class="sp-media">${img(p.images[0], p.title, true, "", true)}</div>
     ${about ? `<div class="sp-text">${about}</div>` : ""}
-    <div class="sp-media">${p.images.slice(1).map((im, k) => img(im, `${name(p.title)}, image ${k + 2}`, false).replace("<img ", '<img class="reveal" ')).join("")}</div>
+    <div class="sp-media">${p.images.slice(1).map((im, k) => img(im, `${name(p.title)}, image ${k + 2}`, false, "", true).replace(/<(img|video) /, '<$1 class="reveal" ')).join("")}</div>
     <div class="case-foot">
       <div class="tags"><span class="label">Tags</span>${p.tags.map(t => `<a href="./?q=${encodeURIComponent(t)}#work">${esc(t)}</a>`).join("")}</div>
       <nav class="pager" aria-label="More projects">
