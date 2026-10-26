@@ -132,107 +132,102 @@ window.PROJECTS = [
   "h": 938
  },
  "images": [
-  {
-   "src": "img/stayvn-brand-identity/01.mp4",
-   "w": 2800,
-   "h": 1576
-  },
-  {
-   "src": "img/stayvn-brand-identity/02.mp4",
-   "w": 2800,
-   "h": 1640
-  },
-  {
-   "src": "img/stayvn-brand-identity/03.mp4",
-   "w": 2800,
-   "h": 1720
-  },
-  {
-   "src": "img/stayvn-brand-identity/04.jpg",
-   "w": 1600,
-   "h": 937
-  },
-  {
-   "src": "img/stayvn-brand-identity/05.jpg",
-   "w": 1600,
-   "h": 937
-  },
-  {
-   "src": "img/stayvn-brand-identity/06.jpg",
-   "w": 1600,
-   "h": 1066
-  },
-  {
-   "src": "img/stayvn-brand-identity/07.jpg",
-   "w": 1600,
-   "h": 1200
-  },
-  {
-   "src": "img/stayvn-brand-identity/08.jpg",
-   "w": 1600,
-   "h": 1200
-  },
-  {
-   "src": "img/stayvn-brand-identity/09.jpg",
-   "w": 1600,
-   "h": 1006
-  },
-  {
-   "src": "img/stayvn-brand-identity/10.jpg",
-   "w": 1600,
-   "h": 1200
-  },
-  {
-   "src": "img/stayvn-brand-identity/11.jpg",
-   "w": 1600,
-   "h": 823
-  },
-  {
-   "src": "img/stayvn-brand-identity/12.mp4",
-   "w": 2800,
-   "h": 1750
-  },
-  {
-   "src": "img/stayvn-brand-identity/13.jpg",
-   "w": 1600,
-   "h": 937
-  },
-  {
-   "src": "img/stayvn-brand-identity/14.jpg",
-   "w": 1600,
-   "h": 869
-  },
-  {
-   "src": "img/stayvn-brand-identity/15.jpg",
-   "w": 1600,
-   "h": 1006
-  },
-  {
-   "src": "img/stayvn-brand-identity/16.jpg",
-   "w": 1600,
-   "h": 937
-  },
-  {
-   "src": "img/stayvn-brand-identity/17.jpg",
-   "w": 1600,
-   "h": 937
-  },
-  {
-   "src": "img/stayvn-brand-identity/18.jpg",
-   "w": 1600,
-   "h": 846
-  },
-  {
-   "src": "img/stayvn-brand-identity/19.mp4",
-   "w": 2800,
-   "h": 1750
-  },
-  {
-   "src": "img/stayvn-brand-identity/20.jpg",
-   "w": 1600,
-   "h": 480
-  }
- ]
+ {
+  "src": "img/stayvn-brand-identity/01.mp4",
+  "w": 1600,
+  "h": 900
+ },
+ {
+  "src": "img/stayvn-brand-identity/02.mp4",
+  "w": 2800,
+  "h": 1640
+ },
+ {
+  "src": "img/stayvn-brand-identity/03.mp4",
+  "w": 2800,
+  "h": 1720
+ },
+ {
+  "src": "img/stayvn-brand-identity/04.jpg",
+  "w": 1600,
+  "h": 937
+ },
+ {
+  "src": "img/stayvn-brand-identity/05.jpg",
+  "w": 1600,
+  "h": 937
+ },
+ {
+  "src": "img/stayvn-brand-identity/06.jpg",
+  "w": 1600,
+  "h": 1066
+ },
+ {
+  "src": "img/stayvn-brand-identity/07.jpg",
+  "w": 1600,
+  "h": 937
+ },
+ {
+  "src": "img/stayvn-brand-identity/08.jpg",
+  "w": 1600,
+  "h": 1200
+ },
+ {
+  "src": "img/stayvn-brand-identity/09.jpg",
+  "w": 1600,
+  "h": 869
+ },
+ {
+  "src": "img/stayvn-brand-identity/10.jpg",
+  "w": 1600,
+  "h": 1200
+ },
+ {
+  "src": "img/stayvn-brand-identity/11.jpg",
+  "w": 1600,
+  "h": 937
+ },
+ {
+  "src": "img/stayvn-brand-identity/12.jpg",
+  "w": 1600,
+  "h": 1006
+ },
+ {
+  "src": "img/stayvn-brand-identity/13.jpg",
+  "w": 1600,
+  "h": 1006
+ },
+ {
+  "src": "img/stayvn-brand-identity/14.jpg",
+  "w": 1600,
+  "h": 1200
+ },
+ {
+  "src": "img/stayvn-brand-identity/15.jpg",
+  "w": 1600,
+  "h": 823
+ },
+ {
+  "src": "img/stayvn-brand-identity/16.mp4",
+  "w": 1600,
+  "h": 1000
+ },
+ {
+  "src": "img/stayvn-brand-identity/17.jpg",
+  "w": 1600,
+  "h": 937
+ },
+ {
+  "src": "img/stayvn-brand-identity/18.mp4",
+  "w": 1600,
+  "h": 1000
+ },
+ {
+  "src": "img/stayvn-brand-identity/19.jpg",
+  "w": 1600,
+  "h": 480
+ }
+]
 },
 {
  "slug": "searchlight-digital-brand-identity",
