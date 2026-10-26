@@ -1,6 +1,20 @@
 // Clean titles, Behance-style tags and a short case study per project, keyed by slug (data.js).
 // Text follows the Behance posts: plain words, what we made for them. No invented results.
 window.CASES = {
+ "stayvn-brand-identity": {
+ "title": "Stayvn: AI Decision Intelligence Brand Identity",
+ "tags": [
+  "brand identity",
+  "ai",
+  "saas",
+  "logo design",
+  "editorial"
+ ],
+ "about": [
+  "Stayvn is an AI decision-intelligence platform for founders, investors and corporate development teams. It keeps the evidence behind every decision connected, and flags the moment an assumption changes.",
+  "Instead of the usual look of AI and SaaS products, the identity borrows from serious analytical tools and business publications: editorial, premium and quietly confident. A mark of two quarter arcs, a warm apricot and iron palette, and abstract material renders carry it from the product to print and out-of-home."
+ ]
+},
  "searchlight-digital-brand-identity": {
  "title": "Searchlight Digital: Brand Identity",
  "tags": [
