@@ -1,6 +1,20 @@
 // Clean titles, Behance-style tags and a short case study per project, keyed by slug (data.js).
 // Text follows the Behance posts: plain words, what we made for them. No invented results.
 window.CASES = {
+ "universal-hr-brand-identity": {
+ "title": "Universal HR: HR Consultancy Brand Identity",
+ "tags": [
+  "brand identity",
+  "hr consulting",
+  "australia",
+  "logo design",
+  "social media"
+ ],
+ "about": [
+  "Universal HR is a purpose-led HR consultancy for Australian SMEs, providing generalist HR advice and recruitment on a monthly membership model.",
+  "The identity is built around a four-person mark, a bold blue and lime palette with Utendo headlines, and carried across out-of-home, print, presentations and social."
+ ]
+},
  "stratanova-brand-identity": {
  "title": "StrataNova: Drone Services Brand Identity",
  "tags": [

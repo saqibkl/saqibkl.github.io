@@ -1,5 +1,120 @@
 window.PROJECTS = [
 {
+ "slug": "universal-hr-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Universal HR: HR Consultancy Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "hr"
+ ],
+ "thumb": {
+  "src": "img/universal-hr-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/universal-hr-brand-identity/01.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/02.mp4",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/universal-hr-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/04.mp4",
+   "w": 2800,
+   "h": 1576
+  },
+  {
+   "src": "img/universal-hr-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "src": "img/universal-hr-brand-identity/07.mp4",
+   "w": 2800,
+   "h": 1576
+  },
+  {
+   "src": "img/universal-hr-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/12.mp4",
+   "w": 2800,
+   "h": 1576
+  },
+  {
+   "src": "img/universal-hr-brand-identity/13.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "src": "img/universal-hr-brand-identity/14.mp4",
+   "w": 2800,
+   "h": 1576
+  },
+  {
+   "src": "img/universal-hr-brand-identity/15.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/16.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/17.mp4",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/universal-hr-brand-identity/18.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/19.jpg",
+   "w": 1600,
+   "h": 901
+  }
+ ]
+},
+{
  "slug": "stratanova-brand-identity",
  "seamless": true,
  "type": "brand",
