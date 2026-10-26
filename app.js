@@ -39,6 +39,17 @@ function reveal(root) {
     if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
   }), { rootMargin: "0px 0px -8% 0px" });
   items.forEach(el => io.observe(el));
+  playVisible(root);
+}
+
+// Some browsers (iOS Safari, low-power mode) skip the autoplay attribute on injected videos: start them when visible.
+function playVisible(root) {
+  if (reduce || !("IntersectionObserver" in window)) return;
+  const vo = new IntersectionObserver(es => es.forEach(e => {
+    const v = e.target;
+    if (e.isIntersecting) { v.muted = true; v.play().catch(() => {}); } else v.pause();
+  }), { threshold: 0.15 });
+  root.querySelectorAll("video[autoplay]").forEach(v => vo.observe(v));
 }
 
 /* ---------- index ---------- */
