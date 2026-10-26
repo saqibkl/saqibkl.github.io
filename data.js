@@ -1,6 +1,7 @@
 window.PROJECTS = [
 {
  "slug": "artix-ai-agency-brand-identity",
+  "seamless": true,
  "type": "brand",
  "title": "Artix: AI Agency Brand Identity",
  "desc": "",
@@ -77,7 +78,7 @@ window.PROJECTS = [
    "h": 788
   },
   {
-   "src": "img/artix-ai-agency-brand-identity/13.jpg",
+   "src": "img/artix-ai-agency-brand-identity/13.mp4",
    "w": 1400,
    "h": 1232
   },

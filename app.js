@@ -150,7 +150,7 @@ function caseHTML(i) {
   const about = (c.about || [p.desc].filter(Boolean)).map(t => `<p>${esc(t)}</p>`).join("")
     + (c.sections || []).map(([h, t]) => `<h2>${esc(h)}</h2><p>${esc(t)}</p>`).join("");  // challenge / what we did / scope
   return `
-  <article class="shot-page">
+  <article class="shot-page${p.seamless ? " seamless" : ""}">
     <header class="sp-head">
       <h1>${esc(name(p.title))}${sub(p.title) ? ` <span>${esc(sub(p.title))}</span>` : ""}</h1>
       <div class="sp-by">
