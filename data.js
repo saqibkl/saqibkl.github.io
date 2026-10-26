@@ -1,5 +1,135 @@
 window.PROJECTS = [
 {
+ "slug": "searchlight-digital-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Searchlight Digital: Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "seo agency"
+ ],
+ "thumb": {
+  "src": "img/searchlight-digital-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/searchlight-digital-brand-identity/01.mp4",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/02.jpg",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/03.jpg",
+   "w": 2800,
+   "h": 2100
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/04.jpg",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/05.mp4",
+   "w": 2800,
+   "h": 1120
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/06.jpg",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/07.jpg",
+   "w": 2800,
+   "h": 1400
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/08.jpg",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/09.jpg",
+   "w": 2800,
+   "h": 1600
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/10.jpg",
+   "w": 2800,
+   "h": 2000
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/11.jpg",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/12.jpg",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/13.jpg",
+   "w": 2800,
+   "h": 2100
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/14.jpg",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/15.jpg",
+   "w": 2800,
+   "h": 1440
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/16.jpg",
+   "w": 2800,
+   "h": 1720
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/17.jpg",
+   "w": 2800,
+   "h": 1720
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/18.jpg",
+   "w": 2800,
+   "h": 2100
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/19.jpg",
+   "w": 2800,
+   "h": 2000
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/20.jpg",
+   "w": 2800,
+   "h": 1440
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/21.jpg",
+   "w": 2800,
+   "h": 2000
+  },
+  {
+   "src": "img/searchlight-digital-brand-identity/22.jpg",
+   "w": 2800,
+   "h": 1800
+  }
+ ]
+},
+{
  "slug": "winder-stilhaus-brand-identity",
  "seamless": true,
  "type": "brand",

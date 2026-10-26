@@ -1,6 +1,20 @@
 // Clean titles, Behance-style tags and a short case study per project, keyed by slug (data.js).
 // Text follows the Behance posts: plain words, what we made for them. No invented results.
 window.CASES = {
+ "searchlight-digital-brand-identity": {
+ "title": "Searchlight Digital: Brand Identity",
+ "tags": [
+  "brand identity",
+  "seo agency",
+  "logo design",
+  "web design",
+  "motion"
+ ],
+ "about": [
+  "Searchlight Digital is a client-first SEO and digital marketing agency in Santa Monica that helps Los Angeles businesses get found on Google and chosen over the competition.",
+  "We built the identity around one idea: find the opportunity, then put a light on it. A lens mark with a gold beam, a dark Night and Gold palette, Plus Jakarta Sans and DM Sans, carried through the live landing page, a conference keynote, print and social."
+ ]
+},
  "winder-stilhaus-brand-identity": {
  "title": "Winder & Stilhaus: Brand Identity",
  "tags": [
