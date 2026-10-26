@@ -85,7 +85,7 @@ window.PROJECTS = [
   {
    "src": "img/ultra-natif-skincare-brand-identity/14.jpg",
    "w": 1600,
-   "h": 633
+   "h": 534
   },
   {
    "src": "img/ultra-natif-skincare-brand-identity/15.jpg",
@@ -95,7 +95,7 @@ window.PROJECTS = [
   {
    "src": "img/ultra-natif-skincare-brand-identity/16.jpg",
    "w": 1600,
-   "h": 594
+   "h": 600
   },
   {
    "src": "img/ultra-natif-skincare-brand-identity/17.jpg",
