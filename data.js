@@ -1,5 +1,135 @@
 window.PROJECTS = [
 {
+ "slug": "noara-labs-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Noara Labs: Remote Careers Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "education"
+ ],
+ "thumb": {
+  "src": "img/noara-labs-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/noara-labs-brand-identity/01.mp4",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/noara-labs-brand-identity/02.mp4",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/noara-labs-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 1143
+  },
+  {
+   "src": "img/noara-labs-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 937
+  },
+  {
+   "src": "img/noara-labs-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 869
+  },
+  {
+   "src": "img/noara-labs-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/noara-labs-brand-identity/07.mp4",
+   "w": 2800,
+   "h": 1520
+  },
+  {
+   "src": "img/noara-labs-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/noara-labs-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 1029
+  },
+  {
+   "src": "img/noara-labs-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 937
+  },
+  {
+   "src": "img/noara-labs-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 1000
+  },
+  {
+   "src": "img/noara-labs-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 1143
+  },
+  {
+   "src": "img/noara-labs-brand-identity/13.jpg",
+   "w": 1600,
+   "h": 744
+  },
+  {
+   "src": "img/noara-labs-brand-identity/14.jpg",
+   "w": 1600,
+   "h": 1371
+  },
+  {
+   "src": "img/noara-labs-brand-identity/15.jpg",
+   "w": 1600,
+   "h": 1314
+  },
+  {
+   "src": "img/noara-labs-brand-identity/16.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/noara-labs-brand-identity/17.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/noara-labs-brand-identity/18.mp4",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/noara-labs-brand-identity/19.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/noara-labs-brand-identity/20.mp4",
+   "w": 1600,
+   "h": 1314
+  },
+  {
+   "src": "img/noara-labs-brand-identity/21.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/noara-labs-brand-identity/22.jpg",
+   "w": 1600,
+   "h": 686
+  }
+ ]
+},
+{
  "slug": "spice-web-media-brand-identity",
  "seamless": true,
  "type": "brand",

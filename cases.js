@@ -1,6 +1,20 @@
 // Clean titles, Behance-style tags and a short case study per project, keyed by slug (data.js).
 // Text follows the Behance posts: plain words, what we made for them. No invented results.
 window.CASES = {
+ "noara-labs-brand-identity": {
+ "title": "Noara Labs: Remote Careers Brand Identity",
+ "tags": [
+  "brand identity",
+  "education",
+  "careers",
+  "logo design",
+  "social media"
+ ],
+ "about": [
+  "Noara Labs is a human-first platform for remote work, learning and career growth, connecting talent with companies.",
+  "The identity is built on a mark of two leaves that form an N, a bold orange and green palette, and a pinwheel pattern drawn from the mark, carried across a pitch deck, services guide, merch, social and the website."
+ ]
+},
  "spice-web-media-brand-identity": {
  "title": "Spice Web Media: Agency Brand Identity",
  "tags": [
