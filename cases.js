@@ -1,6 +1,20 @@
 // Clean titles, Behance-style tags and a short case study per project, keyed by slug (data.js).
 // Text follows the Behance posts: plain words, what we made for them. No invented results.
 window.CASES = {
+ "stratanova-brand-identity": {
+ "title": "StrataNova: Drone Services Brand Identity",
+ "tags": [
+  "brand identity",
+  "agricultural drone services",
+  "south africa",
+  "fleet",
+  "signage"
+ ],
+ "about": [
+  "StrataNova is a SACAA-licensed agricultural drone services company in South Africa, covering aerial application, earth dam sealing, inspections, Lidar and RGB surveying, and mapping.",
+  "We built a layered, upward mark, a green and orange palette for the land and the sun, and carried the identity across the trailer fleet, field signage, merch and social."
+ ]
+},
  "noara-labs-brand-identity": {
  "title": "Noara Labs: Remote Careers Brand Identity",
  "tags": [

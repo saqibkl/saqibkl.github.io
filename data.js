@@ -1,5 +1,120 @@
 window.PROJECTS = [
 {
+ "slug": "stratanova-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "StrataNova: Drone Services Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "drone services"
+ ],
+ "thumb": {
+  "src": "img/stratanova-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/stratanova-brand-identity/01.mp4",
+   "w": 1600,
+   "h": 1028
+  },
+  {
+   "src": "img/stratanova-brand-identity/02.jpg",
+   "w": 1600,
+   "h": 1138
+  },
+  {
+   "src": "img/stratanova-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 1029
+  },
+  {
+   "src": "img/stratanova-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 1138
+  },
+  {
+   "src": "img/stratanova-brand-identity/05.mp4",
+   "w": 2800,
+   "h": 1992
+  },
+  {
+   "src": "img/stratanova-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 869
+  },
+  {
+   "src": "img/stratanova-brand-identity/07.jpg",
+   "w": 1600,
+   "h": 1138
+  },
+  {
+   "src": "img/stratanova-brand-identity/08.mp4",
+   "w": 2800,
+   "h": 1992
+  },
+  {
+   "src": "img/stratanova-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 1054
+  },
+  {
+   "src": "img/stratanova-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 1024
+  },
+  {
+   "src": "img/stratanova-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 1138
+  },
+  {
+   "src": "img/stratanova-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 575
+  },
+  {
+   "src": "img/stratanova-brand-identity/13.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/stratanova-brand-identity/14.mp4",
+   "w": 1600,
+   "h": 948
+  },
+  {
+   "src": "img/stratanova-brand-identity/15.jpg",
+   "w": 1600,
+   "h": 922
+  },
+  {
+   "src": "img/stratanova-brand-identity/16.jpg",
+   "w": 1600,
+   "h": 1417
+  },
+  {
+   "src": "img/stratanova-brand-identity/17.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "src": "img/stratanova-brand-identity/18.jpg",
+   "w": 1600,
+   "h": 1029
+  },
+  {
+   "src": "img/stratanova-brand-identity/19.jpg",
+   "w": 1600,
+   "h": 949
+  }
+ ]
+},
+{
  "slug": "noara-labs-brand-identity",
  "seamless": true,
  "type": "brand",
