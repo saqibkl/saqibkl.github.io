@@ -1,5 +1,100 @@
 window.PROJECTS = [
 {
+ "slug": "winder-stilhaus-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Winder & Stilhaus: Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "interiors"
+ ],
+ "thumb": {
+  "src": "img/winder-stilhaus-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/winder-stilhaus-brand-identity/01.mp4",
+   "w": 2800,
+   "h": 1960
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/02.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/05.mp4",
+   "w": 2800,
+   "h": 1960
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/07.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/13.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/14.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/15.jpg",
+   "w": 1600,
+   "h": 1120
+  }
+ ]
+},
+{
  "slug": "ultra-natif-skincare-brand-identity",
  "seamless": true,
  "type": "brand",

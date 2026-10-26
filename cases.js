@@ -1,6 +1,21 @@
 // Clean titles, Behance-style tags and a short case study per project, keyed by slug (data.js).
 // Text follows the Behance posts: plain words, what we made for them. No invented results.
 window.CASES = {
+ "winder-stilhaus-brand-identity": {
+ "title": "Winder & Stilhaus: Brand Identity",
+ "tags": [
+  "brand identity",
+  "interiors",
+  "kitchens",
+  "logo design",
+  "web design",
+  "print"
+ ],
+ "about": [
+  "Winder & Stilhaus is a high end, concept to completion studio for kitchens, bathrooms and full home renovations across Yorkshire and the North. Family led craft meets a modern design approach.",
+  "We built an identity as confident as the interiors: a sculpted WS monogram, an architectural palette led by Ocean Blue with one Orange accent, and a system that runs from the website to the brochure and the customer quote."
+ ]
+},
  "ultra-natif-skincare-brand-identity": {
  "title": "Ultra Natif: Skincare Brand Identity",
  "tags": [
