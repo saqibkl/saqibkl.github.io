@@ -29,8 +29,8 @@ window.PROJECTS = [
   },
   {
    "src": "img/spice-web-media-brand-identity/03.mp4",
-   "w": 2800,
-   "h": 1640
+   "w": 1600,
+   "h": 938
   },
   {
    "src": "img/spice-web-media-brand-identity/04.jpg",
@@ -49,8 +49,8 @@ window.PROJECTS = [
   },
   {
    "src": "img/spice-web-media-brand-identity/07.mp4",
-   "w": 2800,
-   "h": 1640
+   "w": 1600,
+   "h": 938
   },
   {
    "src": "img/spice-web-media-brand-identity/08.jpg",
@@ -74,18 +74,18 @@ window.PROJECTS = [
   },
   {
    "src": "img/spice-web-media-brand-identity/12.mp4",
-   "w": 2800,
-   "h": 1800
+   "w": 1600,
+   "h": 1028
   },
   {
    "src": "img/spice-web-media-brand-identity/13.mp4",
-   "w": 2000,
-   "h": 1500
+   "w": 1600,
+   "h": 1200
   },
   {
    "src": "img/spice-web-media-brand-identity/14.mp4",
-   "w": 2800,
-   "h": 1632
+   "w": 1600,
+   "h": 932
   },
   {
    "src": "img/spice-web-media-brand-identity/15.jpg",
@@ -99,13 +99,13 @@ window.PROJECTS = [
   },
   {
    "src": "img/spice-web-media-brand-identity/17.mp4",
-   "w": 2800,
-   "h": 1800
+   "w": 1600,
+   "h": 1028
   },
   {
    "src": "img/spice-web-media-brand-identity/18.mp4",
-   "w": 2800,
-   "h": 2260
+   "w": 1600,
+   "h": 1292
   },
   {
    "src": "img/spice-web-media-brand-identity/19.jpg",
