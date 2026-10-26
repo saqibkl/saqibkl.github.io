@@ -30,7 +30,7 @@ window.PROJECTS = [
   {
    "src": "img/universal-hr-brand-identity/03.jpg",
    "w": 1600,
-   "h": 901
+   "h": 1011
   },
   {
    "src": "img/universal-hr-brand-identity/04.mp4",
@@ -68,24 +68,24 @@ window.PROJECTS = [
    "h": 901
   },
   {
-   "src": "img/universal-hr-brand-identity/11.jpg",
-   "w": 1600,
-   "h": 901
-  },
-  {
-   "src": "img/universal-hr-brand-identity/12.mp4",
+   "src": "img/universal-hr-brand-identity/11.mp4",
    "w": 2800,
    "h": 1576
   },
   {
-   "src": "img/universal-hr-brand-identity/13.jpg",
+   "src": "img/universal-hr-brand-identity/12.jpg",
    "w": 1600,
    "h": 1067
   },
   {
-   "src": "img/universal-hr-brand-identity/14.mp4",
+   "src": "img/universal-hr-brand-identity/13.mp4",
    "w": 2800,
    "h": 1576
+  },
+  {
+   "src": "img/universal-hr-brand-identity/14.mp4",
+   "w": 1600,
+   "h": 900
   },
   {
    "src": "img/universal-hr-brand-identity/15.jpg",
@@ -95,22 +95,7 @@ window.PROJECTS = [
   {
    "src": "img/universal-hr-brand-identity/16.jpg",
    "w": 1600,
-   "h": 901
-  },
-  {
-   "src": "img/universal-hr-brand-identity/17.mp4",
-   "w": 1600,
-   "h": 900
-  },
-  {
-   "src": "img/universal-hr-brand-identity/18.jpg",
-   "w": 1600,
-   "h": 901
-  },
-  {
-   "src": "img/universal-hr-brand-identity/19.jpg",
-   "w": 1600,
-   "h": 901
+   "h": 713
   }
  ]
 },
