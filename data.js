@@ -1,5 +1,120 @@
 window.PROJECTS = [
 {
+ "slug": "spice-web-media-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Spice Web Media: Agency Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "marketing agency"
+ ],
+ "thumb": {
+  "src": "img/spice-web-media-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/spice-web-media-brand-identity/01.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/02.jpg",
+   "w": 1600,
+   "h": 937
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/03.mp4",
+   "w": 2800,
+   "h": 1640
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 937
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 1029
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 937
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/07.mp4",
+   "w": 2800,
+   "h": 1640
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 937
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 937
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 1066
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/12.mp4",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/13.mp4",
+   "w": 2000,
+   "h": 1500
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/14.mp4",
+   "w": 2800,
+   "h": 1632
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/15.jpg",
+   "w": 1600,
+   "h": 1200
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/16.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/17.mp4",
+   "w": 2800,
+   "h": 1800
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/18.mp4",
+   "w": 2800,
+   "h": 2260
+  },
+  {
+   "src": "img/spice-web-media-brand-identity/19.jpg",
+   "w": 1600,
+   "h": 731
+  }
+ ]
+},
+{
  "slug": "stayvn-brand-identity",
  "seamless": true,
  "type": "brand",

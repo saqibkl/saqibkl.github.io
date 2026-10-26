@@ -1,6 +1,20 @@
 // Clean titles, Behance-style tags and a short case study per project, keyed by slug (data.js).
 // Text follows the Behance posts: plain words, what we made for them. No invented results.
 window.CASES = {
+ "spice-web-media-brand-identity": {
+ "title": "Spice Web Media: Agency Brand Identity",
+ "tags": [
+  "brand identity",
+  "marketing agency",
+  "logo design",
+  "motion",
+  "web design"
+ ],
+ "about": [
+  "Spice Web Media is a full-service marketing agency in Abbotsford, BC, helping businesses across the Fraser Valley and Vancouver grow online with branding, websites and digital marketing.",
+  "We built the identity around one mark that reads as S, W and M, a calm ink and off-white palette with one pinch of Spice Red, Aspekta and Plus Jakarta Sans, and carried it across stationery, posters, social, merch and the live website."
+ ]
+},
  "stayvn-brand-identity": {
  "title": "Stayvn: AI Decision Intelligence Brand Identity",
  "tags": [
