@@ -47,7 +47,8 @@ function playVisible(root) {
   if (reduce || !("IntersectionObserver" in window)) return;
   const vo = new IntersectionObserver(es => es.forEach(e => {
     const v = e.target;
-    if (e.isIntersecting) { v.muted = true; v.play().catch(() => {}); } else v.pause();
+    // restart from the top each time it enters, so intros (holds, reveals) are always seen
+    if (e.isIntersecting) { v.muted = true; v.currentTime = 0; v.play().catch(() => {}); } else v.pause();
   }), { threshold: 0.15 });
   root.querySelectorAll("video[autoplay]").forEach(v => vo.observe(v));
 }
