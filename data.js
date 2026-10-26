@@ -45,7 +45,7 @@ window.PROJECTS = [
  {
   "src": "img/ultra-natif-skincare-brand-identity/06.jpg",
   "w": 1600,
-  "h": 811
+  "h": 937
  },
  {
   "src": "img/ultra-natif-skincare-brand-identity/07.mp4",
@@ -60,7 +60,7 @@ window.PROJECTS = [
  {
   "src": "img/ultra-natif-skincare-brand-identity/09.jpg",
   "w": 1600,
-  "h": 901
+  "h": 534
  },
  {
   "src": "img/ultra-natif-skincare-brand-identity/10.jpg",
@@ -69,36 +69,6 @@ window.PROJECTS = [
  },
  {
   "src": "img/ultra-natif-skincare-brand-identity/11.jpg",
-  "w": 1600,
-  "h": 450
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/12.jpg",
-  "w": 1600,
-  "h": 901
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/13.jpg",
-  "w": 1600,
-  "h": 534
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/14.jpg",
-  "w": 1600,
-  "h": 450
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/15.jpg",
-  "w": 1600,
-  "h": 600
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/16.jpg",
-  "w": 1600,
-  "h": 717
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/17.jpg",
   "w": 1600,
   "h": 901
  }
