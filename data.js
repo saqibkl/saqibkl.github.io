@@ -123,7 +123,7 @@ window.PROJECTS = [
    "h": 1028
   },
   {
-   "src": "img/stratanova-brand-identity/02.jpg",
+   "src": "img/stratanova-brand-identity/02.mp4",
    "w": 1600,
    "h": 1138
   },
@@ -139,8 +139,8 @@ window.PROJECTS = [
   },
   {
    "src": "img/stratanova-brand-identity/05.mp4",
-   "w": 2800,
-   "h": 1992
+   "w": 1600,
+   "h": 1138
   },
   {
    "src": "img/stratanova-brand-identity/06.jpg",
