@@ -28,7 +28,7 @@ if (box && "fade" in box.dataset) {
 
   const orb = (c, r) => {
     const m = new THREE.Mesh(new THREE.SphereGeometry(r, 48, 32), new THREE.MeshPhysicalMaterial({ color: c, roughness: .15, clearcoat: 1, emissive: c, emissiveIntensity: .15 }));
-    m.castShadow = true; scene.add(m); return m;
+    m.castShadow = true; ball.add(m); return m;  // children of the ball, so they turn with it when dragged
   };
   const oa = orb(0xa64dff, .36), ob = orb(0xff5a1f, .28);
 
@@ -54,7 +54,7 @@ if (box && "fade" in box.dataset) {
   box.addEventListener("pointerup", end); box.addEventListener("pointercancel", end);
 
   const qRest = new THREE.Quaternion().setFromEuler(REST), qSpin = new THREE.Quaternion(), eSpin = new THREE.Euler();
-  const pa = new THREE.Vector3(), pb = new THREE.Vector3();
+  const pa = new THREE.Vector3(), pb = new THREE.Vector3(), qInv = qRest.clone().invert();
   const frame = t => {
     if (!drag) { spinX *= .92; spinY *= .92; }   // ease back to rest
     qSpin.setFromEuler(eSpin.set(spinX, spinY, 0));
@@ -62,10 +62,12 @@ if (box && "fade" in box.dataset) {
     const s = reduce ? 0 : t * .0008;
     // orbs stay at home in front of the face and only lean a little toward the cursor (about 4% of its distance)
     pa.set(-.6 + aim.x * .05, 1.9 + aim.y * .05 + Math.sin(s) * .12, 2.6); pb.set(-1.5 + aim.x * .07, -1.4 + aim.y * .07 + Math.cos(s) * .12, 3);
+    // homes are given in resting-view coordinates; convert into the ball's own frame
+    pa.applyQuaternion(qInv); pb.applyQuaternion(qInv);
     oa.position.lerp(pa, reduce ? 1 : .08); ob.position.lerp(pb, reduce ? 1 : .05);
     renderer.render(scene, camera);
     requestAnimationFrame(frame);
   };
-  oa.position.set(-.6, 1.9, 2.6); ob.position.set(-1.5, -1.4, 3);
+  oa.position.set(-.6, 1.9, 2.6).applyQuaternion(qInv); ob.position.set(-1.5, -1.4, 3).applyQuaternion(qInv);
   frame(0);
 }
