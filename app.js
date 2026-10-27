@@ -62,15 +62,14 @@ if (grid) {
   fly.className = "fly";
   fly.innerHTML = P.slice(0, 3).map((p, k) =>
     `<a class="fly-card" href="project.html#${p.slug}" tabindex="-1" aria-label="${esc(p.title)}" style="z-index:${3 - k}">${img(p.thumb, "", true)}</a>`).join("");
-  if ("water" in deckBox.dataset) fly.remove();  // water box replaces the flying deck
-  else document.body.append(fly);
+  document.body.append(fly);
   const cards = [...fly.children];
   const ease = t => (1 - Math.cos(Math.PI * t)) / 2;  // sine in-out: even pace, no rush in the middle
   const box = el => { const r = el.getBoundingClientRect(); return { x: r.left + scrollX, y: r.top + scrollY, w: r.width, h: r.height }; };
   const clamp = v => Math.min(1, Math.max(0, v));
   function place() {
     const d = box(deckBox);
-    const free = !("water" in deckBox.dataset) && filter === "all" && !q.value.trim();  // only the unfiltered grid starts with these three
+    const free = filter === "all" && !q.value.trim();  // only the unfiltered grid starts with these three
     const slots = free ? [...grid.querySelectorAll(".shot figure")].slice(0, 3).map(box) : [];
     // done when the first row is near the top of the screen: a long scroll distance keeps the glide slow
     const goal = reduce || !slots[0] ? 0 : clamp(scrollY / Math.max(1, slots[0].y - innerHeight * .12));
