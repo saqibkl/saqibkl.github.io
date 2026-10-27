@@ -62,7 +62,8 @@ if (grid) {
   fly.className = "fly";
   fly.innerHTML = P.slice(0, 3).map((p, k) =>
     `<a class="fly-card" href="project.html#${p.slug}" tabindex="-1" aria-label="${esc(p.title)}" style="z-index:${3 - k}">${img(p.thumb, "", true)}</a>`).join("");
-  document.body.append(fly);
+  const fade = "fade" in deckBox.dataset;  // hero.js runs a crossfading card instead of the deck
+  if (!fade) document.body.append(fly);
   const cards = [...fly.children];
   const ease = t => (1 - Math.cos(Math.PI * t)) / 2;  // sine in-out: even pace, no rush in the middle
   const box = el => { const r = el.getBoundingClientRect(); return { x: r.left + scrollX, y: r.top + scrollY, w: r.width, h: r.height }; };
@@ -113,7 +114,7 @@ if (grid) {
     if (i >= 0 && order[0] !== i) { e.preventDefault(); bring(i); }
   });
   // On its own, the bottom card is pulled out and placed on top every few seconds.
-  if (!reduce) setInterval(() => bring(order[order.length - 1]), 4000);
+  if (!reduce && !fade) setInterval(() => bring(order[order.length - 1]), 4000);
   const tick = () => { if (!queued) { queued = true; requestAnimationFrame(() => { queued = false; place(); }); } };
   addEventListener("scroll", tick, { passive: true });
   addEventListener("resize", tick);
