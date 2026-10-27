@@ -25,6 +25,7 @@ figcaption small{color:#6b6e76;font-weight:400}
   <figure><div class="stage" id="s2"></div><figcaption><b>2. Soft blob</b><small>Smooth shape that slowly melts and breathes</small></figcaption></figure>
   <figure><div class="stage" id="s3"></div><figcaption><b>3. Floating blocks</b><small>Rounded cubes and pills drifting in space</small></figcaption></figure>
   <figure><div class="stage" id="s4"></div><figcaption><b>4. Stacked rings</b><small>Bold brand-colour rings turning in turns</small></figcaption></figure>
+  <figure><div class="stage" id="s5" style="background:#efedf0"></div><figcaption><b>5. Matte bowl + orbs</b><small>clay.global style: soft white half-sphere, two glossy orbs circling it</small></figcaption></figure>
 </div>
 <script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js"}}</script>
 <script type="module">
@@ -114,6 +115,27 @@ stage("s4", (scene, lights) => {
     const turn = (step + f) * Math.PI / 2;
     r.rotation.set(i % 2 ? turn : my * .5, i % 2 ? mx * .5 : turn, 0);
   });
+});
+
+// 5. Matte bowl + orbs: a soft white half-sphere slowly rocking, two glossy orbs orbiting on tilted paths
+stage("s5", (scene) => {
+  scene.add(new THREE.HemisphereLight(0xffffff, 0xd9dbe6, 1.6));
+  const k = new THREE.DirectionalLight(0xffffff, 1.6); k.position.set(-3, 4, 6); scene.add(k);
+  const warm = new THREE.DirectionalLight(0xffe2cc, .6); warm.position.set(4, -3, 2); scene.add(warm);
+  const bowl = new THREE.Group();
+  const mat = new THREE.MeshStandardMaterial({ color: 0xf6f6f8, roughness: .9 });
+  bowl.add(new THREE.Mesh(new THREE.SphereGeometry(2.4, 96, 64, 0, Math.PI * 2, 0, Math.PI / 2), mat));   // dome
+  const lid = new THREE.Mesh(new THREE.CircleGeometry(2.4, 96), mat); lid.rotation.x = Math.PI / 2; bowl.add(lid);  // flat face
+  bowl.rotation.set(-.35, 0, .75);
+  scene.add(bowl);
+  const orb = c => { const m = new THREE.Mesh(new THREE.SphereGeometry(.32, 48, 32), new THREE.MeshPhysicalMaterial({ color: c, roughness: .15, clearcoat: 1, emissive: c, emissiveIntensity: .15 })); scene.add(m); return m; };
+  const a = orb(0xa64dff), b = orb(0xff5a1f);
+  return t => {
+    const s = t * .00045;
+    bowl.rotation.set(-.35 + Math.sin(s * .8) * .12 + my * .3, Math.sin(s * .6) * .25 + mx * .4, .75);
+    a.position.set(Math.cos(s) * 3.1, Math.sin(s) * 1.4 + .8, Math.sin(s) * 2.2);
+    b.position.set(Math.cos(-s * 1.3 + 2) * 2.7, Math.sin(-s * 1.3 + 2) * 1.8 - .6, Math.cos(s * 1.3) * 2);
+  };
 });
 </script>
 </body>
