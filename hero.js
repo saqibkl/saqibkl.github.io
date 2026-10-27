@@ -42,22 +42,30 @@ if (box && "fade" in box.dataset) {
   size(); addEventListener("resize", size);
   let mx = 0, my = 0;
   addEventListener("pointermove", e => { mx = e.clientX / innerWidth - .5; my = e.clientY / innerHeight - .5; });
-  // Shape cycle: quarter cut -> full ball -> half ball -> back, holding each for a moment.
-  const STEPS = [Math.PI, TAU, 0], HOLD = 2600, MOVE = 1400;
-  const ease = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
-  const shapeAt = t => {
-    const c = t % ((HOLD + MOVE) * 3), i = Math.floor(c / (HOLD + MOVE)), f = Math.max(0, (c - i * (HOLD + MOVE) - HOLD) / MOVE);
-    const from = STEPS[i], to = STEPS[(i + 1) % 3];
-    return from + (to - from) * ease(f);
-  };
+  // Shape cycle: quarter cut -> full ball -> half ball. Click the shape for the next one, or drag sideways to slice it
+  // to any size. The automatic cycle waits a few seconds after the visitor touches it.
+  const STEPS = [Math.PI, TAU, 0];
+  let step = 0, L = Math.PI, goal = Math.PI, drag = null, idleUntil = 0;
+  const next = () => { step = (step + 1) % STEPS.length; goal = STEPS[step]; };
+  if (!reduce) setInterval(() => { if (performance.now() > idleUntil && !drag) next(); }, 4000);
+  box.style.cursor = "grab"; box.style.touchAction = "pan-y";
+  box.addEventListener("pointerdown", e => { drag = { x: e.clientX, l: goal, moved: false }; box.setPointerCapture(e.pointerId); box.style.cursor = "grabbing"; });
+  box.addEventListener("pointermove", e => {
+    if (!drag) return;
+    const dx = e.clientX - drag.x;
+    if (Math.abs(dx) > 4) drag.moved = true;
+    goal = Math.min(TAU, Math.max(0, drag.l + dx / box.clientWidth * TAU));  // full width drag = one full turn of slicing
+  });
+  const end = () => { if (!drag) return; if (!drag.moved) next(); drag = null; box.style.cursor = "grab"; idleUntil = performance.now() + 6000; };
+  box.addEventListener("pointerup", end); box.addEventListener("pointercancel", end);
   const frame = t => {
-    const s = t * .00045;
-    if (!reduce) build(shapeAt(t));
+    const s = reduce ? 0 : t * .00045;
+    L += (goal - L) * (drag || reduce ? .35 : .06); build(L);
     ball.rotation.set(.4 + Math.sin(s * .7) * .1 + my * .3, Math.PI - 1.05 + Math.sin(s * .5) * .25 + mx * .4, 0);
     a.position.set(Math.cos(s) * 3.1, Math.sin(s) * 1.5 + .9, Math.sin(s) * 2.4);
     b.position.set(Math.cos(-s * 1.2) * 3, Math.sin(-s * 1.2) * 1.6 - .4, Math.cos(s) * 1.8);
     renderer.render(scene, camera);
-    if (!reduce) requestAnimationFrame(frame);
+    requestAnimationFrame(frame);  // keeps running so clicks and drags redraw; reduced motion only stops the drifting
   };
   frame(0);
 }
