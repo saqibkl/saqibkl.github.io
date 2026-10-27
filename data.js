@@ -1195,6 +1195,81 @@ window.PROJECTS = [
  ]
 },
 {
+ "slug": "apidox-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Apidox: API Documentation SaaS Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "saas"
+ ],
+ "thumb": {
+  "src": "img/apidox-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/apidox-brand-identity/01.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/apidox-brand-identity/02.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/apidox-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/apidox-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/apidox-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/apidox-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/apidox-brand-identity/07.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/apidox-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/apidox-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/apidox-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/apidox-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 900
+  }
+ ]
+},
+{
  "slug": "universal-hr-brand-identity",
  "seamless": true,
  "type": "brand",

@@ -92,6 +92,19 @@ window.CASES = {
    "We built the identity around an A that points forward inside a circle, a Dark Forest Green, Greenish Gray and Akaroa palette, and carried it across an editorial poster system, imagery and social covers."
   ]
  },
+ "apidox-brand-identity": {
+  "title": "Apidox: API Documentation SaaS Brand Identity",
+  "tags": [
+   "brand identity",
+   "saas",
+   "logo design",
+   "design system"
+  ],
+  "about": [
+   "Apidox is a SaaS platform that turns code into clear API documentation for developer teams.",
+   "We built the identity around a bold wordmark with a pixel-block O, a Bluebonnet and Cetacean Blue palette with Clash Display, and carried it across stationery, the app icon and a web app style guide."
+  ]
+ },
  "universal-hr-brand-identity": {
  "title": "Universal HR: HR Consultancy Brand Identity",
  "tags": [
