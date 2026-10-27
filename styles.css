@@ -63,7 +63,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-o
 /* Header deck: .collage is only the slot; the three cards live in .fly so they can travel to the grid on scroll */
 .collage { position: relative; aspect-ratio: 1200 / 938; width: 76%; justify-self: center; }
 .fly { position: absolute; top: 0; left: 0; z-index: 5; }
-.fly-card { transition: left .9s cubic-bezier(.4,0,.2,1), top .9s cubic-bezier(.4,0,.2,1), width .9s cubic-bezier(.4,0,.2,1), height .9s cubic-bezier(.4,0,.2,1), transform .9s cubic-bezier(.4,0,.2,1); position: absolute; display: block; border-radius: 12px; overflow: hidden; outline: 1px solid rgb(23 24 28 / .08); outline-offset: -1px; }
+.fly-card { transition: left 1s cubic-bezier(.22,1,.36,1), top 1s cubic-bezier(.22,1,.36,1), width 1s cubic-bezier(.22,1,.36,1), height 1s cubic-bezier(.22,1,.36,1), transform 1s cubic-bezier(.22,1,.36,1); position: absolute; display: block; border-radius: 12px; overflow: hidden; outline: 1px solid rgb(23 24 28 / .08); outline-offset: -1px; }
 .fly-card img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .fly.landed { visibility: hidden; }
 .grid.held .shot:nth-child(-n+3) { visibility: hidden; }
