@@ -25,6 +25,7 @@ main{width:min(90vw,520px)}
   </div>
   <div class="cap"><span id="a"></span><span>Move the cursor up and down</span><span id="b"></span></div>
 </main>
+<script src="data.js"></script>
 <script>
 const box=document.getElementById("box"),w=document.getElementById("water");
 const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -40,13 +41,18 @@ function draw(){
   if(!reduce)requestAnimationFrame(draw)
 }
 draw();
-// Works shown inside the box; the water and the empty side advance together every few seconds.
-const WORKS=[["winder-stilhaus-brand-identity","Winder & Stilhaus"],["stayvn-brand-identity","Stayvn"],["ultra-natif-skincare-brand-identity","Ultra Natif"],["noara-labs-brand-identity","Noara Labs"],["spice-web-media-brand-identity","SpiceWeb"],["universal-hr-brand-identity","Universal HR"],["stratanova-brand-identity","StrataNova"],["bambu-eco-friendly-daily-essentials-brand-identity","Bambu"],["searchlight-digital-brand-identity","Searchlight"],["artix-ai-agency-brand-identity","Artix"]];
+// Content inside the box: real case study images (not just covers) from the newest branding work, in portrait-friendly shapes.
+const pool=[];
+(window.PROJECTS||[]).filter(p=>p.type==="brand").slice(0,10).forEach(p=>p.images.forEach((im,i)=>{
+  const r=im.h/im.w; if(/\.jpg$/i.test(im.src)&&r>.6&&r<1.5&&i>0) pool.push([im.src,p.title.split(/[:—-]/)[0].trim()]);
+}));
+// interleave brands so neighbours differ: sort by position within its brand, then brand
+pool.sort((x,y)=>(+x[0].match(/(\d+)\.jpg/)[1])-(+y[0].match(/(\d+)\.jpg/)[1])||x[1].localeCompare(y[1]));
 const dry=document.getElementById("dry"),A=document.getElementById("a"),B=document.getElementById("b");
 let n=0;
 function setWorks(){
-  const [ws,wn]=WORKS[n%WORKS.length],[ds,dn]=WORKS[(n+1)%WORKS.length];
-  [[w,ws],[dry,ds]].forEach(([el,s])=>{const src=`img/${s}/thumb.jpg`,i=new Image();i.onload=()=>{el.style.opacity=0;setTimeout(()=>{el.src=src;el.style.opacity=1},300)};i.src=src});
+  const [ws,wn]=pool[n%pool.length],[ds,dn]=pool[(n+7)%pool.length];
+  [[w,ws],[dry,ds]].forEach(([el,src])=>{const i=new Image();i.onload=()=>{el.style.opacity=0;setTimeout(()=>{el.src=src;el.style.opacity=1},300)};i.src=src});
   A.textContent=wn;B.textContent=dn;
 }
 setWorks();
