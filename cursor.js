@@ -25,7 +25,7 @@
       ring.dataset.set = t.dataset.cursor;
       const list = sets[t.dataset.cursor] || []; let i = 0;
       clearInterval(flick); pic.src = list[0] || "";
-      if (!reduce) flick = setInterval(() => { i = (i + 1) % list.length; pic.src = list[i]; }, 450);
+      if (!reduce) flick = setInterval(() => { i = (i + 1) % list.length; pic.src = list[i]; }, 900);
     }
     if (mode !== "preview") { clearInterval(flick); delete ring.dataset.set; }
     txt.textContent = mode === "label" ? (t.id === "collage" ? "Drag" : "View") : "";
