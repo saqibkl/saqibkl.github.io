@@ -41,12 +41,11 @@ function draw(){
 }
 draw();
 // Content inside the box: the logo-only slides already on the site (picked by eye), ordered so the water and empty side never show the same brand.
-const L=(s,f,n)=>[`img/${s}/${f}.jpg`,n];
-const pool=[L("winder-stilhaus-brand-identity","04","Winder & Stilhaus"),L("noara-labs-brand-identity","04","Noara Labs"),L("spice-web-media-brand-identity","05","SpiceWeb"),L("cnmi-central-brand-identity","02","CNMI Central"),L("cruise-command-brand-identity","02","Cruise Command"),L("nordguard-brand-identity","02","Nordguard")];
+const pool=[["img/water/bound.jpg","Bound"],["img/water/taskera.jpg","Taskera"],["img/water/nearside.jpg","Nearside"],["img/water/fractionalhr.jpg","FractionalHR"]];
 const dry=document.getElementById("dry"),A=document.getElementById("a"),B=document.getElementById("b");
 let n=0;
 function setWorks(){
-  const [ws,wn]=pool[n%pool.length],[ds,dn]=pool[(n+3)%pool.length];
+  const [ws,wn]=pool[n%pool.length],[ds,dn]=pool[(n+2)%pool.length];
   [[w,ws],[dry,ds]].forEach(([el,src])=>{const i=new Image();i.onload=()=>{el.style.opacity=0;setTimeout(()=>{el.src=src;el.style.opacity=1},300)};i.src=src});
   A.textContent=wn;B.textContent=dn;
 }
