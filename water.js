@@ -3,7 +3,7 @@
 const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
 let target=.4,level=.4,t=0;  // starts at 40% until the cursor moves
 // Cursor above the box = full water, below = empty, in between follows the cursor.
-const track=y=>{const r=box.getBoundingClientRect();target=Math.min(.95,Math.max(.05,(r.bottom-y)/r.height))};  // never fully empty or full: both scenes always show
+const track=y=>{const r=box.getBoundingClientRect();target=Math.min(.95,Math.max(.25,(r.bottom-y)/r.height))};  // never fully empty or full: both scenes always show
 addEventListener("pointermove",e=>{track(e.clientY);if(reduce)draw()});
 function draw(){
   level+=(target-level)*(reduce?1:.07); t+=.035;
