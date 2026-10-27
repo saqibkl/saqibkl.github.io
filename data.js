@@ -1,218 +1,333 @@
 window.PROJECTS = [
 {
- "slug": "universal-hr-brand-identity",
+ "slug": "ultra-natif-skincare-brand-identity",
  "seamless": true,
  "type": "brand",
- "title": "Universal HR: HR Consultancy Brand Identity",
+ "title": "Ultra Natif: Skincare Brand Identity",
  "desc": "",
  "cats": "Branding, Brand Identity",
  "tags": [
   "brand identity",
   "branding",
-  "hr"
+  "skincare"
  ],
  "thumb": {
-  "src": "img/universal-hr-brand-identity/thumb.jpg",
+  "src": "img/ultra-natif-skincare-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/01.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/02.mp4",
+  "w": 2800,
+  "h": 2820
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/03.mp4",
+  "w": 2800,
+  "h": 3288
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/04.mp4",
+  "w": 2800,
+  "h": 1800
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/05.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/06.mp4",
+  "w": 2800,
+  "h": 1800
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/07.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/08.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/09.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/10.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/11.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/12.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/13.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/14.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/15.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/16.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/17.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/18.mp4",
+  "w": 2800,
+  "h": 1800
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/19.jpg",
+  "w": 1600,
+  "h": 1029
+ },
+ {
+  "src": "img/ultra-natif-skincare-brand-identity/20.jpg",
+  "w": 1600,
+  "h": 1029
+ }
+]
+},
+{
+ "slug": "winder-stilhaus-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Winder & Stilhaus: Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "interiors"
+ ],
+ "thumb": {
+  "src": "img/winder-stilhaus-brand-identity/thumb.jpg",
   "w": 1200,
   "h": 938
  },
  "images": [
   {
-   "src": "img/universal-hr-brand-identity/01.mp4",
+   "src": "img/winder-stilhaus-brand-identity/01.mp4",
    "w": 2800,
-   "h": 1576
+   "h": 1960
   },
   {
-   "src": "img/universal-hr-brand-identity/02.mp4",
+   "src": "img/winder-stilhaus-brand-identity/02.jpg",
    "w": 1600,
-   "h": 900
+   "h": 1120
   },
   {
-   "src": "img/universal-hr-brand-identity/03.jpg",
+   "src": "img/winder-stilhaus-brand-identity/03.jpg",
    "w": 1600,
-   "h": 1011
+   "h": 1120
   },
   {
-   "src": "img/universal-hr-brand-identity/04.mp4",
+   "src": "img/winder-stilhaus-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/05.mp4",
    "w": 2800,
-   "h": 1576
+   "h": 1960
   },
   {
-   "src": "img/universal-hr-brand-identity/05.jpg",
+   "src": "img/winder-stilhaus-brand-identity/06.jpg",
    "w": 1600,
-   "h": 901
+   "h": 1120
   },
   {
-   "src": "img/universal-hr-brand-identity/06.jpg",
+   "src": "img/winder-stilhaus-brand-identity/07.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1120
   },
   {
-   "src": "img/universal-hr-brand-identity/07.mp4",
-   "w": 2800,
-   "h": 1576
-  },
-  {
-   "src": "img/universal-hr-brand-identity/08.jpg",
+   "src": "img/winder-stilhaus-brand-identity/08.jpg",
    "w": 1600,
-   "h": 901
+   "h": 1120
   },
   {
-   "src": "img/universal-hr-brand-identity/09.jpg",
+   "src": "img/winder-stilhaus-brand-identity/09.jpg",
    "w": 1600,
-   "h": 901
+   "h": 1120
   },
   {
-   "src": "img/universal-hr-brand-identity/10.jpg",
+   "src": "img/winder-stilhaus-brand-identity/10.jpg",
    "w": 1600,
-   "h": 901
+   "h": 1120
   },
   {
-   "src": "img/universal-hr-brand-identity/11.mp4",
-   "w": 2800,
-   "h": 1576
-  },
-  {
-   "src": "img/universal-hr-brand-identity/12.jpg",
+   "src": "img/winder-stilhaus-brand-identity/11.jpg",
    "w": 1600,
-   "h": 1067
+   "h": 1120
   },
   {
-   "src": "img/universal-hr-brand-identity/13.mp4",
-   "w": 2800,
-   "h": 1576
-  },
-  {
-   "src": "img/universal-hr-brand-identity/14.mp4",
+   "src": "img/winder-stilhaus-brand-identity/12.jpg",
    "w": 1600,
-   "h": 900
+   "h": 1120
   },
   {
-   "src": "img/universal-hr-brand-identity/15.jpg",
+   "src": "img/winder-stilhaus-brand-identity/13.jpg",
    "w": 1600,
-   "h": 901
+   "h": 1120
   },
   {
-   "src": "img/universal-hr-brand-identity/16.jpg",
+   "src": "img/winder-stilhaus-brand-identity/14.jpg",
    "w": 1600,
-   "h": 713
+   "h": 1120
+  },
+  {
+   "src": "img/winder-stilhaus-brand-identity/15.jpg",
+   "w": 1600,
+   "h": 1120
   }
  ]
 },
 {
- "slug": "stratanova-brand-identity",
+ "slug": "stayvn-brand-identity",
  "seamless": true,
  "type": "brand",
- "title": "StrataNova: Drone Services Brand Identity",
+ "title": "Stayvn: AI Decision Intelligence Brand Identity",
  "desc": "",
  "cats": "Branding, Brand Identity",
  "tags": [
   "brand identity",
   "branding",
-  "drone services"
+  "ai"
  ],
  "thumb": {
-  "src": "img/stratanova-brand-identity/thumb.jpg",
+  "src": "img/stayvn-brand-identity/thumb.jpg",
   "w": 1200,
   "h": 938
  },
  "images": [
-  {
-   "src": "img/stratanova-brand-identity/01.mp4",
-   "w": 1600,
-   "h": 1028
-  },
-  {
-   "src": "img/stratanova-brand-identity/02.mp4",
-   "w": 1600,
-   "h": 1138
-  },
-  {
-   "src": "img/stratanova-brand-identity/03.jpg",
-   "w": 1600,
-   "h": 1029
-  },
-  {
-   "src": "img/stratanova-brand-identity/04.jpg",
-   "w": 1600,
-   "h": 1138
-  },
-  {
-   "src": "img/stratanova-brand-identity/05.mp4",
-   "w": 1600,
-   "h": 1138
-  },
-  {
-   "src": "img/stratanova-brand-identity/06.jpg",
-   "w": 1600,
-   "h": 869
-  },
-  {
-   "src": "img/stratanova-brand-identity/07.jpg",
-   "w": 1600,
-   "h": 1138
-  },
-  {
-   "src": "img/stratanova-brand-identity/08.mp4",
-   "w": 2800,
-   "h": 1992
-  },
-  {
-   "src": "img/stratanova-brand-identity/09.jpg",
-   "w": 1600,
-   "h": 1054
-  },
-  {
-   "src": "img/stratanova-brand-identity/10.jpg",
-   "w": 1600,
-   "h": 1024
-  },
-  {
-   "src": "img/stratanova-brand-identity/11.jpg",
-   "w": 1600,
-   "h": 1138
-  },
-  {
-   "src": "img/stratanova-brand-identity/12.jpg",
-   "w": 1600,
-   "h": 575
-  },
-  {
-   "src": "img/stratanova-brand-identity/13.jpg",
-   "w": 1600,
-   "h": 901
-  },
-  {
-   "src": "img/stratanova-brand-identity/14.mp4",
-   "w": 1600,
-   "h": 948
-  },
-  {
-   "src": "img/stratanova-brand-identity/15.jpg",
-   "w": 1600,
-   "h": 922
-  },
-  {
-   "src": "img/stratanova-brand-identity/16.jpg",
-   "w": 1600,
-   "h": 1417
-  },
-  {
-   "src": "img/stratanova-brand-identity/17.jpg",
-   "w": 1600,
-   "h": 1067
-  },
-  {
-   "src": "img/stratanova-brand-identity/18.jpg",
-   "w": 1600,
-   "h": 1029
-  },
-  {
-   "src": "img/stratanova-brand-identity/19.jpg",
-   "w": 1600,
-   "h": 949
-  }
- ]
+ {
+  "src": "img/stayvn-brand-identity/01.mp4",
+  "w": 1600,
+  "h": 900
+ },
+ {
+  "src": "img/stayvn-brand-identity/02.mp4",
+  "w": 2800,
+  "h": 1640
+ },
+ {
+  "src": "img/stayvn-brand-identity/03.mp4",
+  "w": 2800,
+  "h": 1720
+ },
+ {
+  "src": "img/stayvn-brand-identity/04.jpg",
+  "w": 1600,
+  "h": 937
+ },
+ {
+  "src": "img/stayvn-brand-identity/05.jpg",
+  "w": 1600,
+  "h": 937
+ },
+ {
+  "src": "img/stayvn-brand-identity/06.jpg",
+  "w": 1600,
+  "h": 1066
+ },
+ {
+  "src": "img/stayvn-brand-identity/07.jpg",
+  "w": 1600,
+  "h": 937
+ },
+ {
+  "src": "img/stayvn-brand-identity/08.jpg",
+  "w": 1600,
+  "h": 1200
+ },
+ {
+  "src": "img/stayvn-brand-identity/09.jpg",
+  "w": 1600,
+  "h": 869
+ },
+ {
+  "src": "img/stayvn-brand-identity/10.jpg",
+  "w": 1600,
+  "h": 1200
+ },
+ {
+  "src": "img/stayvn-brand-identity/11.jpg",
+  "w": 1600,
+  "h": 937
+ },
+ {
+  "src": "img/stayvn-brand-identity/12.jpg",
+  "w": 1600,
+  "h": 1006
+ },
+ {
+  "src": "img/stayvn-brand-identity/13.jpg",
+  "w": 1600,
+  "h": 1006
+ },
+ {
+  "src": "img/stayvn-brand-identity/14.jpg",
+  "w": 1600,
+  "h": 1200
+ },
+ {
+  "src": "img/stayvn-brand-identity/15.jpg",
+  "w": 1600,
+  "h": 823
+ },
+ {
+  "src": "img/stayvn-brand-identity/16.mp4",
+  "w": 1600,
+  "h": 1000
+ },
+ {
+  "src": "img/stayvn-brand-identity/17.jpg",
+  "w": 1600,
+  "h": 937
+ },
+ {
+  "src": "img/stayvn-brand-identity/18.mp4",
+  "w": 1600,
+  "h": 1000
+ },
+ {
+  "src": "img/stayvn-brand-identity/19.jpg",
+  "w": 1600,
+  "h": 480
+ }
+]
 },
 {
  "slug": "noara-labs-brand-identity",
@@ -460,120 +575,284 @@ window.PROJECTS = [
  ]
 },
 {
- "slug": "stayvn-brand-identity",
+ "slug": "universal-hr-brand-identity",
  "seamless": true,
  "type": "brand",
- "title": "Stayvn: AI Decision Intelligence Brand Identity",
+ "title": "Universal HR: HR Consultancy Brand Identity",
  "desc": "",
  "cats": "Branding, Brand Identity",
  "tags": [
   "brand identity",
   "branding",
-  "ai"
+  "hr"
  ],
  "thumb": {
-  "src": "img/stayvn-brand-identity/thumb.jpg",
+  "src": "img/universal-hr-brand-identity/thumb.jpg",
   "w": 1200,
   "h": 938
  },
  "images": [
- {
-  "src": "img/stayvn-brand-identity/01.mp4",
-  "w": 1600,
-  "h": 900
- },
- {
-  "src": "img/stayvn-brand-identity/02.mp4",
-  "w": 2800,
-  "h": 1640
- },
- {
-  "src": "img/stayvn-brand-identity/03.mp4",
-  "w": 2800,
-  "h": 1720
- },
- {
-  "src": "img/stayvn-brand-identity/04.jpg",
-  "w": 1600,
-  "h": 937
- },
- {
-  "src": "img/stayvn-brand-identity/05.jpg",
-  "w": 1600,
-  "h": 937
- },
- {
-  "src": "img/stayvn-brand-identity/06.jpg",
-  "w": 1600,
-  "h": 1066
- },
- {
-  "src": "img/stayvn-brand-identity/07.jpg",
-  "w": 1600,
-  "h": 937
- },
- {
-  "src": "img/stayvn-brand-identity/08.jpg",
-  "w": 1600,
-  "h": 1200
- },
- {
-  "src": "img/stayvn-brand-identity/09.jpg",
-  "w": 1600,
-  "h": 869
- },
- {
-  "src": "img/stayvn-brand-identity/10.jpg",
-  "w": 1600,
-  "h": 1200
- },
- {
-  "src": "img/stayvn-brand-identity/11.jpg",
-  "w": 1600,
-  "h": 937
- },
- {
-  "src": "img/stayvn-brand-identity/12.jpg",
-  "w": 1600,
-  "h": 1006
- },
- {
-  "src": "img/stayvn-brand-identity/13.jpg",
-  "w": 1600,
-  "h": 1006
- },
- {
-  "src": "img/stayvn-brand-identity/14.jpg",
-  "w": 1600,
-  "h": 1200
- },
- {
-  "src": "img/stayvn-brand-identity/15.jpg",
-  "w": 1600,
-  "h": 823
- },
- {
-  "src": "img/stayvn-brand-identity/16.mp4",
-  "w": 1600,
-  "h": 1000
- },
- {
-  "src": "img/stayvn-brand-identity/17.jpg",
-  "w": 1600,
-  "h": 937
- },
- {
-  "src": "img/stayvn-brand-identity/18.mp4",
-  "w": 1600,
-  "h": 1000
- },
- {
-  "src": "img/stayvn-brand-identity/19.jpg",
-  "w": 1600,
-  "h": 480
- }
-]
+  {
+   "src": "img/universal-hr-brand-identity/01.mp4",
+   "w": 2800,
+   "h": 1576
+  },
+  {
+   "src": "img/universal-hr-brand-identity/02.mp4",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/universal-hr-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 1011
+  },
+  {
+   "src": "img/universal-hr-brand-identity/04.mp4",
+   "w": 2800,
+   "h": 1576
+  },
+  {
+   "src": "img/universal-hr-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "src": "img/universal-hr-brand-identity/07.mp4",
+   "w": 2800,
+   "h": 1576
+  },
+  {
+   "src": "img/universal-hr-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/11.mp4",
+   "w": 2800,
+   "h": 1576
+  },
+  {
+   "src": "img/universal-hr-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "src": "img/universal-hr-brand-identity/13.mp4",
+   "w": 2800,
+   "h": 1576
+  },
+  {
+   "src": "img/universal-hr-brand-identity/14.mp4",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/universal-hr-brand-identity/15.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/universal-hr-brand-identity/16.jpg",
+   "w": 1600,
+   "h": 713
+  }
+ ]
 },
+{
+ "slug": "stratanova-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "StrataNova: Drone Services Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "drone services"
+ ],
+ "thumb": {
+  "src": "img/stratanova-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/stratanova-brand-identity/01.mp4",
+   "w": 1600,
+   "h": 1028
+  },
+  {
+   "src": "img/stratanova-brand-identity/02.mp4",
+   "w": 1600,
+   "h": 1138
+  },
+  {
+   "src": "img/stratanova-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 1029
+  },
+  {
+   "src": "img/stratanova-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 1138
+  },
+  {
+   "src": "img/stratanova-brand-identity/05.mp4",
+   "w": 1600,
+   "h": 1138
+  },
+  {
+   "src": "img/stratanova-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 869
+  },
+  {
+   "src": "img/stratanova-brand-identity/07.jpg",
+   "w": 1600,
+   "h": 1138
+  },
+  {
+   "src": "img/stratanova-brand-identity/08.mp4",
+   "w": 2800,
+   "h": 1992
+  },
+  {
+   "src": "img/stratanova-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 1054
+  },
+  {
+   "src": "img/stratanova-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 1024
+  },
+  {
+   "src": "img/stratanova-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 1138
+  },
+  {
+   "src": "img/stratanova-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 575
+  },
+  {
+   "src": "img/stratanova-brand-identity/13.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/stratanova-brand-identity/14.mp4",
+   "w": 1600,
+   "h": 948
+  },
+  {
+   "src": "img/stratanova-brand-identity/15.jpg",
+   "w": 1600,
+   "h": 922
+  },
+  {
+   "src": "img/stratanova-brand-identity/16.jpg",
+   "w": 1600,
+   "h": 1417
+  },
+  {
+   "src": "img/stratanova-brand-identity/17.jpg",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "src": "img/stratanova-brand-identity/18.jpg",
+   "w": 1600,
+   "h": 1029
+  },
+  {
+   "src": "img/stratanova-brand-identity/19.jpg",
+   "w": 1600,
+   "h": 949
+  }
+ ]
+},
+ {
+  "slug": "bambu-eco-friendly-daily-essentials-brand-identity",
+  "type": "brand",
+  "title": "BAMBU — Eco-Friendly Daily Essentials Brand Identity",
+  "desc": "",
+  "cats": "Branding, Brand Identity",
+  "tags": [
+   "brand identity",
+   "branding",
+   "sustainability"
+  ],
+  "thumb": {
+   "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/thumb.jpg",
+   "w": 1200,
+   "h": 938
+  },
+  "images": [
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/01.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/02.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/03.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/04.jpg",
+    "w": 1600,
+    "h": 686
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/05.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/06.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/07.jpg",
+    "w": 1600,
+    "h": 2286
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/08.jpg",
+    "w": 1600,
+    "h": 1142
+   },
+   {
+    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/09.jpg",
+    "w": 1600,
+    "h": 1142
+   }
+  ]
+ },
 {
  "slug": "searchlight-digital-brand-identity",
  "seamless": true,
@@ -703,221 +982,6 @@ window.PROJECTS = [
    "h": 1800
   }
  ]
-},
-{
- "slug": "winder-stilhaus-brand-identity",
- "seamless": true,
- "type": "brand",
- "title": "Winder & Stilhaus: Brand Identity",
- "desc": "",
- "cats": "Branding, Brand Identity",
- "tags": [
-  "brand identity",
-  "branding",
-  "interiors"
- ],
- "thumb": {
-  "src": "img/winder-stilhaus-brand-identity/thumb.jpg",
-  "w": 1200,
-  "h": 938
- },
- "images": [
-  {
-   "src": "img/winder-stilhaus-brand-identity/01.mp4",
-   "w": 2800,
-   "h": 1960
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/02.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/03.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/04.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/05.mp4",
-   "w": 2800,
-   "h": 1960
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/06.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/07.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/08.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/09.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/10.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/11.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/12.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/13.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/14.jpg",
-   "w": 1600,
-   "h": 1120
-  },
-  {
-   "src": "img/winder-stilhaus-brand-identity/15.jpg",
-   "w": 1600,
-   "h": 1120
-  }
- ]
-},
-{
- "slug": "ultra-natif-skincare-brand-identity",
- "seamless": true,
- "type": "brand",
- "title": "Ultra Natif: Skincare Brand Identity",
- "desc": "",
- "cats": "Branding, Brand Identity",
- "tags": [
-  "brand identity",
-  "branding",
-  "skincare"
- ],
- "thumb": {
-  "src": "img/ultra-natif-skincare-brand-identity/thumb.jpg",
-  "w": 1200,
-  "h": 938
- },
- "images": [
- {
-  "src": "img/ultra-natif-skincare-brand-identity/01.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/02.mp4",
-  "w": 2800,
-  "h": 2820
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/03.mp4",
-  "w": 2800,
-  "h": 3288
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/04.mp4",
-  "w": 2800,
-  "h": 1800
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/05.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/06.mp4",
-  "w": 2800,
-  "h": 1800
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/07.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/08.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/09.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/10.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/11.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/12.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/13.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/14.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/15.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/16.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/17.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/18.mp4",
-  "w": 2800,
-  "h": 1800
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/19.jpg",
-  "w": 1600,
-  "h": 1029
- },
- {
-  "src": "img/ultra-natif-skincare-brand-identity/20.jpg",
-  "w": 1600,
-  "h": 1029
- }
-]
 },
 {
  "slug": "artix-ai-agency-brand-identity",
@@ -1660,70 +1724,6 @@ window.PROJECTS = [
    },
    {
     "src": "img/taskera-ai-powered-productivity-platform/10.jpg",
-    "w": 1600,
-    "h": 1142
-   }
-  ]
- },
- {
-  "slug": "bambu-eco-friendly-daily-essentials-brand-identity",
-  "type": "brand",
-  "title": "BAMBU — Eco-Friendly Daily Essentials Brand Identity",
-  "desc": "",
-  "cats": "Branding, Brand Identity",
-  "tags": [
-   "brand identity",
-   "branding",
-   "sustainability"
-  ],
-  "thumb": {
-   "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/thumb.jpg",
-   "w": 1200,
-   "h": 938
-  },
-  "images": [
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/01.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/02.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/03.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/04.jpg",
-    "w": 1600,
-    "h": 686
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/05.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/06.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/07.jpg",
-    "w": 1600,
-    "h": 2286
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/08.jpg",
-    "w": 1600,
-    "h": 1142
-   },
-   {
-    "src": "img/bambu-eco-friendly-daily-essentials-brand-identity/09.jpg",
     "w": 1600,
     "h": 1142
    }
