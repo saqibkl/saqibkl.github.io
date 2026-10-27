@@ -13,8 +13,9 @@ function draw(){
   if(!reduce)requestAnimationFrame(draw)
 }
 draw();
-// Content inside the box: thumbnails of the newest branding case studies (1200x938, close to the 4:3 box).
-const pool=(window.PROJECTS||[]).filter(p=>p.type==="brand").slice(0,8).map(p=>[p.thumb.src,p.title.split(/[:—]/)[0].trim()]);
+// Content inside the box: these six branding thumbnails only (picked by Saqib), in this order.
+const SLUGS=["ultra-natif-skincare-brand-identity","winder-stilhaus-brand-identity","stayvn-brand-identity","noara-labs-brand-identity","spice-web-media-brand-identity","universal-hr-brand-identity"];
+const pool=SLUGS.map(s=>(window.PROJECTS||[]).find(p=>p.slug===s)).filter(Boolean).map(p=>[p.thumb.src,p.title.split(/[:—]/)[0].trim()]);
 const dry=document.getElementById("dry"),A=document.getElementById("a"),B=document.getElementById("b");
 let n=0;
 function setWorks(){
