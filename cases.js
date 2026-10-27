@@ -118,6 +118,19 @@ window.CASES = {
    "We built the identity around a heavy, rounded R and wordmark, a Bluebonnet and Cetacean Blue palette with Hagrid and Manrope, and carried it across stationery, the app icon and placement rules."
   ]
  },
+ "patte-de-panthere-brand-identity": {
+  "title": "Patte de Panthère: Luxury Accessories Brand Identity",
+  "tags": [
+   "brand identity",
+   "luxury",
+   "logo design",
+   "fashion"
+  ],
+  "about": [
+   "Patte de Panthère is a high-end accessories brand specialising in leather gloves and sleeves, made for function and styled for impact.",
+   "We built the identity around an interlocked PdP monogram, a black, deep burgundy and minty teal palette with a refined serif, and carried it across brand values, imagery and social covers."
+  ]
+ },
  "universal-hr-brand-identity": {
  "title": "Universal HR: HR Consultancy Brand Identity",
  "tags": [

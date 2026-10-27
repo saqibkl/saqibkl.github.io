@@ -1345,6 +1345,86 @@ window.PROJECTS = [
  ]
 },
 {
+ "slug": "patte-de-panthere-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Patte de Panthère: Luxury Accessories Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "luxury"
+ ],
+ "thumb": {
+  "src": "img/patte-de-panthere-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/patte-de-panthere-brand-identity/01.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/02.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/07.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 900
+  }
+ ]
+},
+{
  "slug": "universal-hr-brand-identity",
  "seamless": true,
  "type": "brand",
