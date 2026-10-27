@@ -11,12 +11,10 @@
 *{box-sizing:border-box}
 body{margin:0;min-height:100svh;background:var(--bg);color:var(--ink);font:500 15px/1.4 Geist,system-ui,sans-serif;display:grid;place-items:center;padding:16px}
 main{width:min(90vw,720px)}
-.box{position:relative;aspect-ratio:4/3;border-radius:38% 62% 55% 45% / 52% 40% 60% 48%;animation:jiggle 7s ease-in-out infinite;overflow:hidden;touch-action:none;background:#000}
+.box{position:relative;aspect-ratio:4/3;overflow:hidden;touch-action:none;background:#000}
 .box img{transition:opacity .6s;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 #water{clip-path:polygon(0 100%,100% 100%,100% 100%,0 100%)}
 .cap{display:flex;justify-content:space-between;margin-top:14px;font-size:13px;opacity:.7}
-@keyframes jiggle{50%{border-radius:58% 42% 40% 60% / 42% 58% 44% 56%}}
-@media (prefers-reduced-motion:reduce){.box{animation:none}}
 </style>
 </head>
 <body>
@@ -53,6 +51,12 @@ function setWorks(){
 }
 setWorks();
 if(!reduce)setInterval(()=>{n++;setWorks()},4500);
+
+// Wavy outline: a rounded rectangle (superellipse) with a sine ripple along its edge, built once.
+(()=>{const N=240,p=[];for(let i=0;i<N;i++){const a=i/N*2*Math.PI,c=Math.cos(a),s=Math.sin(a),k=.5,
+  r=1-.022*(1+Math.sin(a*14))/2;   // ripple depth 2.2%, 14 waves around
+  p.push(`${50+50*r*Math.sign(c)*Math.abs(c)**(2/4.5)}% ${50+50*r*Math.sign(s)*Math.abs(s)**(2/4.5)}%`)}
+  box.style.clipPath=`polygon(${p.join(",")})`})();
 </script>
 </body>
 </html>
