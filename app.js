@@ -69,7 +69,7 @@ if (grid) {
   const clamp = v => Math.min(1, Math.max(0, v));
   function place() {
     const d = box(deckBox);
-    const free = filter === "all" && !q.value.trim();  // only the unfiltered grid starts with these three
+    const free = false;  // the deck no longer flies into the grid on scroll; it stays and shuffles by itself
     const slots = free ? [...grid.querySelectorAll(".shot figure")].slice(0, 3).map(box) : [];
     // done when the first row is near the top of the screen: a long scroll distance keeps the glide slow
     const goal = reduce || !slots[0] ? 0 : clamp(scrollY / Math.max(1, slots[0].y - innerHeight * .12));
@@ -77,7 +77,9 @@ if (grid) {
     shown = reduce ? goal : shown + (goal - shown) * .12;
     if (Math.abs(goal - shown) < .0008) shown = goal; else tick();
     const t = shown;
-    cards.forEach((c, k) => {
+    cards.forEach((c, i) => {
+      const k = (i - turn + cards.length) % cards.length;  // position in the stack; turn advances on a timer
+      c.style.zIndex = cards.length - k;
       const s = 1 - k * .05, k0 = { x: d.x + d.w / 2 + k * 18, y: d.y + d.h / 2 - k * 18, w: d.w * s, h: d.h * s };
       const tk = ease(clamp((t - k * .05) / .9));  // slight stagger: back cards leave a beat later
       const g = slots[k] ? { x: slots[k].x + slots[k].w / 2, y: slots[k].y + slots[k].h / 2, w: slots[k].w, h: slots[k].h } : k0;
@@ -93,7 +95,9 @@ if (grid) {
     fly.classList.toggle("landed", t >= 1);
     grid.classList.toggle("held", free && t < 1);
   }
-  let queued = false, shown = 0;
+  let queued = false, shown = 0, turn = 0;
+  // Every few seconds the top card goes to the back of the stack (CSS transition animates the move).
+  if (!reduce) setInterval(() => { turn = (turn + 1) % cards.length; place(); }, 3500);
   const tick = () => { if (!queued) { queued = true; requestAnimationFrame(() => { queued = false; place(); }); } };
   addEventListener("scroll", tick, { passive: true });
   addEventListener("resize", tick);
