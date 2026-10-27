@@ -53,6 +53,19 @@ window.CASES = {
    "We built the identity around a growing lotus mark with a guiding star, a Deep Forest Green palette with warm Golden Sand and Apricot accents, Marble and Plus Jakarta Sans, and carried it across stationery, social, an eBook, the app icon and outdoor posters."
   ]
  },
+ "heavens-chefs-brand-identity": {
+  "title": "Heaven's Chefs: Home Chef Marketplace Brand Identity",
+  "tags": [
+   "brand identity",
+   "food tech",
+   "logo design",
+   "social media"
+  ],
+  "about": [
+   "Heaven's Chefs is a food-tech marketplace that brings private chefs and home-style cooking to people's homes.",
+   "We built the identity around a chef's hat that holds a spatula, a British Racing Green and Olivine palette with Glancyr, and carried it across stationery, social templates and covers."
+  ]
+ },
  "universal-hr-brand-identity": {
  "title": "Universal HR: HR Consultancy Brand Identity",
  "tags": [

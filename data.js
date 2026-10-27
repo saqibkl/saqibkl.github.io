@@ -945,6 +945,86 @@ window.PROJECTS = [
  ]
 },
 {
+ "slug": "heavens-chefs-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Heaven's Chefs: Home Chef Marketplace Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "food tech"
+ ],
+ "thumb": {
+  "src": "img/heavens-chefs-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/heavens-chefs-brand-identity/01.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/heavens-chefs-brand-identity/02.jpg",
+   "w": 1600,
+   "h": 503
+  },
+  {
+   "src": "img/heavens-chefs-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/heavens-chefs-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/heavens-chefs-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/heavens-chefs-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 823
+  },
+  {
+   "src": "img/heavens-chefs-brand-identity/07.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/heavens-chefs-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/heavens-chefs-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/heavens-chefs-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/heavens-chefs-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/heavens-chefs-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 823
+  }
+ ]
+},
+{
  "slug": "universal-hr-brand-identity",
  "seamless": true,
  "type": "brand",
