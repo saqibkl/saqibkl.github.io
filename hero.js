@@ -8,7 +8,7 @@ if (box && "fade" in box.dataset) {
   renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
   box.append(renderer.domElement);
   const scene = new THREE.Scene(), camera = new THREE.PerspectiveCamera(32, 1, .1, 60);
-  camera.position.z = 13.5;  // far enough that the orbs never leave the hero box (the sticky header would crop them)
+  camera.position.z = 12.5;  // far enough that the orbs never leave the hero box (the sticky header would crop them)
   scene.add(new THREE.HemisphereLight(0xffffff, 0xd9dbe6, 1.6));
   const key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(-3, 4, 6); scene.add(key);
   const warm = new THREE.DirectionalLight(0xffe2cc, .6); warm.position.set(4, -3, 2); scene.add(warm);
