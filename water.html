@@ -13,7 +13,7 @@ body{margin:0;min-height:100svh;background:var(--bg);color:var(--ink);font:500 1
 main{width:min(86vw,560px)}
 /* clip-path with objectBoundingBox gives a slightly uneven, soft-cornered square */
 .box{position:relative;aspect-ratio:1;clip-path:url(#rough);touch-action:none;background:#000}
-.box img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.box img{transition:opacity .6s;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 #water{clip-path:polygon(0 100%,100% 100%,100% 100%,0 100%)}
 .cap{display:flex;justify-content:space-between;margin-top:14px;font-size:13px;opacity:.7}
 </style>
@@ -21,10 +21,10 @@ main{width:min(86vw,560px)}
 <body>
 <main>
   <div class="box" id="box">
-    <img src="img/stayvn-brand-identity/thumb.jpg" alt="Stayvn brand identity">
-    <img id="water" src="img/winder-stilhaus-brand-identity/thumb.jpg" alt="Winder &amp; Stilhaus brand identity">
+    <img id="dry" src="img/stayvn-brand-identity/thumb.jpg" alt="">
+    <img id="water" src="img/winder-stilhaus-brand-identity/thumb.jpg" alt="">
   </div>
-  <div class="cap"><span id="a">Winder &amp; Stilhaus</span><span>Move the cursor up and down</span><span id="b">Stayvn</span></div>
+  <div class="cap"><span id="a"></span><span>Move the cursor up and down</span><span id="b"></span></div>
 </main>
 <svg width="0" height="0" aria-hidden="true"><clipPath id="rough" clipPathUnits="objectBoundingBox">
   <path d="M.04 .015 C.3 -.006 .66 .012 .965 .02 C.99 .3 .985 .66 .99 .96 C.7 .992 .34 .98 .02 .99 C.008 .7 .016 .3 .04 .015Z"/>
@@ -44,6 +44,17 @@ function draw(){
   if(!reduce)requestAnimationFrame(draw)
 }
 draw();
+// Works shown inside the box; the water and the empty side advance together every few seconds.
+const WORKS=[["winder-stilhaus-brand-identity","Winder & Stilhaus"],["stayvn-brand-identity","Stayvn"],["ultra-natif-skincare-brand-identity","Ultra Natif"],["noara-labs-brand-identity","Noara Labs"],["spice-web-media-brand-identity","SpiceWeb"],["universal-hr-brand-identity","Universal HR"],["stratanova-brand-identity","StrataNova"],["bambu-eco-friendly-daily-essentials-brand-identity","Bambu"],["searchlight-digital-brand-identity","Searchlight"],["artix-ai-agency-brand-identity","Artix"]];
+const dry=document.getElementById("dry"),A=document.getElementById("a"),B=document.getElementById("b");
+let n=0;
+function setWorks(){
+  const [ws,wn]=WORKS[n%WORKS.length],[ds,dn]=WORKS[(n+1)%WORKS.length];
+  [[w,ws],[dry,ds]].forEach(([el,s])=>{const src=`img/${s}/thumb.jpg`,i=new Image();i.onload=()=>{el.style.opacity=0;setTimeout(()=>{el.src=src;el.style.opacity=1},300)};i.src=src});
+  A.textContent=wn;B.textContent=dn;
+}
+setWorks();
+if(!reduce)setInterval(()=>{n++;setWorks()},4500);
 </script>
 </body>
 </html>
