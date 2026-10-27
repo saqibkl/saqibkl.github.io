@@ -105,6 +105,19 @@ window.CASES = {
    "We built the identity around a bold wordmark with a pixel-block O, a Bluebonnet and Cetacean Blue palette with Clash Display, and carried it across stationery, the app icon and a web app style guide."
   ]
  },
+ "rare-words-brand-identity": {
+  "title": "Rare Words: Editorial Brand Identity",
+  "tags": [
+   "brand identity",
+   "editorial",
+   "logo design",
+   "typography"
+  ],
+  "about": [
+   "Rare Words is about finding the word nobody else even thought of.",
+   "We built the identity around a heavy, rounded R and wordmark, a Bluebonnet and Cetacean Blue palette with Hagrid and Manrope, and carried it across stationery, the app icon and placement rules."
+  ]
+ },
  "universal-hr-brand-identity": {
  "title": "Universal HR: HR Consultancy Brand Identity",
  "tags": [
