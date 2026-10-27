@@ -66,6 +66,19 @@ window.CASES = {
    "We built the identity around a chef's hat that holds a spatula, a British Racing Green and Olivine palette with Glancyr, and carried it across stationery, social templates and covers."
   ]
  },
+ "made-easy-marketing-brand-identity": {
+  "title": "Made Easy Marketing: Agency Brand Identity",
+  "tags": [
+   "brand identity",
+   "marketing agency",
+   "logo design",
+   "web design"
+  ],
+  "about": [
+   "Made Easy Marketing is a marketing agency that keeps growth simple for small businesses.",
+   "We built the identity around an arrow that rises out of the A, a Deep Teal and Veranda Blue palette with Poppins and DM Sans, and carried it across a web kit, social templates and UI icons."
+  ]
+ },
  "universal-hr-brand-identity": {
  "title": "Universal HR: HR Consultancy Brand Identity",
  "tags": [

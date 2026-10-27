@@ -1025,6 +1025,96 @@ window.PROJECTS = [
  ]
 },
 {
+ "slug": "made-easy-marketing-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Made Easy Marketing: Agency Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "marketing agency"
+ ],
+ "thumb": {
+  "src": "img/made-easy-marketing-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/made-easy-marketing-brand-identity/01.jpg",
+   "w": 1600,
+   "h": 983
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/02.jpg",
+   "w": 1600,
+   "h": 480
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 1000
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 1000
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 1000
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 823
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/07.jpg",
+   "w": 1600,
+   "h": 1000
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 1000
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 1000
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 1000
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 1000
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 1000
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/13.jpg",
+   "w": 1600,
+   "h": 1000
+  },
+  {
+   "src": "img/made-easy-marketing-brand-identity/14.jpg",
+   "w": 1600,
+   "h": 823
+  }
+ ]
+},
+{
  "slug": "universal-hr-brand-identity",
  "seamless": true,
  "type": "brand",
