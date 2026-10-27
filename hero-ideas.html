@@ -166,7 +166,7 @@ stage("s6", scene => {
   const a = orb(scene, 0xa64dff), b = orb(scene, 0xff5a1f, .24);
   return t => {
     const s = t * .00045;
-    disc.rotation.set(.4 + Math.sin(s * .7) * .1 + my * .3, Math.PI + .55 + Math.sin(s * .5) * .25 + mx * .4, 0);  // cut corner faces the viewer, top right
+    disc.rotation.set(.4 + Math.sin(s * .7) * .1 + my * .3, Math.PI - .4 + Math.sin(s * .5) * .25 + mx * .4, 0);  // cut corner faces the viewer, top right
     a.position.set(Math.cos(s) * 3.1, Math.sin(s) * 1.5 + .9, Math.sin(s) * 2.4);
     b.position.set(Math.cos(-s * 1.2) * 3, Math.sin(-s * 1.2) * 1.6 - .4, Math.cos(s) * 1.8);
   };
