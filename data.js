@@ -1215,57 +1215,62 @@ window.PROJECTS = [
   {
    "src": "img/apidox-brand-identity/01.jpg",
    "w": 1600,
-   "h": 900
+   "h": 983
   },
   {
    "src": "img/apidox-brand-identity/02.jpg",
    "w": 1600,
-   "h": 900
+   "h": 480
   },
   {
    "src": "img/apidox-brand-identity/03.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/apidox-brand-identity/04.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/apidox-brand-identity/05.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/apidox-brand-identity/06.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/apidox-brand-identity/07.jpg",
    "w": 1600,
-   "h": 900
+   "h": 823
   },
   {
    "src": "img/apidox-brand-identity/08.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/apidox-brand-identity/09.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/apidox-brand-identity/10.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/apidox-brand-identity/11.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
+  },
+  {
+   "src": "img/apidox-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 823
   }
  ]
 },
@@ -1290,57 +1295,62 @@ window.PROJECTS = [
   {
    "src": "img/rare-words-brand-identity/01.jpg",
    "w": 1600,
-   "h": 900
+   "h": 983
   },
   {
    "src": "img/rare-words-brand-identity/02.jpg",
    "w": 1600,
-   "h": 900
+   "h": 480
   },
   {
    "src": "img/rare-words-brand-identity/03.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/rare-words-brand-identity/04.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/rare-words-brand-identity/05.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/rare-words-brand-identity/06.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/rare-words-brand-identity/07.jpg",
    "w": 1600,
-   "h": 900
+   "h": 823
   },
   {
    "src": "img/rare-words-brand-identity/08.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/rare-words-brand-identity/09.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/rare-words-brand-identity/10.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/rare-words-brand-identity/11.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
+  },
+  {
+   "src": "img/rare-words-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 823
   }
  ]
 },
@@ -1365,62 +1375,67 @@ window.PROJECTS = [
   {
    "src": "img/patte-de-panthere-brand-identity/01.jpg",
    "w": 1600,
-   "h": 900
+   "h": 983
   },
   {
    "src": "img/patte-de-panthere-brand-identity/02.jpg",
    "w": 1600,
-   "h": 900
+   "h": 480
   },
   {
    "src": "img/patte-de-panthere-brand-identity/03.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/patte-de-panthere-brand-identity/04.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/patte-de-panthere-brand-identity/05.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/patte-de-panthere-brand-identity/06.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/patte-de-panthere-brand-identity/07.jpg",
    "w": 1600,
-   "h": 900
+   "h": 823
   },
   {
    "src": "img/patte-de-panthere-brand-identity/08.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/patte-de-panthere-brand-identity/09.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/patte-de-panthere-brand-identity/10.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/patte-de-panthere-brand-identity/11.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
   },
   {
    "src": "img/patte-de-panthere-brand-identity/12.jpg",
    "w": 1600,
-   "h": 900
+   "h": 901
+  },
+  {
+   "src": "img/patte-de-panthere-brand-identity/13.jpg",
+   "w": 1600,
+   "h": 823
   }
  ]
 },
