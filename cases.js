@@ -27,6 +27,19 @@ window.CASES = {
    "We built the identity around a C that holds a compass needle, a Navy and Yellow Ocher palette with Archivo, and carried it across stationery, a pattern, the website and a product design system."
   ]
  },
+ "nordguard-brand-identity": {
+  "title": "Nordguard: Steel Tower Systems Brand Identity",
+  "tags": [
+   "brand identity",
+   "industrial",
+   "logo design",
+   "technical documents"
+  ],
+  "about": [
+   "Nordguard is a Nordic-inspired brand for modular steel tower and mast systems used in telecom, security, IoT and utilities.",
+   "We built the identity around a mast and arc mark, a cool steel blue and Charleston Green palette with FS Benjamin and DM Sans, and carried it across product sheets, technical documentation, the website and the app icon."
+  ]
+ },
  "universal-hr-brand-identity": {
  "title": "Universal HR: HR Consultancy Brand Identity",
  "tags": [

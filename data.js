@@ -750,6 +750,96 @@ window.PROJECTS = [
  ]
 },
 {
+ "slug": "nordguard-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Nordguard: Steel Tower Systems Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "industrial"
+ ],
+ "thumb": {
+  "src": "img/nordguard-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/nordguard-brand-identity/01.jpg",
+   "w": 1600,
+   "h": 983
+  },
+  {
+   "src": "img/nordguard-brand-identity/02.jpg",
+   "w": 1600,
+   "h": 480
+  },
+  {
+   "src": "img/nordguard-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 658
+  },
+  {
+   "src": "img/nordguard-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 658
+  },
+  {
+   "src": "img/nordguard-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 658
+  },
+  {
+   "src": "img/nordguard-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 823
+  },
+  {
+   "src": "img/nordguard-brand-identity/07.jpg",
+   "w": 1600,
+   "h": 658
+  },
+  {
+   "src": "img/nordguard-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 658
+  },
+  {
+   "src": "img/nordguard-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 658
+  },
+  {
+   "src": "img/nordguard-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 658
+  },
+  {
+   "src": "img/nordguard-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 658
+  },
+  {
+   "src": "img/nordguard-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 658
+  },
+  {
+   "src": "img/nordguard-brand-identity/13.jpg",
+   "w": 1600,
+   "h": 658
+  },
+  {
+   "src": "img/nordguard-brand-identity/14.jpg",
+   "w": 1600,
+   "h": 823
+  }
+ ]
+},
+{
  "slug": "universal-hr-brand-identity",
  "seamless": true,
  "type": "brand",
