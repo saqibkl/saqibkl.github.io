@@ -9,7 +9,9 @@ if (box && "fade" in box.dataset) {
   renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
   renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   box.append(renderer.domElement);
-  const scene = new THREE.Scene(), camera = new THREE.PerspectiveCamera(32, 1, .1, 60);
+  // The canvas is 1.8x the hero box (CSS) and sits above the header and grid, so spun orbs are never cropped;
+  // the wider field of view keeps the ball the same size it would have in the box alone.
+  const F = 1.8, scene = new THREE.Scene(), camera = new THREE.PerspectiveCamera(2 * THREE.MathUtils.radToDeg(Math.atan(F * Math.tan(THREE.MathUtils.degToRad(16)))), 1, .1, 60);
   camera.position.z = 12.5;  // far enough that the orbs never leave the hero box (the sticky header would crop them)
   scene.add(new THREE.HemisphereLight(0xffffff, 0xd9dbe6, 1.5));
   const key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(-5, 5, 9);
@@ -27,18 +29,18 @@ if (box && "fade" in box.dataset) {
   ball.add(dome, lid); scene.add(ball);
 
   const orb = (c, r) => {
-    const m = new THREE.Mesh(new THREE.SphereGeometry(r, 48, 32), new THREE.MeshPhysicalMaterial({ color: c, roughness: .15, clearcoat: 1, emissive: c, emissiveIntensity: .15 }));
+    const m = new THREE.Mesh(new THREE.SphereGeometry(r, 48, 32), new THREE.MeshPhysicalMaterial({ color: c, roughness: .15, clearcoat: 1, emissive: 0x000000 }));
     m.castShadow = true; ball.add(m); return m;  // children of the ball, so they turn with it when dragged
   };
-  const oa = orb(0xa64dff, .36), ob = orb(0xff5a1f, .28);
+  const oa = orb(0x17181c, .36), ob = orb(0x17181c, .28);
 
-  const size = () => { const r = box.getBoundingClientRect(); renderer.setSize(r.width, r.height, false); camera.aspect = r.width / r.height; camera.updateProjectionMatrix(); };
+  const size = () => { const r = renderer.domElement.getBoundingClientRect(); renderer.setSize(r.width, r.height, false); camera.aspect = r.width / r.height; camera.updateProjectionMatrix(); };
   size(); addEventListener("resize", size);
 
   // cursor in world units on the plane of the orbs (z = 2.6), so the orbs can chase it
   const ray = new THREE.Raycaster(), ndc = new THREE.Vector2(), plane = new THREE.Plane(new THREE.Vector3(0, 0, 1), -2.6), aim = new THREE.Vector3(-1, .5, 2.6);
   addEventListener("pointermove", e => {
-    const r = box.getBoundingClientRect();
+    const r = renderer.domElement.getBoundingClientRect();
     ndc.set((e.clientX - r.left) / r.width * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
     ray.setFromCamera(ndc, camera); ray.ray.intersectPlane(plane, aim);
     aim.x = THREE.MathUtils.clamp(aim.x, -4.2, 4.2); aim.y = THREE.MathUtils.clamp(aim.y, -3.2, 3.2);  // stay in the box
