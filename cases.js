@@ -14,6 +14,19 @@ window.CASES = {
    "We built the identity around a latte stone with a sail and two stars, a Midnight Navy, Harbor Blue and Warm Sand palette with Metropolis, and carried it across stationery, signage, merch, social and the website."
   ]
  },
+ "cruise-command-brand-identity": {
+  "title": "Cruise Command: Cruise Planning SaaS Brand Identity",
+  "tags": [
+   "brand identity",
+   "saas",
+   "logo design",
+   "design system"
+  ],
+  "about": [
+   "Cruise Command is a software platform for modern cruise travel, bringing research, planning, budgets and onboard plans into one workspace.",
+   "We built the identity around a C that holds a compass needle, a Navy and Yellow Ocher palette with Archivo, and carried it across stationery, a pattern, the website and a product design system."
+  ]
+ },
  "universal-hr-brand-identity": {
  "title": "Universal HR: HR Consultancy Brand Identity",
  "tags": [

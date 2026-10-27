@@ -670,6 +670,86 @@ window.PROJECTS = [
  ]
 },
 {
+ "slug": "cruise-command-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Cruise Command: Cruise Planning SaaS Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "saas"
+ ],
+ "thumb": {
+  "src": "img/cruise-command-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/cruise-command-brand-identity/01.jpg",
+   "w": 1600,
+   "h": 983
+  },
+  {
+   "src": "img/cruise-command-brand-identity/02.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cruise-command-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cruise-command-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 1029
+  },
+  {
+   "src": "img/cruise-command-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cruise-command-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cruise-command-brand-identity/07.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cruise-command-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 1029
+  },
+  {
+   "src": "img/cruise-command-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cruise-command-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 983
+  },
+  {
+   "src": "img/cruise-command-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cruise-command-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 901
+  }
+ ]
+},
+{
  "slug": "universal-hr-brand-identity",
  "seamless": true,
  "type": "brand",
