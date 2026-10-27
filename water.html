@@ -37,6 +37,7 @@ function draw(){
   const top=(1-level)*100, amp=level<.02||level>.98?0:3.2, p=[];   // flat when fully empty or full
   for(let i=0;i<=24;i++){const x=i*100/24;p.push(`${x}% ${top+amp*(Math.sin(x/9+t)+.5*Math.sin(x/4.5-t*1.4))}%`)}
   w.style.clipPath=`polygon(${p.join(",")},100% 100%,0 100%)`;
+  shape();
   if(!reduce)requestAnimationFrame(draw)
 }
 draw();
@@ -52,11 +53,11 @@ function setWorks(){
 setWorks();
 if(!reduce)setInterval(()=>{n++;setWorks()},4500);
 
-// Wavy outline: a rounded rectangle (superellipse) with a sine ripple along its edge, built once.
-(()=>{const N=240,p=[];for(let i=0;i<N;i++){const a=i/N*2*Math.PI,c=Math.cos(a),s=Math.sin(a),k=.5,
-  r=1-.022*(1+Math.sin(a*14))/2;   // ripple depth 2.2%, 14 waves around
-  p.push(`${50+50*r*Math.sign(c)*Math.abs(c)**(2/4.5)}% ${50+50*r*Math.sign(s)*Math.abs(s)**(2/4.5)}%`)}
-  box.style.clipPath=`polygon(${p.join(",")})`})();
+// Wavy outline: rounded rectangle (superellipse) with a smooth ripple that drifts with the water wave (same t).
+function shape(){const N=360,p=[];for(let i=0;i<N;i++){const a=i/N*2*Math.PI,c=Math.cos(a),s=Math.sin(a),
+  r=1-.016*(1+Math.sin(a*8-t*1.6))/2;   // 8 soft waves, 1.6% deep
+  p.push(`${(50+50*r*Math.sign(c)*Math.abs(c)**(2/5)).toFixed(2)}% ${(50+50*r*Math.sign(s)*Math.abs(s)**(2/5)).toFixed(2)}%`)}
+  box.style.clipPath=`polygon(${p.join(",")})`}
 </script>
 </body>
 </html>
