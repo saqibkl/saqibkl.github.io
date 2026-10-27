@@ -17,12 +17,15 @@ draw();
 const SLUGS=["ultra-natif-skincare-brand-identity","winder-stilhaus-brand-identity","stayvn-brand-identity","noara-labs-brand-identity","spice-web-media-brand-identity","universal-hr-brand-identity"];
 const pool=SLUGS.map(s=>(window.PROJECTS||[]).find(p=>p.slug===s)).filter(Boolean).map(p=>[p.thumb.src,p.title.split(/[:—]/)[0].trim()]);
 const dry=document.getElementById("dry"),A=document.getElementById("a"),B=document.getElementById("b");
-let n=0;
+// Shuffled order: each round deals two different works at random and never repeats the one just shown.
+let cur=[-1,-1];
 function setWorks(){
-  const [ws,wn]=pool[n%pool.length],[ds,dn]=pool[(n+Math.floor(pool.length/2))%pool.length];
+  const pick=skip=>{let i;do i=Math.floor(Math.random()*pool.length);while(skip.includes(i));return i};
+  const wi=pick(cur),di=pick([wi,...cur]);cur=[wi,di];
+  const [ws,wn]=pool[wi],[ds,dn]=pool[di];
   [[w,ws],[dry,ds]].forEach(([el,src])=>{const i=new Image();i.onload=()=>{el.style.opacity=0;setTimeout(()=>{el.src=src;el.style.opacity=1},300)};i.src=src});
   if(A)A.textContent=wn;if(B)B.textContent=dn;
 }
 setWorks();
-if(!reduce)setInterval(()=>{n++;setWorks()},4500);
+if(!reduce)setInterval(setWorks,4500);
 })();
