@@ -11,7 +11,7 @@
 *{box-sizing:border-box}
 body{margin:0;min-height:100svh;background:var(--bg);color:var(--ink);font:500 15px/1.4 Geist,system-ui,sans-serif;display:grid;place-items:center;padding:16px}
 main{width:min(90vw,520px)}
-.box{position:relative;aspect-ratio:3/4;overflow:hidden;touch-action:none;background:#000}
+.box{position:relative;aspect-ratio:3/4;border-radius:28px;overflow:hidden;touch-action:none;background:#000}
 .box img{transition:opacity .6s;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 #water{clip-path:polygon(0 100%,100% 100%,100% 100%,0 100%)}
 .cap{display:flex;justify-content:space-between;margin-top:14px;font-size:13px;opacity:.7}
@@ -37,7 +37,6 @@ function draw(){
   const top=(1-level)*100, amp=level<.02||level>.98?0:3.2, p=[];   // flat when fully empty or full
   for(let i=0;i<=24;i++){const x=i*100/24;p.push(`${x}% ${top+amp*(Math.sin(x/9+t)+.5*Math.sin(x/4.5-t*1.4))}%`)}
   w.style.clipPath=`polygon(${p.join(",")},100% 100%,0 100%)`;
-  shape();
   if(!reduce)requestAnimationFrame(draw)
 }
 draw();
@@ -53,11 +52,6 @@ function setWorks(){
 setWorks();
 if(!reduce)setInterval(()=>{n++;setWorks()},4500);
 
-// Wavy outline: rounded rectangle (superellipse) with a smooth ripple that drifts with the water wave (same t).
-function shape(){const N=360,p=[];for(let i=0;i<N;i++){const a=i/N*2*Math.PI,c=Math.cos(a),s=Math.sin(a),
-  r=1-.016*(1+Math.sin(a*8-t*1.6))/2;   // 8 soft waves, 1.6% deep
-  p.push(`${(50+50*r*Math.sign(c)*Math.abs(c)**(2/9)).toFixed(2)}% ${(50+50*r*Math.sign(s)*Math.abs(s)**(2/9)).toFixed(2)}%`)}
-  box.style.clipPath=`polygon(${p.join(",")})`}
 </script>
 </body>
 </html>
