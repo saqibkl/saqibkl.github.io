@@ -13,12 +13,12 @@ function draw(){
   if(!reduce)requestAnimationFrame(draw)
 }
 draw();
-// Content inside the box: the logo-only slides already on the site (picked by eye), ordered so the water and empty side never show the same brand.
-const pool=[["img/water/bound.jpg","Bound"],["img/water/taskera.jpg","Taskera"],["img/water/nearside.jpg","Nearside"],["img/water/fractionalhr.jpg","FractionalHR"]];
+// Content inside the box: thumbnails of the newest branding case studies (1200x938, close to the 4:3 box).
+const pool=(window.PROJECTS||[]).filter(p=>p.type==="brand").slice(0,8).map(p=>[p.thumb.src,p.title.split(/[:—]/)[0].trim()]);
 const dry=document.getElementById("dry"),A=document.getElementById("a"),B=document.getElementById("b");
 let n=0;
 function setWorks(){
-  const [ws,wn]=pool[n%pool.length],[ds,dn]=pool[(n+2)%pool.length];
+  const [ws,wn]=pool[n%pool.length],[ds,dn]=pool[(n+Math.floor(pool.length/2))%pool.length];
   [[w,ws],[dry,ds]].forEach(([el,src])=>{const i=new Image();i.onload=()=>{el.style.opacity=0;setTimeout(()=>{el.src=src;el.style.opacity=1},300)};i.src=src});
   if(A)A.textContent=wn;if(B)B.textContent=dn;
 }
