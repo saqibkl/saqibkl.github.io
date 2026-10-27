@@ -78,8 +78,8 @@ if (grid) {
     if (Math.abs(goal - shown) < .0008) shown = goal; else tick();
     const t = shown;
     cards.forEach((c, i) => {
-      const k = (i - turn + cards.length) % cards.length;  // position in the stack; turn advances on a timer
-      c.style.zIndex = cards.length - k;
+      const k = order.indexOf(i);  // position in the stack, 0 = top
+      c.style.zIndex = i === pulled ? 9 : cards.length - k;
       const s = 1 - k * .05, k0 = { x: d.x + d.w / 2 + k * 18, y: d.y + d.h / 2 - k * 18, w: d.w * s, h: d.h * s };
       const tk = ease(clamp((t - k * .05) / .9));  // slight stagger: back cards leave a beat later
       const g = slots[k] ? { x: slots[k].x + slots[k].w / 2, y: slots[k].y + slots[k].h / 2, w: slots[k].w, h: slots[k].h } : k0;
@@ -88,16 +88,32 @@ if (grid) {
       // then sweep sideways into the slot, tilting into the turn like a dealt card
       const u = 1 - tk, dx = g.x - k0.x;
       const x = k0.x + 3 * u * u * tk * Math.min(220, d.w * .38) + tk ** 3 * dx, y = k0.y + (g.y - k0.y) * (1 - u ** 3);
-      const tilt = k * 2 * u + Math.sin(Math.PI * tk) * (dx < 0 ? -7 : 5);
-      Object.assign(c.style, { left: `${x - m("w") / 2}px`, top: `${y - m("h") / 2}px`, width: `${m("w")}px`, height: `${m("h")}px`,
+      const out = i === pulled;  // a card being dealt: slid out to the side, ready to drop on top
+      const tilt = k * 2 * u + Math.sin(Math.PI * tk) * (dx < 0 ? -7 : 5) + (out ? 9 : 0);
+      Object.assign(c.style, { left: `${x - m("w") / 2 + (out ? d.w * .62 : 0)}px`, top: `${y - m("h") / 2}px`, width: `${m("w")}px`, height: `${m("h")}px`,
         transform: `rotate(${tilt}deg)`, boxShadow: `0 30px 60px -30px rgb(23 24 28 / ${(.45 * u).toFixed(3)})` });
     });
     fly.classList.toggle("landed", t >= 1);
     grid.classList.toggle("held", free && t < 1);
   }
-  let queued = false, shown = 0, turn = 0;
-  // Every few seconds the top card goes to the back of the stack (CSS transition animates the move).
-  if (!reduce) setInterval(() => { turn = (turn + 1) % cards.length; place(); }, 3500);
+  let queued = false, shown = 0, pulled = -1, busy = false;
+  const order = cards.map((_, i) => i);  // stack order, top first
+  // Pull a card out sideways, then drop it on top of the stack, like picking from a real pile.
+  function bring(i) {
+    if (busy || order[0] === i) return;
+    busy = true; pulled = i; place();
+    setTimeout(() => {
+      order.splice(order.indexOf(i), 1); order.unshift(i); pulled = -1; place();
+      setTimeout(() => { busy = false; }, 900);
+    }, 450);
+  }
+  // Click a back card: it comes to the front instead of opening. The top card still opens its case study.
+  fly.addEventListener("click", e => {
+    const i = cards.indexOf(e.target.closest(".fly-card"));
+    if (i >= 0 && order[0] !== i) { e.preventDefault(); bring(i); }
+  });
+  // On its own, the bottom card is pulled out and placed on top every few seconds.
+  if (!reduce) setInterval(() => bring(order[order.length - 1]), 4000);
   const tick = () => { if (!queued) { queued = true; requestAnimationFrame(() => { queued = false; place(); }); } };
   addEventListener("scroll", tick, { passive: true });
   addEventListener("resize", tick);
@@ -238,7 +254,7 @@ if (sheet) {
   const dismiss = () => history.state?.depth ? history.go(-history.state.depth) : close();
   document.addEventListener("click", e => {
     const a = e.target.closest("a.shot, .fly-card, .sheet a.pg");
-    if (!a || e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;
+    if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;
     e.preventDefault();
     const slug = a.getAttribute("href").split("#")[1];
     history.pushState({ sheet: slug, depth: (history.state?.depth || 0) + 1 }, "", "project.html#" + slug);
