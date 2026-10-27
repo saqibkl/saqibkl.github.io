@@ -575,6 +575,101 @@ window.PROJECTS = [
  ]
 },
 {
+ "slug": "cnmi-central-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "CNMI Central: Island Directory Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "local directory"
+ ],
+ "thumb": {
+  "src": "img/cnmi-central-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/cnmi-central-brand-identity/01.jpg",
+   "w": 1600,
+   "h": 983
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/02.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 1194
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/07.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 598
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 1097
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 869
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/13.jpg",
+   "w": 1600,
+   "h": 869
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/14.jpg",
+   "w": 1600,
+   "h": 1194
+  },
+  {
+   "src": "img/cnmi-central-brand-identity/15.jpg",
+   "w": 1600,
+   "h": 901
+  }
+ ]
+},
+{
  "slug": "universal-hr-brand-identity",
  "seamless": true,
  "type": "brand",

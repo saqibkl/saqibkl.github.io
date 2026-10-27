@@ -1,6 +1,19 @@
 // Clean titles, Behance-style tags and a short case study per project, keyed by slug (data.js).
 // Text follows the Behance posts: plain words, what we made for them. No invented results.
 window.CASES = {
+ "cnmi-central-brand-identity": {
+  "title": "CNMI Central: Island Directory Brand Identity",
+  "tags": [
+   "brand identity",
+   "local directory",
+   "logo design",
+   "web design"
+  ],
+  "about": [
+   "CNMI Central is a local directory for the Northern Mariana Islands, bringing hotels, cars, food, experiences and services on Saipan, Tinian and Rota into one place.",
+   "We built the identity around a latte stone with a sail and two stars, a Midnight Navy, Harbor Blue and Warm Sand palette with Metropolis, and carried it across stationery, signage, merch, social and the website."
+  ]
+ },
  "universal-hr-brand-identity": {
  "title": "Universal HR: HR Consultancy Brand Identity",
  "tags": [
