@@ -56,7 +56,7 @@ if(!reduce)setInterval(()=>{n++;setWorks()},4500);
 // Wavy outline: rounded rectangle (superellipse) with a smooth ripple that drifts with the water wave (same t).
 function shape(){const N=360,p=[];for(let i=0;i<N;i++){const a=i/N*2*Math.PI,c=Math.cos(a),s=Math.sin(a),
   r=1-.016*(1+Math.sin(a*8-t*1.6))/2;   // 8 soft waves, 1.6% deep
-  p.push(`${(50+50*r*Math.sign(c)*Math.abs(c)**(2/20)).toFixed(2)}% ${(50+50*r*Math.sign(s)*Math.abs(s)**(2/20)).toFixed(2)}%`)}
+  p.push(`${(50+50*r*Math.sign(c)*Math.abs(c)**(2/9)).toFixed(2)}% ${(50+50*r*Math.sign(s)*Math.abs(s)**(2/9)).toFixed(2)}%`)}
   box.style.clipPath=`polygon(${p.join(",")})`}
 </script>
 </body>
