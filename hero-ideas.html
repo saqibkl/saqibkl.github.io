@@ -26,7 +26,7 @@ figcaption small{color:#6b6e76;font-weight:400}
   <figure><div class="stage" id="s3"></div><figcaption><b>3. Floating blocks</b><small>Rounded cubes and pills drifting in space</small></figcaption></figure>
   <figure><div class="stage" id="s4"></div><figcaption><b>4. Stacked rings</b><small>Bold brand-colour rings turning in turns</small></figcaption></figure>
   <figure><div class="stage" id="s5" style="background:#efedf0"></div><figcaption><b>5. Matte bowl + orbs</b><small>clay.global style: soft white half-sphere, two glossy orbs circling it</small></figcaption></figure>
-  <figure><div class="stage" id="s6" style="background:#efedf0"></div><figcaption><b>6. Three-quarter circle</b><small>Matte disc with one quadrant cut out, orbs passing through the gap</small></figcaption></figure>
+  <figure><div class="stage" id="s6" style="background:#efedf0"></div><figcaption><b>6. Three-quarter sphere</b><small>Matte ball with one quarter wedge cut out, orbs passing through the gap</small></figcaption></figure>
   <figure><div class="stage" id="s7" style="background:#efedf0"></div><figcaption><b>7. Matte donut</b><small>Thick white ring with an orb looping through the hole</small></figcaption></figure>
   <figure><div class="stage" id="s8" style="background:#efedf0"></div><figcaption><b>8. Leaning pills</b><small>Two soft capsules resting on each other, orbs drifting</small></figcaption></figure>
   <figure><div class="stage" id="s9" style="background:#efedf0"></div><figcaption><b>9. Arch</b><small>Matte half ring standing up, an orb rolling along it</small></figcaption></figure>
@@ -151,17 +151,20 @@ const clay = scene => {
 };
 const orb = (scene, c, r = .32) => { const m = new THREE.Mesh(new THREE.SphereGeometry(r, 48, 32), new THREE.MeshPhysicalMaterial({ color: c, roughness: .15, clearcoat: 1, emissive: c, emissiveIntensity: .15 })); scene.add(m); return m; };
 
-// 6. Three-quarter circle: a thick disc with one quadrant removed (extruded 270 degree arc, soft bevel)
+// 6. Three-quarter sphere: a ball with one quarter wedge cut out (270 degree sphere + two half-disc cut faces)
 stage("s6", scene => {
-  const mat = clay(scene), s = new THREE.Shape();
-  s.moveTo(0, 0); s.absarc(0, 0, 2.3, 0, Math.PI * 1.5, false); s.lineTo(0, 0);
-  const g = new THREE.ExtrudeGeometry(s, { depth: .9, bevelEnabled: true, bevelThickness: .18, bevelSize: .18, bevelSegments: 8, curveSegments: 96 });
-  g.center();
-  const disc = new THREE.Mesh(g, mat); scene.add(disc);
+  const mat = clay(scene), face = mat.clone(); face.side = THREE.DoubleSide;
+  const disc = new THREE.Group(), R = 2.3;
+  disc.add(new THREE.Mesh(new THREE.SphereGeometry(R, 128, 96, 0, Math.PI * 1.5), mat));
+  // cut faces: half discs in the planes at phi = 0 (-x side) and phi = 270deg (-z side)
+  const half = () => new THREE.Mesh(new THREE.CircleGeometry(R, 96, Math.PI / 2, Math.PI), face);
+  const f2 = half(); f2.rotation.y = -Math.PI / 2;
+  disc.add(half(), f2);
+  scene.add(disc);
   const a = orb(scene, 0xa64dff), b = orb(scene, 0xff5a1f, .24);
   return t => {
     const s = t * .00045;
-    disc.rotation.set(-.25 + Math.sin(s * .7) * .15 + my * .3, -.45 + Math.sin(s * .5) * .3 + mx * .4, Math.sin(s * .3) * .1);
+    disc.rotation.set(.35 + Math.sin(s * .7) * .15 + my * .3, 2.2 + Math.sin(s * .5) * .3 + mx * .4, .15);
     // orbs travel a loop that passes through the missing quadrant
     a.position.set(1.2 + Math.cos(s) * 1.6, 1.2 + Math.sin(s) * 1.6, Math.sin(s * 2) * 1.2);
     b.position.set(Math.cos(-s * 1.2) * 3, Math.sin(-s * 1.2) * 1.6 - .4, Math.cos(s) * 1.8);
