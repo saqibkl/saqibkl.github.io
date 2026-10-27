@@ -79,6 +79,19 @@ window.CASES = {
    "We built the identity around an arrow that rises out of the A, a Deep Teal and Veranda Blue palette with Poppins and DM Sans, and carried it across a web kit, social templates and UI icons."
   ]
  },
+ "autonomy-labs-brand-identity": {
+  "title": "Autonomy Labs: AI Infrastructure Brand Identity",
+  "tags": [
+   "brand identity",
+   "ai",
+   "logo design",
+   "editorial"
+  ],
+  "about": [
+   "Autonomy Labs is a technology company building infrastructure for agentic intelligence.",
+   "We built the identity around an A that points forward inside a circle, a Dark Forest Green, Greenish Gray and Akaroa palette, and carried it across an editorial poster system, imagery and social covers."
+  ]
+ },
  "universal-hr-brand-identity": {
  "title": "Universal HR: HR Consultancy Brand Identity",
  "tags": [
