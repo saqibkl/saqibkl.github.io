@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hero ideas | Saqib Kamal</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f7f7f5;--ink:#17181c;--card:#fff;--line:rgb(23 24 28/.08)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 15px/1.4 Geist,system-ui,sans-serif;padding:40px 16px}
+h1{font-size:28px;letter-spacing:-.02em;margin:0 auto 24px;max-width:1200px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr));gap:20px;max-width:1200px;margin:0 auto}
+figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.stage{aspect-ratio:1200/938;position:relative}
+.stage canvas{position:absolute;inset:0;width:100%;height:100%}
+figcaption{padding:14px 18px;display:flex;justify-content:space-between;gap:12px}
+figcaption small{color:#6b6e76;font-weight:400}
+</style>
+</head>
+<body>
+<h1>Hero ideas: 3D shapes</h1>
+<div class="grid">
+  <figure><div class="stage" id="s1"></div><figcaption><b>1. Glossy knot</b><small>Black knot, orange and teal edge light</small></figcaption></figure>
+  <figure><div class="stage" id="s2"></div><figcaption><b>2. Soft blob</b><small>Smooth shape that slowly melts and breathes</small></figcaption></figure>
+  <figure><div class="stage" id="s3"></div><figcaption><b>3. Floating blocks</b><small>Rounded cubes and pills drifting in space</small></figcaption></figure>
+  <figure><div class="stage" id="s4"></div><figcaption><b>4. Stacked rings</b><small>Bold brand-colour rings turning in turns</small></figcaption></figure>
+</div>
+<script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js"}}</script>
+<script type="module">
+import * as THREE from "three";
+import { RoundedBoxGeometry } from "https://unpkg.com/three@0.160.0/examples/jsm/geometries/RoundedBoxGeometry.js";
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+let mx = 0, my = 0;
+addEventListener("pointermove", e => { mx = e.clientX / innerWidth - .5; my = e.clientY / innerHeight - .5; });
+
+// One small renderer per stage; build() fills the scene and returns a per-frame update.
+function stage(id, build) {
+  const el = document.getElementById(id), r = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+  r.setPixelRatio(Math.min(devicePixelRatio, 2)); el.append(r.domElement);
+  const scene = new THREE.Scene(), cam = new THREE.PerspectiveCamera(32, 1, .1, 60); cam.position.z = 11;
+  const lights = (a, b) => {
+    scene.add(new THREE.AmbientLight(0xffffff, .5));
+    const k = new THREE.DirectionalLight(a, 3); k.position.set(4, 3, 5); scene.add(k);
+    const m = new THREE.DirectionalLight(b, 2.4); m.position.set(-5, -2, 2); scene.add(m);
+    const t = new THREE.DirectionalLight(0xffffff, 1.2); t.position.set(0, 6, 3); scene.add(t);
+  };
+  const update = build(scene, lights);
+  const size = () => { const b = el.getBoundingClientRect(); r.setSize(b.width, b.height, false); cam.aspect = b.width / b.height; cam.updateProjectionMatrix(); };
+  size(); addEventListener("resize", size);
+  const frame = t => { update(t); r.render(scene, cam); if (!reduce) requestAnimationFrame(frame); };
+  frame(0);
+}
+
+// 1. Glossy knot (the current hero)
+stage("s1", (scene, lights) => {
+  lights(0xff6a2b, 0x2fd1c5);
+  const m = new THREE.Mesh(new THREE.TorusKnotGeometry(1.6, .52, 260, 48, 2, 3),
+    new THREE.MeshPhysicalMaterial({ color: 0x17181c, roughness: .22, clearcoat: 1, clearcoatRoughness: .08 }));
+  scene.add(m);
+  let rx = 0, ry = 0;
+  return t => { rx += (my * .6 - rx) * .05; ry += (mx * .8 - ry) * .05; m.rotation.set(rx + t * .00018, ry + t * .00026, t * .00008); };
+});
+
+// 2. Soft blob: a sphere whose surface is pushed in and out by moving sine waves
+stage("s2", (scene, lights) => {
+  lights(0xffffff, 0xffb38a);
+  const g = new THREE.IcosahedronGeometry(2.2, 64), base = g.attributes.position.array.slice();
+  const m = new THREE.Mesh(g, new THREE.MeshPhysicalMaterial({ color: 0xff5a1f, roughness: .35, clearcoat: .6 }));
+  scene.add(m);
+  const v = new THREE.Vector3();
+  return t => {
+    const s = t * .0006, p = g.attributes.position;
+    for (let i = 0; i < p.count; i++) {
+      v.fromArray(base, i * 3);
+      const n = Math.sin(v.x * 1.4 + s) * Math.sin(v.y * 1.6 + s * 1.3) * Math.sin(v.z * 1.2 + s * .7);
+      v.multiplyScalar(1 + .18 * n); p.setXYZ(i, v.x, v.y, v.z);
+    }
+    p.needsUpdate = true; g.computeVertexNormals();
+    m.rotation.set(my * .5, t * .0002 + mx * .6, 0);
+  };
+});
+
+// 3. Floating blocks: rounded cubes and pills bobbing at different speeds
+stage("s3", (scene, lights) => {
+  lights(0xffffff, 0x9ec5ff);
+  const cols = [0x17181c, 0xff5a1f, 0xf2efe8, 0x2f6bff, 0x17181c, 0xf2efe8];
+  const shapes = cols.map((c, i) => {
+    const geo = i % 2 ? new THREE.CapsuleGeometry(.45, 1.1, 8, 24) : new RoundedBoxGeometry(1.3, 1.3, 1.3, 6, .28);
+    const mesh = new THREE.Mesh(geo, new THREE.MeshPhysicalMaterial({ color: c, roughness: .3, clearcoat: .8 }));
+    const a = i / cols.length * Math.PI * 2;
+    mesh.userData = { x: Math.cos(a) * 2.6, y: Math.sin(a) * 1.7, z: (i % 3 - 1) * 1.2, k: .6 + i * .13 };
+    scene.add(mesh); return mesh;
+  });
+  return t => shapes.forEach((s, i) => {
+    const d = s.userData, w = t * .001 * d.k;
+    s.position.set(d.x + mx * .8, d.y + Math.sin(w) * .35 - my * .6, d.z);
+    s.rotation.set(w * .6 + i, w * .8, w * .3);
+  });
+});
+
+// 4. Stacked rings: thick rings in bold colours, each turning a quarter at a time
+stage("s4", (scene, lights) => {
+  lights(0xffffff, 0xffd2b8);
+  const cols = [0xff5a1f, 0x17181c, 0xf2c94c, 0x2f6bff];
+  const rings = cols.map((c, i) => {
+    const m = new THREE.Mesh(new THREE.TorusGeometry(2 - i * .42, .26, 32, 120),
+      new THREE.MeshPhysicalMaterial({ color: c, roughness: .28, clearcoat: .7 }));
+    scene.add(m); return m;
+  });
+  const ease = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+  return t => rings.forEach((r, i) => {
+    const c = t / 1600 - i * .18, step = Math.floor(c), f = ease(Math.min(1, (c - step) * 1.6));
+    const turn = (step + f) * Math.PI / 2;
+    r.rotation.set(i % 2 ? turn : my * .5, i % 2 ? mx * .5 : turn, 0);
+  });
+});
+</script>
+</body>
+</html>
