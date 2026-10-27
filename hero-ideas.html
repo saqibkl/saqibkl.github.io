@@ -165,8 +165,7 @@ stage("s6", scene => {
   return t => {
     const s = t * .00045;
     disc.rotation.set(.35 + Math.sin(s * .7) * .15 + my * .3, 2.2 + Math.sin(s * .5) * .3 + mx * .4, .15);
-    // orbs travel a loop that passes through the missing quadrant
-    a.position.set(1.2 + Math.cos(s) * 1.6, 1.2 + Math.sin(s) * 1.6, Math.sin(s * 2) * 1.2);
+    a.position.set(Math.cos(s) * 3.1, Math.sin(s) * 1.5 + .9, Math.sin(s) * 2.4);
     b.position.set(Math.cos(-s * 1.2) * 3, Math.sin(-s * 1.2) * 1.6 - .4, Math.cos(s) * 1.8);
   };
 });
