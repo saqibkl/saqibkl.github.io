@@ -1,4 +1,4 @@
-// Hero: a large matte half-ball held at a set angle, with two glossy orbs that follow the cursor and cast soft shadows on it.
+// Hero: a large matte half-ball held at a set angle, with two glossy orbs that lean toward the cursor and cast soft shadows on it.
 // Drag the ball to spin it any way; let go and it eases back to its resting angle. three.js, pinned version, home page only.
 import * as THREE from "https://unpkg.com/three@0.160.0/build/three.module.js";
 
@@ -60,12 +60,12 @@ if (box && "fade" in box.dataset) {
     qSpin.setFromEuler(eSpin.set(spinX, spinY, 0));
     ball.quaternion.copy(qSpin).multiply(qRest);  // spin in screen directions on top of the resting angle
     const s = reduce ? 0 : t * .0008;
-    // orbs chase the cursor at different speeds, keeping a gap between them
-    pa.set(aim.x - .5, aim.y + .5 + Math.sin(s) * .15, 2.6); pb.set(aim.x + .7, aim.y - .6 + Math.cos(s) * .15, 3);
+    // orbs stay at home in front of the face and only lean a little toward the cursor (about 4% of its distance)
+    pa.set(-.6 + aim.x * .05, 1.9 + aim.y * .05 + Math.sin(s) * .12, 2.6); pb.set(-1.5 + aim.x * .07, -1.4 + aim.y * .07 + Math.cos(s) * .12, 3);
     oa.position.lerp(pa, reduce ? 1 : .08); ob.position.lerp(pb, reduce ? 1 : .05);
     renderer.render(scene, camera);
     requestAnimationFrame(frame);
   };
-  oa.position.set(-1.5, 1, 2.6); ob.position.set(-.5, -.5, 3);
+  oa.position.set(-.6, 1.9, 2.6); ob.position.set(-1.5, -1.4, 3);
   frame(0);
 }
