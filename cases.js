@@ -40,6 +40,19 @@ window.CASES = {
    "We built the identity around a mast and arc mark, a cool steel blue and Charleston Green palette with FS Benjamin and DM Sans, and carried it across product sheets, technical documentation, the website and the app icon."
   ]
  },
+ "thrive-beyond-academics-brand-identity": {
+  "title": "Thrive Beyond Academics: Student Guidance Brand Identity",
+  "tags": [
+   "brand identity",
+   "education",
+   "logo design",
+   "social media"
+  ],
+  "about": [
+   "Thrive Beyond Academics guides college-bound teens with support that goes beyond the GPA.",
+   "We built the identity around a growing lotus mark with a guiding star, a Deep Forest Green palette with warm Golden Sand and Apricot accents, Marble and Plus Jakarta Sans, and carried it across stationery, social, an eBook, the app icon and outdoor posters."
+  ]
+ },
  "universal-hr-brand-identity": {
  "title": "Universal HR: HR Consultancy Brand Identity",
  "tags": [

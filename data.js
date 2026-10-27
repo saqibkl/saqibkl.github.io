@@ -840,6 +840,111 @@ window.PROJECTS = [
  ]
 },
 {
+ "slug": "thrive-beyond-academics-brand-identity",
+ "seamless": true,
+ "type": "brand",
+ "title": "Thrive Beyond Academics: Student Guidance Brand Identity",
+ "desc": "",
+ "cats": "Branding, Brand Identity",
+ "tags": [
+  "brand identity",
+  "branding",
+  "education"
+ ],
+ "thumb": {
+  "src": "img/thrive-beyond-academics-brand-identity/thumb.jpg",
+  "w": 1200,
+  "h": 938
+ },
+ "images": [
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/01.jpg",
+   "w": 1600,
+   "h": 901
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/02.jpg",
+   "w": 1600,
+   "h": 767
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/03.jpg",
+   "w": 1600,
+   "h": 770
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/04.jpg",
+   "w": 1600,
+   "h": 769
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/05.jpg",
+   "w": 1600,
+   "h": 769
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/06.jpg",
+   "w": 1600,
+   "h": 691
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/07.jpg",
+   "w": 1600,
+   "h": 767
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/08.jpg",
+   "w": 1600,
+   "h": 781
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/09.jpg",
+   "w": 1600,
+   "h": 781
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/10.jpg",
+   "w": 1600,
+   "h": 781
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/11.jpg",
+   "w": 1600,
+   "h": 946
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/12.jpg",
+   "w": 1600,
+   "h": 1042
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/13.jpg",
+   "w": 1600,
+   "h": 800
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/14.jpg",
+   "w": 1600,
+   "h": 800
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/15.jpg",
+   "w": 1600,
+   "h": 800
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/16.jpg",
+   "w": 1600,
+   "h": 799
+  },
+  {
+   "src": "img/thrive-beyond-academics-brand-identity/17.jpg",
+   "w": 1600,
+   "h": 901
+  }
+ ]
+},
+{
  "slug": "universal-hr-brand-identity",
  "seamless": true,
  "type": "brand",
