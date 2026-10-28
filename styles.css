@@ -261,7 +261,7 @@ html.has-cursor, html.has-cursor * { cursor: none !important; }
   transition: width .35s cubic-bezier(.22,1,.36,1), height .35s cubic-bezier(.22,1,.36,1), margin .35s cubic-bezier(.22,1,.36,1), border-radius .35s, background-color .25s, border-color .25s; }
 .cur-ring.link { width: 64px; height: 64px; margin: -32px 0 0 -32px; background: rgb(23 24 28 / .08); }
 .cur-ring.label { width: 76px; height: 76px; margin: -38px 0 0 -38px; background: var(--ink, #17181c); }
-.cur-ring.preview { width: 168px; height: 112px; margin: -56px 0 0 -84px; border-radius: 999px; border-color: transparent; background: #ddd; }
+.cur-ring.preview { width: 150px; height: 120px; margin: -60px 0 0 -75px; border-radius: 40px; border-color: transparent; background: #ddd; }
 .cur-ring img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .cur-ring:not(.preview) img { display: none; }
 
@@ -276,13 +276,13 @@ html.has-cursor, html.has-cursor * { cursor: none !important; }
 @keyframes liquid { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .hero .actions .btn::before { animation: none; } }
 body { overflow-x: clip; }  /* the oversized hero canvas must not cause sideways scroll */
-/* preview capsule gently changes shape while shown */
+/* preview card gently squeezes while shown */
 .cur-ring.preview { animation: wobble 2.4s ease-in-out infinite alternate; }
-@keyframes wobble {
-  0% { border-radius: 999px; }
-  33% { border-radius: 58% 42% 52% 48% / 62% 46% 54% 38%; }
-  66% { border-radius: 44% 56% 46% 54% / 42% 60% 40% 58%; }
-  100% { border-radius: 52% 48% 60% 40% / 50% 40% 60% 50%; }
+@keyframes wobble {  /* squash and stretch: the rounded square squeezes softly, shape stays a rounded square */
+  0% { scale: 1 1; }
+  30% { scale: 1.07 .93; }
+  60% { scale: .94 1.06; }
+  100% { scale: 1.03 .97; }
 }
 @media (prefers-reduced-motion: reduce) { .cur-ring.preview { animation: none; } }
 /* over the 3D ball: a light outlined pill, so it can't be mistaken for one of the black orbs */
