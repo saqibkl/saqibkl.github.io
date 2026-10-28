@@ -261,7 +261,7 @@ html.has-cursor, html.has-cursor * { cursor: none !important; }
   transition: width .35s cubic-bezier(.22,1,.36,1), height .35s cubic-bezier(.22,1,.36,1), margin .35s cubic-bezier(.22,1,.36,1), border-radius .35s, background-color .25s, border-color .25s; }
 .cur-ring.link { width: 64px; height: 64px; margin: -32px 0 0 -32px; background: rgb(23 24 28 / .08); }
 .cur-ring.label { width: 76px; height: 76px; margin: -38px 0 0 -38px; background: var(--ink, #17181c); }
-.cur-ring.preview { width: 150px; height: 130px; margin: -65px 0 0 -75px; border-radius: 0; border-color: transparent; background: #ddd; }
+.cur-ring.preview { width: 196px; height: 124px; margin: -62px 0 0 -98px; border-radius: 0; border-color: transparent; background: #ddd; }
 .cur-ring img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .cur-ring:not(.preview) img { display: none; }
 
