@@ -38,6 +38,16 @@
     rx += (x - rx) * (reduce ? 1 : .18); ry += (y - ry) * (reduce ? 1 : .18);
     dot.style.transform = `translate(${x}px, ${y}px)`;
     ring.style.transform = `translate(${rx}px, ${ry}px)`;
+    // preview card: a soft rounded square whose sides ripple slowly (squircle + travelling waves, drawn as a clip path)
+    if (ring.classList.contains("preview")) {
+      const ts = reduce ? 0 : performance.now() / 900, p = [];
+      for (let i = 0; i < 96; i++) {
+        const a = i / 96 * Math.PI * 2, c = Math.cos(a), s = Math.sin(a);
+        const r = .94 + .035 * Math.sin(4 * a + ts) + .015 * Math.sin(8 * a - ts * 1.4);
+        p.push(`${(50 + 50 * r * Math.sign(c) * Math.abs(c) ** .45).toFixed(2)}% ${(50 + 50 * r * Math.sign(s) * Math.abs(s) ** .45).toFixed(2)}%`);
+      }
+      ring.style.clipPath = `polygon(${p.join(",")})`;
+    } else if (ring.style.clipPath) ring.style.clipPath = "";
     requestAnimationFrame(tick);
   };
   tick();
