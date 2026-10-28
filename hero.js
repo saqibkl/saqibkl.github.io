@@ -1,5 +1,5 @@
 // Hero: a large matte half-ball held at a set angle, with two glossy orbs that lean toward the cursor and cast soft shadows on it.
-// Drag the ball to spin it any way; let go and it eases back to its resting angle. three.js, pinned version, home page only.
+// Drag the ball to spin it any way; it stays at whatever angle it is left at. three.js, pinned version, home page only.
 import * as THREE from "https://unpkg.com/three@0.160.0/build/three.module.js";
 
 const box = document.getElementById("collage");
@@ -58,7 +58,6 @@ if (box && "fade" in box.dataset) {
   const qRest = new THREE.Quaternion().setFromEuler(REST), qSpin = new THREE.Quaternion(), eSpin = new THREE.Euler();
   const pa = new THREE.Vector3(), pb = new THREE.Vector3(), qInv = qRest.clone().invert();
   const frame = t => {
-    if (!drag) { spinX *= .92; spinY *= .92; }   // ease back to rest
     qSpin.setFromEuler(eSpin.set(spinX, spinY, 0));
     ball.quaternion.copy(qSpin).multiply(qRest);  // spin in screen directions on top of the resting angle
     const s = reduce ? 0 : t * .0008;
