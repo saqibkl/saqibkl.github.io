@@ -47,7 +47,7 @@ if (box && "fade" in box.dataset) {
   });
 
   // drag to spin; on release the offset springs back to zero (the resting angle)
-  const REST = new THREE.Euler(1.2, 0, .9);
+  // resting angle (picked by Saqib): flat face turned up and toward the viewer, leaning left
   let spinX = 0, spinY = 0, drag = null;
   box.style.touchAction = "pan-y";
   box.addEventListener("pointerdown", e => { drag = { x: e.clientX, y: e.clientY, sx: spinX, sy: spinY }; box.setPointerCapture(e.pointerId); box.classList.add("dragging"); });
@@ -55,7 +55,7 @@ if (box && "fade" in box.dataset) {
   const end = () => { drag = null; box.classList.remove("dragging"); };
   box.addEventListener("pointerup", end); box.addEventListener("pointercancel", end);
 
-  const qRest = new THREE.Quaternion().setFromEuler(REST), qSpin = new THREE.Quaternion(), eSpin = new THREE.Euler();
+  const qRest = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), new THREE.Vector3(-.5, .62, .55).normalize()), qSpin = new THREE.Quaternion(), eSpin = new THREE.Euler();
   const pa = new THREE.Vector3(), pb = new THREE.Vector3(), qInv = qRest.clone().invert();
   const frame = t => {
     if (!drag) { spinX *= .996; spinY *= .996; }   // drifts back to rest very slowly (about 10s)
@@ -63,13 +63,13 @@ if (box && "fade" in box.dataset) {
     ball.quaternion.copy(qSpin).multiply(qRest);  // spin in screen directions on top of the resting angle
     const s = reduce ? 0 : t * .0008;
     // orbs stay at home in front of the face and only lean a little toward the cursor (about 4% of its distance)
-    pa.set(-.6 + aim.x * .05, 1.9 + aim.y * .05 + Math.sin(s) * .12, 2.6); pb.set(-1.5 + aim.x * .07, -1.4 + aim.y * .07 + Math.cos(s) * .12, 3);
+    pa.set(-.3 + aim.x * .05, 3.6 + aim.y * .05 + Math.sin(s) * .12, 2.6); pb.set(-1.9 + aim.x * .07, 1.7 + aim.y * .07 + Math.cos(s) * .12, 3);
     // homes are given in resting-view coordinates; convert into the ball's own frame
     pa.applyQuaternion(qInv); pb.applyQuaternion(qInv);
     oa.position.lerp(pa, reduce ? 1 : .08); ob.position.lerp(pb, reduce ? 1 : .05);
     renderer.render(scene, camera);
     requestAnimationFrame(frame);
   };
-  oa.position.set(-.6, 1.9, 2.6).applyQuaternion(qInv); ob.position.set(-1.5, -1.4, 3).applyQuaternion(qInv);
+  oa.position.set(-.3, 3.6, 2.6).applyQuaternion(qInv); ob.position.set(-1.9, 1.7, 3).applyQuaternion(qInv);
   frame(0);
 }

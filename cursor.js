@@ -20,7 +20,7 @@
     x = e.clientX; y = e.clientY;
     if (!shown) { shown = true; rx = x; ry = y; }
     const t = e.target.closest?.("[data-cursor], #collage, a.shot, a, button, input");
-    const mode = !t ? "" : t.dataset.cursor ? "preview" : t.id === "collage" ? "label" : t.matches("a.shot") ? "label" : "link";
+    const mode = !t ? "" : t.dataset.cursor ? "preview" : t.id === "collage" ? "drag" : t.matches("a.shot") ? "label" : "link";
     if (mode === "preview" && ring.dataset.set !== t.dataset.cursor) {
       ring.dataset.set = t.dataset.cursor;
       const list = sets[t.dataset.cursor] || []; let i = 0;
@@ -28,7 +28,7 @@
       if (!reduce) flick = setInterval(() => { i = (i + 1) % list.length; pic.src = list[i]; }, 900);
     }
     if (mode !== "preview") { clearInterval(flick); delete ring.dataset.set; }
-    txt.textContent = mode === "label" ? (t.id === "collage" ? "Drag" : "View") : "";
+    txt.textContent = mode === "drag" ? "← Drag →" : mode === "label" ? "View" : "";
     ring.className = "cur-ring" + (mode ? " " + mode : "");
   }, { passive: true });
   document.addEventListener("pointerleave", () => { dot.style.opacity = ring.style.opacity = 0; });
