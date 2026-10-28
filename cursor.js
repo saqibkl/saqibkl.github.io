@@ -43,7 +43,8 @@
       const ts = reduce ? 0 : performance.now() / 900, p = [];
       for (let i = 0; i < 96; i++) {
         const a = i / 96 * Math.PI * 2, c = Math.cos(a), s = Math.sin(a);
-        const r = .94 + .035 * Math.sin(4 * a + ts) + .015 * Math.sin(8 * a - ts * 1.4);
+        const side = Math.cos(2 * a) ** 2;  // 1 mid-side, 0 at the corners: corners stay put, only the sides ripple
+        const r = .95 + side * (.035 * Math.sin(4 * a + ts) + .015 * Math.sin(8 * a - ts * 1.4));
         p.push(`${(50 + 50 * r * Math.sign(c) * Math.abs(c) ** .45).toFixed(2)}% ${(50 + 50 * r * Math.sign(s) * Math.abs(s) ** .45).toFixed(2)}%`);
       }
       ring.style.clipPath = `polygon(${p.join(",")})`;
