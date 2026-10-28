@@ -5,10 +5,7 @@
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const dot = document.createElement("div"), ring = document.createElement("div"), pic = new Image(), txt = document.createElement("span");
   dot.className = "cur-dot"; ring.className = "cur-ring"; pic.alt = ""; ring.append(pic, txt);
-  // trail (picked by Saqib): a short tail of shrinking dots behind the main dot
-  const trail = Array.from({ length: reduce ? 0 : 11 }, () => { const d = document.createElement("div"); d.className = "cur-dot cur-tail"; return d; });
-  const pts = trail.map(() => ({ x: innerWidth / 2, y: innerHeight / 2 }));
-  document.body.append(...trail, dot, ring);
+  document.body.append(dot, ring);
   document.documentElement.classList.add("has-cursor");
 
   const P = window.PROJECTS || [];
@@ -21,7 +18,7 @@
   let x = innerWidth / 2, y = innerHeight / 2, rx = x, ry = y, flick = null, shown = false;
   addEventListener("pointermove", e => {
     x = e.clientX; y = e.clientY;
-    if (!shown) { shown = true; rx = x; ry = y; pts.forEach(p => { p.x = x; p.y = y; }); }
+    if (!shown) { shown = true; rx = x; ry = y; }
     const t = e.target.closest?.("[data-cursor], #collage, a.shot, a, button, input");
     const mode = !t ? "" : t.dataset.cursor ? "preview" : t.id === "collage" ? "drag" : t.matches("a.shot") ? "label" : "link";
     if (mode === "preview" && ring.dataset.set !== t.dataset.cursor) {
@@ -34,19 +31,13 @@
     txt.textContent = mode === "drag" ? "← Drag →" : mode === "label" ? "View" : "";
     ring.className = "cur-ring" + (mode ? " " + mode : "");
   }, { passive: true });
-  document.addEventListener("pointerleave", () => document.documentElement.classList.add("cur-out"));
-  document.addEventListener("pointerenter", () => document.documentElement.classList.remove("cur-out"));
+  document.addEventListener("pointerleave", () => { dot.style.opacity = ring.style.opacity = 0; });
+  document.addEventListener("pointerenter", () => { dot.style.opacity = ring.style.opacity = 1; });
 
   const tick = () => {
     rx += (x - rx) * (reduce ? 1 : .18); ry += (y - ry) * (reduce ? 1 : .18);
     dot.style.transform = `translate(${x}px, ${y}px)`;
     ring.style.transform = `translate(${rx}px, ${ry}px)`;
-    let lx = x, ly = y;
-    pts.forEach((p, i) => {
-      p.x += (lx - p.x) * .45; p.y += (ly - p.y) * .45; lx = p.x; ly = p.y;
-      const k = 1 - (i + 1) / (pts.length + 1);
-      trail[i].style.transform = `translate(${p.x}px, ${p.y}px) scale(${k})`; trail[i].style.opacity = k;
-    });
     // preview card: a soft rounded square whose sides ripple slowly (squircle + travelling waves, drawn as a clip path)
     if (ring.classList.contains("preview")) {
       const ts = reduce ? 0 : performance.now() / 900, p = [];
