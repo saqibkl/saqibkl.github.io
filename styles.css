@@ -269,10 +269,10 @@ html.has-cursor, html.has-cursor * { cursor: none !important; }
 .hero .actions .btn { height: 56px; padding: 0 30px; font-size: 16px; position: relative; overflow: hidden; isolation: isolate; transition: color .4s, border-color .4s; }
 .hero .actions .btn::before { content: ""; position: absolute; z-index: -1; left: 50%; top: calc(100% + 110px); width: 260%; aspect-ratio: 1; margin-left: -130%;  /* far enough below that the spun corners never peek in */
   border-radius: 42%; background: var(--ink); transition: top .7s cubic-bezier(.22,1,.36,1); animation: liquid 3.2s linear infinite paused; }
-.hero .actions .btn.primary::before { background: #ff5a1f; }
+.hero .actions .btn.primary::before { background: #fff; }
 .hero .actions .btn:hover::before { top: -20%; animation-play-state: running; }
 .hero .actions .btn:not(.primary):hover { color: #fff; border-color: var(--ink); }
-.hero .actions .btn.primary:hover { background: var(--ink); border-color: #ff5a1f; }
+.hero .actions .btn.primary:hover { background: var(--ink); border-color: var(--ink); color: var(--ink); }
 @keyframes liquid { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .hero .actions .btn::before { animation: none; } }
 body { overflow-x: clip; }  /* the oversized hero canvas must not cause sideways scroll */
