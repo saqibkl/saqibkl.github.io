@@ -15,7 +15,7 @@
   };
   Object.values(sets).flat().forEach(src => { new Image().src = src; });  // preload so the flicker never shows blanks
 
-  let x = innerWidth / 2, y = innerHeight / 2, rx = x, ry = y, flick = null, shown = false;
+  let x = innerWidth / 2, y = innerHeight / 2, rx = x, ry = y, flick = null, shown = false, mag = null;
   addEventListener("pointermove", e => {
     x = e.clientX; y = e.clientY;
     if (!shown) { shown = true; rx = x; ry = y; }
@@ -30,6 +30,9 @@
     if (mode !== "preview") { clearInterval(flick); delete ring.dataset.set; }
     txt.textContent = mode === "drag" ? "← Drag →" : mode === "label" ? "View" : "";
     ring.className = "cur-ring" + (mode ? " " + mode : "");
+    // magnetic (picked by Saqib): buttons, small links and work cards lean toward the cursor; buttons and links also get the ring wrapped around them
+    const m = (mode === "link" || mode === "label") && t.offsetWidth < 700 ? t : null;
+    if (m !== mag) { if (mag) mag.style.translate = ""; mag = m; if (mag) mag.style.transition = "translate .25s"; }
   }, { passive: true });
   document.addEventListener("pointerleave", () => { dot.style.opacity = ring.style.opacity = 0; });
   document.addEventListener("pointerenter", () => { dot.style.opacity = ring.style.opacity = 1; });
@@ -37,6 +40,18 @@
   const tick = () => {
     rx += (x - rx) * (reduce ? 1 : .18); ry += (y - ry) * (reduce ? 1 : .18);
     dot.style.transform = `translate(${x}px, ${y}px)`;
+    const wrap = mag && ring.classList.contains("link");
+    if (mag) {
+      const [tx, ty] = (mag.style.translate || "0 0").split(" ").concat("0").map(v => parseFloat(v) || 0), b = mag.getBoundingClientRect();
+      const cx = b.left + b.width / 2 - tx, cy = b.top + b.height / 2 - ty, dx = (x - cx) * .12, dy = (y - cy) * .12;
+      mag.style.translate = `${dx}px ${dy}px`;
+      if (wrap) {
+        const w = b.width + 12, h = b.height + 12;
+        Object.assign(ring.style, { width: w + "px", height: h + "px", margin: `${-h / 2}px 0 0 ${-w / 2}px`, borderRadius: getComputedStyle(mag).borderRadius, background: "none" });
+        rx = cx + dx; ry = cy + dy;
+      }
+    }
+    if (!wrap && ring.style.width) ["width", "height", "margin", "borderRadius", "background"].forEach(k => ring.style[k] = "");
     ring.style.transform = `translate(${rx}px, ${ry}px)`;
     // preview card: a soft rounded square whose sides ripple slowly (squircle + travelling waves, drawn as a clip path)
     if (ring.classList.contains("preview")) {
