@@ -63,13 +63,13 @@ if (box && "fade" in box.dataset) {
     ball.quaternion.copy(qSpin).multiply(qRest);  // spin in screen directions on top of the resting angle
     const s = reduce ? 0 : t * .0008;
     // orbs stay at home in front of the face and only lean a little toward the cursor (about 4% of its distance)
-    pa.set(-.3 + aim.x * .05, 3.6 + aim.y * .05 + Math.sin(s) * .12, 2.6); pb.set(-1.9 + aim.x * .07, 1.7 + aim.y * .07 + Math.cos(s) * .12, 3);
+    pa.set(-.3 + aim.x * .05, 2.2 + aim.y * .05 + Math.sin(s) * .12, 2.6); pb.set(-1.7 + aim.x * .07, .7 + aim.y * .07 + Math.cos(s) * .12, 3);
     // homes are given in resting-view coordinates; convert into the ball's own frame
     pa.applyQuaternion(qInv); pb.applyQuaternion(qInv);
     oa.position.lerp(pa, reduce ? 1 : .08); ob.position.lerp(pb, reduce ? 1 : .05);
     renderer.render(scene, camera);
     requestAnimationFrame(frame);
   };
-  oa.position.set(-.3, 3.6, 2.6).applyQuaternion(qInv); ob.position.set(-1.9, 1.7, 3).applyQuaternion(qInv);
+  oa.position.set(-.3, 2.2, 2.6).applyQuaternion(qInv); ob.position.set(-1.7, .7, 3).applyQuaternion(qInv);
   frame(0);
 }
