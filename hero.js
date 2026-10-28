@@ -32,7 +32,7 @@ if (box && "fade" in box.dataset) {
     const m = new THREE.Mesh(new THREE.SphereGeometry(r, 48, 32), new THREE.MeshPhysicalMaterial({ color: c, roughness: .15, clearcoat: 1, emissive: 0x000000 }));
     m.castShadow = true; ball.add(m); return m;  // children of the ball, so they turn with it when dragged
   };
-  const oa = orb(0x17181c, .36), ob = orb(0x17181c, .28);
+  const oa = orb(0x4a4d55, .36), ob = orb(0x4a4d55, .28);  // graphite, softer than pure black
 
   const size = () => { const r = renderer.domElement.getBoundingClientRect(); renderer.setSize(r.width, r.height, false); camera.aspect = r.width / r.height; camera.updateProjectionMatrix(); };
   size(); addEventListener("resize", size);
