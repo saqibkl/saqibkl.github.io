@@ -255,6 +255,8 @@ html.sheet-open { overflow: hidden; }
 /* Custom cursor (fine pointers only, set up by cursor.js): a dot, a trailing ring, and a preview card over the headline words */
 html.has-cursor, html.has-cursor * { cursor: none !important; }
 .cur-dot, .cur-ring { position: fixed; left: 0; top: 0; z-index: 100; pointer-events: none; border-radius: 999px; }
+.cur-ring:not([class*=" "]) { opacity: 0; }  /* plain state: the trail replaces the ring */
+.cur-out .cur-dot, .cur-out .cur-ring { visibility: hidden; }
 .cur-dot { width: 8px; height: 8px; margin: -4px 0 0 -4px; background: var(--ink, #17181c); }
 .cur-ring { width: 40px; height: 40px; margin: -20px 0 0 -20px; border: 1.5px solid var(--ink, #17181c); display: grid; place-items: center;
   font: 600 12px/1 var(--sans, sans-serif); color: #fff; overflow: hidden;
