@@ -1,6 +1,7 @@
 window.PROJECTS = [
 {
  "slug": "ultra-natif-skincare-brand-identity",
+ "guide": "https://www.figma.com/design/FnsXqamSnCAcfaRnmdB9Oi",
  "seamless": true,
  "type": "brand",
  "title": "Ultra Natif: Skincare Brand Identity",
@@ -121,6 +122,7 @@ window.PROJECTS = [
 },
 {
  "slug": "winder-stilhaus-brand-identity",
+ "guide": "https://www.figma.com/design/DOs5FBrzTItwdaB5HRpYbp",
  "seamless": true,
  "type": "brand",
  "title": "Winder & Stilhaus: Brand Identity",
@@ -216,6 +218,7 @@ window.PROJECTS = [
 },
 {
  "slug": "stayvn-brand-identity",
+ "guide": "https://www.figma.com/design/qzNbHkDZBZPPmuOhCOV86e",
  "seamless": true,
  "type": "brand",
  "title": "Stayvn: AI Decision Intelligence Brand Identity",
@@ -331,6 +334,7 @@ window.PROJECTS = [
 },
 {
  "slug": "noara-labs-brand-identity",
+ "guide": "https://www.figma.com/design/Glis03aYjtMoEQyx4JLfHo",
  "seamless": true,
  "type": "brand",
  "title": "Noara Labs: Remote Careers Brand Identity",
@@ -461,6 +465,7 @@ window.PROJECTS = [
 },
 {
  "slug": "spice-web-media-brand-identity",
+ "guide": "https://www.figma.com/design/clCDdmLy58OoTCc7axqElz",
  "seamless": true,
  "type": "brand",
  "title": "Spice Web Media: Agency Brand Identity",
@@ -576,6 +581,7 @@ window.PROJECTS = [
 },
 {
  "slug": "universal-hr-brand-identity",
+ "guide": "https://www.figma.com/design/KuUwPtrRRw6WTq59OthQOd",
  "seamless": true,
  "type": "brand",
  "title": "Universal HR: HR Consultancy Brand Identity",
@@ -676,6 +682,7 @@ window.PROJECTS = [
 },
 {
  "slug": "stratanova-brand-identity",
+ "guide": "https://www.figma.com/design/FN2IHuusQtcrzLopkgKwuh",
  "seamless": true,
  "type": "brand",
  "title": "StrataNova: Drone Services Brand Identity",

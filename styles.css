@@ -278,3 +278,5 @@ html.has-cursor, html.has-cursor * { cursor: none !important; }
 body { overflow-x: clip; }  /* the oversized hero canvas must not cause sideways scroll */
 /* over the 3D ball: a light outlined pill, so it can't be mistaken for one of the black orbs */
 .cur-ring.drag { width: 104px; height: 40px; margin: -20px 0 0 -52px; background: rgb(255 255 255 / .85); color: var(--ink, #17181c); backdrop-filter: blur(6px); }
+
+.sp-guide { display: flex; justify-content: center; margin: 28px 0; }

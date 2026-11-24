@@ -194,6 +194,7 @@ function caseHTML(i) {
     </header>
     <div class="sp-media">${img(p.images[0], p.title, true, "", true)}</div>
     ${about ? `<div class="sp-text">${about}</div>` : ""}
+    ${p.guide ? `<div class="sp-guide">${out(p.guide, 'View full brand guideline <i class="ph ph-arrow-up-right" aria-hidden="true"></i>', "primary")}</div>` : ""}
     <div class="sp-media">${p.images.slice(1).map((im, k) => img(im, `${name(p.title)}, image ${k + 2}`, false, "", true).replace(/<(img|video) /, '<$1 class="reveal" ')).join("")}</div>
     <div class="case-foot">
       <div class="tags"><span class="label">Tags</span>${p.tags.map(t => `<a href="./?q=${encodeURIComponent(t)}#work">${esc(t)}</a>`).join("")}</div>
